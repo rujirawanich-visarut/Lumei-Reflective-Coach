@@ -1,0 +1,163 @@
+{
+  "editorial_version": "0.2.0",
+  "status": "release-candidate-taxonomy",
+  "runtime_authority": false,
+  "families": [
+    {
+      "family_id": "understand-and-decide",
+      "title_th": "เข้าใจและตัดสินใจ",
+      "rationale": "clarify / verify / choose เป็นการฝึกคนละขั้น",
+      "skill_ids": [
+        "GWS-check-evidence",
+        "GWS-choose-action",
+        "GWS-clarify-work"
+      ]
+    },
+    {
+      "family_id": "relate-and-coordinate",
+      "title_th": "สื่อสารและประสานงาน",
+      "rationale": "แยกความเห็นต่างจาก dependency ที่ไม่มี conflict",
+      "skill_ids": [
+        "GWS-communicate-across-backgrounds",
+        "GWS-coordinate-across-boundaries",
+        "GWS-maintain-trust-and-information-boundaries",
+        "GWS-understand-recipient-needs",
+        "GWS-work-through-disagreement"
+      ]
+    },
+    {
+      "family_id": "deliver-and-improve",
+      "title_th": "จัดการและปรับปรุงงาน",
+      "rationale": "แยก priority / handoff / process experiment",
+      "skill_ids": [
+        "GWS-adapt-to-changing-work",
+        "GWS-handoff-and-follow-through",
+        "GWS-improve-with-small-experiments",
+        "GWS-manage-priorities"
+      ]
+    },
+    {
+      "family_id": "learn-and-use-ai",
+      "title_th": "เรียนรู้และทำงานกับ AI",
+      "rationale": "แยกโอกาสฝึกผู้เรียนจากการตรวจคุณภาพชิ้นงาน AI",
+      "skill_ids": [
+        "GWS-learn-and-transfer",
+        "GWS-verify-ai-work"
+      ]
+    }
+  ],
+  "non_skill_layers": [
+    "coaching overlays",
+    "foresight design lenses",
+    "provenance and episode evidence"
+  ],
+  "merge_decisions": [
+    {
+      "retained_card": "GWS-clarify-work",
+      "source_topics": [
+        "H-11",
+        "H-26"
+      ],
+      "reason": "คงทักษะร่วมไว้ในสถานการณ์ที่ต้องยืนยันความคาดหวัง"
+    },
+    {
+      "retained_card": "GWS-coordinate-across-boundaries",
+      "source_topics": [
+        "H-04",
+        "H-25",
+        "H-09",
+        "H-32"
+      ],
+      "reason": "ไม่แยก persuasion เป็นคะแนน; ฝึกคำขอความร่วมมือเดียวกัน"
+    },
+    {
+      "retained_card": "GWS-manage-priorities",
+      "source_topics": [
+        "H-26",
+        "H-33",
+        "NZ-11"
+      ],
+      "reason": "รวมการใช้เวลาและแผนงานตามสถานการณ์ tradeoffs"
+    },
+    {
+      "retained_card": "GWS-learn-and-transfer",
+      "source_topics": [
+        "H-06",
+        "H-12"
+      ],
+      "reason": "เรียนรู้และนำไปใช้เป็นวงจรเดียวกัน; ไม่วัดความตั้งใจเรียนแทนการลอง"
+    }
+  ],
+  "split_decisions": [
+    {
+      "cards": [
+        "GWS-clarify-work",
+        "GWS-check-evidence"
+      ],
+      "reason": "clarify เติมความคาดหวังที่ยังไม่ชัด; evidence ตรวจความน่าเชื่อถือของข้ออ้าง"
+    },
+    {
+      "cards": [
+        "GWS-check-evidence",
+        "GWS-choose-action"
+      ],
+      "reason": "evidence ยังไม่จำเป็นต้องเลือกทาง; decision ต้องเปรียบเทียบทางเลือกด้วยเกณฑ์และ authority"
+    },
+    {
+      "cards": [
+        "GWS-work-through-disagreement",
+        "GWS-coordinate-across-boundaries"
+      ],
+      "reason": "disagreement จัดการประเด็นที่เห็นต่าง; coordination จัด dependency แม้ไม่ขัดแย้ง"
+    },
+    {
+      "cards": [
+        "GWS-manage-priorities",
+        "GWS-handoff-and-follow-through"
+      ],
+      "reason": "priorities เลือกงานและ tradeoffs; handoff ตรวจผู้รับและสถานะความรับผิดชอบ"
+    },
+    {
+      "cards": [
+        "GWS-learn-and-transfer",
+        "GWS-improve-with-small-experiments"
+      ],
+      "reason": "learning เปลี่ยนการกระทำผู้เรียนจาก feedback; improvement ทดลองเปลี่ยนกระบวนการและคุณภาพงาน"
+    },
+    {
+      "cards": [
+        "GWS-verify-ai-work",
+        "GWS-check-evidence"
+      ],
+      "reason": "AI card เพิ่ม provenance ของชิ้นงาน ขอบเขตสิทธิและเจ้าของการตัดสินใจ; evidence ใช้ตรวจข้ออ้างทั่วไป"
+    },
+    {
+      "cards": [
+        "GWS-understand-recipient-needs",
+        "GWS-clarify-work"
+      ],
+      "reason": "recipient needs เน้นผู้รับและความเหมาะสมของการตอบสนอง; clarify เน้นข้อกำหนดงาน; handoff เน้นผู้รับผิดชอบและสถานะส่งต่อ"
+    },
+    {
+      "cards": [
+        "GWS-communicate-across-backgrounds",
+        "GWS-clarify-work"
+      ],
+      "reason": "communication across backgrounds เน้นวิธีและโอกาสมีส่วนร่วม; clarify เน้นสิ่งที่งานต้องการ; disagreement ต้องมีประเด็นเห็นต่าง"
+    },
+    {
+      "cards": [
+        "GWS-adapt-to-changing-work",
+        "GWS-manage-priorities"
+      ],
+      "reason": "adaptation ตอบการเปลี่ยนจากภายนอก; priorities เลือกงานแย่งทรัพยากร; learning ถ่ายทอดบทเรียน; improvement ทดลองปรับกระบวนการที่เลือกเอง"
+    },
+    {
+      "cards": [
+        "GWS-maintain-trust-and-information-boundaries",
+        "GWS-handoff-and-follow-through"
+      ],
+      "reason": "trust boundary เน้นความตรงไปตรงมา สิทธิข้อมูลและการให้เครดิต; handoff เน้นสถานะ/เจ้าของงาน; AI verification เน้นข้ออ้างในชิ้นงาน AI"
+    }
+  ]
+}

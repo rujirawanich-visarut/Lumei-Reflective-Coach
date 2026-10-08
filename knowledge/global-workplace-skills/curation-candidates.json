@@ -1,0 +1,2183 @@
+{
+  "review_version": "0.1.0",
+  "status": "phase-1-candidates-not-final-cards",
+  "runtime_authority": false,
+  "decision_semantics": {
+    "include": "Retain transferable topic/anchor with little scope adaptation; not a verbatim import.",
+    "adapt": "Retain only the described bounded transformation.",
+    "hold": "Do not use proposed claim until hold_resolution is satisfied.",
+    "exclude": "Outside intended scope or conflicts with reflective-coaching posture."
+  },
+  "candidates": [
+    {
+      "candidate_id": "H-04",
+      "source_id": "HARVARD-FY14",
+      "title": "Ability to Influence",
+      "kind": "behavior",
+      "decision": "adapt",
+      "source_claim": "Explores alternatives, develops ideas and builds agreement.",
+      "locator": {
+        "type": "pdf",
+        "local_path": "Harvard University Competency Dictionary FY14 - final.pdf",
+        "pdf_page": 4,
+        "section": "Competency definition and Key Actions"
+      },
+      "adaptation": "Use transparent reasons and reciprocal agreement; omit reward leverage and persistence that pressures agreement.",
+      "conditions": [
+        "Candidate only; observable episode evidence required.",
+        "No scoring, levels or unsupported trait inference."
+      ],
+      "hold_resolution": null,
+      "evidence_status": "verified-within-stated-scope",
+      "runtime_import_allowed": false
+    },
+    {
+      "candidate_id": "H-05",
+      "source_id": "HARVARD-FY14",
+      "title": "Accountability",
+      "kind": "behavior",
+      "decision": "include",
+      "source_claim": "Accepts responsibility and follows through on commitments.",
+      "locator": {
+        "type": "pdf",
+        "local_path": "Harvard University Competency Dictionary FY14 - final.pdf",
+        "pdf_page": 5,
+        "section": "Competency definition and Key Actions"
+      },
+      "adaptation": "Reflect on the user's actions, promises and repair; never assign a personality rating.",
+      "conditions": [
+        "Candidate only; observable episode evidence required.",
+        "No scoring, levels or unsupported trait inference."
+      ],
+      "hold_resolution": null,
+      "evidence_status": "verified-within-stated-scope",
+      "runtime_import_allowed": false
+    },
+    {
+      "candidate_id": "H-06",
+      "source_id": "HARVARD-FY14",
+      "title": "Applied Learning",
+      "kind": "behavior",
+      "decision": "adapt",
+      "source_claim": "Applies newly acquired knowledge in work.",
+      "locator": {
+        "type": "pdf",
+        "local_path": "Harvard University Competency Dictionary FY14 - final.pdf",
+        "pdf_page": 6,
+        "section": "Competency definition and Key Actions"
+      },
+      "adaptation": "Merge with continuous learning when building cards; focus on a real use attempt.",
+      "conditions": [
+        "Candidate only; observable episode evidence required.",
+        "No scoring, levels or unsupported trait inference."
+      ],
+      "hold_resolution": null,
+      "evidence_status": "verified-within-stated-scope",
+      "runtime_import_allowed": false
+    },
+    {
+      "candidate_id": "H-07",
+      "source_id": "HARVARD-FY14",
+      "title": "Attention to Detail",
+      "kind": "behavior",
+      "decision": "include",
+      "source_claim": "Checks work accuracy and completeness.",
+      "locator": {
+        "type": "pdf",
+        "local_path": "Harvard University Competency Dictionary FY14 - final.pdf",
+        "pdf_page": 7,
+        "section": "Competency definition and Key Actions"
+      },
+      "adaptation": "Ask what mattered to verify for this task; avoid equating detail with perfection.",
+      "conditions": [
+        "Candidate only; observable episode evidence required.",
+        "No scoring, levels or unsupported trait inference."
+      ],
+      "hold_resolution": null,
+      "evidence_status": "verified-within-stated-scope",
+      "runtime_import_allowed": false
+    },
+    {
+      "candidate_id": "H-08",
+      "source_id": "HARVARD-FY14",
+      "title": "Building a High Performing Team",
+      "kind": "behavior",
+      "decision": "adapt",
+      "source_claim": "Hiring, development, goals and recognition support team performance.",
+      "locator": {
+        "type": "pdf",
+        "local_path": "Harvard University Competency Dictionary FY14 - final.pdf",
+        "pdf_page": 8,
+        "section": "Competency definition and Key Actions"
+      },
+      "adaptation": "Role conditional: use only when the user leads a team; omit hiring/reward authority as a universal expectation.",
+      "conditions": [
+        "Candidate only; observable episode evidence required.",
+        "No scoring, levels or unsupported trait inference."
+      ],
+      "hold_resolution": null,
+      "evidence_status": "verified-within-stated-scope",
+      "runtime_import_allowed": false
+    },
+    {
+      "candidate_id": "H-09",
+      "source_id": "HARVARD-FY14",
+      "title": "Building Partnerships",
+      "kind": "behavior",
+      "decision": "include",
+      "source_claim": "Builds cooperative relationships to achieve goals.",
+      "locator": {
+        "type": "pdf",
+        "local_path": "Harvard University Competency Dictionary FY14 - final.pdf",
+        "pdf_page": 9,
+        "section": "Competency definition and Key Actions"
+      },
+      "adaptation": "Use shared needs, contributions and follow-through in the episode.",
+      "conditions": [
+        "Candidate only; observable episode evidence required.",
+        "No scoring, levels or unsupported trait inference."
+      ],
+      "hold_resolution": null,
+      "evidence_status": "verified-within-stated-scope",
+      "runtime_import_allowed": false
+    },
+    {
+      "candidate_id": "H-10",
+      "source_id": "HARVARD-FY14",
+      "title": "Building Trust",
+      "kind": "behavior",
+      "decision": "include",
+      "source_claim": "Integrity and interpersonal conduct foster trust.",
+      "locator": {
+        "type": "pdf",
+        "local_path": "Harvard University Competency Dictionary FY14 - final.pdf",
+        "pdf_page": 10,
+        "section": "Competency definition and Key Actions"
+      },
+      "adaptation": "Use observable promises and communication; never infer private motives.",
+      "conditions": [
+        "Candidate only; observable episode evidence required.",
+        "No scoring, levels or unsupported trait inference."
+      ],
+      "hold_resolution": null,
+      "evidence_status": "verified-within-stated-scope",
+      "runtime_import_allowed": false
+    },
+    {
+      "candidate_id": "H-11",
+      "source_id": "HARVARD-FY14",
+      "title": "Communication Skills",
+      "kind": "behavior",
+      "decision": "include",
+      "source_claim": "Communicates clearly and listens to others.",
+      "locator": {
+        "type": "pdf",
+        "local_path": "Harvard University Competency Dictionary FY14 - final.pdf",
+        "pdf_page": 11,
+        "section": "Competency definition and Key Actions"
+      },
+      "adaptation": "Reflect on message, audience and confirmed understanding; not fluency or accent ranking.",
+      "conditions": [
+        "Candidate only; observable episode evidence required.",
+        "No scoring, levels or unsupported trait inference."
+      ],
+      "hold_resolution": null,
+      "evidence_status": "verified-within-stated-scope",
+      "runtime_import_allowed": false
+    },
+    {
+      "candidate_id": "H-12",
+      "source_id": "HARVARD-FY14",
+      "title": "Continuous Learning",
+      "kind": "behavior",
+      "decision": "include",
+      "source_claim": "Seeks learning opportunities and uses feedback.",
+      "locator": {
+        "type": "pdf",
+        "local_path": "Harvard University Competency Dictionary FY14 - final.pdf",
+        "pdf_page": 12,
+        "section": "Competency definition and Key Actions"
+      },
+      "adaptation": "Connect one learning need to an optional next attempt.",
+      "conditions": [
+        "Candidate only; observable episode evidence required.",
+        "No scoring, levels or unsupported trait inference."
+      ],
+      "hold_resolution": null,
+      "evidence_status": "verified-within-stated-scope",
+      "runtime_import_allowed": false
+    },
+    {
+      "candidate_id": "H-13",
+      "source_id": "HARVARD-FY14",
+      "title": "Customer Focus",
+      "kind": "behavior",
+      "decision": "adapt",
+      "source_claim": "Responds to customer needs and improves service.",
+      "locator": {
+        "type": "pdf",
+        "local_path": "Harvard University Competency Dictionary FY14 - final.pdf",
+        "pdf_page": 13,
+        "section": "Competency definition and Key Actions"
+      },
+      "adaptation": "Broaden to relevant recipient, colleague or service user; balance safety, feasibility and legitimate boundaries.",
+      "conditions": [
+        "Candidate only; observable episode evidence required.",
+        "No scoring, levels or unsupported trait inference."
+      ],
+      "hold_resolution": null,
+      "evidence_status": "verified-within-stated-scope",
+      "runtime_import_allowed": false
+    },
+    {
+      "candidate_id": "H-14",
+      "source_id": "HARVARD-FY14",
+      "title": "Decision Making",
+      "kind": "behavior",
+      "decision": "include",
+      "source_claim": "Identifies issues, gathers information and evaluates alternatives.",
+      "locator": {
+        "type": "pdf",
+        "local_path": "Harvard University Competency Dictionary FY14 - final.pdf",
+        "pdf_page": 14,
+        "section": "Competency definition and Key Actions"
+      },
+      "adaptation": "Keep evidence, assumptions, criteria and uncertainty visible; retain user's decision ownership.",
+      "conditions": [
+        "Candidate only; observable episode evidence required.",
+        "No scoring, levels or unsupported trait inference."
+      ],
+      "hold_resolution": null,
+      "evidence_status": "verified-within-stated-scope",
+      "runtime_import_allowed": false
+    },
+    {
+      "candidate_id": "H-15",
+      "source_id": "HARVARD-FY14",
+      "title": "Delegation",
+      "kind": "behavior",
+      "decision": "adapt",
+      "source_claim": "Allocates responsibilities and supports completion.",
+      "locator": {
+        "type": "pdf",
+        "local_path": "Harvard University Competency Dictionary FY14 - final.pdf",
+        "pdf_page": 15,
+        "section": "Competency definition and Key Actions"
+      },
+      "adaptation": "Only with legitimate delegation authority; peer coordination belongs elsewhere.",
+      "conditions": [
+        "Candidate only; observable episode evidence required.",
+        "No scoring, levels or unsupported trait inference."
+      ],
+      "hold_resolution": null,
+      "evidence_status": "verified-within-stated-scope",
+      "runtime_import_allowed": false
+    },
+    {
+      "candidate_id": "H-16",
+      "source_id": "HARVARD-FY14",
+      "title": "Delivers Results",
+      "kind": "behavior",
+      "decision": "adapt",
+      "source_claim": "Achieves goals with disciplined execution.",
+      "locator": {
+        "type": "pdf",
+        "local_path": "Harvard University Competency Dictionary FY14 - final.pdf",
+        "pdf_page": 16,
+        "section": "Competency definition and Key Actions"
+      },
+      "adaptation": "Consider task constraints and shared dependencies; never blame individuals for systemic failure.",
+      "conditions": [
+        "Candidate only; observable episode evidence required.",
+        "No scoring, levels or unsupported trait inference."
+      ],
+      "hold_resolution": null,
+      "evidence_status": "verified-within-stated-scope",
+      "runtime_import_allowed": false
+    },
+    {
+      "candidate_id": "H-17",
+      "source_id": "HARVARD-FY14",
+      "title": "Embraces Change",
+      "kind": "behavior",
+      "decision": "adapt",
+      "source_claim": "Responds constructively to changing work requirements.",
+      "locator": {
+        "type": "pdf",
+        "local_path": "Harvard University Competency Dictionary FY14 - final.pdf",
+        "pdf_page": 17,
+        "section": "Competency definition and Key Actions"
+      },
+      "adaptation": "Explore options and support needs; do not prescribe acceptance of unsafe or unfair change.",
+      "conditions": [
+        "Candidate only; observable episode evidence required.",
+        "No scoring, levels or unsupported trait inference."
+      ],
+      "hold_resolution": null,
+      "evidence_status": "verified-within-stated-scope",
+      "runtime_import_allowed": false
+    },
+    {
+      "candidate_id": "H-18",
+      "source_id": "HARVARD-FY14",
+      "title": "Innovation",
+      "kind": "behavior",
+      "decision": "adapt",
+      "source_claim": "Generates and develops new approaches.",
+      "locator": {
+        "type": "pdf",
+        "local_path": "Harvard University Competency Dictionary FY14 - final.pdf",
+        "pdf_page": 18,
+        "section": "Competency definition and Key Actions"
+      },
+      "adaptation": "Offer bounded optional experimentation; distinguish novelty from usefulness.",
+      "conditions": [
+        "Candidate only; observable episode evidence required.",
+        "No scoring, levels or unsupported trait inference."
+      ],
+      "hold_resolution": null,
+      "evidence_status": "verified-within-stated-scope",
+      "runtime_import_allowed": false
+    },
+    {
+      "candidate_id": "H-19",
+      "source_id": "HARVARD-FY14",
+      "title": "Interpersonal Skills",
+      "kind": "behavior",
+      "decision": "adapt",
+      "source_claim": "Builds constructive relationships with varied people.",
+      "locator": {
+        "type": "pdf",
+        "local_path": "Harvard University Competency Dictionary FY14 - final.pdf",
+        "pdf_page": 19,
+        "section": "Competency definition and Key Actions"
+      },
+      "adaptation": "Use specific interaction evidence, not sociability or personality judgments.",
+      "conditions": [
+        "Candidate only; observable episode evidence required.",
+        "No scoring, levels or unsupported trait inference."
+      ],
+      "hold_resolution": null,
+      "evidence_status": "verified-within-stated-scope",
+      "runtime_import_allowed": false
+    },
+    {
+      "candidate_id": "H-20",
+      "source_id": "HARVARD-FY14",
+      "title": "Job Knowledge",
+      "kind": "behavior",
+      "decision": "exclude",
+      "source_claim": "Technical knowledge is specific to position and department.",
+      "locator": {
+        "type": "pdf",
+        "local_path": "Harvard University Competency Dictionary FY14 - final.pdf",
+        "pdf_page": 20,
+        "section": "Competency definition and Key Actions"
+      },
+      "adaptation": "Do not invent universal professional content from this heading; route specialty knowledge outside core scope.",
+      "conditions": [
+        "Candidate only; observable episode evidence required.",
+        "No scoring, levels or unsupported trait inference."
+      ],
+      "hold_resolution": null,
+      "evidence_status": "verified-within-stated-scope",
+      "runtime_import_allowed": false
+    },
+    {
+      "candidate_id": "H-21",
+      "source_id": "HARVARD-FY14",
+      "title": "Living the Vision and Values",
+      "kind": "behavior",
+      "decision": "adapt",
+      "source_claim": "Aligns actions with local school or business-unit vision and values.",
+      "locator": {
+        "type": "pdf",
+        "local_path": "Harvard University Competency Dictionary FY14 - final.pdf",
+        "pdf_page": 21,
+        "section": "Competency definition and Key Actions"
+      },
+      "adaptation": "Use only goals/values the user states; remove Harvard-specific mission and corporate conformity assumptions.",
+      "conditions": [
+        "Candidate only; observable episode evidence required.",
+        "No scoring, levels or unsupported trait inference."
+      ],
+      "hold_resolution": null,
+      "evidence_status": "verified-within-stated-scope",
+      "runtime_import_allowed": false
+    },
+    {
+      "candidate_id": "H-22",
+      "source_id": "HARVARD-FY14",
+      "title": "Managing Conflict",
+      "kind": "behavior",
+      "decision": "include",
+      "source_claim": "Addresses conflict to reach constructive resolution.",
+      "locator": {
+        "type": "pdf",
+        "local_path": "Harvard University Competency Dictionary FY14 - final.pdf",
+        "pdf_page": 22,
+        "section": "Competency definition and Key Actions"
+      },
+      "adaptation": "Use interests, clear boundaries and safety; no mandatory confrontation or mediation.",
+      "conditions": [
+        "Candidate only; observable episode evidence required.",
+        "No scoring, levels or unsupported trait inference."
+      ],
+      "hold_resolution": null,
+      "evidence_status": "verified-within-stated-scope",
+      "runtime_import_allowed": false
+    },
+    {
+      "candidate_id": "H-23",
+      "source_id": "HARVARD-FY14",
+      "title": "Negotiation",
+      "kind": "behavior",
+      "decision": "adapt",
+      "source_claim": "Explores alternatives and reaches acceptable agreements.",
+      "locator": {
+        "type": "pdf",
+        "local_path": "Harvard University Competency Dictionary FY14 - final.pdf",
+        "pdf_page": 23,
+        "section": "Competency definition and Key Actions"
+      },
+      "adaptation": "Use ethical options and mutual consent; do not prescribe pressure tactics.",
+      "conditions": [
+        "Candidate only; observable episode evidence required.",
+        "No scoring, levels or unsupported trait inference."
+      ],
+      "hold_resolution": null,
+      "evidence_status": "verified-within-stated-scope",
+      "runtime_import_allowed": false
+    },
+    {
+      "candidate_id": "H-24",
+      "source_id": "HARVARD-FY14",
+      "title": "Organizational Awareness",
+      "kind": "behavior",
+      "decision": "adapt",
+      "source_claim": "Understands university systems and stakeholder perspectives.",
+      "locator": {
+        "type": "pdf",
+        "local_path": "Harvard University Competency Dictionary FY14 - final.pdf",
+        "pdf_page": 24,
+        "section": "Competency definition and Key Actions"
+      },
+      "adaptation": "Translate to workflow, dependencies and stakeholder effects; omit university politics as a universal standard.",
+      "conditions": [
+        "Candidate only; observable episode evidence required.",
+        "No scoring, levels or unsupported trait inference."
+      ],
+      "hold_resolution": null,
+      "evidence_status": "verified-within-stated-scope",
+      "runtime_import_allowed": false
+    },
+    {
+      "candidate_id": "H-25",
+      "source_id": "HARVARD-FY14",
+      "title": "Persuasiveness",
+      "kind": "behavior",
+      "decision": "adapt",
+      "source_claim": "Uses communication to secure acceptance of ideas.",
+      "locator": {
+        "type": "pdf",
+        "local_path": "Harvard University Competency Dictionary FY14 - final.pdf",
+        "pdf_page": 25,
+        "section": "Competency definition and Key Actions"
+      },
+      "adaptation": "Consolidate with influence; avoid duplicate competency and persuasion as compliance.",
+      "conditions": [
+        "Candidate only; observable episode evidence required.",
+        "No scoring, levels or unsupported trait inference."
+      ],
+      "hold_resolution": null,
+      "evidence_status": "verified-within-stated-scope",
+      "runtime_import_allowed": false
+    },
+    {
+      "candidate_id": "H-26",
+      "source_id": "HARVARD-FY14",
+      "title": "Planning and Organizing",
+      "kind": "behavior",
+      "decision": "include",
+      "source_claim": "Sets priorities, plans activities and resources.",
+      "locator": {
+        "type": "pdf",
+        "local_path": "Harvard University Competency Dictionary FY14 - final.pdf",
+        "pdf_page": 26,
+        "section": "Competency definition and Key Actions"
+      },
+      "adaptation": "Make tradeoffs, dependencies and check points visible.",
+      "conditions": [
+        "Candidate only; observable episode evidence required.",
+        "No scoring, levels or unsupported trait inference."
+      ],
+      "hold_resolution": null,
+      "evidence_status": "verified-within-stated-scope",
+      "runtime_import_allowed": false
+    },
+    {
+      "candidate_id": "H-27",
+      "source_id": "HARVARD-FY14",
+      "title": "Problem Analysis and Problem Solving",
+      "kind": "behavior",
+      "decision": "include",
+      "source_claim": "Analyzes information and develops solutions.",
+      "locator": {
+        "type": "pdf",
+        "local_path": "Harvard University Competency Dictionary FY14 - final.pdf",
+        "pdf_page": 27,
+        "section": "Competency definition and Key Actions"
+      },
+      "adaptation": "Separate issue, evidence, hypotheses and testing; avoid premature conclusions.",
+      "conditions": [
+        "Candidate only; observable episode evidence required.",
+        "No scoring, levels or unsupported trait inference."
+      ],
+      "hold_resolution": null,
+      "evidence_status": "verified-within-stated-scope",
+      "runtime_import_allowed": false
+    },
+    {
+      "candidate_id": "H-28",
+      "source_id": "HARVARD-FY14",
+      "title": "Pursues Excellence",
+      "kind": "behavior",
+      "decision": "adapt",
+      "source_claim": "Improves standards and work quality.",
+      "locator": {
+        "type": "pdf",
+        "local_path": "Harvard University Competency Dictionary FY14 - final.pdf",
+        "pdf_page": 28,
+        "section": "Competency definition and Key Actions"
+      },
+      "adaptation": "Define fit-for-purpose quality with constraints; no perfectionism or always-more-output expectation.",
+      "conditions": [
+        "Candidate only; observable episode evidence required.",
+        "No scoring, levels or unsupported trait inference."
+      ],
+      "hold_resolution": null,
+      "evidence_status": "verified-within-stated-scope",
+      "runtime_import_allowed": false
+    },
+    {
+      "candidate_id": "H-29",
+      "source_id": "HARVARD-FY14",
+      "title": "Resource Allocation",
+      "kind": "behavior",
+      "decision": "adapt",
+      "source_claim": "Assigns resources in relation to work priorities.",
+      "locator": {
+        "type": "pdf",
+        "local_path": "Harvard University Competency Dictionary FY14 - final.pdf",
+        "pdf_page": 29,
+        "section": "Competency definition and Key Actions"
+      },
+      "adaptation": "Role conditional for budget/staff authority; shared time/material decisions may be transferable.",
+      "conditions": [
+        "Candidate only; observable episode evidence required.",
+        "No scoring, levels or unsupported trait inference."
+      ],
+      "hold_resolution": null,
+      "evidence_status": "verified-within-stated-scope",
+      "runtime_import_allowed": false
+    },
+    {
+      "candidate_id": "H-30",
+      "source_id": "HARVARD-FY14",
+      "title": "Risk Taking",
+      "kind": "behavior",
+      "decision": "adapt",
+      "source_claim": "Initiates beneficial action with understood potential consequences.",
+      "locator": {
+        "type": "pdf",
+        "local_path": "Harvard University Competency Dictionary FY14 - final.pdf",
+        "pdf_page": 30,
+        "section": "Competency definition and Key Actions"
+      },
+      "adaptation": "Replace blanket risk encouragement with reversible, authorized, low-risk trials; escalation where needed.",
+      "conditions": [
+        "Candidate only; observable episode evidence required.",
+        "No scoring, levels or unsupported trait inference."
+      ],
+      "hold_resolution": null,
+      "evidence_status": "verified-within-stated-scope",
+      "runtime_import_allowed": false
+    },
+    {
+      "candidate_id": "H-31",
+      "source_id": "HARVARD-FY14",
+      "title": "Strategic Thinking",
+      "kind": "behavior",
+      "decision": "adapt",
+      "source_claim": "Connects future considerations and broader issues to plans.",
+      "locator": {
+        "type": "pdf",
+        "local_path": "Harvard University Competency Dictionary FY14 - final.pdf",
+        "pdf_page": 31,
+        "section": "Competency definition and Key Actions"
+      },
+      "adaptation": "Use relevant time horizon and local scope, including contributors without management authority.",
+      "conditions": [
+        "Candidate only; observable episode evidence required.",
+        "No scoring, levels or unsupported trait inference."
+      ],
+      "hold_resolution": null,
+      "evidence_status": "verified-within-stated-scope",
+      "runtime_import_allowed": false
+    },
+    {
+      "candidate_id": "H-32",
+      "source_id": "HARVARD-FY14",
+      "title": "Teamwork and Collaboration",
+      "kind": "behavior",
+      "decision": "include",
+      "source_claim": "Works cooperatively and contributes to shared goals.",
+      "locator": {
+        "type": "pdf",
+        "local_path": "Harvard University Competency Dictionary FY14 - final.pdf",
+        "pdf_page": 32,
+        "section": "Competency definition and Key Actions"
+      },
+      "adaptation": "Use handoffs, shared understanding and contributions; acknowledge system constraints.",
+      "conditions": [
+        "Candidate only; observable episode evidence required.",
+        "No scoring, levels or unsupported trait inference."
+      ],
+      "hold_resolution": null,
+      "evidence_status": "verified-within-stated-scope",
+      "runtime_import_allowed": false
+    },
+    {
+      "candidate_id": "H-33",
+      "source_id": "HARVARD-FY14",
+      "title": "Time Management",
+      "kind": "behavior",
+      "decision": "adapt",
+      "source_claim": "Prioritizes time to meet commitments.",
+      "locator": {
+        "type": "pdf",
+        "local_path": "Harvard University Competency Dictionary FY14 - final.pdf",
+        "pdf_page": 33,
+        "section": "Competency definition and Key Actions"
+      },
+      "adaptation": "Consolidate with planning; include renegotiation, workload limits and recovery.",
+      "conditions": [
+        "Candidate only; observable episode evidence required.",
+        "No scoring, levels or unsupported trait inference."
+      ],
+      "hold_resolution": null,
+      "evidence_status": "verified-within-stated-scope",
+      "runtime_import_allowed": false
+    },
+    {
+      "candidate_id": "H-34",
+      "source_id": "HARVARD-FY14",
+      "title": "Valuing Diversity",
+      "kind": "behavior",
+      "decision": "adapt",
+      "source_claim": "Uses varied perspectives and learns across backgrounds.",
+      "locator": {
+        "type": "pdf",
+        "local_path": "Harvard University Competency Dictionary FY14 - final.pdf",
+        "pdf_page": 34,
+        "section": "Competency definition and Key Actions"
+      },
+      "adaptation": "Use inclusion and accessibility; never infer demographic traits or stereotype.",
+      "conditions": [
+        "Candidate only; observable episode evidence required.",
+        "No scoring, levels or unsupported trait inference."
+      ],
+      "hold_resolution": null,
+      "evidence_status": "verified-within-stated-scope",
+      "runtime_import_allowed": false
+    },
+    {
+      "candidate_id": "NZ-01",
+      "source_id": "NZ-LSP-2016",
+      "title": "Leading strategically",
+      "kind": "behavior",
+      "decision": "adapt",
+      "source_claim": "Links individual work to wider aims.",
+      "locator": {
+        "type": "web_pdf",
+        "url": "https://www.publicservice.govt.nz/assets/DirectoryFile/LSP_Expanded_guide_July_2016.pdf",
+        "pdf_page": 9,
+        "section": "Leading strategically"
+      },
+      "adaptation": "Lumei original adaptation: focus on an episode's purpose and downstream effects.",
+      "conditions": [
+        "Lumei synthesis; not an official adapted LSP assessment.",
+        "No readiness/potential labels or role-level scoring."
+      ],
+      "hold_resolution": null,
+      "evidence_status": "verified-within-stated-scope",
+      "runtime_import_allowed": false
+    },
+    {
+      "candidate_id": "NZ-02",
+      "source_id": "NZ-LSP-2016",
+      "title": "Leading with influence",
+      "kind": "behavior",
+      "decision": "adapt",
+      "source_claim": "Communicates purpose clearly.",
+      "locator": {
+        "type": "web_pdf",
+        "url": "https://www.publicservice.govt.nz/assets/DirectoryFile/LSP_Expanded_guide_July_2016.pdf",
+        "pdf_page": 12,
+        "section": "Leading with influence"
+      },
+      "adaptation": "Lumei adaptation: transparent reasoning without positional power.",
+      "conditions": [
+        "Lumei synthesis; not an official adapted LSP assessment.",
+        "No readiness/potential labels or role-level scoring."
+      ],
+      "hold_resolution": null,
+      "evidence_status": "verified-within-stated-scope",
+      "runtime_import_allowed": false
+    },
+    {
+      "candidate_id": "NZ-03",
+      "source_id": "NZ-LSP-2016",
+      "title": "Engaging others",
+      "kind": "behavior",
+      "decision": "adapt",
+      "source_claim": "Listens and communicates tactfully.",
+      "locator": {
+        "type": "web_pdf",
+        "url": "https://www.publicservice.govt.nz/assets/DirectoryFile/LSP_Expanded_guide_July_2016.pdf",
+        "pdf_page": 12,
+        "section": "Engaging others"
+      },
+      "adaptation": "Lumei adaptation: check understanding, never mind-read.",
+      "conditions": [
+        "Lumei synthesis; not an official adapted LSP assessment.",
+        "No readiness/potential labels or role-level scoring."
+      ],
+      "hold_resolution": null,
+      "evidence_status": "verified-within-stated-scope",
+      "runtime_import_allowed": false
+    },
+    {
+      "candidate_id": "NZ-04",
+      "source_id": "NZ-LSP-2016",
+      "title": "Enhancing organisational performance",
+      "kind": "behavior",
+      "decision": "adapt",
+      "source_claim": "Supports improvement.",
+      "locator": {
+        "type": "web_pdf",
+        "url": "https://www.publicservice.govt.nz/assets/DirectoryFile/LSP_Expanded_guide_July_2016.pdf",
+        "pdf_page": 12,
+        "section": "Enhancing organisational performance"
+      },
+      "adaptation": "Use a local improvement within the user's scope.",
+      "conditions": [
+        "Lumei synthesis; not an official adapted LSP assessment.",
+        "No readiness/potential labels or role-level scoring."
+      ],
+      "hold_resolution": null,
+      "evidence_status": "verified-within-stated-scope",
+      "runtime_import_allowed": false
+    },
+    {
+      "candidate_id": "NZ-05",
+      "source_id": "NZ-LSP-2016",
+      "title": "Enhancing system performance",
+      "kind": "behavior",
+      "decision": "adapt",
+      "source_claim": "Works across boundaries.",
+      "locator": {
+        "type": "web_pdf",
+        "url": "https://www.publicservice.govt.nz/assets/DirectoryFile/LSP_Expanded_guide_July_2016.pdf",
+        "pdf_page": 17,
+        "section": "Enhancing system performance"
+      },
+      "adaptation": "Lumei adaptation: notice dependencies and effects on others.",
+      "conditions": [
+        "Lumei synthesis; not an official adapted LSP assessment.",
+        "No readiness/potential labels or role-level scoring."
+      ],
+      "hold_resolution": null,
+      "evidence_status": "verified-within-stated-scope",
+      "runtime_import_allowed": false
+    },
+    {
+      "candidate_id": "NZ-06",
+      "source_id": "NZ-LSP-2016",
+      "title": "Leading at the political interface",
+      "kind": "behavior",
+      "decision": "exclude",
+      "source_claim": "Addresses government-policy interface.",
+      "locator": {
+        "type": "web_pdf",
+        "url": "https://www.publicservice.govt.nz/assets/DirectoryFile/LSP_Expanded_guide_July_2016.pdf",
+        "pdf_page": 12,
+        "section": "Leading at the political interface"
+      },
+      "adaptation": "Outside universal workplace scope.",
+      "conditions": [
+        "Lumei synthesis; not an official adapted LSP assessment.",
+        "No readiness/potential labels or role-level scoring."
+      ],
+      "hold_resolution": null,
+      "evidence_status": "verified-within-stated-scope",
+      "runtime_import_allowed": false
+    },
+    {
+      "candidate_id": "NZ-07",
+      "source_id": "NZ-LSP-2016",
+      "title": "Enhancing people performance",
+      "kind": "behavior",
+      "decision": "adapt",
+      "source_claim": "Clarifies performance expectations.",
+      "locator": {
+        "type": "web_pdf",
+        "url": "https://www.publicservice.govt.nz/assets/DirectoryFile/LSP_Expanded_guide_July_2016.pdf",
+        "pdf_page": 12,
+        "section": "Enhancing people performance"
+      },
+      "adaptation": "Only for an episode with legitimate people-management responsibility; no assessment engine.",
+      "conditions": [
+        "Lumei synthesis; not an official adapted LSP assessment.",
+        "No readiness/potential labels or role-level scoring."
+      ],
+      "hold_resolution": null,
+      "evidence_status": "verified-within-stated-scope",
+      "runtime_import_allowed": false
+    },
+    {
+      "candidate_id": "NZ-08",
+      "source_id": "NZ-LSP-2016",
+      "title": "Developing talent",
+      "kind": "behavior",
+      "decision": "adapt",
+      "source_claim": "Coaches and develops others.",
+      "locator": {
+        "type": "web_pdf",
+        "url": "https://www.publicservice.govt.nz/assets/DirectoryFile/LSP_Expanded_guide_July_2016.pdf",
+        "pdf_page": 13,
+        "section": "Developing talent"
+      },
+      "adaptation": "Only when the user is supporting learning; no talent ranking.",
+      "conditions": [
+        "Lumei synthesis; not an official adapted LSP assessment.",
+        "No readiness/potential labels or role-level scoring."
+      ],
+      "hold_resolution": null,
+      "evidence_status": "verified-within-stated-scope",
+      "runtime_import_allowed": false
+    },
+    {
+      "candidate_id": "NZ-09",
+      "source_id": "NZ-LSP-2016",
+      "title": "Enhancing team performance",
+      "kind": "behavior",
+      "decision": "adapt",
+      "source_claim": "Management-specific team capability.",
+      "locator": {
+        "type": "web_pdf",
+        "url": "https://www.publicservice.govt.nz/assets/DirectoryFile/LSP_Expanded_guide_July_2016.pdf",
+        "pdf_page": 21,
+        "section": "Enhancing team performance"
+      },
+      "adaptation": "Use only for a team leader; do not impose management duties on contributors.",
+      "conditions": [
+        "Lumei synthesis; not an official adapted LSP assessment.",
+        "No readiness/potential labels or role-level scoring."
+      ],
+      "hold_resolution": null,
+      "evidence_status": "verified-within-stated-scope",
+      "runtime_import_allowed": false
+    },
+    {
+      "candidate_id": "NZ-10",
+      "source_id": "NZ-LSP-2016",
+      "title": "Achieving ambitious goals",
+      "kind": "behavior",
+      "decision": "adapt",
+      "source_claim": "Pursues challenging outcomes.",
+      "locator": {
+        "type": "web_pdf",
+        "url": "https://www.publicservice.govt.nz/assets/DirectoryFile/LSP_Expanded_guide_July_2016.pdf",
+        "pdf_page": 13,
+        "section": "Achieving ambitious goals"
+      },
+      "adaptation": "Use the user's chosen feasible goal; do not moralize ambition.",
+      "conditions": [
+        "Lumei synthesis; not an official adapted LSP assessment.",
+        "No readiness/potential labels or role-level scoring."
+      ],
+      "hold_resolution": null,
+      "evidence_status": "verified-within-stated-scope",
+      "runtime_import_allowed": false
+    },
+    {
+      "candidate_id": "NZ-11",
+      "source_id": "NZ-LSP-2016",
+      "title": "Managing work priorities",
+      "kind": "behavior",
+      "decision": "adapt",
+      "source_claim": "Organises commitments.",
+      "locator": {
+        "type": "web_pdf",
+        "url": "https://www.publicservice.govt.nz/assets/DirectoryFile/LSP_Expanded_guide_July_2016.pdf",
+        "pdf_page": 22,
+        "section": "Managing work priorities"
+      },
+      "adaptation": "Local commitments and tradeoffs; omit role ladder.",
+      "conditions": [
+        "Lumei synthesis; not an official adapted LSP assessment.",
+        "No readiness/potential labels or role-level scoring."
+      ],
+      "hold_resolution": null,
+      "evidence_status": "verified-within-stated-scope",
+      "runtime_import_allowed": false
+    },
+    {
+      "candidate_id": "NZ-12",
+      "source_id": "NZ-LSP-2016",
+      "title": "Achieving through others",
+      "kind": "behavior",
+      "decision": "adapt",
+      "source_claim": "Delegates with oversight.",
+      "locator": {
+        "type": "web_pdf",
+        "url": "https://www.publicservice.govt.nz/assets/DirectoryFile/LSP_Expanded_guide_July_2016.pdf",
+        "pdf_page": 13,
+        "section": "Achieving through others"
+      },
+      "adaptation": "Requires actual delegation authority.",
+      "conditions": [
+        "Lumei synthesis; not an official adapted LSP assessment.",
+        "No readiness/potential labels or role-level scoring."
+      ],
+      "hold_resolution": null,
+      "evidence_status": "verified-within-stated-scope",
+      "runtime_import_allowed": false
+    },
+    {
+      "candidate_id": "NZ-13",
+      "source_id": "NZ-LSP-2016",
+      "title": "Curious",
+      "kind": "behavior",
+      "decision": "adapt",
+      "source_claim": "Examines information and perspectives.",
+      "locator": {
+        "type": "web_pdf",
+        "url": "https://www.publicservice.govt.nz/assets/DirectoryFile/LSP_Expanded_guide_July_2016.pdf",
+        "pdf_page": 13,
+        "section": "Curious"
+      },
+      "adaptation": "Lumei adaptation: evidence and alternative explanations, not personality.",
+      "conditions": [
+        "Lumei synthesis; not an official adapted LSP assessment.",
+        "No readiness/potential labels or role-level scoring."
+      ],
+      "hold_resolution": null,
+      "evidence_status": "verified-within-stated-scope",
+      "runtime_import_allowed": false
+    },
+    {
+      "candidate_id": "NZ-14",
+      "source_id": "NZ-LSP-2016",
+      "title": "Honest and courageous",
+      "kind": "behavior",
+      "decision": "adapt",
+      "source_claim": "Integrity in difficult decisions.",
+      "locator": {
+        "type": "web_pdf",
+        "url": "https://www.publicservice.govt.nz/assets/DirectoryFile/LSP_Expanded_guide_July_2016.pdf",
+        "pdf_page": 13,
+        "section": "Honest and courageous"
+      },
+      "adaptation": "Use safe communication choices; no required heroism.",
+      "conditions": [
+        "Lumei synthesis; not an official adapted LSP assessment.",
+        "No readiness/potential labels or role-level scoring."
+      ],
+      "hold_resolution": null,
+      "evidence_status": "verified-within-stated-scope",
+      "runtime_import_allowed": false
+    },
+    {
+      "candidate_id": "NZ-15",
+      "source_id": "NZ-LSP-2016",
+      "title": "Resilient",
+      "kind": "behavior",
+      "decision": "adapt",
+      "source_claim": "Maintains perspective under difficulty.",
+      "locator": {
+        "type": "web_pdf",
+        "url": "https://www.publicservice.govt.nz/assets/DirectoryFile/LSP_Expanded_guide_July_2016.pdf",
+        "pdf_page": 13,
+        "section": "Resilient"
+      },
+      "adaptation": "Include support and constraints; no diagnosis or endurance judgment.",
+      "conditions": [
+        "Lumei synthesis; not an official adapted LSP assessment.",
+        "No readiness/potential labels or role-level scoring."
+      ],
+      "hold_resolution": null,
+      "evidence_status": "verified-within-stated-scope",
+      "runtime_import_allowed": false
+    },
+    {
+      "candidate_id": "NZ-16",
+      "source_id": "NZ-LSP-2016",
+      "title": "Self-aware and agile",
+      "kind": "behavior",
+      "decision": "adapt",
+      "source_claim": "Reflects and adapts.",
+      "locator": {
+        "type": "web_pdf",
+        "url": "https://www.publicservice.govt.nz/assets/DirectoryFile/LSP_Expanded_guide_July_2016.pdf",
+        "pdf_page": 13,
+        "section": "Self-aware and agile"
+      },
+      "adaptation": "Use feedback on action; never infer leadership potential.",
+      "conditions": [
+        "Lumei synthesis; not an official adapted LSP assessment.",
+        "No readiness/potential labels or role-level scoring."
+      ],
+      "hold_resolution": null,
+      "evidence_status": "verified-within-stated-scope",
+      "runtime_import_allowed": false
+    },
+    {
+      "candidate_id": "FIN-A3-1",
+      "source_id": "FIN-CAREER-2024",
+      "title": "Critical reflection",
+      "kind": "coaching_process",
+      "decision": "adapt",
+      "source_claim": "Reflects on underlying assumptions, work boundaries and contextual outcomes.",
+      "locator": {
+        "type": "web_descriptor",
+        "url": "https://peda.net/careerprof/clickable-online-version/a-professionalism/a3/a3.1",
+        "descriptor_code": "A3.1",
+        "section": "Competency description"
+      },
+      "adaptation": "Adapt for coach prompts and optionally user reflection; do not classify employee professionalism.",
+      "conditions": [
+        "Role is coaching-process design, not universal worker assessment.",
+        "Online descriptor verified; original PDF pagination not asserted."
+      ],
+      "hold_resolution": null,
+      "evidence_status": "verified-within-stated-scope",
+      "runtime_import_allowed": false
+    },
+    {
+      "candidate_id": "FIN-A3-2",
+      "source_id": "FIN-CAREER-2024",
+      "title": "Continuous professional development",
+      "kind": "coaching_process",
+      "decision": "adapt",
+      "source_claim": "Uses feedback, personal learning plans and networks.",
+      "locator": {
+        "type": "web_descriptor",
+        "url": "https://peda.net/careerprof/clickable-online-version/a-professionalism/a3/a3.2",
+        "descriptor_code": "A3.2",
+        "section": "Competency description"
+      },
+      "adaptation": "Invite a chosen learning goal; do not mandate career-professional expertise.",
+      "conditions": [
+        "Role is coaching-process design, not universal worker assessment.",
+        "Online descriptor verified; original PDF pagination not asserted."
+      ],
+      "hold_resolution": null,
+      "evidence_status": "verified-within-stated-scope",
+      "runtime_import_allowed": false
+    },
+    {
+      "candidate_id": "FIN-A1-4",
+      "source_id": "FIN-CAREER-2024",
+      "title": "Ethics and data handling",
+      "kind": "coaching_process",
+      "decision": "adapt",
+      "source_claim": "Addresses conflicts, accessibility and informed data handling.",
+      "locator": {
+        "type": "web_descriptor",
+        "url": "https://peda.net/careerprof/clickable-online-version/a-professionalism/a1/a1.4",
+        "descriptor_code": "A1.4",
+        "section": "Competency description"
+      },
+      "adaptation": "Design consent and honest storage explanations based on actual host; never invent retention guarantees.",
+      "conditions": [
+        "Role is coaching-process design, not universal worker assessment.",
+        "Online descriptor verified; original PDF pagination not asserted."
+      ],
+      "hold_resolution": null,
+      "evidence_status": "verified-within-stated-scope",
+      "runtime_import_allowed": false
+    },
+    {
+      "candidate_id": "FIN-B3-2",
+      "source_id": "FIN-CAREER-2024",
+      "title": "Joint goals and process",
+      "kind": "coaching_process",
+      "decision": "adapt",
+      "source_claim": "Negotiates goals and suitable working methods jointly.",
+      "locator": {
+        "type": "web_descriptor",
+        "url": "https://peda.net/careerprof/clickable-online-version/b-asiakastyoosaaminen/b3/b3.2",
+        "descriptor_code": "B3.2",
+        "section": "Competency description"
+      },
+      "adaptation": "Coach collaborates on one development edge; omit competence-level assessment.",
+      "conditions": [
+        "Role is coaching-process design, not universal worker assessment.",
+        "Online descriptor verified; original PDF pagination not asserted."
+      ],
+      "hold_resolution": null,
+      "evidence_status": "verified-within-stated-scope",
+      "runtime_import_allowed": false
+    },
+    {
+      "candidate_id": "FIN-B3-3",
+      "source_id": "FIN-CAREER-2024",
+      "title": "Client agency and monitoring",
+      "kind": "coaching_process",
+      "decision": "adapt",
+      "source_claim": "Keeps client active in planning and reviewing progress.",
+      "locator": {
+        "type": "web_descriptor",
+        "url": "https://peda.net/careerprof/clickable-online-version/b-asiakastyoosaaminen/b3/b3.3",
+        "descriptor_code": "B3.3",
+        "section": "Competency description"
+      },
+      "adaptation": "User chooses optional next action; no compulsory follow-up or progress rating.",
+      "conditions": [
+        "Role is coaching-process design, not universal worker assessment.",
+        "Online descriptor verified; original PDF pagination not asserted."
+      ],
+      "hold_resolution": null,
+      "evidence_status": "verified-within-stated-scope",
+      "runtime_import_allowed": false
+    },
+    {
+      "candidate_id": "FIN-A5-2",
+      "source_id": "FIN-CAREER-2024",
+      "title": "Appropriate digital tools",
+      "kind": "coaching_process",
+      "decision": "adapt",
+      "source_claim": "Selects accessible tools and evaluates their usefulness.",
+      "locator": {
+        "type": "web_descriptor",
+        "url": "https://peda.net/careerprof/clickable-online-version/a-professionalism/a5/a5.2",
+        "descriptor_code": "A5.2",
+        "section": "Competency description"
+      },
+      "adaptation": "Tool choice follows needs, permissions and actual host capability.",
+      "conditions": [
+        "Role is coaching-process design, not universal worker assessment.",
+        "Online descriptor verified; original PDF pagination not asserted."
+      ],
+      "hold_resolution": null,
+      "evidence_status": "verified-within-stated-scope",
+      "runtime_import_allowed": false
+    },
+    {
+      "candidate_id": "FIN-B1-3",
+      "source_id": "FIN-CAREER-2024",
+      "title": "Contextual process review",
+      "kind": "coaching_process",
+      "decision": "adapt",
+      "source_claim": "Reviews process and outcomes jointly in context.",
+      "locator": {
+        "type": "web_descriptor",
+        "url": "https://peda.net/careerprof/clickable-online-version/b-asiakastyoosaaminen/b1/b1.3",
+        "descriptor_code": "B1.3",
+        "section": "Competency description"
+      },
+      "adaptation": "Use user-observed changes; do not assert causal learning gains.",
+      "conditions": [
+        "Role is coaching-process design, not universal worker assessment.",
+        "Online descriptor verified; original PDF pagination not asserted."
+      ],
+      "hold_resolution": null,
+      "evidence_status": "verified-within-stated-scope",
+      "runtime_import_allowed": false
+    },
+    {
+      "candidate_id": "FINQF-LEVELS",
+      "source_id": "FINQF-CONTEXT",
+      "title": "Qualification levels",
+      "kind": "context_only",
+      "decision": "exclude",
+      "source_claim": "Eight levels classify qualifications and competence modules.",
+      "locator": {
+        "type": "web_section",
+        "url": "https://www.oph.fi/en/education-and-qualifications/qualifications-frameworks",
+        "section": "National Framework for Qualifications and Other Competence Modules in Finland"
+      },
+      "adaptation": "Keep distinction from career guidance framework; do not convert qualification levels into Lumei scores.",
+      "conditions": [
+        "Context reference only."
+      ],
+      "hold_resolution": null,
+      "evidence_status": "verified-within-stated-scope",
+      "runtime_import_allowed": false
+    },
+    {
+      "candidate_id": "ICD-S410010010",
+      "source_id": "ICD-V4-SKILL",
+      "title": "Ability to detect problems",
+      "kind": "method",
+      "decision": "adapt",
+      "source_claim": "Skill label only; knowledge item is '-'.",
+      "locator": {
+        "type": "xlsx",
+        "local_path": "iCDEnglishV4-4layer/Skill Dictionary V4.xlsx",
+        "sheet": "Skill List V4",
+        "range": "A10159:H10159",
+        "row": 10159,
+        "skill_code": "S410010010",
+        "expected_skill_name": "Ability to detect problems",
+        "expected_knowledge_code": "K001",
+        "expected_knowledge_name": "-"
+      },
+      "adaptation": "Use as cross-reference to a corroborated concept; never manufacture behavioral descriptors from this label.",
+      "conditions": [
+        "Requires Harvard/NZ or separately verified detailed source before a card can use a behavioral claim.",
+        "No ICD proficiency level inference."
+      ],
+      "hold_resolution": null,
+      "evidence_status": "verified-within-stated-scope",
+      "runtime_import_allowed": false
+    },
+    {
+      "candidate_id": "ICD-S410010020",
+      "source_id": "ICD-V4-SKILL",
+      "title": "Ability to analyze problems",
+      "kind": "method",
+      "decision": "adapt",
+      "source_claim": "Skill label only; knowledge item is '-'.",
+      "locator": {
+        "type": "xlsx",
+        "local_path": "iCDEnglishV4-4layer/Skill Dictionary V4.xlsx",
+        "sheet": "Skill List V4",
+        "range": "A10160:H10160",
+        "row": 10160,
+        "skill_code": "S410010020",
+        "expected_skill_name": "Ability to analyze problems",
+        "expected_knowledge_code": "K001",
+        "expected_knowledge_name": "-"
+      },
+      "adaptation": "Use as cross-reference to a corroborated concept; never manufacture behavioral descriptors from this label.",
+      "conditions": [
+        "Requires Harvard/NZ or separately verified detailed source before a card can use a behavioral claim.",
+        "No ICD proficiency level inference."
+      ],
+      "hold_resolution": null,
+      "evidence_status": "verified-within-stated-scope",
+      "runtime_import_allowed": false
+    },
+    {
+      "candidate_id": "ICD-S410010030",
+      "source_id": "ICD-V4-SKILL",
+      "title": "Ability to establish hypotheses",
+      "kind": "method",
+      "decision": "adapt",
+      "source_claim": "Skill label only; knowledge item is '-'.",
+      "locator": {
+        "type": "xlsx",
+        "local_path": "iCDEnglishV4-4layer/Skill Dictionary V4.xlsx",
+        "sheet": "Skill List V4",
+        "range": "A10161:H10161",
+        "row": 10161,
+        "skill_code": "S410010030",
+        "expected_skill_name": "Ability to establish hypotheses",
+        "expected_knowledge_code": "K001",
+        "expected_knowledge_name": "-"
+      },
+      "adaptation": "Use as cross-reference to a corroborated concept; never manufacture behavioral descriptors from this label.",
+      "conditions": [
+        "Requires Harvard/NZ or separately verified detailed source before a card can use a behavioral claim.",
+        "No ICD proficiency level inference."
+      ],
+      "hold_resolution": null,
+      "evidence_status": "verified-within-stated-scope",
+      "runtime_import_allowed": false
+    },
+    {
+      "candidate_id": "ICD-S410010040",
+      "source_id": "ICD-V4-SKILL",
+      "title": "Reasoning ability",
+      "kind": "method",
+      "decision": "adapt",
+      "source_claim": "Skill label only; knowledge item is '-'.",
+      "locator": {
+        "type": "xlsx",
+        "local_path": "iCDEnglishV4-4layer/Skill Dictionary V4.xlsx",
+        "sheet": "Skill List V4",
+        "range": "A10162:H10162",
+        "row": 10162,
+        "skill_code": "S410010040",
+        "expected_skill_name": "Reasoning ability",
+        "expected_knowledge_code": "K001",
+        "expected_knowledge_name": "-"
+      },
+      "adaptation": "Use as cross-reference to a corroborated concept; never manufacture behavioral descriptors from this label.",
+      "conditions": [
+        "Requires Harvard/NZ or separately verified detailed source before a card can use a behavioral claim.",
+        "No ICD proficiency level inference."
+      ],
+      "hold_resolution": null,
+      "evidence_status": "verified-within-stated-scope",
+      "runtime_import_allowed": false
+    },
+    {
+      "candidate_id": "ICD-S410010050",
+      "source_id": "ICD-V4-SKILL",
+      "title": "Conceptualization ability",
+      "kind": "method",
+      "decision": "adapt",
+      "source_claim": "Skill label only; knowledge item is '-'.",
+      "locator": {
+        "type": "xlsx",
+        "local_path": "iCDEnglishV4-4layer/Skill Dictionary V4.xlsx",
+        "sheet": "Skill List V4",
+        "range": "A10163:H10163",
+        "row": 10163,
+        "skill_code": "S410010050",
+        "expected_skill_name": "Conceptualization ability",
+        "expected_knowledge_code": "K001",
+        "expected_knowledge_name": "-"
+      },
+      "adaptation": "Use as cross-reference to a corroborated concept; never manufacture behavioral descriptors from this label.",
+      "conditions": [
+        "Requires Harvard/NZ or separately verified detailed source before a card can use a behavioral claim.",
+        "No ICD proficiency level inference."
+      ],
+      "hold_resolution": null,
+      "evidence_status": "verified-within-stated-scope",
+      "runtime_import_allowed": false
+    },
+    {
+      "candidate_id": "ICD-S410020010",
+      "source_id": "ICD-V4-SKILL",
+      "title": "Ability to have a bird's-eye view",
+      "kind": "method",
+      "decision": "adapt",
+      "source_claim": "Skill label only; knowledge item is '-'.",
+      "locator": {
+        "type": "xlsx",
+        "local_path": "iCDEnglishV4-4layer/Skill Dictionary V4.xlsx",
+        "sheet": "Skill List V4",
+        "range": "A10164:H10164",
+        "row": 10164,
+        "skill_code": "S410020010",
+        "expected_skill_name": "Ability to have a bird's-eye view",
+        "expected_knowledge_code": "K001",
+        "expected_knowledge_name": "-"
+      },
+      "adaptation": "Use as cross-reference to a corroborated concept; never manufacture behavioral descriptors from this label.",
+      "conditions": [
+        "Requires Harvard/NZ or separately verified detailed source before a card can use a behavioral claim.",
+        "No ICD proficiency level inference."
+      ],
+      "hold_resolution": null,
+      "evidence_status": "verified-within-stated-scope",
+      "runtime_import_allowed": false
+    },
+    {
+      "candidate_id": "ICD-S410020020",
+      "source_id": "ICD-V4-SKILL",
+      "title": "Deep-plowing ability",
+      "kind": "method",
+      "decision": "hold",
+      "source_claim": "Skill label only; knowledge item is '-'.",
+      "locator": {
+        "type": "xlsx",
+        "local_path": "iCDEnglishV4-4layer/Skill Dictionary V4.xlsx",
+        "sheet": "Skill List V4",
+        "range": "A10165:H10165",
+        "row": 10165,
+        "skill_code": "S410020020",
+        "expected_skill_name": "Deep-plowing ability",
+        "expected_knowledge_code": "K001",
+        "expected_knowledge_name": "-"
+      },
+      "adaptation": "Use as cross-reference to a corroborated concept; never manufacture behavioral descriptors from this label.",
+      "conditions": [
+        "Requires Harvard/NZ or separately verified detailed source before a card can use a behavioral claim.",
+        "No ICD proficiency level inference."
+      ],
+      "hold_resolution": "Find a detailed authoritative definition and resolve ambiguous translation; otherwise omit.",
+      "evidence_status": "insufficient-for-proposed-use",
+      "runtime_import_allowed": false
+    },
+    {
+      "candidate_id": "ICD-S410020030",
+      "source_id": "ICD-V4-SKILL",
+      "title": "Ability to continue ",
+      "kind": "method",
+      "decision": "hold",
+      "source_claim": "Skill label only; knowledge item is '-'.",
+      "locator": {
+        "type": "xlsx",
+        "local_path": "iCDEnglishV4-4layer/Skill Dictionary V4.xlsx",
+        "sheet": "Skill List V4",
+        "range": "A10166:H10166",
+        "row": 10166,
+        "skill_code": "S410020030",
+        "expected_skill_name": "Ability to continue ",
+        "expected_knowledge_code": "K001",
+        "expected_knowledge_name": "-"
+      },
+      "adaptation": "Use as cross-reference to a corroborated concept; never manufacture behavioral descriptors from this label.",
+      "conditions": [
+        "Requires Harvard/NZ or separately verified detailed source before a card can use a behavioral claim.",
+        "No ICD proficiency level inference."
+      ],
+      "hold_resolution": "Find a detailed authoritative definition and resolve ambiguous translation; otherwise omit.",
+      "evidence_status": "insufficient-for-proposed-use",
+      "runtime_import_allowed": false
+    },
+    {
+      "candidate_id": "ICD-S410020040",
+      "source_id": "ICD-V4-SKILL",
+      "title": "Ability to innovate",
+      "kind": "method",
+      "decision": "adapt",
+      "source_claim": "Skill label only; knowledge item is '-'.",
+      "locator": {
+        "type": "xlsx",
+        "local_path": "iCDEnglishV4-4layer/Skill Dictionary V4.xlsx",
+        "sheet": "Skill List V4",
+        "range": "A10167:H10167",
+        "row": 10167,
+        "skill_code": "S410020040",
+        "expected_skill_name": "Ability to innovate",
+        "expected_knowledge_code": "K001",
+        "expected_knowledge_name": "-"
+      },
+      "adaptation": "Use as cross-reference to a corroborated concept; never manufacture behavioral descriptors from this label.",
+      "conditions": [
+        "Requires Harvard/NZ or separately verified detailed source before a card can use a behavioral claim.",
+        "No ICD proficiency level inference."
+      ],
+      "hold_resolution": null,
+      "evidence_status": "verified-within-stated-scope",
+      "runtime_import_allowed": false
+    },
+    {
+      "candidate_id": "ICD-S410030010",
+      "source_id": "ICD-V4-SKILL",
+      "title": "Ability to understand someone else's ideas",
+      "kind": "method",
+      "decision": "adapt",
+      "source_claim": "Skill label only; knowledge item is '-'.",
+      "locator": {
+        "type": "xlsx",
+        "local_path": "iCDEnglishV4-4layer/Skill Dictionary V4.xlsx",
+        "sheet": "Skill List V4",
+        "range": "A10168:H10168",
+        "row": 10168,
+        "skill_code": "S410030010",
+        "expected_skill_name": "Ability to understand someone else's ideas",
+        "expected_knowledge_code": "K001",
+        "expected_knowledge_name": "-"
+      },
+      "adaptation": "Use as cross-reference to a corroborated concept; never manufacture behavioral descriptors from this label.",
+      "conditions": [
+        "Requires Harvard/NZ or separately verified detailed source before a card can use a behavioral claim.",
+        "No ICD proficiency level inference."
+      ],
+      "hold_resolution": null,
+      "evidence_status": "verified-within-stated-scope",
+      "runtime_import_allowed": false
+    },
+    {
+      "candidate_id": "ICD-S410030020",
+      "source_id": "ICD-V4-SKILL",
+      "title": "Ability to communicate one's idea to others",
+      "kind": "method",
+      "decision": "adapt",
+      "source_claim": "Skill label only; knowledge item is '-'.",
+      "locator": {
+        "type": "xlsx",
+        "local_path": "iCDEnglishV4-4layer/Skill Dictionary V4.xlsx",
+        "sheet": "Skill List V4",
+        "range": "A10169:H10169",
+        "row": 10169,
+        "skill_code": "S410030020",
+        "expected_skill_name": "Ability to communicate one's idea to others",
+        "expected_knowledge_code": "K001",
+        "expected_knowledge_name": "-"
+      },
+      "adaptation": "Use as cross-reference to a corroborated concept; never manufacture behavioral descriptors from this label.",
+      "conditions": [
+        "Requires Harvard/NZ or separately verified detailed source before a card can use a behavioral claim.",
+        "No ICD proficiency level inference."
+      ],
+      "hold_resolution": null,
+      "evidence_status": "verified-within-stated-scope",
+      "runtime_import_allowed": false
+    },
+    {
+      "candidate_id": "ICD-S410030030",
+      "source_id": "ICD-V4-SKILL",
+      "title": "Ability to evoke sympathy",
+      "kind": "method",
+      "decision": "hold",
+      "source_claim": "Skill label only; knowledge item is '-'.",
+      "locator": {
+        "type": "xlsx",
+        "local_path": "iCDEnglishV4-4layer/Skill Dictionary V4.xlsx",
+        "sheet": "Skill List V4",
+        "range": "A10170:H10170",
+        "row": 10170,
+        "skill_code": "S410030030",
+        "expected_skill_name": "Ability to evoke sympathy",
+        "expected_knowledge_code": "K001",
+        "expected_knowledge_name": "-"
+      },
+      "adaptation": "Use as cross-reference to a corroborated concept; never manufacture behavioral descriptors from this label.",
+      "conditions": [
+        "Requires Harvard/NZ or separately verified detailed source before a card can use a behavioral claim.",
+        "No ICD proficiency level inference."
+      ],
+      "hold_resolution": "Find a detailed authoritative definition and resolve ambiguous translation; otherwise omit.",
+      "evidence_status": "insufficient-for-proposed-use",
+      "runtime_import_allowed": false
+    },
+    {
+      "candidate_id": "ICD-M-2055",
+      "source_id": "ICD-V4-SKILL",
+      "title": "Stakeholder coordination",
+      "kind": "method",
+      "decision": "adapt",
+      "source_claim": "Named knowledge item in an IT-oriented method family.",
+      "locator": {
+        "type": "xlsx",
+        "local_path": "iCDEnglishV4-4layer/Skill Dictionary V4.xlsx",
+        "sheet": "Skill List V4",
+        "range": "A2055:H2055",
+        "row": 2055,
+        "skill_code": "S130100040",
+        "expected_skill_name": "Project communication management",
+        "expected_knowledge_code": "K023",
+        "expected_knowledge_name": "Stakeholder management"
+      },
+      "adaptation": "Use a bounded stakeholder/need map; omit full project certification scope.",
+      "conditions": [
+        "Selected pointer, not full method description.",
+        "Specialty methods/standards are not compulsory for all workers."
+      ],
+      "hold_resolution": null,
+      "evidence_status": "verified-within-stated-scope",
+      "runtime_import_allowed": false
+    },
+    {
+      "candidate_id": "ICD-M-2246",
+      "source_id": "ICD-V4-SKILL",
+      "title": "Risk response options",
+      "kind": "method",
+      "decision": "hold",
+      "source_claim": "Named knowledge item in an IT-oriented method family.",
+      "locator": {
+        "type": "xlsx",
+        "local_path": "iCDEnglishV4-4layer/Skill Dictionary V4.xlsx",
+        "sheet": "Skill List V4",
+        "range": "A2246:H2246",
+        "row": 2246,
+        "skill_code": "S130100080",
+        "expected_skill_name": "Project risk management",
+        "expected_knowledge_code": "K001",
+        "expected_knowledge_name": "Contingency correspondence strategy (membership fee, utilization, shifting and sharing, reduction and enhancement, acceptance)"
+      },
+      "adaptation": "Treat unusual English as translation ambiguity; use independently verified risk principles before detailed teaching.",
+      "conditions": [
+        "Selected pointer, not full method description.",
+        "Specialty methods/standards are not compulsory for all workers."
+      ],
+      "hold_resolution": "Verify original terminology or an independent primary definition before teaching risk-response categories.",
+      "evidence_status": "insufficient-for-proposed-use",
+      "runtime_import_allowed": false
+    },
+    {
+      "candidate_id": "ICD-M-2962",
+      "source_id": "ICD-V4-SKILL",
+      "title": "Knowledge capture and versioning",
+      "kind": "method",
+      "decision": "adapt",
+      "source_claim": "Named knowledge item in an IT-oriented method family.",
+      "locator": {
+        "type": "xlsx",
+        "local_path": "iCDEnglishV4-4layer/Skill Dictionary V4.xlsx",
+        "sheet": "Skill List V4",
+        "range": "A2962:H2962",
+        "row": 2962,
+        "skill_code": "S140040030",
+        "expected_skill_name": "Knowledge management methods",
+        "expected_knowledge_code": "K001",
+        "expected_knowledge_name": "Content management (Web publishing tools, Web conferences, Wiki, blogs etc., document preparation, data and financial analysis, presentation tools, flow chart preparation, content management system (systematization, organization, version control, document architecture), publication and distribution)"
+      },
+      "adaptation": "Reference method family only; do not import tool list or prescribe enterprise knowledge infrastructure.",
+      "conditions": [
+        "Selected pointer, not full method description.",
+        "Specialty methods/standards are not compulsory for all workers."
+      ],
+      "hold_resolution": null,
+      "evidence_status": "verified-within-stated-scope",
+      "runtime_import_allowed": false
+    },
+    {
+      "candidate_id": "ICD-M-3586",
+      "source_id": "ICD-V4-SKILL",
+      "title": "Iterative improvement",
+      "kind": "method",
+      "decision": "adapt",
+      "source_claim": "Named knowledge item in an IT-oriented method family.",
+      "locator": {
+        "type": "xlsx",
+        "local_path": "iCDEnglishV4-4layer/Skill Dictionary V4.xlsx",
+        "sheet": "Skill List V4",
+        "range": "A3586:H3586",
+        "row": 3586,
+        "skill_code": "S150010130",
+        "expected_skill_name": "Quality improvement-related methods",
+        "expected_knowledge_code": "K001",
+        "expected_knowledge_name": "PDCA"
+      },
+      "adaptation": "Adapt to a small user-owned experiment; no assertion of formal PDCA certification.",
+      "conditions": [
+        "Selected pointer, not full method description.",
+        "Specialty methods/standards are not compulsory for all workers."
+      ],
+      "hold_resolution": null,
+      "evidence_status": "verified-within-stated-scope",
+      "runtime_import_allowed": false
+    },
+    {
+      "candidate_id": "ICD-M-9888",
+      "source_id": "ICD-V4-SKILL",
+      "title": "Process questions",
+      "kind": "method",
+      "decision": "adapt",
+      "source_claim": "Named knowledge item in an IT-oriented method family.",
+      "locator": {
+        "type": "xlsx",
+        "local_path": "iCDEnglishV4-4layer/Skill Dictionary V4.xlsx",
+        "sheet": "Skill List V4",
+        "range": "A9888:H9888",
+        "row": 9888,
+        "skill_code": "S310020060",
+        "expected_skill_name": "Business process management",
+        "expected_knowledge_code": "K001",
+        "expected_knowledge_name": "5W"
+      },
+      "adaptation": "Use context questions in a workflow; listing 5W is not sufficient instruction for an entire method.",
+      "conditions": [
+        "Selected pointer, not full method description.",
+        "Specialty methods/standards are not compulsory for all workers."
+      ],
+      "hold_resolution": null,
+      "evidence_status": "verified-within-stated-scope",
+      "runtime_import_allowed": false
+    },
+    {
+      "candidate_id": "ICD-PROFICIENCY",
+      "source_id": "ICD-V4-SKILL",
+      "title": "Proficiency ratings",
+      "kind": "context_only",
+      "decision": "exclude",
+      "source_claim": "Workbook contains a separate proficiency criteria sheet.",
+      "locator": {
+        "type": "xlsx_sheet",
+        "local_path": "iCDEnglishV4-4layer/Skill Dictionary V4.xlsx",
+        "sheet": "Skills Proficiency Criteria V4"
+      },
+      "adaptation": "Omit ratings entirely.",
+      "conditions": [
+        "Do not convert to maturity/employee scores."
+      ],
+      "hold_resolution": null,
+      "evidence_status": "verified-within-stated-scope",
+      "runtime_import_allowed": false
+    },
+    {
+      "candidate_id": "ICD-S2-TECHNOLOGY",
+      "source_id": "ICD-V4-SKILL",
+      "title": "Technical specialties",
+      "kind": "context_only",
+      "decision": "exclude",
+      "source_claim": "Technology category is IT-specific.",
+      "locator": {
+        "type": "xlsx_category",
+        "local_path": "iCDEnglishV4-4layer/Skill Dictionary V4.xlsx",
+        "sheet": "Skill List V4",
+        "category_code": "S2"
+      },
+      "adaptation": "No blanket import of IT, security, networking or software specialty content.",
+      "conditions": [
+        "Specific task support requires separately scoped authority and source review."
+      ],
+      "hold_resolution": null,
+      "evidence_status": "verified-within-stated-scope",
+      "runtime_import_allowed": false
+    },
+    {
+      "candidate_id": "ICD-TASK-EVALUATION",
+      "source_id": "ICD-V4-TASK",
+      "title": "Task evaluation and job profiles",
+      "kind": "context_only",
+      "decision": "exclude",
+      "source_claim": "Task and correspondence workbooks encode IT work structures.",
+      "locator": {
+        "type": "local_file_set",
+        "paths": [
+          "iCDEnglishV4-4layer/Task Dictionary V4.xlsx",
+          "iCDEnglishV4-4layer/Task Dictionary ITFusion V4.xlsx",
+          "iCDEnglishV4-4layer/Task Skill List correspondence Table V4.xlsx"
+        ]
+      },
+      "adaptation": "Do not import job/evaluation matrices as global skills.",
+      "conditions": [
+        "Structural inspection only; no row-level universal claims."
+      ],
+      "hold_resolution": null,
+      "evidence_status": "verified-within-stated-scope",
+      "runtime_import_allowed": false
+    },
+    {
+      "candidate_id": "WEF25-SKILL-RELEVANCE",
+      "source_id": "WEF-FOJ-2025",
+      "title": "Employer skills outlook",
+      "kind": "foresight",
+      "decision": "adapt",
+      "source_claim": "Surveyed employers prioritize analytical thinking and several human and technical skills.",
+      "locator": {
+        "type": "pdf",
+        "local_path": "WEF_Future_of_Jobs_Report_2025.pdf",
+        "pdf_pages": [
+          35,
+          36,
+          37
+        ],
+        "section": "Employer skills outlook"
+      },
+      "adaptation": "Use to check candidate relevance; cannot establish observable behavior or a person's skill gap.",
+      "conditions": [
+        "Design/curation lens only, never evidence about this user.",
+        "Context and publication vintage must remain visible."
+      ],
+      "hold_resolution": null,
+      "evidence_status": "verified-within-stated-scope",
+      "runtime_import_allowed": false
+    },
+    {
+      "candidate_id": "WEF25-CONTEXT",
+      "source_id": "WEF-FOJ-2025",
+      "title": "Variation by industry and economy",
+      "kind": "foresight",
+      "decision": "adapt",
+      "source_claim": "Skill outlook varies across industries and economies.",
+      "locator": {
+        "type": "pdf",
+        "local_path": "WEF_Future_of_Jobs_Report_2025.pdf",
+        "pdf_pages": [
+          34,
+          36,
+          38,
+          39
+        ],
+        "section": "Variation by industry and economy"
+      },
+      "adaptation": "Test cards in diverse work contexts; reject universal must-have claims based on aggregated ranking.",
+      "conditions": [
+        "Design/curation lens only, never evidence about this user.",
+        "Context and publication vintage must remain visible."
+      ],
+      "hold_resolution": null,
+      "evidence_status": "verified-within-stated-scope",
+      "runtime_import_allowed": false
+    },
+    {
+      "candidate_id": "WEF25-HUMAN-AI",
+      "source_id": "WEF-FOJ-2025",
+      "title": "Skills and GenAI",
+      "kind": "foresight",
+      "decision": "adapt",
+      "source_claim": "Discusses AI-related skill change and substitution potential.",
+      "locator": {
+        "type": "pdf",
+        "local_path": "WEF_Future_of_Jobs_Report_2025.pdf",
+        "pdf_pages": [
+          43,
+          44
+        ],
+        "section": "Skills and GenAI"
+      },
+      "adaptation": "Prompt human verification and judgment; do not predict a user's redundancy.",
+      "conditions": [
+        "Design/curation lens only, never evidence about this user.",
+        "Context and publication vintage must remain visible."
+      ],
+      "hold_resolution": null,
+      "evidence_status": "verified-within-stated-scope",
+      "runtime_import_allowed": false
+    },
+    {
+      "candidate_id": "WEF26-PHYSICAL-WORK",
+      "source_id": "WEF-MAKER-2026",
+      "title": "Physical-economy coverage",
+      "kind": "foresight",
+      "decision": "adapt",
+      "source_claim": "Maker skills serve hands-on physical work.",
+      "locator": {
+        "type": "pdf",
+        "local_path": "WEF_New_Economy_Skills_2026.pdf",
+        "pdf_pages": [
+          3
+        ],
+        "section": "Physical-economy coverage"
+      },
+      "adaptation": "Include frontline, manual, service and material-flow examples; no automatic expansion to vocational training.",
+      "conditions": [
+        "Design/curation lens only, never evidence about this user.",
+        "Context and publication vintage must remain visible."
+      ],
+      "hold_resolution": null,
+      "evidence_status": "verified-within-stated-scope",
+      "runtime_import_allowed": false
+    },
+    {
+      "candidate_id": "WEF26-AUGMENTATION",
+      "source_id": "WEF-MAKER-2026",
+      "title": "AI in physical work",
+      "kind": "foresight",
+      "decision": "adapt",
+      "source_claim": "AI is also entering physical work environments.",
+      "locator": {
+        "type": "pdf",
+        "local_path": "WEF_New_Economy_Skills_2026.pdf",
+        "pdf_pages": [
+          17
+        ],
+        "section": "AI in physical work"
+      },
+      "adaptation": "Check tool use against operational constraints, safety and actual authority.",
+      "conditions": [
+        "Design/curation lens only, never evidence about this user.",
+        "Context and publication vintage must remain visible."
+      ],
+      "hold_resolution": null,
+      "evidence_status": "verified-within-stated-scope",
+      "runtime_import_allowed": false
+    },
+    {
+      "candidate_id": "WEF26-PRACTICE",
+      "source_id": "WEF-MAKER-2026",
+      "title": "Workplace learning pathways",
+      "kind": "foresight",
+      "decision": "adapt",
+      "source_claim": "Discusses vocational pathways and hands-on learning.",
+      "locator": {
+        "type": "pdf",
+        "local_path": "WEF_New_Economy_Skills_2026.pdf",
+        "pdf_pages": [
+          20,
+          24,
+          26,
+          27
+        ],
+        "section": "Workplace learning pathways"
+      },
+      "adaptation": "Design accessible practice across contexts; no machine-operation instruction or competency certification.",
+      "conditions": [
+        "Design/curation lens only, never evidence about this user.",
+        "Context and publication vintage must remain visible."
+      ],
+      "hold_resolution": null,
+      "evidence_status": "verified-within-stated-scope",
+      "runtime_import_allowed": false
+    },
+    {
+      "candidate_id": "MCK-KNOWLEDGE",
+      "source_id": "MCK-EXPERTISE-2026",
+      "title": "Knowledge provenance and ownership",
+      "kind": "learning_design",
+      "decision": "adapt",
+      "source_claim": "Knowledge management can capture expert reasoning and maintain feedback and ownership.",
+      "locator": {
+        "type": "pdf",
+        "local_path": "building-expertise-in-the-age-of-ai-who-trains-the-next-generation (1).pdf",
+        "pdf_pages": [
+          4,
+          5
+        ],
+        "section": "Knowledge provenance and ownership"
+      },
+      "adaptation": "Keep source locators and bounded claims; do not equate eloquent synthesis with expertise.",
+      "conditions": [
+        "Design/curation lens only, never evidence about this user.",
+        "Context and publication vintage must remain visible."
+      ],
+      "hold_resolution": null,
+      "evidence_status": "verified-within-stated-scope",
+      "runtime_import_allowed": false
+    },
+    {
+      "candidate_id": "MCK-ATTEMPT-COMPARE",
+      "source_id": "MCK-EXPERTISE-2026",
+      "title": "Independent attempt and comparison",
+      "kind": "learning_design",
+      "decision": "adapt",
+      "source_claim": "Proposes an answer-key workflow including AI grading and manager discussion.",
+      "locator": {
+        "type": "pdf",
+        "local_path": "building-expertise-in-the-age-of-ai-who-trains-the-next-generation (1).pdf",
+        "pdf_pages": [
+          5,
+          6
+        ],
+        "section": "Independent attempt and comparison"
+      },
+      "adaptation": "Explicit deviation: optional human attempt, compare alternatives and verify evidence; AI output is neither answer key nor grade.",
+      "conditions": [
+        "Design/curation lens only, never evidence about this user.",
+        "Context and publication vintage must remain visible."
+      ],
+      "hold_resolution": null,
+      "evidence_status": "verified-within-stated-scope",
+      "runtime_import_allowed": false
+    },
+    {
+      "candidate_id": "MCK-PRACTICE",
+      "source_id": "MCK-EXPERTISE-2026",
+      "title": "Practice in the flow of work",
+      "kind": "learning_design",
+      "decision": "adapt",
+      "source_claim": "Suggests practice integrated with work and simulations.",
+      "locator": {
+        "type": "pdf",
+        "local_path": "building-expertise-in-the-age-of-ai-who-trains-the-next-generation (1).pdf",
+        "pdf_pages": [
+          6,
+          7
+        ],
+        "section": "Practice in the flow of work"
+      },
+      "adaptation": "Use voluntary low-risk rehearsal; separate artifact quality from evidence of learning.",
+      "conditions": [
+        "Design/curation lens only, never evidence about this user.",
+        "Context and publication vintage must remain visible."
+      ],
+      "hold_resolution": null,
+      "evidence_status": "verified-within-stated-scope",
+      "runtime_import_allowed": false
+    },
+    {
+      "candidate_id": "MCK-COACHING",
+      "source_id": "MCK-EXPERTISE-2026",
+      "title": "Human coaching and judgment",
+      "kind": "learning_design",
+      "decision": "adapt",
+      "source_claim": "Highlights human coaching, judgment, communication and influence.",
+      "locator": {
+        "type": "pdf",
+        "local_path": "building-expertise-in-the-age-of-ai-who-trains-the-next-generation (1).pdf",
+        "pdf_pages": [
+          7,
+          9,
+          10,
+          11
+        ],
+        "section": "Human coaching and judgment"
+      },
+      "adaptation": "Lumei supports reflection and access to feedback; cannot replace accountable human expertise.",
+      "conditions": [
+        "Design/curation lens only, never evidence about this user.",
+        "Context and publication vintage must remain visible."
+      ],
+      "hold_resolution": null,
+      "evidence_status": "verified-within-stated-scope",
+      "runtime_import_allowed": false
+    },
+    {
+      "candidate_id": "VG-1",
+      "source_id": "VANG-PUBLISHED-2005",
+      "title": "Complex skill",
+      "kind": "learning_design",
+      "decision": "adapt",
+      "source_claim": "Critical thinking needs time and component skills.",
+      "locator": {
+        "type": "web_pdf",
+        "url": "https://www.aku.edu/qtl/resources/Documents/Teaching%20Critical%20Thinking%20Some%20Lessons%20From%20Cognitive%20Science.pdf",
+        "pdf_page": 2,
+        "journal_page": 41,
+        "section": "Published abstract; six-lesson synopsis"
+      },
+      "adaptation": "Offer one manageable reasoning task; avoid claims of rapid mastery.",
+      "conditions": [
+        "Abstract-level conceptual candidate only; detailed method requires body verification.",
+        "No quantitative efficacy claim or Lumei learning guarantee."
+      ],
+      "hold_resolution": null,
+      "evidence_status": "verified-within-stated-scope",
+      "runtime_import_allowed": false
+    },
+    {
+      "candidate_id": "VG-2",
+      "source_id": "VANG-PUBLISHED-2005",
+      "title": "Practice",
+      "kind": "learning_design",
+      "decision": "adapt",
+      "source_claim": "Practice should target reasoning itself.",
+      "locator": {
+        "type": "web_pdf",
+        "url": "https://www.aku.edu/qtl/resources/Documents/Teaching%20Critical%20Thinking%20Some%20Lessons%20From%20Cognitive%20Science.pdf",
+        "pdf_page": 2,
+        "journal_page": 41,
+        "section": "Published abstract; six-lesson synopsis"
+      },
+      "adaptation": "Ask the user to make a reasoning move before offering optional feedback.",
+      "conditions": [
+        "Abstract-level conceptual candidate only; detailed method requires body verification.",
+        "No quantitative efficacy claim or Lumei learning guarantee."
+      ],
+      "hold_resolution": null,
+      "evidence_status": "verified-within-stated-scope",
+      "runtime_import_allowed": false
+    },
+    {
+      "candidate_id": "VG-3",
+      "source_id": "VANG-PUBLISHED-2005",
+      "title": "Transfer",
+      "kind": "learning_design",
+      "decision": "adapt",
+      "source_claim": "Transfer requires practice.",
+      "locator": {
+        "type": "web_pdf",
+        "url": "https://www.aku.edu/qtl/resources/Documents/Teaching%20Critical%20Thinking%20Some%20Lessons%20From%20Cognitive%20Science.pdf",
+        "pdf_page": 2,
+        "journal_page": 41,
+        "section": "Published abstract; six-lesson synopsis"
+      },
+      "adaptation": "Invite application in a different context; do not infer transfer from a single conversation.",
+      "conditions": [
+        "Abstract-level conceptual candidate only; detailed method requires body verification.",
+        "No quantitative efficacy claim or Lumei learning guarantee."
+      ],
+      "hold_resolution": null,
+      "evidence_status": "verified-within-stated-scope",
+      "runtime_import_allowed": false
+    },
+    {
+      "candidate_id": "VG-4",
+      "source_id": "VANG-PUBLISHED-2005",
+      "title": "Practical theory",
+      "kind": "learning_design",
+      "decision": "adapt",
+      "source_claim": "Some theoretical knowledge supports thinking.",
+      "locator": {
+        "type": "web_pdf",
+        "url": "https://www.aku.edu/qtl/resources/Documents/Teaching%20Critical%20Thinking%20Some%20Lessons%20From%20Cognitive%20Science.pdf",
+        "pdf_page": 2,
+        "journal_page": 41,
+        "section": "Published abstract; six-lesson synopsis"
+      },
+      "adaptation": "Explain a concept briefly only when it helps the current reasoning step.",
+      "conditions": [
+        "Abstract-level conceptual candidate only; detailed method requires body verification.",
+        "No quantitative efficacy claim or Lumei learning guarantee."
+      ],
+      "hold_resolution": null,
+      "evidence_status": "verified-within-stated-scope",
+      "runtime_import_allowed": false
+    },
+    {
+      "candidate_id": "VG-5",
+      "source_id": "VANG-PUBLISHED-2005",
+      "title": "Argument mapping",
+      "kind": "learning_design",
+      "decision": "adapt",
+      "source_claim": "The article discusses diagramming arguments.",
+      "locator": {
+        "type": "web_pdf",
+        "url": "https://www.aku.edu/qtl/resources/Documents/Teaching%20Critical%20Thinking%20Some%20Lessons%20From%20Cognitive%20Science.pdf",
+        "pdf_page": 2,
+        "journal_page": 41,
+        "section": "Published abstract; six-lesson synopsis"
+      },
+      "adaptation": "Offer optional claim/evidence/objection structure; efficacy magnitude remains unverified.",
+      "conditions": [
+        "Abstract-level conceptual candidate only; detailed method requires body verification.",
+        "No quantitative efficacy claim or Lumei learning guarantee."
+      ],
+      "hold_resolution": null,
+      "evidence_status": "verified-within-stated-scope",
+      "runtime_import_allowed": false
+    },
+    {
+      "candidate_id": "VG-6",
+      "source_id": "VANG-PUBLISHED-2005",
+      "title": "Belief preservation",
+      "kind": "learning_design",
+      "decision": "adapt",
+      "source_claim": "The article identifies belief preservation.",
+      "locator": {
+        "type": "web_pdf",
+        "url": "https://www.aku.edu/qtl/resources/Documents/Teaching%20Critical%20Thinking%20Some%20Lessons%20From%20Cognitive%20Science.pdf",
+        "pdf_page": 2,
+        "journal_page": 41,
+        "section": "Published abstract; six-lesson synopsis"
+      },
+      "adaptation": "Invite alternative explanations and disconfirming evidence; do not diagnose bias.",
+      "conditions": [
+        "Abstract-level conceptual candidate only; detailed method requires body verification.",
+        "No quantitative efficacy claim or Lumei learning guarantee."
+      ],
+      "hold_resolution": null,
+      "evidence_status": "verified-within-stated-scope",
+      "runtime_import_allowed": false
+    },
+    {
+      "candidate_id": "VG-DRAFT-REWARDS",
+      "source_id": "VANG-DRAFT-2003",
+      "title": "Draft-only rewards lesson",
+      "kind": "learning_design",
+      "decision": "hold",
+      "source_claim": "The user file includes a seventh lesson on rewards.",
+      "locator": {
+        "type": "pdf",
+        "local_path": "teaching_critical_thinking.pdf",
+        "pdf_pages": [
+          18,
+          19,
+          20
+        ],
+        "section": "Draft lesson 7"
+      },
+      "adaptation": "Do not carry the draft lesson into the library.",
+      "conditions": [
+        "Draft is not a citation authority."
+      ],
+      "hold_resolution": "Find a separately published primary source if reward design becomes relevant; otherwise omit.",
+      "evidence_status": "insufficient-for-proposed-use",
+      "runtime_import_allowed": false
+    },
+    {
+      "candidate_id": "VG-EFFICACY",
+      "source_id": "VANG-PUBLISHED-2005",
+      "title": "Modern efficacy evidence",
+      "kind": "learning_design",
+      "decision": "hold",
+      "source_claim": "Historical conceptual guidance is not current outcome validation.",
+      "locator": {
+        "type": "web_pdf",
+        "url": "https://www.aku.edu/qtl/resources/Documents/Teaching%20Critical%20Thinking%20Some%20Lessons%20From%20Cognitive%20Science.pdf",
+        "pdf_page": 2,
+        "section": "Abstract and introductory limitations"
+      },
+      "adaptation": "Do not claim a specific improvement, guaranteed transfer or proven Lumei outcomes.",
+      "conditions": [
+        "No efficacy promise in cards or user-facing output."
+      ],
+      "hold_resolution": "Verify contemporary primary studies and their contexts if an effectiveness claim is required.",
+      "evidence_status": "insufficient-for-proposed-use",
+      "runtime_import_allowed": false
+    }
+  ]
+}

@@ -1,0 +1,334 @@
+{
+  "registry_version": "0.1.0",
+  "status": "phase-1-source-review",
+  "checked_on": "2026-10-07",
+  "runtime_authority": false,
+  "host_context": {
+    "legacy_platform": "Microsoft 365 Copilot Agent Builder",
+    "legacy_evidence": "User clarification 2026-10-07; no deployment configuration verified.",
+    "new_platform": "not-selected",
+    "design_target": "portable",
+    "deployment_verified": false
+  },
+  "policy": {
+    "ingest_mode": "independently-authored-bounded-synthesis-with-locators",
+    "full_source_cache_in_library": false,
+    "public_access_is_not_reuse_permission": true,
+    "local_hash_is_not_remote_identity_proof": true
+  },
+  "sources": [
+    {
+      "source_id": "HARVARD-FY14",
+      "title": "Harvard University Competency Dictionary FY14",
+      "owner": "Harvard University",
+      "version": "FY14",
+      "primary_role": "behavior",
+      "local_files": [
+        {
+          "path": "Harvard University Competency Dictionary FY14 - final.pdf",
+          "sha256": "c176e3799bf73d1d649d3645be98a98ec6af6af16b55fb4de54b237b370f94b6",
+          "bytes": 508030,
+          "pdf_pages": 34
+        }
+      ],
+      "canonical_url": "https://hms.harvard.edu/sites/default/files/assets/Sites/HR/files/Harvard%20University%20Competency%20Dictionary%20FY14%20-%20final.pdf",
+      "checked_on": "2026-10-07",
+      "verification_scope": "Local 34-page dictionary; all 31 competency pages reviewed. Official hosted identity verified, not a byte-for-byte remote match.",
+      "rights": {
+        "observation": "No explicit reuse licence verified; reference and concise original synthesis only. No full translated dictionary or PDF in retrieval/package.",
+        "permission_for_full_source_ingest": false
+      },
+      "runtime_authority": false
+    },
+    {
+      "source_id": "NZ-LSP-2016",
+      "title": "Leadership Success Profile — Expanded Guide",
+      "owner": "State Services Commission / Public Service Commission Te Kawa Mataaho",
+      "version": "July 2016",
+      "primary_role": "behavior",
+      "local_files": [],
+      "canonical_url": "https://www.publicservice.govt.nz/assets/DirectoryFile/LSP_Expanded_guide_July_2016.pdf",
+      "checked_on": "2026-10-07",
+      "verification_scope": "41-page online guide; capability overview and selected role descriptors verified. Levels are role-complexity expectations, not Lumei ratings.",
+      "rights": {
+        "observation": "Site default CC BY 4.0 unless item exceptions; written attribution required; exclude logos/images. Record adaptations; no claim of official endorsement.",
+        "permission_for_full_source_ingest": false
+      },
+      "runtime_authority": false,
+      "verification_urls": [
+        "https://www.publicservice.govt.nz/system/leaders/leadership-development/leadership-success-profile",
+        "https://www.publicservice.govt.nz/terms-and-conditions-copyright"
+      ]
+    },
+    {
+      "source_id": "FIN-CAREER-2024",
+      "title": "A proposal for a National Competency Framework for Career Professionals",
+      "owner": "Vuorinen, Kasurinen, Kettunen, Kukkaneva, Ruusuvirta-Uuksulainen; Finnish Institute for Educational Research, University of Jyväskylä",
+      "version": "2024 proposal / online descriptors",
+      "primary_role": "coaching_process",
+      "local_files": [],
+      "canonical_url": "https://peda.net/careerprof",
+      "checked_on": "2026-10-07",
+      "verification_scope": "Project bibliography and seven selected online descriptors verified. Original publication PDF not verified. A profession-specific proposal, not a universal employee standard.",
+      "rights": {
+        "observation": "Peda.net general licence observed; platform explanation says all rights reserved except platform operations. No bulk copy/translation or source pages in runtime; concise independently authored design notes with links.",
+        "permission_for_full_source_ingest": false
+      },
+      "runtime_authority": false,
+      "verification_urls": [
+        "https://peda.net/careerprof/clickable-online-version",
+        "https://peda.net/info/lisenssit"
+      ]
+    },
+    {
+      "source_id": "FINQF-CONTEXT",
+      "title": "Finnish National Framework for Qualifications",
+      "owner": "Finnish National Agency for Education",
+      "version": "Web page checked 2026-10-07",
+      "primary_role": "context_only",
+      "local_files": [],
+      "canonical_url": "https://www.oph.fi/en/education-and-qualifications/qualifications-frameworks",
+      "checked_on": "2026-10-07",
+      "verification_scope": "Framework purpose and eight qualification levels verified.",
+      "rights": {
+        "observation": "No licence verified; link/context only.",
+        "permission_for_full_source_ingest": false
+      },
+      "runtime_authority": false
+    },
+    {
+      "source_id": "ICD-V4-SKILL",
+      "title": "i Competency Dictionary — Skill Dictionary V4",
+      "owner": "IPA, Japan",
+      "version": "V4 announced 2019-01-21",
+      "primary_role": "method",
+      "local_files": [
+        {
+          "path": "iCDEnglishV4-4layer/Skill Dictionary V4.xlsx",
+          "sha256": "fd95ab8a15b6758171a3ff5e0e81fdb04c3c88f4d864c2130f9dd3e1e8665bd1",
+          "bytes": 682990,
+          "sheets": {
+            "Skill List V4": {
+              "rows": 10170,
+              "columns": 8
+            },
+            "Job List V4": {
+              "rows": 99,
+              "columns": 9
+            },
+            "Job x Skill V4": {
+              "rows": 447,
+              "columns": 84
+            },
+            "ITEE RISSE x Skill V4 ": {
+              "rows": 141,
+              "columns": 18
+            },
+            "Skills Proficiency Criteria V4": {
+              "rows": 12,
+              "columns": 5
+            }
+          }
+        }
+      ],
+      "canonical_url": "https://www.ipa.go.jp/en/it-talents/skill-standard/icd.html",
+      "checked_on": "2026-10-07",
+      "verification_scope": "Local Skill List V4 cells checked; all 12 S4 labels and five selected knowledge items reviewed. Not all ~10,000 knowledge items or linked standards reviewed.",
+      "rights": {
+        "observation": "Official full download available; unrestricted redistribution/adaptation not verified. No entire workbook or standards text in retrieval/package; selected reference identifiers and original synthesis.",
+        "permission_for_full_source_ingest": false
+      },
+      "runtime_authority": false
+    },
+    {
+      "source_id": "ICD-V4-TASK",
+      "title": "i Competency Dictionary — Task and correspondence tables",
+      "owner": "IPA, Japan",
+      "version": "V4",
+      "primary_role": "context_only",
+      "local_files": [
+        {
+          "path": "iCDEnglishV4-4layer/Task Dictionary V4.xlsx",
+          "sha256": "cdec2e95eee237751e12bb9945f2458ba9faa54366027949d4bb0e4bb1d7d6af",
+          "bytes": 409930,
+          "sheets": {
+            "Task List V4": {
+              "rows": 2509,
+              "columns": 8
+            },
+            "Task Profile V4": {
+              "rows": 74,
+              "columns": 8
+            },
+            "Task Profile x Task V4": {
+              "rows": 643,
+              "columns": 81
+            },
+            "Task Diagnostic Criteria V4": {
+              "rows": 7,
+              "columns": 3
+            }
+          }
+        },
+        {
+          "path": "iCDEnglishV4-4layer/Task Dictionary ITFusion V4.xlsx",
+          "sha256": "017b86782ae475925fdf9741fa1fcc99a87cc257438c43f1094d61965150ddc2",
+          "bytes": 84415,
+          "sheets": {
+            "ITFusion Readme V4": {
+              "rows": 84,
+              "columns": 13
+            },
+            "ITFusion Task List V4": {
+              "rows": 82,
+              "columns": 8
+            },
+            "ITFusion Task Profile V4": {
+              "rows": 4,
+              "columns": 10
+            },
+            "ITFusion Task Profile x Task V4": {
+              "rows": 1441,
+              "columns": 20
+            }
+          }
+        },
+        {
+          "path": "iCDEnglishV4-4layer/Task Skill List correspondence Table V4.xlsx",
+          "sha256": "57bd33bf0ce3f75e9f0fea9c4e1e3e4d548c3875b9f5390e62b0de5c4dde7797",
+          "bytes": 1028321,
+          "sheets": {
+            "Task x Skill V4": {
+              "rows": 643,
+              "columns": 449
+            },
+            "TaskxSkill (Middle category)V4 ": {
+              "rows": 201,
+              "columns": 87
+            }
+          }
+        }
+      ],
+      "canonical_url": "https://www.ipa.go.jp/en/it-talents/skill-standard/icd.html",
+      "checked_on": "2026-10-07",
+      "verification_scope": "Structural inspection only; task/evaluation rows not individually cleared for import.",
+      "rights": {
+        "observation": "Same conservative use boundary as ICD-V4-SKILL; no source workbook redistribution.",
+        "permission_for_full_source_ingest": false
+      },
+      "runtime_authority": false
+    },
+    {
+      "source_id": "WEF-FOJ-2025",
+      "title": "The Future of Jobs Report 2025",
+      "owner": "World Economic Forum",
+      "version": "January 2025",
+      "primary_role": "foresight",
+      "local_files": [
+        {
+          "path": "WEF_Future_of_Jobs_Report_2025.pdf",
+          "sha256": "f25987c0dee6eba2d832f80924b0e926a4705605cbd6a5c5f10323897da31271",
+          "bytes": 18604420,
+          "pdf_pages": 290
+        }
+      ],
+      "canonical_url": "https://www.weforum.org/publications/the-future-of-jobs-report-2025/",
+      "checked_on": "2026-10-07",
+      "verification_scope": "Local 290-page report; selected skills outlook pages reviewed. Employer survey outlook 2025–2030; not individual evidence or universal requirements.",
+      "rights": {
+        "observation": "Copyright notice; no unrestricted reuse verified. Original strategic synthesis and page citations only, no charts/full text copied.",
+        "permission_for_full_source_ingest": false
+      },
+      "runtime_authority": false
+    },
+    {
+      "source_id": "WEF-MAKER-2026",
+      "title": "New Economy Skills: Skills for the Maker Economy",
+      "owner": "World Economic Forum",
+      "version": "September 2026",
+      "primary_role": "foresight",
+      "local_files": [
+        {
+          "path": "WEF_New_Economy_Skills_2026.pdf",
+          "sha256": "694eaf0a6299dae5baf47c6eab186284edbefc5c6c93970420f5b5981c5b40f8",
+          "bytes": 6965066,
+          "pdf_pages": 32
+        }
+      ],
+      "canonical_url": "https://www.weforum.org/publications/new-economy-skills-skills-for-the-maker-economy/",
+      "checked_on": "2026-10-07",
+      "verification_scope": "Local 32-page white paper; selected physical-economy and learning sections reviewed.",
+      "rights": {
+        "observation": "Copyright notice; no unrestricted reuse verified. Original synthesis; no report/chart redistribution.",
+        "permission_for_full_source_ingest": false
+      },
+      "runtime_authority": false
+    },
+    {
+      "source_id": "MCK-EXPERTISE-2026",
+      "title": "Building expertise in the age of AI: Who trains the next generation?",
+      "owner": "McKinsey & Company, People & Organizational Performance Practice",
+      "version": "July 2026",
+      "primary_role": "learning_design",
+      "local_files": [
+        {
+          "path": "building-expertise-in-the-age-of-ai-who-trains-the-next-generation (1).pdf",
+          "sha256": "9af706a38a449458870a2fde6fc2bc8995ff97128290e5d42179fc7016b2bd09",
+          "bytes": 945807,
+          "pdf_pages": 11
+        }
+      ],
+      "canonical_url": "https://www.mckinsey.com/capabilities/people-and-organization/our-insights/building-expertise-in-the-age-of-ai-who-trains-the-next-generation",
+      "checked_on": "2026-10-07",
+      "verification_scope": "Local 11-page article; knowledge management, role design, practice and human coaching sections reviewed. Practitioner perspective, not efficacy trial.",
+      "rights": {
+        "observation": "No unrestricted reuse verified. Original design adaptations and page citations; no article reproduction.",
+        "permission_for_full_source_ingest": false
+      },
+      "runtime_authority": false
+    },
+    {
+      "source_id": "VANG-DRAFT-2003",
+      "title": "Teaching Critical Thinking: Lessons from Cognitive Science — draft",
+      "owner": "Tim van Gelder",
+      "version": "Draft 18 September 2003",
+      "primary_role": "context_only",
+      "local_files": [
+        {
+          "path": "teaching_critical_thinking.pdf",
+          "sha256": "b73ec04ff62e5077a9f600453dcd9348b75d8cfa24687b0d41f9cf813fc800cf",
+          "bytes": 218858,
+          "pdf_pages": 20
+        }
+      ],
+      "canonical_url": null,
+      "checked_on": "2026-10-07",
+      "verification_scope": "Local 20-page draft inspected; seven lessons; draft explicitly asks not to quote or cite.",
+      "rights": {
+        "observation": "Do not quote/cite as authoritative publication or ingest draft. Retained only to explain version mismatch.",
+        "permission_for_full_source_ingest": false
+      },
+      "runtime_authority": false
+    },
+    {
+      "source_id": "VANG-PUBLISHED-2005",
+      "title": "Teaching Critical Thinking: Some Lessons From Cognitive Science",
+      "owner": "Tim van Gelder; College Teaching 53(1), 41–48",
+      "version": "2005; DOI 10.3200/CTCH.53.1.41-48",
+      "primary_role": "learning_design",
+      "local_files": [],
+      "canonical_url": "https://doi.org/10.3200/CTCH.53.1.41-48",
+      "checked_on": "2026-10-07",
+      "verification_scope": "Published identity and six-lesson abstract verified in publisher-formatted copy hosted by Aga Khan University. Detailed lesson body/page mapping not fully verified; no modern efficacy claim cleared.",
+      "rights": {
+        "observation": "Copyright; reproduced copies do not grant further reproduction. Store bibliographic pointer and concise original method proposals only.",
+        "permission_for_full_source_ingest": false
+      },
+      "runtime_authority": false,
+      "verification_urls": [
+        "https://www.aku.edu/qtl/resources/Documents/Teaching%20Critical%20Thinking%20Some%20Lessons%20From%20Cognitive%20Science.pdf",
+        "https://www.reasoninglab.com/wp-content/uploads/2013/10/Tim-van-Gelder-Teaching-CT-Lessons-from-Cog-Sci.pdf"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,180 @@
+{
+  "status": "release-candidate-index",
+  "runtime_authority": false,
+  "selection_policy": {
+    "start_from_episode": true,
+    "anchor_range": [
+      0,
+      3
+    ],
+    "development_edges": 1,
+    "no_evidence_no_anchor": true,
+    "future_intent_is_not_observed_action": true,
+    "tool_or_manager_branch_requires_authority": true,
+    "note": "เสนอการฝึกได้โดยผู้ใช้เลือก; อย่าสร้าง anchor ว่าเคยทำจากชื่อ card หรือคำแนะนำ"
+  },
+  "situations": [
+    {
+      "situation_id": "S01",
+      "cue": "ได้รับคำขอที่เป้าหมาย ผลส่งมอบ หรือข้อจำกัดยังไม่ชัด",
+      "primary_card_id": "GWS-clarify-work",
+      "distinguish_from": [
+        "GWS-check-evidence"
+      ],
+      "minimum_anchor_evidence": "การกระทำที่ผู้ใช้ระบุจริงและข้อจำกัดที่ยังขาด; knowledge refs ไม่แทน episode evidence"
+    },
+    {
+      "situation_id": "S02",
+      "cue": "ข้อมูลหลายแหล่งไม่ตรงกัน หรือข้อสรุปยังมีหลักฐานไม่พอ",
+      "primary_card_id": "GWS-check-evidence",
+      "distinguish_from": [
+        "GWS-clarify-work",
+        "GWS-choose-action",
+        "GWS-verify-ai-work"
+      ],
+      "minimum_anchor_evidence": "การกระทำที่ผู้ใช้ระบุจริงและข้อจำกัดที่ยังขาด; knowledge refs ไม่แทน episode evidence"
+    },
+    {
+      "situation_id": "S03",
+      "cue": "ต้องเลือกทางทำงาน แม้ข้อมูลหรือผลลัพธ์ยังไม่แน่นอน",
+      "primary_card_id": "GWS-choose-action",
+      "distinguish_from": [
+        "GWS-check-evidence"
+      ],
+      "minimum_anchor_evidence": "การกระทำที่ผู้ใช้ระบุจริงและข้อจำกัดที่ยังขาด; knowledge refs ไม่แทน episode evidence"
+    },
+    {
+      "situation_id": "S04",
+      "cue": "มีความเห็นต่างที่คุยได้อย่างปลอดภัยและต้องกำหนดสิ่งที่จะทำต่อร่วมกัน",
+      "primary_card_id": "GWS-work-through-disagreement",
+      "distinguish_from": [
+        "GWS-coordinate-across-boundaries"
+      ],
+      "minimum_anchor_evidence": "การกระทำที่ผู้ใช้ระบุจริงและข้อจำกัดที่ยังขาด; knowledge refs ไม่แทน episode evidence"
+    },
+    {
+      "situation_id": "S05",
+      "cue": "งานต้องอาศัยคนต่างทีมที่ผู้ใช้ไม่มีอำนาจสั่งการ",
+      "primary_card_id": "GWS-coordinate-across-boundaries",
+      "distinguish_from": [
+        "GWS-work-through-disagreement"
+      ],
+      "minimum_anchor_evidence": "การกระทำที่ผู้ใช้ระบุจริงและข้อจำกัดที่ยังขาด; knowledge refs ไม่แทน episode evidence"
+    },
+    {
+      "situation_id": "S06",
+      "cue": "งานหลายชิ้นแย่งเวลา หรือภาระงานเกินทรัพยากรที่มี",
+      "primary_card_id": "GWS-manage-priorities",
+      "distinguish_from": [
+        "GWS-handoff-and-follow-through"
+      ],
+      "minimum_anchor_evidence": "การกระทำที่ผู้ใช้ระบุจริงและข้อจำกัดที่ยังขาด; knowledge refs ไม่แทน episode evidence"
+    },
+    {
+      "situation_id": "S07",
+      "cue": "งานเปลี่ยนผู้ทำ/กะ/ทีม หรือมีข้อตกลงที่ต้องตามต่อ",
+      "primary_card_id": "GWS-handoff-and-follow-through",
+      "distinguish_from": [
+        "GWS-manage-priorities"
+      ],
+      "minimum_anchor_evidence": "การกระทำที่ผู้ใช้ระบุจริงและข้อจำกัดที่ยังขาด; knowledge refs ไม่แทน episode evidence"
+    },
+    {
+      "situation_id": "S08",
+      "cue": "มี feedback ความผิดพลาด หรือการลองครั้งหนึ่งที่อยากนำไปปรับครั้งถัดไป",
+      "primary_card_id": "GWS-learn-and-transfer",
+      "distinguish_from": [
+        "GWS-improve-with-small-experiments"
+      ],
+      "minimum_anchor_evidence": "การกระทำที่ผู้ใช้ระบุจริงและข้อจำกัดที่ยังขาด; knowledge refs ไม่แทน episode evidence"
+    },
+    {
+      "situation_id": "S09",
+      "cue": "ใช้ AI ช่วยงานและต้องพิจารณาว่าอะไรเชื่อถือได้ อะไรต้องตรวจหรือให้ผู้รับผิดชอบตัดสินใจ",
+      "primary_card_id": "GWS-verify-ai-work",
+      "distinguish_from": [
+        "GWS-check-evidence"
+      ],
+      "minimum_anchor_evidence": "การกระทำที่ผู้ใช้ระบุจริงและข้อจำกัดที่ยังขาด; knowledge refs ไม่แทน episode evidence"
+    },
+    {
+      "situation_id": "S10",
+      "cue": "พบปัญหาคุณภาพหรือขั้นตอนซ้ำ และมีพื้นที่ทดลองที่ปลอดภัยในขอบเขตอำนาจ",
+      "primary_card_id": "GWS-improve-with-small-experiments",
+      "distinguish_from": [
+        "GWS-learn-and-transfer"
+      ],
+      "minimum_anchor_evidence": "การกระทำที่ผู้ใช้ระบุจริงและข้อจำกัดที่ยังขาด; knowledge refs ไม่แทน episode evidence"
+    },
+    {
+      "situation_id": "S11",
+      "cue": "ผู้รับบริการภายในหรือภายนอกแจ้งปัญหาและต้องตกลงการช่วยเหลือที่ทำได้จริง",
+      "primary_card_id": "GWS-understand-recipient-needs",
+      "distinguish_from": [
+        "GWS-clarify-work",
+        "GWS-handoff-and-follow-through"
+      ],
+      "minimum_anchor_evidence": "การกระทำที่รายงานหรือสังเกตใน episode นี้; ไม่จับคู่จาก keyword/ตำแหน่งหรือคำแนะนำ"
+    },
+    {
+      "situation_id": "S12",
+      "cue": "คนเกี่ยวข้องมีภาษา ประสบการณ์ ช่องทางหรือข้อจำกัดการเข้าถึงต่างกันและต้องเข้าใจเรื่องเดียวกัน",
+      "primary_card_id": "GWS-communicate-across-backgrounds",
+      "distinguish_from": [
+        "GWS-clarify-work",
+        "GWS-work-through-disagreement"
+      ],
+      "minimum_anchor_evidence": "การกระทำที่รายงานหรือสังเกตใน episode นี้; ไม่จับคู่จาก keyword/ตำแหน่งหรือคำแนะนำ"
+    },
+    {
+      "situation_id": "S13",
+      "cue": "ข้อกำหนด เครื่องมือหรือวิธีทำงานเปลี่ยนและแผนเดิมอาจใช้ต่อไม่ได้",
+      "primary_card_id": "GWS-adapt-to-changing-work",
+      "distinguish_from": [
+        "GWS-manage-priorities",
+        "GWS-learn-and-transfer",
+        "GWS-improve-with-small-experiments"
+      ],
+      "minimum_anchor_evidence": "การกระทำที่รายงานหรือสังเกตใน episode นี้; ไม่จับคู่จาก keyword/ตำแหน่งหรือคำแนะนำ"
+    },
+    {
+      "situation_id": "S14",
+      "cue": "ต้องรักษาความไว้วางใจเมื่อมีคำมั่น ข้อมูลที่แบ่งปันไม่ได้ หรือคำขอที่เกินขอบเขต",
+      "primary_card_id": "GWS-maintain-trust-and-information-boundaries",
+      "distinguish_from": [
+        "GWS-handoff-and-follow-through",
+        "GWS-verify-ai-work"
+      ],
+      "minimum_anchor_evidence": "การกระทำที่รายงานหรือสังเกตใน episode นี้; ไม่จับคู่จาก keyword/ตำแหน่งหรือคำแนะนำ"
+    }
+  ],
+  "coverage_prompts": {
+    "1": [
+      "GWS-clarify-work"
+    ],
+    "2": [
+      "GWS-check-evidence",
+      "GWS-choose-action"
+    ],
+    "3": [
+      "GWS-work-through-disagreement"
+    ],
+    "4": [
+      "GWS-coordinate-across-boundaries"
+    ],
+    "5": [
+      "GWS-manage-priorities",
+      "GWS-handoff-and-follow-through"
+    ],
+    "6": [
+      "GWS-learn-and-transfer"
+    ],
+    "7": [
+      "GWS-verify-ai-work"
+    ],
+    "8": [
+      "GWS-improve-with-small-experiments"
+    ]
+  },
+  "editorial_version": "0.2.0"
+}

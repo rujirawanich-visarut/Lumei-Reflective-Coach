@@ -1,0 +1,241 @@
+{
+  "skill_id": "GWS-check-evidence",
+  "editorial_version": "0.2.0",
+  "status": "release-candidate",
+  "runtime_authority": false,
+  "contract_status": "editorial-schema-1.0.0-and-shared-contract-1.0.0-validated",
+  "title_th": "ตรวจข้ออ้างและข้อมูลที่ขัดกัน",
+  "title_en": "Check claims and conflicting evidence",
+  "family_id": "understand-and-decide",
+  "workplace_situation": "ข้อมูลหลายแหล่งไม่ตรงกัน หรือข้อสรุปยังมีหลักฐานไม่พอ",
+  "purpose": "ตรวจข้ออ้างและข้อมูลที่ขัดกันจากหลักฐานในเหตุการณ์ เพื่อเลือกการกระทำถัดไปที่เหมาะกับบริบท",
+  "scope": {
+    "applicable_roles": [
+      "contributor",
+      "manager"
+    ],
+    "required_managerial_authority": false,
+    "work_contexts": [
+      "desk",
+      "frontline"
+    ],
+    "boundary_conditions": [
+      "ใช้เฉพาะงานและข้อมูลที่ผู้ใช้มีสิทธิ",
+      "ไม่แทนขั้นตอนองค์กรหรือความรู้เฉพาะวิชาชีพ",
+      "เหตุการณ์คุกคาม ความปลอดภัยหรือความเสี่ยงสูงต้องใช้ช่องทางที่เหมาะสมก่อนกิจกรรมฝึก"
+    ]
+  },
+  "observable_actions": [
+    {
+      "action_id": "A1",
+      "action": "ระบุข้ออ้างที่จะตรวจ และแยกข้อมูลที่พบจริงออกจากคำอธิบายหรือการคาดเดา",
+      "authorship": "lumei-original-adaptation",
+      "supporting_candidate_ids": [
+        "H-14"
+      ]
+    },
+    {
+      "action_id": "A2",
+      "action": "เปรียบเทียบแหล่งที่มา เวลา ขอบเขต และข้อมูลที่ยังขาดก่อนสรุปว่าข้อมูลขัดกัน",
+      "authorship": "lumei-original-adaptation",
+      "supporting_candidate_ids": [
+        "H-14"
+      ]
+    },
+    {
+      "action_id": "A3",
+      "action": "พิจารณาคำอธิบายอื่นและบันทึกว่ายังสรุปอะไรไม่ได้ รวมถึงสิ่งที่จะตรวจเพิ่ม",
+      "authorship": "lumei-original-adaptation",
+      "supporting_candidate_ids": [
+        "H-27"
+      ]
+    }
+  ],
+  "evidence_to_look_for": [
+    "ข้ออ้างและข้อมูลที่อ้างถึง",
+    "บันทึกเทียบแหล่ง/ช่วงเวลา/นิยาม",
+    "ข้อจำกัดและคำอธิบายทางเลือก"
+  ],
+  "interpretation_limits": [
+    "แหล่งที่มีอยู่มากกว่าไม่ได้แปลว่าเป็นจริงกว่า",
+    "ความสัมพันธ์หรือแผนผังเหตุผลไม่พิสูจน์เหตุและผล",
+    "ข้อเสนอการฝึกไม่ใช่หลักฐานว่าผู้ใช้เคยทำหรือทำได้แล้ว",
+    "ไม่ให้คะแนน ระดับ proficiency หรือคำตัดสินตัวตนจากเหตุการณ์"
+  ],
+  "practice": {
+    "authorship": "lumei-original-design",
+    "optional": true,
+    "target": "ระบุข้ออ้างที่จะตรวจ และแยกข้อมูลที่พบจริงออกจากคำอธิบายหรือการคาดเดา",
+    "user_attempt": "เลือกข้ออ้างหนึ่งข้อ ทำรายการข้อมูลที่สนับสนุนและข้อมูลที่ยังไม่รองรับ แล้วระบุการตรวจเพิ่มหนึ่งอย่าง",
+    "feedback_basis": "ผู้อ่านตามกลับไปยังข้อมูลได้หรือไม่; มีการแยกข้ออ้าง ข้อมูล และสมมติฐานหรือไม่",
+    "assistance_boundary": "AI ช่วยจัดโครงหรือชี้ข้อมูลที่ยังขาดได้ ผู้ใช้เป็นเจ้าของเหตุผลและปฏิเสธกิจกรรมได้; ไม่ grading",
+    "transfer_to_another_context": "เปลี่ยนจากยอดรายงานเป็นข้อมูลสต็อก ระบุความต่างของนิยาม เวลา และวิธีตรวจ",
+    "evidence_to_collect_next": [
+      "ข้ออ้างและข้อมูลที่อ้างถึง",
+      "ข้อจำกัดและคำอธิบายทางเลือก"
+    ],
+    "stop_conditions": [
+      "ผู้ใช้ไม่ต้องการฝึก",
+      "งานเกินสิทธิหรือเสี่ยงกระทบคน/ระบบจริง",
+      "ต้องมีผู้รับผิดชอบเฉพาะทางแต่ยังไม่พร้อม"
+    ]
+  },
+  "human_ai_judgment": "ตรวจหลักฐานและสิทธิการใช้ก่อนลงมือ; คง uncertainty; คนที่มีอำนาจจริงรับผิดชอบการตัดสินใจ",
+  "coaching_overlay_ids": [
+    "reasoning-check"
+  ],
+  "source_refs": [
+    {
+      "candidate_id": "H-14",
+      "source_id": "HARVARD-FY14",
+      "version": "FY14",
+      "locator": {
+        "type": "pdf",
+        "local_path": "Harvard University Competency Dictionary FY14 - final.pdf",
+        "pdf_page": 14,
+        "section": "Competency definition and Key Actions"
+      },
+      "review_decision": "include",
+      "support_role": "behavior_support",
+      "supported_fields": [
+        "observable_actions.A1",
+        "observable_actions.A2"
+      ],
+      "supported_claim": "Identifies issues, gathers information and evaluates alternatives.",
+      "adaptation_limits": [
+        "Candidate only; observable episode evidence required.",
+        "No scoring, levels or unsupported trait inference."
+      ]
+    },
+    {
+      "candidate_id": "H-27",
+      "source_id": "HARVARD-FY14",
+      "version": "FY14",
+      "locator": {
+        "type": "pdf",
+        "local_path": "Harvard University Competency Dictionary FY14 - final.pdf",
+        "pdf_page": 27,
+        "section": "Competency definition and Key Actions"
+      },
+      "review_decision": "include",
+      "support_role": "behavior_support",
+      "supported_fields": [
+        "observable_actions.A3"
+      ],
+      "supported_claim": "Analyzes information and develops solutions.",
+      "adaptation_limits": [
+        "Candidate only; observable episode evidence required.",
+        "No scoring, levels or unsupported trait inference."
+      ]
+    },
+    {
+      "candidate_id": "ICD-S410010020",
+      "source_id": "ICD-V4-SKILL",
+      "version": "V4 announced 2019-01-21",
+      "locator": {
+        "type": "xlsx",
+        "local_path": "iCDEnglishV4-4layer/Skill Dictionary V4.xlsx",
+        "sheet": "Skill List V4",
+        "range": "A10160:H10160",
+        "row": 10160,
+        "skill_code": "S410010020",
+        "expected_skill_name": "Ability to analyze problems",
+        "expected_knowledge_code": "K001",
+        "expected_knowledge_name": "-"
+      },
+      "review_decision": "adapt",
+      "support_role": "related_concept_only",
+      "supported_fields": [
+        "design_notes"
+      ],
+      "supported_claim": "Skill label only; knowledge item is '-'.",
+      "adaptation_limits": [
+        "Requires Harvard/NZ or separately verified detailed source before a card can use a behavioral claim.",
+        "No ICD proficiency level inference."
+      ]
+    },
+    {
+      "candidate_id": "ICD-S410010030",
+      "source_id": "ICD-V4-SKILL",
+      "version": "V4 announced 2019-01-21",
+      "locator": {
+        "type": "xlsx",
+        "local_path": "iCDEnglishV4-4layer/Skill Dictionary V4.xlsx",
+        "sheet": "Skill List V4",
+        "range": "A10161:H10161",
+        "row": 10161,
+        "skill_code": "S410010030",
+        "expected_skill_name": "Ability to establish hypotheses",
+        "expected_knowledge_code": "K001",
+        "expected_knowledge_name": "-"
+      },
+      "review_decision": "adapt",
+      "support_role": "related_concept_only",
+      "supported_fields": [
+        "design_notes"
+      ],
+      "supported_claim": "Skill label only; knowledge item is '-'.",
+      "adaptation_limits": [
+        "Requires Harvard/NZ or separately verified detailed source before a card can use a behavioral claim.",
+        "No ICD proficiency level inference."
+      ]
+    },
+    {
+      "candidate_id": "ICD-S410010040",
+      "source_id": "ICD-V4-SKILL",
+      "version": "V4 announced 2019-01-21",
+      "locator": {
+        "type": "xlsx",
+        "local_path": "iCDEnglishV4-4layer/Skill Dictionary V4.xlsx",
+        "sheet": "Skill List V4",
+        "range": "A10162:H10162",
+        "row": 10162,
+        "skill_code": "S410010040",
+        "expected_skill_name": "Reasoning ability",
+        "expected_knowledge_code": "K001",
+        "expected_knowledge_name": "-"
+      },
+      "review_decision": "adapt",
+      "support_role": "related_concept_only",
+      "supported_fields": [
+        "design_notes"
+      ],
+      "supported_claim": "Skill label only; knowledge item is '-'.",
+      "adaptation_limits": [
+        "Requires Harvard/NZ or separately verified detailed source before a card can use a behavioral claim.",
+        "No ICD proficiency level inference."
+      ]
+    },
+    {
+      "candidate_id": "NZ-13",
+      "source_id": "NZ-LSP-2016",
+      "version": "July 2016",
+      "locator": {
+        "type": "web_pdf",
+        "url": "https://www.publicservice.govt.nz/assets/DirectoryFile/LSP_Expanded_guide_July_2016.pdf",
+        "pdf_page": 13,
+        "section": "Curious"
+      },
+      "review_decision": "adapt",
+      "support_role": "contextual_behavior_lens",
+      "supported_fields": [
+        "design_notes"
+      ],
+      "supported_claim": "Examines information and perspectives.",
+      "adaptation_limits": [
+        "Lumei synthesis; not an official adapted LSP assessment.",
+        "No readiness/potential labels or role-level scoring."
+      ]
+    }
+  ],
+  "adaptation_note": "เลือกส่วนที่ใช้ข้ามงานได้จาก candidate ที่ตรวจแล้ว; ข้อความไทย พฤติกรรมเชิงปฏิบัติและกิจกรรมเป็นการประยุกต์ของ Lumei ไม่ใช่คำแปลรับรองหรือมาตรฐานสากล",
+  "design_notes": "iCD ที่อ้างเป็นเพียง related concept; NZ เสริมขอบเขต; overlays และ foresight ไม่เป็น episode evidence",
+  "distinction": {
+    "compared_with": [
+      "GWS-clarify-work",
+      "GWS-choose-action",
+      "GWS-verify-ai-work"
+    ],
+    "separation": "clarify เติมความคาดหวังที่ยังไม่ชัด; evidence ตรวจความน่าเชื่อถือของข้ออ้าง; evidence ยังไม่จำเป็นต้องเลือกทาง; decision ต้องเปรียบเทียบทางเลือกด้วยเกณฑ์และ authority; AI card เพิ่ม provenance ของชิ้นงาน ขอบเขตสิทธิและเจ้าของการตัดสินใจ; evidence ใช้ตรวจข้ออ้างทั่วไป; "
+  }
+}

@@ -1,0 +1,165 @@
+{
+  "skill_id": "GWS-learn-and-transfer",
+  "editorial_version": "0.2.0",
+  "status": "release-candidate",
+  "runtime_authority": false,
+  "contract_status": "editorial-schema-1.0.0-and-shared-contract-1.0.0-validated",
+  "title_th": "เรียนรู้จาก feedback และนำบทเรียนไปใช้",
+  "title_en": "Learn from feedback and transfer",
+  "family_id": "learn-and-use-ai",
+  "workplace_situation": "มี feedback ความผิดพลาด หรือการลองครั้งหนึ่งที่อยากนำไปปรับครั้งถัดไป",
+  "purpose": "เรียนรู้จาก feedback และนำบทเรียนไปใช้จากหลักฐานในเหตุการณ์ เพื่อเลือกการกระทำถัดไปที่เหมาะกับบริบท",
+  "scope": {
+    "applicable_roles": [
+      "contributor",
+      "manager"
+    ],
+    "required_managerial_authority": false,
+    "work_contexts": [
+      "desk",
+      "frontline"
+    ],
+    "boundary_conditions": [
+      "ใช้เฉพาะงานและข้อมูลที่ผู้ใช้มีสิทธิ",
+      "ไม่แทนขั้นตอนองค์กรหรือความรู้เฉพาะวิชาชีพ",
+      "เหตุการณ์คุกคาม ความปลอดภัยหรือความเสี่ยงสูงต้องใช้ช่องทางที่เหมาะสมก่อนกิจกรรมฝึก"
+    ]
+  },
+  "observable_actions": [
+    {
+      "action_id": "A1",
+      "action": "ระบุสิ่งที่ทำ ผลที่รายงานและ feedback ที่มี โดยไม่สรุปตัวตนจากความผิดพลาด",
+      "authorship": "lumei-original-adaptation",
+      "supporting_candidate_ids": [
+        "H-12"
+      ]
+    },
+    {
+      "action_id": "A2",
+      "action": "เลือกสิ่งที่จะปรับหนึ่งอย่างและลองการกระทำนั้นด้วยตนเองเมื่อเหมาะสม",
+      "authorship": "lumei-original-adaptation",
+      "supporting_candidate_ids": [
+        "H-06",
+        "H-12"
+      ]
+    },
+    {
+      "action_id": "A3",
+      "action": "เปรียบเทียบสิ่งที่เกิดกับความตั้งใจ แล้วระบุว่าจะปรับบทเรียนอย่างไรในบริบทอื่น",
+      "authorship": "lumei-original-adaptation",
+      "supporting_candidate_ids": [
+        "H-06",
+        "H-12"
+      ]
+    }
+  ],
+  "evidence_to_look_for": [
+    "เหตุการณ์/feedback ที่ระบุแหล่งได้",
+    "การลองครั้งถัดไปที่ผู้ใช้ลงมือ",
+    "ความเหมือน/ต่างของบริบทและผลที่สังเกตได้"
+  ],
+  "interpretation_limits": [
+    "สะท้อนคิดได้ไม่เท่ากับใช้ทักษะได้แล้ว",
+    "การลองหนึ่งครั้งไม่พิสูจน์ transfer หรือประสิทธิผลถาวร",
+    "ข้อเสนอการฝึกไม่ใช่หลักฐานว่าผู้ใช้เคยทำหรือทำได้แล้ว",
+    "ไม่ให้คะแนน ระดับ proficiency หรือคำตัดสินตัวตนจากเหตุการณ์"
+  ],
+  "practice": {
+    "authorship": "lumei-original-design",
+    "optional": true,
+    "target": "ระบุสิ่งที่ทำ ผลที่รายงานและ feedback ที่มี โดยไม่สรุปตัวตนจากความผิดพลาด",
+    "user_attempt": "เลือก feedback หนึ่งข้อ ร่างและลองการปรับหนึ่งอย่าง แล้วจดสิ่งที่เห็นโดยไม่ให้คะแนนตนเอง",
+    "feedback_basis": "มีการเปลี่ยนการกระทำจริงหรือไม่; แยก feedback ที่ได้รับจากคำอธิบายที่สร้างภายหลังหรือไม่",
+    "assistance_boundary": "AI ช่วยจัดโครงหรือชี้ข้อมูลที่ยังขาดได้ ผู้ใช้เป็นเจ้าของเหตุผลและปฏิเสธกิจกรรมได้; ไม่ grading",
+    "transfer_to_another_context": "เลือกสถานการณ์ใหม่ที่ผู้รับงานหรือข้อจำกัดต่าง แล้วระบุว่าใช้ส่วนใดของบทเรียนและต้องปรับส่วนใด",
+    "evidence_to_collect_next": [
+      "เหตุการณ์/feedback ที่ระบุแหล่งได้",
+      "ความเหมือน/ต่างของบริบทและผลที่สังเกตได้"
+    ],
+    "stop_conditions": [
+      "ผู้ใช้ไม่ต้องการฝึก",
+      "งานเกินสิทธิหรือเสี่ยงกระทบคน/ระบบจริง",
+      "ต้องมีผู้รับผิดชอบเฉพาะทางแต่ยังไม่พร้อม"
+    ]
+  },
+  "human_ai_judgment": "ตรวจหลักฐานและสิทธิการใช้ก่อนลงมือ; คง uncertainty; คนที่มีอำนาจจริงรับผิดชอบการตัดสินใจ",
+  "coaching_overlay_ids": [
+    "transfer-and-next-evidence"
+  ],
+  "source_refs": [
+    {
+      "candidate_id": "H-12",
+      "source_id": "HARVARD-FY14",
+      "version": "FY14",
+      "locator": {
+        "type": "pdf",
+        "local_path": "Harvard University Competency Dictionary FY14 - final.pdf",
+        "pdf_page": 12,
+        "section": "Competency definition and Key Actions"
+      },
+      "review_decision": "include",
+      "support_role": "behavior_support",
+      "supported_fields": [
+        "observable_actions.A1",
+        "observable_actions.A2",
+        "observable_actions.A3"
+      ],
+      "supported_claim": "Seeks learning opportunities and uses feedback.",
+      "adaptation_limits": [
+        "Candidate only; observable episode evidence required.",
+        "No scoring, levels or unsupported trait inference."
+      ]
+    },
+    {
+      "candidate_id": "H-06",
+      "source_id": "HARVARD-FY14",
+      "version": "FY14",
+      "locator": {
+        "type": "pdf",
+        "local_path": "Harvard University Competency Dictionary FY14 - final.pdf",
+        "pdf_page": 6,
+        "section": "Competency definition and Key Actions"
+      },
+      "review_decision": "adapt",
+      "support_role": "behavior_support",
+      "supported_fields": [
+        "observable_actions.A2",
+        "observable_actions.A3"
+      ],
+      "supported_claim": "Applies newly acquired knowledge in work.",
+      "adaptation_limits": [
+        "Candidate only; observable episode evidence required.",
+        "No scoring, levels or unsupported trait inference."
+      ]
+    },
+    {
+      "candidate_id": "NZ-16",
+      "source_id": "NZ-LSP-2016",
+      "version": "July 2016",
+      "locator": {
+        "type": "web_pdf",
+        "url": "https://www.publicservice.govt.nz/assets/DirectoryFile/LSP_Expanded_guide_July_2016.pdf",
+        "pdf_page": 13,
+        "section": "Self-aware and agile"
+      },
+      "review_decision": "adapt",
+      "support_role": "contextual_behavior_lens",
+      "supported_fields": [
+        "design_notes"
+      ],
+      "supported_claim": "Reflects and adapts.",
+      "adaptation_limits": [
+        "Lumei synthesis; not an official adapted LSP assessment.",
+        "No readiness/potential labels or role-level scoring."
+      ]
+    }
+  ],
+  "adaptation_note": "เลือกส่วนที่ใช้ข้ามงานได้จาก candidate ที่ตรวจแล้ว; ข้อความไทย พฤติกรรมเชิงปฏิบัติและกิจกรรมเป็นการประยุกต์ของ Lumei ไม่ใช่คำแปลรับรองหรือมาตรฐานสากล",
+  "design_notes": "iCD ที่อ้างเป็นเพียง related concept; NZ เสริมขอบเขต; overlays และ foresight ไม่เป็น episode evidence",
+  "distinction": {
+    "compared_with": [
+      "GWS-improve-with-small-experiments"
+    ],
+    "separation": "learning เปลี่ยนการกระทำผู้เรียนจาก feedback; improvement ทดลองเปลี่ยนกระบวนการและคุณภาพงาน; "
+  }
+}

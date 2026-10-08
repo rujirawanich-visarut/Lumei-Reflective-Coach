@@ -1,0 +1,252 @@
+{
+  "skill_id": "GWS-coordinate-across-boundaries",
+  "editorial_version": "0.2.0",
+  "status": "release-candidate",
+  "runtime_authority": false,
+  "contract_status": "editorial-schema-1.0.0-and-shared-contract-1.0.0-validated",
+  "title_th": "ประสานงานและสร้างความร่วมมือข้ามขอบเขต",
+  "title_en": "Coordinate across boundaries",
+  "family_id": "relate-and-coordinate",
+  "workplace_situation": "งานต้องอาศัยคนต่างทีมที่ผู้ใช้ไม่มีอำนาจสั่งการ",
+  "purpose": "ประสานงานและสร้างความร่วมมือข้ามขอบเขตจากหลักฐานในเหตุการณ์ เพื่อเลือกการกระทำถัดไปที่เหมาะกับบริบท",
+  "scope": {
+    "applicable_roles": [
+      "contributor",
+      "manager"
+    ],
+    "required_managerial_authority": false,
+    "work_contexts": [
+      "desk",
+      "frontline"
+    ],
+    "boundary_conditions": [
+      "ใช้เฉพาะงานและข้อมูลที่ผู้ใช้มีสิทธิ",
+      "ไม่แทนขั้นตอนองค์กรหรือความรู้เฉพาะวิชาชีพ",
+      "เหตุการณ์คุกคาม ความปลอดภัยหรือความเสี่ยงสูงต้องใช้ช่องทางที่เหมาะสมก่อนกิจกรรมฝึก"
+    ]
+  },
+  "observable_actions": [
+    {
+      "action_id": "A1",
+      "action": "ระบุผลร่วมและการพึ่งพากัน รวมทั้งข้อจำกัดของฝ่ายที่เกี่ยวข้อง",
+      "authorship": "lumei-original-adaptation",
+      "supporting_candidate_ids": [
+        "H-09",
+        "H-32"
+      ]
+    },
+    {
+      "action_id": "A2",
+      "action": "อธิบายข้อเสนอด้วยเหตุผลที่เกี่ยวกับความต้องการของอีกฝ่าย และเชิญให้เสนอทางเลือก",
+      "authorship": "lumei-original-adaptation",
+      "supporting_candidate_ids": [
+        "H-04"
+      ]
+    },
+    {
+      "action_id": "A3",
+      "action": "ขอข้อตกลงที่ทำได้จริง ระบุจุดส่งต่อและติดตามโดยไม่ถือว่าคำขอคือคำสั่ง",
+      "authorship": "lumei-original-adaptation",
+      "supporting_candidate_ids": [
+        "H-32",
+        "H-11"
+      ]
+    }
+  ],
+  "evidence_to_look_for": [
+    "ผู้เกี่ยวข้องและ dependency ที่พบจริง",
+    "ข้อเสนอ/ทางเลือกที่แลกเปลี่ยน",
+    "คำยืนยันของแต่ละฝ่ายและจุดติดตาม"
+  ],
+  "interpretation_limits": [
+    "ไม่มีคำตอบยังไม่ถือว่าได้รับความร่วมมือ",
+    "ความร่วมมือไม่อนุญาตให้ใช้ข้อมูลหรือทรัพยากรที่ยังไม่ได้รับสิทธิ",
+    "ข้อเสนอการฝึกไม่ใช่หลักฐานว่าผู้ใช้เคยทำหรือทำได้แล้ว",
+    "ไม่ให้คะแนน ระดับ proficiency หรือคำตัดสินตัวตนจากเหตุการณ์"
+  ],
+  "practice": {
+    "authorship": "lumei-original-design",
+    "optional": true,
+    "target": "ระบุผลร่วมและการพึ่งพากัน รวมทั้งข้อจำกัดของฝ่ายที่เกี่ยวข้อง",
+    "user_attempt": "เขียนคำขอความร่วมมือที่ระบุผลร่วม สิ่งที่ต้องการ และทางเลือกให้คู่ร่วมงานต่อรองได้",
+    "feedback_basis": "ผู้รับรู้ว่าคำขอช่วยงานของเขาอย่างไรหรือไม่; เขามีสิทธิตอบรับ ต่อรอง หรือปฏิเสธหรือไม่",
+    "assistance_boundary": "AI ช่วยจัดโครงหรือชี้ข้อมูลที่ยังขาดได้ ผู้ใช้เป็นเจ้าของเหตุผลและปฏิเสธกิจกรรมได้; ไม่ grading",
+    "transfer_to_another_context": "เปลี่ยนจากประสานทีมข้อมูลเป็นประสานคนต่างกะ ระบุ dependency และช่องทางที่ต่าง",
+    "evidence_to_collect_next": [
+      "ผู้เกี่ยวข้องและ dependency ที่พบจริง",
+      "คำยืนยันของแต่ละฝ่ายและจุดติดตาม"
+    ],
+    "stop_conditions": [
+      "ผู้ใช้ไม่ต้องการฝึก",
+      "งานเกินสิทธิหรือเสี่ยงกระทบคน/ระบบจริง",
+      "ต้องมีผู้รับผิดชอบเฉพาะทางแต่ยังไม่พร้อม"
+    ]
+  },
+  "human_ai_judgment": "ตรวจหลักฐานและสิทธิการใช้ก่อนลงมือ; คง uncertainty; คนที่มีอำนาจจริงรับผิดชอบการตัดสินใจ",
+  "coaching_overlay_ids": [
+    "agency-and-boundaries"
+  ],
+  "source_refs": [
+    {
+      "candidate_id": "H-09",
+      "source_id": "HARVARD-FY14",
+      "version": "FY14",
+      "locator": {
+        "type": "pdf",
+        "local_path": "Harvard University Competency Dictionary FY14 - final.pdf",
+        "pdf_page": 9,
+        "section": "Competency definition and Key Actions"
+      },
+      "review_decision": "include",
+      "support_role": "behavior_support",
+      "supported_fields": [
+        "observable_actions.A1"
+      ],
+      "supported_claim": "Builds cooperative relationships to achieve goals.",
+      "adaptation_limits": [
+        "Candidate only; observable episode evidence required.",
+        "No scoring, levels or unsupported trait inference."
+      ]
+    },
+    {
+      "candidate_id": "H-32",
+      "source_id": "HARVARD-FY14",
+      "version": "FY14",
+      "locator": {
+        "type": "pdf",
+        "local_path": "Harvard University Competency Dictionary FY14 - final.pdf",
+        "pdf_page": 32,
+        "section": "Competency definition and Key Actions"
+      },
+      "review_decision": "include",
+      "support_role": "behavior_support",
+      "supported_fields": [
+        "observable_actions.A1",
+        "observable_actions.A3"
+      ],
+      "supported_claim": "Works cooperatively and contributes to shared goals.",
+      "adaptation_limits": [
+        "Candidate only; observable episode evidence required.",
+        "No scoring, levels or unsupported trait inference."
+      ]
+    },
+    {
+      "candidate_id": "H-04",
+      "source_id": "HARVARD-FY14",
+      "version": "FY14",
+      "locator": {
+        "type": "pdf",
+        "local_path": "Harvard University Competency Dictionary FY14 - final.pdf",
+        "pdf_page": 4,
+        "section": "Competency definition and Key Actions"
+      },
+      "review_decision": "adapt",
+      "support_role": "behavior_support",
+      "supported_fields": [
+        "observable_actions.A2"
+      ],
+      "supported_claim": "Explores alternatives, develops ideas and builds agreement.",
+      "adaptation_limits": [
+        "Candidate only; observable episode evidence required.",
+        "No scoring, levels or unsupported trait inference."
+      ]
+    },
+    {
+      "candidate_id": "H-11",
+      "source_id": "HARVARD-FY14",
+      "version": "FY14",
+      "locator": {
+        "type": "pdf",
+        "local_path": "Harvard University Competency Dictionary FY14 - final.pdf",
+        "pdf_page": 11,
+        "section": "Competency definition and Key Actions"
+      },
+      "review_decision": "include",
+      "support_role": "behavior_support",
+      "supported_fields": [
+        "observable_actions.A3"
+      ],
+      "supported_claim": "Communicates clearly and listens to others.",
+      "adaptation_limits": [
+        "Candidate only; observable episode evidence required.",
+        "No scoring, levels or unsupported trait inference."
+      ]
+    },
+    {
+      "candidate_id": "ICD-M-2055",
+      "source_id": "ICD-V4-SKILL",
+      "version": "V4 announced 2019-01-21",
+      "locator": {
+        "type": "xlsx",
+        "local_path": "iCDEnglishV4-4layer/Skill Dictionary V4.xlsx",
+        "sheet": "Skill List V4",
+        "range": "A2055:H2055",
+        "row": 2055,
+        "skill_code": "S130100040",
+        "expected_skill_name": "Project communication management",
+        "expected_knowledge_code": "K023",
+        "expected_knowledge_name": "Stakeholder management"
+      },
+      "review_decision": "adapt",
+      "support_role": "related_concept_only",
+      "supported_fields": [
+        "design_notes"
+      ],
+      "supported_claim": "Named knowledge item in an IT-oriented method family.",
+      "adaptation_limits": [
+        "Selected pointer, not full method description.",
+        "Specialty methods/standards are not compulsory for all workers."
+      ]
+    },
+    {
+      "candidate_id": "NZ-02",
+      "source_id": "NZ-LSP-2016",
+      "version": "July 2016",
+      "locator": {
+        "type": "web_pdf",
+        "url": "https://www.publicservice.govt.nz/assets/DirectoryFile/LSP_Expanded_guide_July_2016.pdf",
+        "pdf_page": 12,
+        "section": "Leading with influence"
+      },
+      "review_decision": "adapt",
+      "support_role": "contextual_behavior_lens",
+      "supported_fields": [
+        "design_notes"
+      ],
+      "supported_claim": "Communicates purpose clearly.",
+      "adaptation_limits": [
+        "Lumei synthesis; not an official adapted LSP assessment.",
+        "No readiness/potential labels or role-level scoring."
+      ]
+    },
+    {
+      "candidate_id": "NZ-05",
+      "source_id": "NZ-LSP-2016",
+      "version": "July 2016",
+      "locator": {
+        "type": "web_pdf",
+        "url": "https://www.publicservice.govt.nz/assets/DirectoryFile/LSP_Expanded_guide_July_2016.pdf",
+        "pdf_page": 17,
+        "section": "Enhancing system performance"
+      },
+      "review_decision": "adapt",
+      "support_role": "contextual_behavior_lens",
+      "supported_fields": [
+        "design_notes"
+      ],
+      "supported_claim": "Works across boundaries.",
+      "adaptation_limits": [
+        "Lumei synthesis; not an official adapted LSP assessment.",
+        "No readiness/potential labels or role-level scoring."
+      ]
+    }
+  ],
+  "adaptation_note": "เลือกส่วนที่ใช้ข้ามงานได้จาก candidate ที่ตรวจแล้ว; ข้อความไทย พฤติกรรมเชิงปฏิบัติและกิจกรรมเป็นการประยุกต์ของ Lumei ไม่ใช่คำแปลรับรองหรือมาตรฐานสากล",
+  "design_notes": "iCD ที่อ้างเป็นเพียง related concept; NZ เสริมขอบเขต; overlays และ foresight ไม่เป็น episode evidence",
+  "distinction": {
+    "compared_with": [
+      "GWS-work-through-disagreement"
+    ],
+    "separation": "disagreement จัดการประเด็นที่เห็นต่าง; coordination จัด dependency แม้ไม่ขัดแย้ง; "
+  }
+}

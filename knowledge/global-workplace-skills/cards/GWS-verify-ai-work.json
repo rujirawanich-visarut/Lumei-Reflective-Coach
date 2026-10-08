@@ -1,0 +1,164 @@
+{
+  "skill_id": "GWS-verify-ai-work",
+  "editorial_version": "0.2.0",
+  "status": "release-candidate",
+  "runtime_authority": false,
+  "contract_status": "editorial-schema-1.0.0-and-shared-contract-1.0.0-validated",
+  "title_th": "ตรวจงาน AI และคงการตัดสินใจของมนุษย์",
+  "title_en": "Verify AI-assisted work",
+  "family_id": "learn-and-use-ai",
+  "workplace_situation": "ใช้ AI ช่วยงานและต้องพิจารณาว่าอะไรเชื่อถือได้ อะไรต้องตรวจหรือให้ผู้รับผิดชอบตัดสินใจ",
+  "purpose": "ตรวจงาน AI และคงการตัดสินใจของมนุษย์จากหลักฐานในเหตุการณ์ เพื่อเลือกการกระทำถัดไปที่เหมาะกับบริบท",
+  "scope": {
+    "applicable_roles": [
+      "contributor",
+      "manager"
+    ],
+    "required_managerial_authority": false,
+    "work_contexts": [
+      "desk",
+      "frontline"
+    ],
+    "boundary_conditions": [
+      "ใช้เฉพาะงานและข้อมูลที่ผู้ใช้มีสิทธิ",
+      "ไม่แทนขั้นตอนองค์กรหรือความรู้เฉพาะวิชาชีพ",
+      "เหตุการณ์คุกคาม ความปลอดภัยหรือความเสี่ยงสูงต้องใช้ช่องทางที่เหมาะสมก่อนกิจกรรมฝึก"
+    ]
+  },
+  "observable_actions": [
+    {
+      "action_id": "A1",
+      "action": "ระบุส่วนที่ AI ช่วย ข้ออ้างสำคัญและผลกระทบหากผิด ก่อนนำงานไปใช้",
+      "authorship": "lumei-original-adaptation",
+      "supporting_candidate_ids": [
+        "H-14"
+      ]
+    },
+    {
+      "action_id": "A2",
+      "action": "ตรวจข้ออ้างหรือผลลัพธ์กับหลักฐานที่เข้าถึงได้ และคงสิ่งที่ยังตรวจไม่ได้เป็นข้อจำกัด",
+      "authorship": "lumei-original-adaptation",
+      "supporting_candidate_ids": [
+        "H-14",
+        "H-07"
+      ]
+    },
+    {
+      "action_id": "A3",
+      "action": "บันทึกสิ่งที่ยอมรับ แก้ไขหรือไม่ใช้ พร้อมผู้รับผิดชอบที่มีอำนาจตัดสินใจจริง",
+      "authorship": "lumei-original-adaptation",
+      "supporting_candidate_ids": [
+        "H-05",
+        "H-14"
+      ]
+    }
+  ],
+  "evidence_to_look_for": [
+    "ผล AI และส่วนที่ใช้ในงาน",
+    "หลักฐาน/วิธีตรวจพร้อมสิ่งที่ยังไม่ทราบ",
+    "การแก้ไขหรือปฏิเสธและการตัดสินใจของมนุษย์"
+  ],
+  "interpretation_limits": [
+    "คำตอบที่ลื่นไหลหรือ AI อีกตัวเห็นด้วยไม่ใช่การยืนยัน",
+    "AI ไม่ใช่เฉลย ผู้ให้เกรด หรือผู้รับผิดชอบแทนคน",
+    "ข้อเสนอการฝึกไม่ใช่หลักฐานว่าผู้ใช้เคยทำหรือทำได้แล้ว",
+    "ไม่ให้คะแนน ระดับ proficiency หรือคำตัดสินตัวตนจากเหตุการณ์"
+  ],
+  "practice": {
+    "authorship": "lumei-original-design",
+    "optional": true,
+    "target": "ระบุส่วนที่ AI ช่วย ข้ออ้างสำคัญและผลกระทบหากผิด ก่อนนำงานไปใช้",
+    "user_attempt": "ใช้ชิ้นงานสมมติหรือข้อมูลที่ได้รับสิทธิ เลือกข้ออ้าง AI หนึ่งข้อแล้วตรวจเอง พร้อมบันทึกเหตุผลว่าจะใช้หรือไม่",
+    "feedback_basis": "มีหลักฐานนอกคำตอบ AI หรือไม่; รู้ว่าส่วนใดยังไม่ตรวจและใครมีอำนาจอนุมัติหรือไม่",
+    "assistance_boundary": "AI ช่วยจัดโครงหรือชี้ข้อมูลที่ยังขาดได้ ผู้ใช้เป็นเจ้าของเหตุผลและปฏิเสธกิจกรรมได้; ไม่ grading",
+    "transfer_to_another_context": "เปลี่ยนจาก AI ร่างข้อความเป็น AI สรุปบันทึกงาน ระบุความเสี่ยง หลักฐานและผู้ตรวจที่ต่าง",
+    "evidence_to_collect_next": [
+      "ผล AI และส่วนที่ใช้ในงาน",
+      "การแก้ไขหรือปฏิเสธและการตัดสินใจของมนุษย์"
+    ],
+    "stop_conditions": [
+      "ผู้ใช้ไม่ต้องการฝึก",
+      "งานเกินสิทธิหรือเสี่ยงกระทบคน/ระบบจริง",
+      "ต้องมีผู้รับผิดชอบเฉพาะทางแต่ยังไม่พร้อม"
+    ]
+  },
+  "human_ai_judgment": "ตรวจหลักฐานและสิทธิการใช้ก่อนลงมือ; คง uncertainty; คนที่มีอำนาจจริงรับผิดชอบการตัดสินใจ",
+  "coaching_overlay_ids": [
+    "attempt-compare-without-grading"
+  ],
+  "source_refs": [
+    {
+      "candidate_id": "H-14",
+      "source_id": "HARVARD-FY14",
+      "version": "FY14",
+      "locator": {
+        "type": "pdf",
+        "local_path": "Harvard University Competency Dictionary FY14 - final.pdf",
+        "pdf_page": 14,
+        "section": "Competency definition and Key Actions"
+      },
+      "review_decision": "include",
+      "support_role": "behavior_support",
+      "supported_fields": [
+        "observable_actions.A1",
+        "observable_actions.A2",
+        "observable_actions.A3"
+      ],
+      "supported_claim": "Identifies issues, gathers information and evaluates alternatives.",
+      "adaptation_limits": [
+        "Candidate only; observable episode evidence required.",
+        "No scoring, levels or unsupported trait inference."
+      ]
+    },
+    {
+      "candidate_id": "H-07",
+      "source_id": "HARVARD-FY14",
+      "version": "FY14",
+      "locator": {
+        "type": "pdf",
+        "local_path": "Harvard University Competency Dictionary FY14 - final.pdf",
+        "pdf_page": 7,
+        "section": "Competency definition and Key Actions"
+      },
+      "review_decision": "include",
+      "support_role": "behavior_support",
+      "supported_fields": [
+        "observable_actions.A2"
+      ],
+      "supported_claim": "Checks work accuracy and completeness.",
+      "adaptation_limits": [
+        "Candidate only; observable episode evidence required.",
+        "No scoring, levels or unsupported trait inference."
+      ]
+    },
+    {
+      "candidate_id": "H-05",
+      "source_id": "HARVARD-FY14",
+      "version": "FY14",
+      "locator": {
+        "type": "pdf",
+        "local_path": "Harvard University Competency Dictionary FY14 - final.pdf",
+        "pdf_page": 5,
+        "section": "Competency definition and Key Actions"
+      },
+      "review_decision": "include",
+      "support_role": "behavior_support",
+      "supported_fields": [
+        "observable_actions.A3"
+      ],
+      "supported_claim": "Accepts responsibility and follows through on commitments.",
+      "adaptation_limits": [
+        "Candidate only; observable episode evidence required.",
+        "No scoring, levels or unsupported trait inference."
+      ]
+    }
+  ],
+  "adaptation_note": "เลือกส่วนที่ใช้ข้ามงานได้จาก candidate ที่ตรวจแล้ว; ข้อความไทย พฤติกรรมเชิงปฏิบัติและกิจกรรมเป็นการประยุกต์ของ Lumei ไม่ใช่คำแปลรับรองหรือมาตรฐานสากล",
+  "design_notes": "iCD ที่อ้างเป็นเพียง related concept; NZ เสริมขอบเขต; overlays และ foresight ไม่เป็น episode evidence",
+  "distinction": {
+    "compared_with": [
+      "GWS-check-evidence"
+    ],
+    "separation": "AI card เพิ่ม provenance ของชิ้นงาน ขอบเขตสิทธิและเจ้าของการตัดสินใจ; evidence ใช้ตรวจข้ออ้างทั่วไป; "
+  }
+}

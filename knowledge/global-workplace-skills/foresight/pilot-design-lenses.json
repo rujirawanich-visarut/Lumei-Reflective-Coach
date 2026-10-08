@@ -1,0 +1,159 @@
+{
+  "runtime_authority": false,
+  "status": "curation-design-only",
+  "original_design_checks": [
+    "ตัวอย่างมีงานหน้างานและคนไม่มีอำนาจสั่งการหรือไม่",
+    "AI ยังให้ผู้ใช้ตรวจและเป็นเจ้าของการตัดสินใจหรือไม่",
+    "ผลเรียนรู้แยกจากคุณภาพชิ้นงานหรือไม่"
+  ],
+  "source_refs": [
+    {
+      "candidate_id": "WEF25-SKILL-RELEVANCE",
+      "source_id": "WEF-FOJ-2025",
+      "version": "January 2025",
+      "locator": {
+        "type": "pdf",
+        "local_path": "WEF_Future_of_Jobs_Report_2025.pdf",
+        "pdf_pages": [
+          35,
+          36,
+          37
+        ],
+        "section": "Employer skills outlook"
+      },
+      "review_decision": "adapt",
+      "support_role": "foresight_only",
+      "supported_fields": [
+        "original_design_checks"
+      ],
+      "supported_claim": "Surveyed employers prioritize analytical thinking and several human and technical skills.",
+      "adaptation_limits": [
+        "Design/curation lens only, never evidence about this user.",
+        "Context and publication vintage must remain visible."
+      ]
+    },
+    {
+      "candidate_id": "WEF25-CONTEXT",
+      "source_id": "WEF-FOJ-2025",
+      "version": "January 2025",
+      "locator": {
+        "type": "pdf",
+        "local_path": "WEF_Future_of_Jobs_Report_2025.pdf",
+        "pdf_pages": [
+          34,
+          36,
+          38,
+          39
+        ],
+        "section": "Variation by industry and economy"
+      },
+      "review_decision": "adapt",
+      "support_role": "foresight_only",
+      "supported_fields": [
+        "original_design_checks"
+      ],
+      "supported_claim": "Skill outlook varies across industries and economies.",
+      "adaptation_limits": [
+        "Design/curation lens only, never evidence about this user.",
+        "Context and publication vintage must remain visible."
+      ]
+    },
+    {
+      "candidate_id": "WEF25-HUMAN-AI",
+      "source_id": "WEF-FOJ-2025",
+      "version": "January 2025",
+      "locator": {
+        "type": "pdf",
+        "local_path": "WEF_Future_of_Jobs_Report_2025.pdf",
+        "pdf_pages": [
+          43,
+          44
+        ],
+        "section": "Skills and GenAI"
+      },
+      "review_decision": "adapt",
+      "support_role": "foresight_only",
+      "supported_fields": [
+        "original_design_checks"
+      ],
+      "supported_claim": "Discusses AI-related skill change and substitution potential.",
+      "adaptation_limits": [
+        "Design/curation lens only, never evidence about this user.",
+        "Context and publication vintage must remain visible."
+      ]
+    },
+    {
+      "candidate_id": "WEF26-PHYSICAL-WORK",
+      "source_id": "WEF-MAKER-2026",
+      "version": "September 2026",
+      "locator": {
+        "type": "pdf",
+        "local_path": "WEF_New_Economy_Skills_2026.pdf",
+        "pdf_pages": [
+          3
+        ],
+        "section": "Physical-economy coverage"
+      },
+      "review_decision": "adapt",
+      "support_role": "foresight_only",
+      "supported_fields": [
+        "original_design_checks"
+      ],
+      "supported_claim": "Maker skills serve hands-on physical work.",
+      "adaptation_limits": [
+        "Design/curation lens only, never evidence about this user.",
+        "Context and publication vintage must remain visible."
+      ]
+    },
+    {
+      "candidate_id": "WEF26-AUGMENTATION",
+      "source_id": "WEF-MAKER-2026",
+      "version": "September 2026",
+      "locator": {
+        "type": "pdf",
+        "local_path": "WEF_New_Economy_Skills_2026.pdf",
+        "pdf_pages": [
+          17
+        ],
+        "section": "AI in physical work"
+      },
+      "review_decision": "adapt",
+      "support_role": "foresight_only",
+      "supported_fields": [
+        "original_design_checks"
+      ],
+      "supported_claim": "AI is also entering physical work environments.",
+      "adaptation_limits": [
+        "Design/curation lens only, never evidence about this user.",
+        "Context and publication vintage must remain visible."
+      ]
+    },
+    {
+      "candidate_id": "WEF26-PRACTICE",
+      "source_id": "WEF-MAKER-2026",
+      "version": "September 2026",
+      "locator": {
+        "type": "pdf",
+        "local_path": "WEF_New_Economy_Skills_2026.pdf",
+        "pdf_pages": [
+          20,
+          24,
+          26,
+          27
+        ],
+        "section": "Workplace learning pathways"
+      },
+      "review_decision": "adapt",
+      "support_role": "foresight_only",
+      "supported_fields": [
+        "original_design_checks"
+      ],
+      "supported_claim": "Discusses vocational pathways and hands-on learning.",
+      "adaptation_limits": [
+        "Design/curation lens only, never evidence about this user.",
+        "Context and publication vintage must remain visible."
+      ]
+    }
+  ],
+  "limit": "แหล่งเหล่านี้กระตุ้นคำถามออกแบบ; ไม่รับรอง checks ทุกข้อ ไม่รองรับการประเมินบุคคล"
+}

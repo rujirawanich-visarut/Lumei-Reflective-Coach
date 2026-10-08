@@ -1,0 +1,1036 @@
+{
+  "editorial_version": "0.2.0",
+  "candidates": [
+    {
+      "candidate_id": "H-04",
+      "source_decision": "adapt",
+      "release_disposition": "used",
+      "uses": [
+        {
+          "artifact": "GWS-coordinate-across-boundaries",
+          "role": "behavior_support"
+        }
+      ],
+      "reason": "เฉพาะบทบาทที่ระบุ; ไม่ให้คะแนนบุคคล"
+    },
+    {
+      "candidate_id": "H-05",
+      "source_decision": "include",
+      "release_disposition": "used",
+      "uses": [
+        {
+          "artifact": "GWS-handoff-and-follow-through",
+          "role": "behavior_support"
+        },
+        {
+          "artifact": "GWS-maintain-trust-and-information-boundaries",
+          "role": "behavior_support"
+        },
+        {
+          "artifact": "GWS-verify-ai-work",
+          "role": "behavior_support"
+        }
+      ],
+      "reason": "เฉพาะบทบาทที่ระบุ; ไม่ให้คะแนนบุคคล"
+    },
+    {
+      "candidate_id": "H-06",
+      "source_decision": "adapt",
+      "release_disposition": "used",
+      "uses": [
+        {
+          "artifact": "GWS-learn-and-transfer",
+          "role": "behavior_support"
+        }
+      ],
+      "reason": "เฉพาะบทบาทที่ระบุ; ไม่ให้คะแนนบุคคล"
+    },
+    {
+      "candidate_id": "H-07",
+      "source_decision": "include",
+      "release_disposition": "used",
+      "uses": [
+        {
+          "artifact": "GWS-improve-with-small-experiments",
+          "role": "behavior_support"
+        },
+        {
+          "artifact": "GWS-verify-ai-work",
+          "role": "behavior_support"
+        }
+      ],
+      "reason": "เฉพาะบทบาทที่ระบุ; ไม่ให้คะแนนบุคคล"
+    },
+    {
+      "candidate_id": "H-08",
+      "source_decision": "adapt",
+      "release_disposition": "deferred",
+      "uses": [],
+      "reason": "คง source hold/exclude หรือ defer ส่วนที่ซ้ำ/ต้องมีตำแหน่งเฉพาะ; ไม่จำเป็นต้อง import ทุกหัวข้อ"
+    },
+    {
+      "candidate_id": "H-09",
+      "source_decision": "include",
+      "release_disposition": "used",
+      "uses": [
+        {
+          "artifact": "GWS-coordinate-across-boundaries",
+          "role": "behavior_support"
+        }
+      ],
+      "reason": "เฉพาะบทบาทที่ระบุ; ไม่ให้คะแนนบุคคล"
+    },
+    {
+      "candidate_id": "H-10",
+      "source_decision": "include",
+      "release_disposition": "used",
+      "uses": [
+        {
+          "artifact": "GWS-maintain-trust-and-information-boundaries",
+          "role": "behavior_support"
+        }
+      ],
+      "reason": "เฉพาะบทบาทที่ระบุ; ไม่ให้คะแนนบุคคล"
+    },
+    {
+      "candidate_id": "H-11",
+      "source_decision": "include",
+      "release_disposition": "used",
+      "uses": [
+        {
+          "artifact": "GWS-adapt-to-changing-work",
+          "role": "behavior_support"
+        },
+        {
+          "artifact": "GWS-clarify-work",
+          "role": "behavior_support"
+        },
+        {
+          "artifact": "GWS-communicate-across-backgrounds",
+          "role": "behavior_support"
+        },
+        {
+          "artifact": "GWS-coordinate-across-boundaries",
+          "role": "behavior_support"
+        },
+        {
+          "artifact": "GWS-handoff-and-follow-through",
+          "role": "behavior_support"
+        },
+        {
+          "artifact": "GWS-manage-priorities",
+          "role": "behavior_support"
+        },
+        {
+          "artifact": "GWS-understand-recipient-needs",
+          "role": "behavior_support"
+        },
+        {
+          "artifact": "GWS-work-through-disagreement",
+          "role": "behavior_support"
+        }
+      ],
+      "reason": "เฉพาะบทบาทที่ระบุ; ไม่ให้คะแนนบุคคล"
+    },
+    {
+      "candidate_id": "H-12",
+      "source_decision": "include",
+      "release_disposition": "used",
+      "uses": [
+        {
+          "artifact": "GWS-learn-and-transfer",
+          "role": "behavior_support"
+        }
+      ],
+      "reason": "เฉพาะบทบาทที่ระบุ; ไม่ให้คะแนนบุคคล"
+    },
+    {
+      "candidate_id": "H-13",
+      "source_decision": "adapt",
+      "release_disposition": "used",
+      "uses": [
+        {
+          "artifact": "GWS-understand-recipient-needs",
+          "role": "behavior_support"
+        }
+      ],
+      "reason": "เฉพาะบทบาทที่ระบุ; ไม่ให้คะแนนบุคคล"
+    },
+    {
+      "candidate_id": "H-14",
+      "source_decision": "include",
+      "release_disposition": "used",
+      "uses": [
+        {
+          "artifact": "GWS-check-evidence",
+          "role": "behavior_support"
+        },
+        {
+          "artifact": "GWS-choose-action",
+          "role": "behavior_support"
+        },
+        {
+          "artifact": "GWS-clarify-work",
+          "role": "behavior_support"
+        },
+        {
+          "artifact": "GWS-verify-ai-work",
+          "role": "behavior_support"
+        },
+        {
+          "artifact": "reasoning-check",
+          "role": "coaching_design_only"
+        }
+      ],
+      "reason": "เฉพาะบทบาทที่ระบุ; ไม่ให้คะแนนบุคคล"
+    },
+    {
+      "candidate_id": "H-15",
+      "source_decision": "adapt",
+      "release_disposition": "used",
+      "uses": [
+        {
+          "artifact": "GWS-handoff-and-follow-through",
+          "role": "role_conditional_only"
+        }
+      ],
+      "reason": "เฉพาะบทบาทที่ระบุ; ไม่ให้คะแนนบุคคล"
+    },
+    {
+      "candidate_id": "H-16",
+      "source_decision": "adapt",
+      "release_disposition": "deferred",
+      "uses": [],
+      "reason": "คง source hold/exclude หรือ defer ส่วนที่ซ้ำ/ต้องมีตำแหน่งเฉพาะ; ไม่จำเป็นต้อง import ทุกหัวข้อ"
+    },
+    {
+      "candidate_id": "H-17",
+      "source_decision": "adapt",
+      "release_disposition": "used",
+      "uses": [
+        {
+          "artifact": "GWS-adapt-to-changing-work",
+          "role": "behavior_support"
+        }
+      ],
+      "reason": "เฉพาะบทบาทที่ระบุ; ไม่ให้คะแนนบุคคล"
+    },
+    {
+      "candidate_id": "H-18",
+      "source_decision": "adapt",
+      "release_disposition": "used",
+      "uses": [
+        {
+          "artifact": "GWS-improve-with-small-experiments",
+          "role": "behavior_support"
+        }
+      ],
+      "reason": "เฉพาะบทบาทที่ระบุ; ไม่ให้คะแนนบุคคล"
+    },
+    {
+      "candidate_id": "H-19",
+      "source_decision": "adapt",
+      "release_disposition": "used",
+      "uses": [
+        {
+          "artifact": "GWS-maintain-trust-and-information-boundaries",
+          "role": "behavior_support"
+        }
+      ],
+      "reason": "เฉพาะบทบาทที่ระบุ; ไม่ให้คะแนนบุคคล"
+    },
+    {
+      "candidate_id": "H-20",
+      "source_decision": "exclude",
+      "release_disposition": "exclude",
+      "uses": [],
+      "reason": "คง source hold/exclude หรือ defer ส่วนที่ซ้ำ/ต้องมีตำแหน่งเฉพาะ; ไม่จำเป็นต้อง import ทุกหัวข้อ"
+    },
+    {
+      "candidate_id": "H-21",
+      "source_decision": "adapt",
+      "release_disposition": "deferred",
+      "uses": [],
+      "reason": "คง source hold/exclude หรือ defer ส่วนที่ซ้ำ/ต้องมีตำแหน่งเฉพาะ; ไม่จำเป็นต้อง import ทุกหัวข้อ"
+    },
+    {
+      "candidate_id": "H-22",
+      "source_decision": "include",
+      "release_disposition": "used",
+      "uses": [
+        {
+          "artifact": "GWS-work-through-disagreement",
+          "role": "behavior_support"
+        }
+      ],
+      "reason": "เฉพาะบทบาทที่ระบุ; ไม่ให้คะแนนบุคคล"
+    },
+    {
+      "candidate_id": "H-23",
+      "source_decision": "adapt",
+      "release_disposition": "used",
+      "uses": [
+        {
+          "artifact": "GWS-work-through-disagreement",
+          "role": "behavior_support"
+        }
+      ],
+      "reason": "เฉพาะบทบาทที่ระบุ; ไม่ให้คะแนนบุคคล"
+    },
+    {
+      "candidate_id": "H-24",
+      "source_decision": "adapt",
+      "release_disposition": "deferred",
+      "uses": [],
+      "reason": "คง source hold/exclude หรือ defer ส่วนที่ซ้ำ/ต้องมีตำแหน่งเฉพาะ; ไม่จำเป็นต้อง import ทุกหัวข้อ"
+    },
+    {
+      "candidate_id": "H-25",
+      "source_decision": "adapt",
+      "release_disposition": "deferred",
+      "uses": [],
+      "reason": "คง source hold/exclude หรือ defer ส่วนที่ซ้ำ/ต้องมีตำแหน่งเฉพาะ; ไม่จำเป็นต้อง import ทุกหัวข้อ"
+    },
+    {
+      "candidate_id": "H-26",
+      "source_decision": "include",
+      "release_disposition": "used",
+      "uses": [
+        {
+          "artifact": "GWS-clarify-work",
+          "role": "behavior_support"
+        },
+        {
+          "artifact": "GWS-manage-priorities",
+          "role": "behavior_support"
+        }
+      ],
+      "reason": "เฉพาะบทบาทที่ระบุ; ไม่ให้คะแนนบุคคล"
+    },
+    {
+      "candidate_id": "H-27",
+      "source_decision": "include",
+      "release_disposition": "used",
+      "uses": [
+        {
+          "artifact": "GWS-check-evidence",
+          "role": "behavior_support"
+        },
+        {
+          "artifact": "GWS-choose-action",
+          "role": "behavior_support"
+        },
+        {
+          "artifact": "GWS-improve-with-small-experiments",
+          "role": "behavior_support"
+        }
+      ],
+      "reason": "เฉพาะบทบาทที่ระบุ; ไม่ให้คะแนนบุคคล"
+    },
+    {
+      "candidate_id": "H-28",
+      "source_decision": "adapt",
+      "release_disposition": "used",
+      "uses": [
+        {
+          "artifact": "GWS-improve-with-small-experiments",
+          "role": "behavior_support"
+        }
+      ],
+      "reason": "เฉพาะบทบาทที่ระบุ; ไม่ให้คะแนนบุคคล"
+    },
+    {
+      "candidate_id": "H-29",
+      "source_decision": "adapt",
+      "release_disposition": "deferred",
+      "uses": [],
+      "reason": "คง source hold/exclude หรือ defer ส่วนที่ซ้ำ/ต้องมีตำแหน่งเฉพาะ; ไม่จำเป็นต้อง import ทุกหัวข้อ"
+    },
+    {
+      "candidate_id": "H-30",
+      "source_decision": "adapt",
+      "release_disposition": "used",
+      "uses": [
+        {
+          "artifact": "GWS-improve-with-small-experiments",
+          "role": "behavior_support"
+        }
+      ],
+      "reason": "เฉพาะบทบาทที่ระบุ; ไม่ให้คะแนนบุคคล"
+    },
+    {
+      "candidate_id": "H-31",
+      "source_decision": "adapt",
+      "release_disposition": "deferred",
+      "uses": [],
+      "reason": "คง source hold/exclude หรือ defer ส่วนที่ซ้ำ/ต้องมีตำแหน่งเฉพาะ; ไม่จำเป็นต้อง import ทุกหัวข้อ"
+    },
+    {
+      "candidate_id": "H-32",
+      "source_decision": "include",
+      "release_disposition": "used",
+      "uses": [
+        {
+          "artifact": "GWS-coordinate-across-boundaries",
+          "role": "behavior_support"
+        },
+        {
+          "artifact": "GWS-handoff-and-follow-through",
+          "role": "behavior_support"
+        }
+      ],
+      "reason": "เฉพาะบทบาทที่ระบุ; ไม่ให้คะแนนบุคคล"
+    },
+    {
+      "candidate_id": "H-33",
+      "source_decision": "adapt",
+      "release_disposition": "used",
+      "uses": [
+        {
+          "artifact": "GWS-manage-priorities",
+          "role": "behavior_support"
+        }
+      ],
+      "reason": "เฉพาะบทบาทที่ระบุ; ไม่ให้คะแนนบุคคล"
+    },
+    {
+      "candidate_id": "H-34",
+      "source_decision": "adapt",
+      "release_disposition": "used",
+      "uses": [
+        {
+          "artifact": "GWS-communicate-across-backgrounds",
+          "role": "behavior_support"
+        }
+      ],
+      "reason": "เฉพาะบทบาทที่ระบุ; ไม่ให้คะแนนบุคคล"
+    },
+    {
+      "candidate_id": "NZ-01",
+      "source_decision": "adapt",
+      "release_disposition": "used",
+      "uses": [
+        {
+          "artifact": "GWS-clarify-work",
+          "role": "contextual_behavior_lens"
+        }
+      ],
+      "reason": "เฉพาะบทบาทที่ระบุ; ไม่ให้คะแนนบุคคล"
+    },
+    {
+      "candidate_id": "NZ-02",
+      "source_decision": "adapt",
+      "release_disposition": "used",
+      "uses": [
+        {
+          "artifact": "GWS-coordinate-across-boundaries",
+          "role": "contextual_behavior_lens"
+        }
+      ],
+      "reason": "เฉพาะบทบาทที่ระบุ; ไม่ให้คะแนนบุคคล"
+    },
+    {
+      "candidate_id": "NZ-03",
+      "source_decision": "adapt",
+      "release_disposition": "deferred",
+      "uses": [],
+      "reason": "คง source hold/exclude หรือ defer ส่วนที่ซ้ำ/ต้องมีตำแหน่งเฉพาะ; ไม่จำเป็นต้อง import ทุกหัวข้อ"
+    },
+    {
+      "candidate_id": "NZ-04",
+      "source_decision": "adapt",
+      "release_disposition": "deferred",
+      "uses": [],
+      "reason": "คง source hold/exclude หรือ defer ส่วนที่ซ้ำ/ต้องมีตำแหน่งเฉพาะ; ไม่จำเป็นต้อง import ทุกหัวข้อ"
+    },
+    {
+      "candidate_id": "NZ-05",
+      "source_decision": "adapt",
+      "release_disposition": "used",
+      "uses": [
+        {
+          "artifact": "GWS-coordinate-across-boundaries",
+          "role": "contextual_behavior_lens"
+        }
+      ],
+      "reason": "เฉพาะบทบาทที่ระบุ; ไม่ให้คะแนนบุคคล"
+    },
+    {
+      "candidate_id": "NZ-06",
+      "source_decision": "exclude",
+      "release_disposition": "exclude",
+      "uses": [],
+      "reason": "คง source hold/exclude หรือ defer ส่วนที่ซ้ำ/ต้องมีตำแหน่งเฉพาะ; ไม่จำเป็นต้อง import ทุกหัวข้อ"
+    },
+    {
+      "candidate_id": "NZ-07",
+      "source_decision": "adapt",
+      "release_disposition": "deferred",
+      "uses": [],
+      "reason": "คง source hold/exclude หรือ defer ส่วนที่ซ้ำ/ต้องมีตำแหน่งเฉพาะ; ไม่จำเป็นต้อง import ทุกหัวข้อ"
+    },
+    {
+      "candidate_id": "NZ-08",
+      "source_decision": "adapt",
+      "release_disposition": "deferred",
+      "uses": [],
+      "reason": "คง source hold/exclude หรือ defer ส่วนที่ซ้ำ/ต้องมีตำแหน่งเฉพาะ; ไม่จำเป็นต้อง import ทุกหัวข้อ"
+    },
+    {
+      "candidate_id": "NZ-09",
+      "source_decision": "adapt",
+      "release_disposition": "deferred",
+      "uses": [],
+      "reason": "คง source hold/exclude หรือ defer ส่วนที่ซ้ำ/ต้องมีตำแหน่งเฉพาะ; ไม่จำเป็นต้อง import ทุกหัวข้อ"
+    },
+    {
+      "candidate_id": "NZ-10",
+      "source_decision": "adapt",
+      "release_disposition": "deferred",
+      "uses": [],
+      "reason": "คง source hold/exclude หรือ defer ส่วนที่ซ้ำ/ต้องมีตำแหน่งเฉพาะ; ไม่จำเป็นต้อง import ทุกหัวข้อ"
+    },
+    {
+      "candidate_id": "NZ-11",
+      "source_decision": "adapt",
+      "release_disposition": "used",
+      "uses": [
+        {
+          "artifact": "GWS-manage-priorities",
+          "role": "contextual_behavior_lens"
+        }
+      ],
+      "reason": "เฉพาะบทบาทที่ระบุ; ไม่ให้คะแนนบุคคล"
+    },
+    {
+      "candidate_id": "NZ-12",
+      "source_decision": "adapt",
+      "release_disposition": "deferred",
+      "uses": [],
+      "reason": "คง source hold/exclude หรือ defer ส่วนที่ซ้ำ/ต้องมีตำแหน่งเฉพาะ; ไม่จำเป็นต้อง import ทุกหัวข้อ"
+    },
+    {
+      "candidate_id": "NZ-13",
+      "source_decision": "adapt",
+      "release_disposition": "used",
+      "uses": [
+        {
+          "artifact": "GWS-check-evidence",
+          "role": "contextual_behavior_lens"
+        },
+        {
+          "artifact": "GWS-choose-action",
+          "role": "contextual_behavior_lens"
+        }
+      ],
+      "reason": "เฉพาะบทบาทที่ระบุ; ไม่ให้คะแนนบุคคล"
+    },
+    {
+      "candidate_id": "NZ-14",
+      "source_decision": "adapt",
+      "release_disposition": "deferred",
+      "uses": [],
+      "reason": "คง source hold/exclude หรือ defer ส่วนที่ซ้ำ/ต้องมีตำแหน่งเฉพาะ; ไม่จำเป็นต้อง import ทุกหัวข้อ"
+    },
+    {
+      "candidate_id": "NZ-15",
+      "source_decision": "adapt",
+      "release_disposition": "deferred",
+      "uses": [],
+      "reason": "คง source hold/exclude หรือ defer ส่วนที่ซ้ำ/ต้องมีตำแหน่งเฉพาะ; ไม่จำเป็นต้อง import ทุกหัวข้อ"
+    },
+    {
+      "candidate_id": "NZ-16",
+      "source_decision": "adapt",
+      "release_disposition": "used",
+      "uses": [
+        {
+          "artifact": "GWS-learn-and-transfer",
+          "role": "contextual_behavior_lens"
+        }
+      ],
+      "reason": "เฉพาะบทบาทที่ระบุ; ไม่ให้คะแนนบุคคล"
+    },
+    {
+      "candidate_id": "FIN-A3-1",
+      "source_decision": "adapt",
+      "release_disposition": "used",
+      "uses": [
+        {
+          "artifact": "reasoning-check",
+          "role": "coaching_design_only"
+        }
+      ],
+      "reason": "เฉพาะบทบาทที่ระบุ; ไม่ให้คะแนนบุคคล"
+    },
+    {
+      "candidate_id": "FIN-A3-2",
+      "source_decision": "adapt",
+      "release_disposition": "used",
+      "uses": [
+        {
+          "artifact": "transfer-and-next-evidence",
+          "role": "coaching_design_only"
+        }
+      ],
+      "reason": "เฉพาะบทบาทที่ระบุ; ไม่ให้คะแนนบุคคล"
+    },
+    {
+      "candidate_id": "FIN-A1-4",
+      "source_decision": "adapt",
+      "release_disposition": "used",
+      "uses": [
+        {
+          "artifact": "agency-and-boundaries",
+          "role": "coaching_design_only"
+        }
+      ],
+      "reason": "เฉพาะบทบาทที่ระบุ; ไม่ให้คะแนนบุคคล"
+    },
+    {
+      "candidate_id": "FIN-B3-2",
+      "source_decision": "adapt",
+      "release_disposition": "used",
+      "uses": [
+        {
+          "artifact": "agency-and-boundaries",
+          "role": "coaching_design_only"
+        }
+      ],
+      "reason": "เฉพาะบทบาทที่ระบุ; ไม่ให้คะแนนบุคคล"
+    },
+    {
+      "candidate_id": "FIN-B3-3",
+      "source_decision": "adapt",
+      "release_disposition": "used",
+      "uses": [
+        {
+          "artifact": "agency-and-boundaries",
+          "role": "coaching_design_only"
+        }
+      ],
+      "reason": "เฉพาะบทบาทที่ระบุ; ไม่ให้คะแนนบุคคล"
+    },
+    {
+      "candidate_id": "FIN-A5-2",
+      "source_decision": "adapt",
+      "release_disposition": "used",
+      "uses": [
+        {
+          "artifact": "agency-and-boundaries",
+          "role": "coaching_design_only"
+        }
+      ],
+      "reason": "เฉพาะบทบาทที่ระบุ; ไม่ให้คะแนนบุคคล"
+    },
+    {
+      "candidate_id": "FIN-B1-3",
+      "source_decision": "adapt",
+      "release_disposition": "used",
+      "uses": [
+        {
+          "artifact": "transfer-and-next-evidence",
+          "role": "coaching_design_only"
+        }
+      ],
+      "reason": "เฉพาะบทบาทที่ระบุ; ไม่ให้คะแนนบุคคล"
+    },
+    {
+      "candidate_id": "FINQF-LEVELS",
+      "source_decision": "exclude",
+      "release_disposition": "exclude",
+      "uses": [],
+      "reason": "คง source hold/exclude หรือ defer ส่วนที่ซ้ำ/ต้องมีตำแหน่งเฉพาะ; ไม่จำเป็นต้อง import ทุกหัวข้อ"
+    },
+    {
+      "candidate_id": "ICD-S410010010",
+      "source_decision": "adapt",
+      "release_disposition": "used",
+      "uses": [
+        {
+          "artifact": "GWS-choose-action",
+          "role": "related_concept_only"
+        }
+      ],
+      "reason": "เฉพาะบทบาทที่ระบุ; ไม่ให้คะแนนบุคคล"
+    },
+    {
+      "candidate_id": "ICD-S410010020",
+      "source_decision": "adapt",
+      "release_disposition": "used",
+      "uses": [
+        {
+          "artifact": "GWS-check-evidence",
+          "role": "related_concept_only"
+        }
+      ],
+      "reason": "เฉพาะบทบาทที่ระบุ; ไม่ให้คะแนนบุคคล"
+    },
+    {
+      "candidate_id": "ICD-S410010030",
+      "source_decision": "adapt",
+      "release_disposition": "used",
+      "uses": [
+        {
+          "artifact": "GWS-check-evidence",
+          "role": "related_concept_only"
+        }
+      ],
+      "reason": "เฉพาะบทบาทที่ระบุ; ไม่ให้คะแนนบุคคล"
+    },
+    {
+      "candidate_id": "ICD-S410010040",
+      "source_decision": "adapt",
+      "release_disposition": "used",
+      "uses": [
+        {
+          "artifact": "GWS-check-evidence",
+          "role": "related_concept_only"
+        }
+      ],
+      "reason": "เฉพาะบทบาทที่ระบุ; ไม่ให้คะแนนบุคคล"
+    },
+    {
+      "candidate_id": "ICD-S410010050",
+      "source_decision": "adapt",
+      "release_disposition": "deferred",
+      "uses": [],
+      "reason": "คง source hold/exclude หรือ defer ส่วนที่ซ้ำ/ต้องมีตำแหน่งเฉพาะ; ไม่จำเป็นต้อง import ทุกหัวข้อ"
+    },
+    {
+      "candidate_id": "ICD-S410020010",
+      "source_decision": "adapt",
+      "release_disposition": "deferred",
+      "uses": [],
+      "reason": "คง source hold/exclude หรือ defer ส่วนที่ซ้ำ/ต้องมีตำแหน่งเฉพาะ; ไม่จำเป็นต้อง import ทุกหัวข้อ"
+    },
+    {
+      "candidate_id": "ICD-S410020020",
+      "source_decision": "hold",
+      "release_disposition": "hold",
+      "uses": [],
+      "reason": "คง source hold/exclude หรือ defer ส่วนที่ซ้ำ/ต้องมีตำแหน่งเฉพาะ; ไม่จำเป็นต้อง import ทุกหัวข้อ"
+    },
+    {
+      "candidate_id": "ICD-S410020030",
+      "source_decision": "hold",
+      "release_disposition": "hold",
+      "uses": [],
+      "reason": "คง source hold/exclude หรือ defer ส่วนที่ซ้ำ/ต้องมีตำแหน่งเฉพาะ; ไม่จำเป็นต้อง import ทุกหัวข้อ"
+    },
+    {
+      "candidate_id": "ICD-S410020040",
+      "source_decision": "adapt",
+      "release_disposition": "deferred",
+      "uses": [],
+      "reason": "คง source hold/exclude หรือ defer ส่วนที่ซ้ำ/ต้องมีตำแหน่งเฉพาะ; ไม่จำเป็นต้อง import ทุกหัวข้อ"
+    },
+    {
+      "candidate_id": "ICD-S410030010",
+      "source_decision": "adapt",
+      "release_disposition": "used",
+      "uses": [
+        {
+          "artifact": "GWS-clarify-work",
+          "role": "related_concept_only"
+        },
+        {
+          "artifact": "GWS-work-through-disagreement",
+          "role": "related_concept_only"
+        }
+      ],
+      "reason": "เฉพาะบทบาทที่ระบุ; ไม่ให้คะแนนบุคคล"
+    },
+    {
+      "candidate_id": "ICD-S410030020",
+      "source_decision": "adapt",
+      "release_disposition": "used",
+      "uses": [
+        {
+          "artifact": "GWS-work-through-disagreement",
+          "role": "related_concept_only"
+        }
+      ],
+      "reason": "เฉพาะบทบาทที่ระบุ; ไม่ให้คะแนนบุคคล"
+    },
+    {
+      "candidate_id": "ICD-S410030030",
+      "source_decision": "hold",
+      "release_disposition": "hold",
+      "uses": [],
+      "reason": "คง source hold/exclude หรือ defer ส่วนที่ซ้ำ/ต้องมีตำแหน่งเฉพาะ; ไม่จำเป็นต้อง import ทุกหัวข้อ"
+    },
+    {
+      "candidate_id": "ICD-M-2055",
+      "source_decision": "adapt",
+      "release_disposition": "used",
+      "uses": [
+        {
+          "artifact": "GWS-coordinate-across-boundaries",
+          "role": "related_concept_only"
+        }
+      ],
+      "reason": "เฉพาะบทบาทที่ระบุ; ไม่ให้คะแนนบุคคล"
+    },
+    {
+      "candidate_id": "ICD-M-2246",
+      "source_decision": "hold",
+      "release_disposition": "hold",
+      "uses": [],
+      "reason": "คง source hold/exclude หรือ defer ส่วนที่ซ้ำ/ต้องมีตำแหน่งเฉพาะ; ไม่จำเป็นต้อง import ทุกหัวข้อ"
+    },
+    {
+      "candidate_id": "ICD-M-2962",
+      "source_decision": "adapt",
+      "release_disposition": "used",
+      "uses": [
+        {
+          "artifact": "GWS-handoff-and-follow-through",
+          "role": "related_concept_only"
+        }
+      ],
+      "reason": "เฉพาะบทบาทที่ระบุ; ไม่ให้คะแนนบุคคล"
+    },
+    {
+      "candidate_id": "ICD-M-3586",
+      "source_decision": "adapt",
+      "release_disposition": "used",
+      "uses": [
+        {
+          "artifact": "GWS-improve-with-small-experiments",
+          "role": "related_concept_only"
+        }
+      ],
+      "reason": "เฉพาะบทบาทที่ระบุ; ไม่ให้คะแนนบุคคล"
+    },
+    {
+      "candidate_id": "ICD-M-9888",
+      "source_decision": "adapt",
+      "release_disposition": "deferred",
+      "uses": [],
+      "reason": "คง source hold/exclude หรือ defer ส่วนที่ซ้ำ/ต้องมีตำแหน่งเฉพาะ; ไม่จำเป็นต้อง import ทุกหัวข้อ"
+    },
+    {
+      "candidate_id": "ICD-PROFICIENCY",
+      "source_decision": "exclude",
+      "release_disposition": "exclude",
+      "uses": [],
+      "reason": "คง source hold/exclude หรือ defer ส่วนที่ซ้ำ/ต้องมีตำแหน่งเฉพาะ; ไม่จำเป็นต้อง import ทุกหัวข้อ"
+    },
+    {
+      "candidate_id": "ICD-S2-TECHNOLOGY",
+      "source_decision": "exclude",
+      "release_disposition": "exclude",
+      "uses": [],
+      "reason": "คง source hold/exclude หรือ defer ส่วนที่ซ้ำ/ต้องมีตำแหน่งเฉพาะ; ไม่จำเป็นต้อง import ทุกหัวข้อ"
+    },
+    {
+      "candidate_id": "ICD-TASK-EVALUATION",
+      "source_decision": "exclude",
+      "release_disposition": "exclude",
+      "uses": [],
+      "reason": "คง source hold/exclude หรือ defer ส่วนที่ซ้ำ/ต้องมีตำแหน่งเฉพาะ; ไม่จำเป็นต้อง import ทุกหัวข้อ"
+    },
+    {
+      "candidate_id": "WEF25-SKILL-RELEVANCE",
+      "source_decision": "adapt",
+      "release_disposition": "used",
+      "uses": [
+        {
+          "artifact": "foresight-design",
+          "role": "foresight_only"
+        }
+      ],
+      "reason": "เฉพาะบทบาทที่ระบุ; ไม่ให้คะแนนบุคคล"
+    },
+    {
+      "candidate_id": "WEF25-CONTEXT",
+      "source_decision": "adapt",
+      "release_disposition": "used",
+      "uses": [
+        {
+          "artifact": "foresight-design",
+          "role": "foresight_only"
+        }
+      ],
+      "reason": "เฉพาะบทบาทที่ระบุ; ไม่ให้คะแนนบุคคล"
+    },
+    {
+      "candidate_id": "WEF25-HUMAN-AI",
+      "source_decision": "adapt",
+      "release_disposition": "used",
+      "uses": [
+        {
+          "artifact": "foresight-design",
+          "role": "foresight_only"
+        }
+      ],
+      "reason": "เฉพาะบทบาทที่ระบุ; ไม่ให้คะแนนบุคคล"
+    },
+    {
+      "candidate_id": "WEF26-PHYSICAL-WORK",
+      "source_decision": "adapt",
+      "release_disposition": "used",
+      "uses": [
+        {
+          "artifact": "foresight-design",
+          "role": "foresight_only"
+        }
+      ],
+      "reason": "เฉพาะบทบาทที่ระบุ; ไม่ให้คะแนนบุคคล"
+    },
+    {
+      "candidate_id": "WEF26-AUGMENTATION",
+      "source_decision": "adapt",
+      "release_disposition": "used",
+      "uses": [
+        {
+          "artifact": "foresight-design",
+          "role": "foresight_only"
+        }
+      ],
+      "reason": "เฉพาะบทบาทที่ระบุ; ไม่ให้คะแนนบุคคล"
+    },
+    {
+      "candidate_id": "WEF26-PRACTICE",
+      "source_decision": "adapt",
+      "release_disposition": "used",
+      "uses": [
+        {
+          "artifact": "foresight-design",
+          "role": "foresight_only"
+        }
+      ],
+      "reason": "เฉพาะบทบาทที่ระบุ; ไม่ให้คะแนนบุคคล"
+    },
+    {
+      "candidate_id": "MCK-KNOWLEDGE",
+      "source_decision": "adapt",
+      "release_disposition": "deferred",
+      "uses": [],
+      "reason": "คง source hold/exclude หรือ defer ส่วนที่ซ้ำ/ต้องมีตำแหน่งเฉพาะ; ไม่จำเป็นต้อง import ทุกหัวข้อ"
+    },
+    {
+      "candidate_id": "MCK-ATTEMPT-COMPARE",
+      "source_decision": "adapt",
+      "release_disposition": "used",
+      "uses": [
+        {
+          "artifact": "attempt-compare-without-grading",
+          "role": "coaching_design_only"
+        }
+      ],
+      "reason": "เฉพาะบทบาทที่ระบุ; ไม่ให้คะแนนบุคคล"
+    },
+    {
+      "candidate_id": "MCK-PRACTICE",
+      "source_decision": "adapt",
+      "release_disposition": "used",
+      "uses": [
+        {
+          "artifact": "transfer-and-next-evidence",
+          "role": "coaching_design_only"
+        }
+      ],
+      "reason": "เฉพาะบทบาทที่ระบุ; ไม่ให้คะแนนบุคคล"
+    },
+    {
+      "candidate_id": "MCK-COACHING",
+      "source_decision": "adapt",
+      "release_disposition": "used",
+      "uses": [
+        {
+          "artifact": "attempt-compare-without-grading",
+          "role": "coaching_design_only"
+        }
+      ],
+      "reason": "เฉพาะบทบาทที่ระบุ; ไม่ให้คะแนนบุคคล"
+    },
+    {
+      "candidate_id": "VG-1",
+      "source_decision": "adapt",
+      "release_disposition": "used",
+      "uses": [
+        {
+          "artifact": "transfer-and-next-evidence",
+          "role": "coaching_design_only"
+        }
+      ],
+      "reason": "เฉพาะบทบาทที่ระบุ; ไม่ให้คะแนนบุคคล"
+    },
+    {
+      "candidate_id": "VG-2",
+      "source_decision": "adapt",
+      "release_disposition": "used",
+      "uses": [
+        {
+          "artifact": "transfer-and-next-evidence",
+          "role": "coaching_design_only"
+        }
+      ],
+      "reason": "เฉพาะบทบาทที่ระบุ; ไม่ให้คะแนนบุคคล"
+    },
+    {
+      "candidate_id": "VG-3",
+      "source_decision": "adapt",
+      "release_disposition": "used",
+      "uses": [
+        {
+          "artifact": "transfer-and-next-evidence",
+          "role": "coaching_design_only"
+        }
+      ],
+      "reason": "เฉพาะบทบาทที่ระบุ; ไม่ให้คะแนนบุคคล"
+    },
+    {
+      "candidate_id": "VG-4",
+      "source_decision": "adapt",
+      "release_disposition": "used",
+      "uses": [
+        {
+          "artifact": "reasoning-check",
+          "role": "coaching_design_only"
+        }
+      ],
+      "reason": "เฉพาะบทบาทที่ระบุ; ไม่ให้คะแนนบุคคล"
+    },
+    {
+      "candidate_id": "VG-5",
+      "source_decision": "adapt",
+      "release_disposition": "used",
+      "uses": [
+        {
+          "artifact": "reasoning-check",
+          "role": "coaching_design_only"
+        }
+      ],
+      "reason": "เฉพาะบทบาทที่ระบุ; ไม่ให้คะแนนบุคคล"
+    },
+    {
+      "candidate_id": "VG-6",
+      "source_decision": "adapt",
+      "release_disposition": "used",
+      "uses": [
+        {
+          "artifact": "reasoning-check",
+          "role": "coaching_design_only"
+        }
+      ],
+      "reason": "เฉพาะบทบาทที่ระบุ; ไม่ให้คะแนนบุคคล"
+    },
+    {
+      "candidate_id": "VG-DRAFT-REWARDS",
+      "source_decision": "hold",
+      "release_disposition": "hold",
+      "uses": [],
+      "reason": "คง source hold/exclude หรือ defer ส่วนที่ซ้ำ/ต้องมีตำแหน่งเฉพาะ; ไม่จำเป็นต้อง import ทุกหัวข้อ"
+    },
+    {
+      "candidate_id": "VG-EFFICACY",
+      "source_decision": "hold",
+      "release_disposition": "hold",
+      "uses": [],
+      "reason": "คง source hold/exclude หรือ defer ส่วนที่ซ้ำ/ต้องมีตำแหน่งเฉพาะ; ไม่จำเป็นต้อง import ทุกหัวข้อ"
+    }
+  ]
+}

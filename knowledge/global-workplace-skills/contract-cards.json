@@ -1,0 +1,2944 @@
+[
+  {
+    "schema_version": "1.0.0",
+    "skill_id": "GWS-adapt-to-changing-work",
+    "editorial_version": "0.2.0",
+    "status": "release-candidate-contract-projection",
+    "runtime_authority": false,
+    "display_name": "ปรับวิธีทำงานเมื่อเงื่อนไขเปลี่ยน",
+    "family_id": "deliver-and-improve",
+    "situation": "ข้อกำหนด เครื่องมือหรือวิธีทำงานเปลี่ยนและแผนเดิมอาจใช้ต่อไม่ได้",
+    "observable_actions": [
+      {
+        "action_id": "A1",
+        "text": "ตรวจว่าข้อกำหนดหรือบริบทใดเปลี่ยนและข้อมูลใดยังต้องยืนยันก่อนปรับงาน",
+        "knowledge_refs": [
+          {
+            "schema_version": "1.0.0",
+            "candidate_id": "H-17",
+            "source_id": "HARVARD-FY14",
+            "version": "FY14",
+            "locator": {
+              "kind": "pdf",
+              "reference": "{\"local_path\": \"Harvard University Competency Dictionary FY14 - final.pdf\", \"pdf_page\": 17, \"section\": \"Competency definition and Key Actions\", \"type\": \"pdf\"}",
+              "section": "Competency definition and Key Actions"
+            },
+            "supported_claim": "Responds constructively to changing work requirements.",
+            "verification_status": "verified-within-stated-scope",
+            "adaptation_status": "adapt",
+            "support_role": "behavior_support",
+            "adaptation_note": "Candidate only; observable episode evidence required.; No scoring, levels or unsupported trait inference.; Phase 5: original bounded adaptation from local Key Actions; not a universal standard or legal instruction."
+          }
+        ]
+      },
+      {
+        "action_id": "A2",
+        "text": "ปรับการกระทำหนึ่งอย่างให้สอดคล้องกับเงื่อนไขใหม่ภายในสิทธิ และแจ้งผลต่อข้อตกลงเดิม",
+        "knowledge_refs": [
+          {
+            "schema_version": "1.0.0",
+            "candidate_id": "H-17",
+            "source_id": "HARVARD-FY14",
+            "version": "FY14",
+            "locator": {
+              "kind": "pdf",
+              "reference": "{\"local_path\": \"Harvard University Competency Dictionary FY14 - final.pdf\", \"pdf_page\": 17, \"section\": \"Competency definition and Key Actions\", \"type\": \"pdf\"}",
+              "section": "Competency definition and Key Actions"
+            },
+            "supported_claim": "Responds constructively to changing work requirements.",
+            "verification_status": "verified-within-stated-scope",
+            "adaptation_status": "adapt",
+            "support_role": "behavior_support",
+            "adaptation_note": "Candidate only; observable episode evidence required.; No scoring, levels or unsupported trait inference.; Phase 5: original bounded adaptation from local Key Actions; not a universal standard or legal instruction."
+          },
+          {
+            "schema_version": "1.0.0",
+            "candidate_id": "H-11",
+            "source_id": "HARVARD-FY14",
+            "version": "FY14",
+            "locator": {
+              "kind": "pdf",
+              "reference": "{\"local_path\": \"Harvard University Competency Dictionary FY14 - final.pdf\", \"pdf_page\": 11, \"section\": \"Competency definition and Key Actions\", \"type\": \"pdf\"}",
+              "section": "Competency definition and Key Actions"
+            },
+            "supported_claim": "Communicates clearly and listens to others.",
+            "verification_status": "verified-within-stated-scope",
+            "adaptation_status": "include",
+            "support_role": "behavior_support",
+            "adaptation_note": "Candidate only; observable episode evidence required.; No scoring, levels or unsupported trait inference.; Phase 5: original bounded adaptation from local Key Actions; not a universal standard or legal instruction."
+          }
+        ]
+      },
+      {
+        "action_id": "A3",
+        "text": "ทบทวนข้อมูลจากการลองและเปลี่ยนวิธีอีกเมื่อพบว่าวิธีเดิมไม่ตอบเงื่อนไขใหม่",
+        "knowledge_refs": [
+          {
+            "schema_version": "1.0.0",
+            "candidate_id": "H-17",
+            "source_id": "HARVARD-FY14",
+            "version": "FY14",
+            "locator": {
+              "kind": "pdf",
+              "reference": "{\"local_path\": \"Harvard University Competency Dictionary FY14 - final.pdf\", \"pdf_page\": 17, \"section\": \"Competency definition and Key Actions\", \"type\": \"pdf\"}",
+              "section": "Competency definition and Key Actions"
+            },
+            "supported_claim": "Responds constructively to changing work requirements.",
+            "verification_status": "verified-within-stated-scope",
+            "adaptation_status": "adapt",
+            "support_role": "behavior_support",
+            "adaptation_note": "Candidate only; observable episode evidence required.; No scoring, levels or unsupported trait inference.; Phase 5: original bounded adaptation from local Key Actions; not a universal standard or legal instruction."
+          }
+        ]
+      }
+    ],
+    "evidence_to_look_for": [
+      "ข้อกำหนดก่อนและหลังเปลี่ยน",
+      "การปรับที่ผู้ใช้ทำจริงและขอบเขตสิทธิ",
+      "ข้อมูลตรวจหลังปรับหรือเหตุผลที่ยังรอ"
+    ],
+    "interpretation_limits": [
+      "ไม่บังคับให้มองทุกการเปลี่ยนในแง่ดี",
+      "การลองหนึ่งครั้งไม่พิสูจน์ adaptability เป็นคุณลักษณะถาวร",
+      "การเปลี่ยนขั้นตอนสำคัญต้องผ่านผู้มีอำนาจก่อน",
+      "ข้อเสนอฝึกไม่ใช่การกระทำที่เกิดแล้ว; ไม่ให้คะแนนหรือระดับบุคคล"
+    ],
+    "boundary_conditions": [
+      "ใช้เฉพาะงานและข้อมูลที่ผู้ใช้มีสิทธิ",
+      "ไม่แทนขั้นตอนองค์กรหรือความรู้เฉพาะวิชาชีพ",
+      "เหตุการณ์คุกคาม ความปลอดภัยหรือความเสี่ยงสูงต้องใช้ช่องทางที่เหมาะสมก่อนกิจกรรมฝึก"
+    ],
+    "required_managerial_authority": false,
+    "practice": {
+      "schema_version": "1.0.0",
+      "skill_id": "GWS-adapt-to-changing-work",
+      "target": "ตรวจว่าข้อกำหนดหรือบริบทใดเปลี่ยนและข้อมูลใดยังต้องยืนยันก่อนปรับงาน",
+      "learner_attempt": "เลือกงานสมมติหนึ่งชิ้นที่ข้อกำหนดเปลี่ยน ระบุสิ่งที่ต้องคงไว้และลองแก้วิธีหนึ่งอย่างในขอบเขตที่อนุญาต",
+      "feedback_basis": "วิธีใหม่ตอบเงื่อนไขที่เปลี่ยนหรือไม่ และยังรักษาข้อจำกัดที่จำเป็นหรือไม่",
+      "assistance_boundary": "AI ช่วยจัดโครงหรือชี้ข้อมูลที่ยังขาดได้ ผู้ใช้เป็นเจ้าของเหตุผลและปฏิเสธกิจกรรมได้; ไม่ grading",
+      "transfer_context": "เปลี่ยนจากแบบฟอร์มใหม่เป็นเวลาส่งมอบใหม่ อธิบายว่าอะไรปรับเองได้และอะไรต้องขออนุมัติ",
+      "next_evidence": [
+        "ข้อกำหนดก่อนและหลังเปลี่ยน",
+        "ข้อมูลตรวจหลังปรับหรือเหตุผลที่ยังรอ"
+      ],
+      "boundary_conditions": [
+        "ใช้เฉพาะงานและข้อมูลที่ผู้ใช้มีสิทธิ",
+        "ไม่แทนขั้นตอนองค์กรหรือความรู้เฉพาะวิชาชีพ",
+        "เหตุการณ์คุกคาม ความปลอดภัยหรือความเสี่ยงสูงต้องใช้ช่องทางที่เหมาะสมก่อนกิจกรรมฝึก"
+      ],
+      "stop_conditions": [
+        "ผู้ใช้ไม่ต้องการฝึก",
+        "งานเกินสิทธิหรือเสี่ยงกระทบคน/ระบบจริง",
+        "ต้องมีผู้รับผิดชอบเฉพาะทางแต่ยังไม่พร้อม"
+      ],
+      "user_opt_in": false
+    },
+    "knowledge_refs": [
+      {
+        "schema_version": "1.0.0",
+        "candidate_id": "H-17",
+        "source_id": "HARVARD-FY14",
+        "version": "FY14",
+        "locator": {
+          "kind": "pdf",
+          "reference": "{\"local_path\": \"Harvard University Competency Dictionary FY14 - final.pdf\", \"pdf_page\": 17, \"section\": \"Competency definition and Key Actions\", \"type\": \"pdf\"}",
+          "section": "Competency definition and Key Actions"
+        },
+        "supported_claim": "Responds constructively to changing work requirements.",
+        "verification_status": "verified-within-stated-scope",
+        "adaptation_status": "adapt",
+        "support_role": "behavior_support",
+        "adaptation_note": "Candidate only; observable episode evidence required.; No scoring, levels or unsupported trait inference.; Phase 5: original bounded adaptation from local Key Actions; not a universal standard or legal instruction."
+      },
+      {
+        "schema_version": "1.0.0",
+        "candidate_id": "H-11",
+        "source_id": "HARVARD-FY14",
+        "version": "FY14",
+        "locator": {
+          "kind": "pdf",
+          "reference": "{\"local_path\": \"Harvard University Competency Dictionary FY14 - final.pdf\", \"pdf_page\": 11, \"section\": \"Competency definition and Key Actions\", \"type\": \"pdf\"}",
+          "section": "Competency definition and Key Actions"
+        },
+        "supported_claim": "Communicates clearly and listens to others.",
+        "verification_status": "verified-within-stated-scope",
+        "adaptation_status": "include",
+        "support_role": "behavior_support",
+        "adaptation_note": "Candidate only; observable episode evidence required.; No scoring, levels or unsupported trait inference.; Phase 5: original bounded adaptation from local Key Actions; not a universal standard or legal instruction."
+      }
+    ]
+  },
+  {
+    "schema_version": "1.0.0",
+    "skill_id": "GWS-check-evidence",
+    "editorial_version": "0.2.0",
+    "status": "release-candidate-contract-projection",
+    "runtime_authority": false,
+    "display_name": "ตรวจข้ออ้างและข้อมูลที่ขัดกัน",
+    "family_id": "understand-and-decide",
+    "situation": "ข้อมูลหลายแหล่งไม่ตรงกัน หรือข้อสรุปยังมีหลักฐานไม่พอ",
+    "observable_actions": [
+      {
+        "action_id": "A1",
+        "text": "ระบุข้ออ้างที่จะตรวจ และแยกข้อมูลที่พบจริงออกจากคำอธิบายหรือการคาดเดา",
+        "knowledge_refs": [
+          {
+            "schema_version": "1.0.0",
+            "candidate_id": "H-14",
+            "source_id": "HARVARD-FY14",
+            "version": "FY14",
+            "locator": {
+              "kind": "pdf",
+              "reference": "{\"local_path\": \"Harvard University Competency Dictionary FY14 - final.pdf\", \"pdf_page\": 14, \"section\": \"Competency definition and Key Actions\", \"type\": \"pdf\"}",
+              "section": "Competency definition and Key Actions"
+            },
+            "supported_claim": "Identifies issues, gathers information and evaluates alternatives.",
+            "verification_status": "verified-within-stated-scope",
+            "adaptation_status": "include",
+            "support_role": "behavior_support",
+            "adaptation_note": "Candidate only; observable episode evidence required.; No scoring, levels or unsupported trait inference."
+          }
+        ]
+      },
+      {
+        "action_id": "A2",
+        "text": "เปรียบเทียบแหล่งที่มา เวลา ขอบเขต และข้อมูลที่ยังขาดก่อนสรุปว่าข้อมูลขัดกัน",
+        "knowledge_refs": [
+          {
+            "schema_version": "1.0.0",
+            "candidate_id": "H-14",
+            "source_id": "HARVARD-FY14",
+            "version": "FY14",
+            "locator": {
+              "kind": "pdf",
+              "reference": "{\"local_path\": \"Harvard University Competency Dictionary FY14 - final.pdf\", \"pdf_page\": 14, \"section\": \"Competency definition and Key Actions\", \"type\": \"pdf\"}",
+              "section": "Competency definition and Key Actions"
+            },
+            "supported_claim": "Identifies issues, gathers information and evaluates alternatives.",
+            "verification_status": "verified-within-stated-scope",
+            "adaptation_status": "include",
+            "support_role": "behavior_support",
+            "adaptation_note": "Candidate only; observable episode evidence required.; No scoring, levels or unsupported trait inference."
+          }
+        ]
+      },
+      {
+        "action_id": "A3",
+        "text": "พิจารณาคำอธิบายอื่นและบันทึกว่ายังสรุปอะไรไม่ได้ รวมถึงสิ่งที่จะตรวจเพิ่ม",
+        "knowledge_refs": [
+          {
+            "schema_version": "1.0.0",
+            "candidate_id": "H-27",
+            "source_id": "HARVARD-FY14",
+            "version": "FY14",
+            "locator": {
+              "kind": "pdf",
+              "reference": "{\"local_path\": \"Harvard University Competency Dictionary FY14 - final.pdf\", \"pdf_page\": 27, \"section\": \"Competency definition and Key Actions\", \"type\": \"pdf\"}",
+              "section": "Competency definition and Key Actions"
+            },
+            "supported_claim": "Analyzes information and develops solutions.",
+            "verification_status": "verified-within-stated-scope",
+            "adaptation_status": "include",
+            "support_role": "behavior_support",
+            "adaptation_note": "Candidate only; observable episode evidence required.; No scoring, levels or unsupported trait inference."
+          }
+        ]
+      }
+    ],
+    "evidence_to_look_for": [
+      "ข้ออ้างและข้อมูลที่อ้างถึง",
+      "บันทึกเทียบแหล่ง/ช่วงเวลา/นิยาม",
+      "ข้อจำกัดและคำอธิบายทางเลือก"
+    ],
+    "interpretation_limits": [
+      "แหล่งที่มีอยู่มากกว่าไม่ได้แปลว่าเป็นจริงกว่า",
+      "ความสัมพันธ์หรือแผนผังเหตุผลไม่พิสูจน์เหตุและผล",
+      "ข้อเสนอการฝึกไม่ใช่หลักฐานว่าผู้ใช้เคยทำหรือทำได้แล้ว",
+      "ไม่ให้คะแนน ระดับ proficiency หรือคำตัดสินตัวตนจากเหตุการณ์"
+    ],
+    "boundary_conditions": [
+      "ใช้เฉพาะงานและข้อมูลที่ผู้ใช้มีสิทธิ",
+      "ไม่แทนขั้นตอนองค์กรหรือความรู้เฉพาะวิชาชีพ",
+      "เหตุการณ์คุกคาม ความปลอดภัยหรือความเสี่ยงสูงต้องใช้ช่องทางที่เหมาะสมก่อนกิจกรรมฝึก"
+    ],
+    "required_managerial_authority": false,
+    "practice": {
+      "schema_version": "1.0.0",
+      "skill_id": "GWS-check-evidence",
+      "target": "ระบุข้ออ้างที่จะตรวจ และแยกข้อมูลที่พบจริงออกจากคำอธิบายหรือการคาดเดา",
+      "learner_attempt": "เลือกข้ออ้างหนึ่งข้อ ทำรายการข้อมูลที่สนับสนุนและข้อมูลที่ยังไม่รองรับ แล้วระบุการตรวจเพิ่มหนึ่งอย่าง",
+      "feedback_basis": "ผู้อ่านตามกลับไปยังข้อมูลได้หรือไม่; มีการแยกข้ออ้าง ข้อมูล และสมมติฐานหรือไม่",
+      "assistance_boundary": "AI ช่วยจัดโครงหรือชี้ข้อมูลที่ยังขาดได้ ผู้ใช้เป็นเจ้าของเหตุผลและปฏิเสธกิจกรรมได้; ไม่ grading",
+      "transfer_context": "เปลี่ยนจากยอดรายงานเป็นข้อมูลสต็อก ระบุความต่างของนิยาม เวลา และวิธีตรวจ",
+      "next_evidence": [
+        "ข้ออ้างและข้อมูลที่อ้างถึง",
+        "ข้อจำกัดและคำอธิบายทางเลือก"
+      ],
+      "boundary_conditions": [
+        "ใช้เฉพาะงานและข้อมูลที่ผู้ใช้มีสิทธิ",
+        "ไม่แทนขั้นตอนองค์กรหรือความรู้เฉพาะวิชาชีพ",
+        "เหตุการณ์คุกคาม ความปลอดภัยหรือความเสี่ยงสูงต้องใช้ช่องทางที่เหมาะสมก่อนกิจกรรมฝึก"
+      ],
+      "stop_conditions": [
+        "ผู้ใช้ไม่ต้องการฝึก",
+        "งานเกินสิทธิหรือเสี่ยงกระทบคน/ระบบจริง",
+        "ต้องมีผู้รับผิดชอบเฉพาะทางแต่ยังไม่พร้อม"
+      ],
+      "user_opt_in": false
+    },
+    "knowledge_refs": [
+      {
+        "schema_version": "1.0.0",
+        "candidate_id": "H-14",
+        "source_id": "HARVARD-FY14",
+        "version": "FY14",
+        "locator": {
+          "kind": "pdf",
+          "reference": "{\"local_path\": \"Harvard University Competency Dictionary FY14 - final.pdf\", \"pdf_page\": 14, \"section\": \"Competency definition and Key Actions\", \"type\": \"pdf\"}",
+          "section": "Competency definition and Key Actions"
+        },
+        "supported_claim": "Identifies issues, gathers information and evaluates alternatives.",
+        "verification_status": "verified-within-stated-scope",
+        "adaptation_status": "include",
+        "support_role": "behavior_support",
+        "adaptation_note": "Candidate only; observable episode evidence required.; No scoring, levels or unsupported trait inference."
+      },
+      {
+        "schema_version": "1.0.0",
+        "candidate_id": "H-27",
+        "source_id": "HARVARD-FY14",
+        "version": "FY14",
+        "locator": {
+          "kind": "pdf",
+          "reference": "{\"local_path\": \"Harvard University Competency Dictionary FY14 - final.pdf\", \"pdf_page\": 27, \"section\": \"Competency definition and Key Actions\", \"type\": \"pdf\"}",
+          "section": "Competency definition and Key Actions"
+        },
+        "supported_claim": "Analyzes information and develops solutions.",
+        "verification_status": "verified-within-stated-scope",
+        "adaptation_status": "include",
+        "support_role": "behavior_support",
+        "adaptation_note": "Candidate only; observable episode evidence required.; No scoring, levels or unsupported trait inference."
+      },
+      {
+        "schema_version": "1.0.0",
+        "candidate_id": "ICD-S410010020",
+        "source_id": "ICD-V4-SKILL",
+        "version": "V4 announced 2019-01-21",
+        "locator": {
+          "kind": "xlsx",
+          "reference": "{\"expected_knowledge_code\": \"K001\", \"expected_knowledge_name\": \"-\", \"expected_skill_name\": \"Ability to analyze problems\", \"local_path\": \"iCDEnglishV4-4layer/Skill Dictionary V4.xlsx\", \"range\": \"A10160:H10160\", \"row\": 10160, \"sheet\": \"Skill List V4\", \"skill_code\": \"S410010020\", \"type\": \"xlsx\"}",
+          "section": "A10160:H10160"
+        },
+        "supported_claim": "Skill label only; knowledge item is '-'.",
+        "verification_status": "verified-within-stated-scope",
+        "adaptation_status": "adapt",
+        "support_role": "related_concept_only",
+        "adaptation_note": "Requires Harvard/NZ or separately verified detailed source before a card can use a behavioral claim.; No ICD proficiency level inference."
+      },
+      {
+        "schema_version": "1.0.0",
+        "candidate_id": "ICD-S410010030",
+        "source_id": "ICD-V4-SKILL",
+        "version": "V4 announced 2019-01-21",
+        "locator": {
+          "kind": "xlsx",
+          "reference": "{\"expected_knowledge_code\": \"K001\", \"expected_knowledge_name\": \"-\", \"expected_skill_name\": \"Ability to establish hypotheses\", \"local_path\": \"iCDEnglishV4-4layer/Skill Dictionary V4.xlsx\", \"range\": \"A10161:H10161\", \"row\": 10161, \"sheet\": \"Skill List V4\", \"skill_code\": \"S410010030\", \"type\": \"xlsx\"}",
+          "section": "A10161:H10161"
+        },
+        "supported_claim": "Skill label only; knowledge item is '-'.",
+        "verification_status": "verified-within-stated-scope",
+        "adaptation_status": "adapt",
+        "support_role": "related_concept_only",
+        "adaptation_note": "Requires Harvard/NZ or separately verified detailed source before a card can use a behavioral claim.; No ICD proficiency level inference."
+      },
+      {
+        "schema_version": "1.0.0",
+        "candidate_id": "ICD-S410010040",
+        "source_id": "ICD-V4-SKILL",
+        "version": "V4 announced 2019-01-21",
+        "locator": {
+          "kind": "xlsx",
+          "reference": "{\"expected_knowledge_code\": \"K001\", \"expected_knowledge_name\": \"-\", \"expected_skill_name\": \"Reasoning ability\", \"local_path\": \"iCDEnglishV4-4layer/Skill Dictionary V4.xlsx\", \"range\": \"A10162:H10162\", \"row\": 10162, \"sheet\": \"Skill List V4\", \"skill_code\": \"S410010040\", \"type\": \"xlsx\"}",
+          "section": "A10162:H10162"
+        },
+        "supported_claim": "Skill label only; knowledge item is '-'.",
+        "verification_status": "verified-within-stated-scope",
+        "adaptation_status": "adapt",
+        "support_role": "related_concept_only",
+        "adaptation_note": "Requires Harvard/NZ or separately verified detailed source before a card can use a behavioral claim.; No ICD proficiency level inference."
+      },
+      {
+        "schema_version": "1.0.0",
+        "candidate_id": "NZ-13",
+        "source_id": "NZ-LSP-2016",
+        "version": "July 2016",
+        "locator": {
+          "kind": "web_pdf",
+          "reference": "{\"pdf_page\": 13, \"section\": \"Curious\", \"type\": \"web_pdf\", \"url\": \"https://www.publicservice.govt.nz/assets/DirectoryFile/LSP_Expanded_guide_July_2016.pdf\"}",
+          "section": "Curious"
+        },
+        "supported_claim": "Examines information and perspectives.",
+        "verification_status": "verified-within-stated-scope",
+        "adaptation_status": "adapt",
+        "support_role": "contextual_behavior_lens",
+        "adaptation_note": "Lumei synthesis; not an official adapted LSP assessment.; No readiness/potential labels or role-level scoring."
+      }
+    ]
+  },
+  {
+    "schema_version": "1.0.0",
+    "skill_id": "GWS-choose-action",
+    "editorial_version": "0.2.0",
+    "status": "release-candidate-contract-projection",
+    "runtime_authority": false,
+    "display_name": "เลือกการกระทำภายใต้ความไม่แน่นอน",
+    "family_id": "understand-and-decide",
+    "situation": "ต้องเลือกทางทำงาน แม้ข้อมูลหรือผลลัพธ์ยังไม่แน่นอน",
+    "observable_actions": [
+      {
+        "action_id": "A1",
+        "text": "กำหนดสิ่งที่ต้องตัดสินใจ เป้าหมายและข้อจำกัดที่ยอมรับได้",
+        "knowledge_refs": [
+          {
+            "schema_version": "1.0.0",
+            "candidate_id": "H-14",
+            "source_id": "HARVARD-FY14",
+            "version": "FY14",
+            "locator": {
+              "kind": "pdf",
+              "reference": "{\"local_path\": \"Harvard University Competency Dictionary FY14 - final.pdf\", \"pdf_page\": 14, \"section\": \"Competency definition and Key Actions\", \"type\": \"pdf\"}",
+              "section": "Competency definition and Key Actions"
+            },
+            "supported_claim": "Identifies issues, gathers information and evaluates alternatives.",
+            "verification_status": "verified-within-stated-scope",
+            "adaptation_status": "include",
+            "support_role": "behavior_support",
+            "adaptation_note": "Candidate only; observable episode evidence required.; No scoring, levels or unsupported trait inference."
+          }
+        ]
+      },
+      {
+        "action_id": "A2",
+        "text": "เปรียบเทียบทางเลือกตามเกณฑ์เดียวกัน พร้อมผลที่อาจตามมาและข้อมูลที่ยังขาด",
+        "knowledge_refs": [
+          {
+            "schema_version": "1.0.0",
+            "candidate_id": "H-14",
+            "source_id": "HARVARD-FY14",
+            "version": "FY14",
+            "locator": {
+              "kind": "pdf",
+              "reference": "{\"local_path\": \"Harvard University Competency Dictionary FY14 - final.pdf\", \"pdf_page\": 14, \"section\": \"Competency definition and Key Actions\", \"type\": \"pdf\"}",
+              "section": "Competency definition and Key Actions"
+            },
+            "supported_claim": "Identifies issues, gathers information and evaluates alternatives.",
+            "verification_status": "verified-within-stated-scope",
+            "adaptation_status": "include",
+            "support_role": "behavior_support",
+            "adaptation_note": "Candidate only; observable episode evidence required.; No scoring, levels or unsupported trait inference."
+          },
+          {
+            "schema_version": "1.0.0",
+            "candidate_id": "H-27",
+            "source_id": "HARVARD-FY14",
+            "version": "FY14",
+            "locator": {
+              "kind": "pdf",
+              "reference": "{\"local_path\": \"Harvard University Competency Dictionary FY14 - final.pdf\", \"pdf_page\": 27, \"section\": \"Competency definition and Key Actions\", \"type\": \"pdf\"}",
+              "section": "Competency definition and Key Actions"
+            },
+            "supported_claim": "Analyzes information and develops solutions.",
+            "verification_status": "verified-within-stated-scope",
+            "adaptation_status": "include",
+            "support_role": "behavior_support",
+            "adaptation_note": "Candidate only; observable episode evidence required.; No scoring, levels or unsupported trait inference."
+          }
+        ]
+      },
+      {
+        "action_id": "A3",
+        "text": "เลือกหรือเสนอทางทำงานในขอบเขตอำนาจ พร้อมเหตุผลและจุดที่จะทบทวนหากข้อมูลเปลี่ยน",
+        "knowledge_refs": [
+          {
+            "schema_version": "1.0.0",
+            "candidate_id": "H-14",
+            "source_id": "HARVARD-FY14",
+            "version": "FY14",
+            "locator": {
+              "kind": "pdf",
+              "reference": "{\"local_path\": \"Harvard University Competency Dictionary FY14 - final.pdf\", \"pdf_page\": 14, \"section\": \"Competency definition and Key Actions\", \"type\": \"pdf\"}",
+              "section": "Competency definition and Key Actions"
+            },
+            "supported_claim": "Identifies issues, gathers information and evaluates alternatives.",
+            "verification_status": "verified-within-stated-scope",
+            "adaptation_status": "include",
+            "support_role": "behavior_support",
+            "adaptation_note": "Candidate only; observable episode evidence required.; No scoring, levels or unsupported trait inference."
+          }
+        ]
+      }
+    ],
+    "evidence_to_look_for": [
+      "เป้าหมายและเกณฑ์ที่ใช้จริง",
+      "ทางเลือกและ tradeoffs ที่พิจารณา",
+      "การตัดสินใจ/ข้อเสนอ พร้อมข้อจำกัดและผู้รับผิดชอบ"
+    ],
+    "interpretation_limits": [
+      "ผลที่ดีไม่ยืนยันว่ากระบวนการตัดสินใจดีเสมอ",
+      "ไม่รู้ผลลัพธ์ต้องไม่เขียนเหมือนยืนยันผลแล้ว",
+      "ข้อเสนอการฝึกไม่ใช่หลักฐานว่าผู้ใช้เคยทำหรือทำได้แล้ว",
+      "ไม่ให้คะแนน ระดับ proficiency หรือคำตัดสินตัวตนจากเหตุการณ์"
+    ],
+    "boundary_conditions": [
+      "ใช้เฉพาะงานและข้อมูลที่ผู้ใช้มีสิทธิ",
+      "ไม่แทนขั้นตอนองค์กรหรือความรู้เฉพาะวิชาชีพ",
+      "เหตุการณ์คุกคาม ความปลอดภัยหรือความเสี่ยงสูงต้องใช้ช่องทางที่เหมาะสมก่อนกิจกรรมฝึก"
+    ],
+    "required_managerial_authority": false,
+    "practice": {
+      "schema_version": "1.0.0",
+      "skill_id": "GWS-choose-action",
+      "target": "กำหนดสิ่งที่ต้องตัดสินใจ เป้าหมายและข้อจำกัดที่ยอมรับได้",
+      "learner_attempt": "เลือกการตัดสินใจที่มีความเสี่ยงต่ำ ระบุสองทางเลือกและเกณฑ์สำคัญหนึ่งข้อ แล้วอธิบายเหตุผลที่เลือก",
+      "feedback_basis": "ใช้เกณฑ์เดียวกันกับทั้งสองทางเลือกหรือไม่; เหตุผลแยกจากความมั่นใจและผลย้อนหลังหรือไม่",
+      "assistance_boundary": "AI ช่วยจัดโครงหรือชี้ข้อมูลที่ยังขาดได้ ผู้ใช้เป็นเจ้าของเหตุผลและปฏิเสธกิจกรรมได้; ไม่ grading",
+      "transfer_context": "เปลี่ยนจากเลือกเวลาส่งรายงานเป็นเลือกวิธีประสานการส่งของ ระบุเกณฑ์ที่ต้องเปลี่ยน",
+      "next_evidence": [
+        "เป้าหมายและเกณฑ์ที่ใช้จริง",
+        "การตัดสินใจ/ข้อเสนอ พร้อมข้อจำกัดและผู้รับผิดชอบ"
+      ],
+      "boundary_conditions": [
+        "ใช้เฉพาะงานและข้อมูลที่ผู้ใช้มีสิทธิ",
+        "ไม่แทนขั้นตอนองค์กรหรือความรู้เฉพาะวิชาชีพ",
+        "เหตุการณ์คุกคาม ความปลอดภัยหรือความเสี่ยงสูงต้องใช้ช่องทางที่เหมาะสมก่อนกิจกรรมฝึก"
+      ],
+      "stop_conditions": [
+        "ผู้ใช้ไม่ต้องการฝึก",
+        "งานเกินสิทธิหรือเสี่ยงกระทบคน/ระบบจริง",
+        "ต้องมีผู้รับผิดชอบเฉพาะทางแต่ยังไม่พร้อม"
+      ],
+      "user_opt_in": false
+    },
+    "knowledge_refs": [
+      {
+        "schema_version": "1.0.0",
+        "candidate_id": "H-14",
+        "source_id": "HARVARD-FY14",
+        "version": "FY14",
+        "locator": {
+          "kind": "pdf",
+          "reference": "{\"local_path\": \"Harvard University Competency Dictionary FY14 - final.pdf\", \"pdf_page\": 14, \"section\": \"Competency definition and Key Actions\", \"type\": \"pdf\"}",
+          "section": "Competency definition and Key Actions"
+        },
+        "supported_claim": "Identifies issues, gathers information and evaluates alternatives.",
+        "verification_status": "verified-within-stated-scope",
+        "adaptation_status": "include",
+        "support_role": "behavior_support",
+        "adaptation_note": "Candidate only; observable episode evidence required.; No scoring, levels or unsupported trait inference."
+      },
+      {
+        "schema_version": "1.0.0",
+        "candidate_id": "H-27",
+        "source_id": "HARVARD-FY14",
+        "version": "FY14",
+        "locator": {
+          "kind": "pdf",
+          "reference": "{\"local_path\": \"Harvard University Competency Dictionary FY14 - final.pdf\", \"pdf_page\": 27, \"section\": \"Competency definition and Key Actions\", \"type\": \"pdf\"}",
+          "section": "Competency definition and Key Actions"
+        },
+        "supported_claim": "Analyzes information and develops solutions.",
+        "verification_status": "verified-within-stated-scope",
+        "adaptation_status": "include",
+        "support_role": "behavior_support",
+        "adaptation_note": "Candidate only; observable episode evidence required.; No scoring, levels or unsupported trait inference."
+      },
+      {
+        "schema_version": "1.0.0",
+        "candidate_id": "ICD-S410010010",
+        "source_id": "ICD-V4-SKILL",
+        "version": "V4 announced 2019-01-21",
+        "locator": {
+          "kind": "xlsx",
+          "reference": "{\"expected_knowledge_code\": \"K001\", \"expected_knowledge_name\": \"-\", \"expected_skill_name\": \"Ability to detect problems\", \"local_path\": \"iCDEnglishV4-4layer/Skill Dictionary V4.xlsx\", \"range\": \"A10159:H10159\", \"row\": 10159, \"sheet\": \"Skill List V4\", \"skill_code\": \"S410010010\", \"type\": \"xlsx\"}",
+          "section": "A10159:H10159"
+        },
+        "supported_claim": "Skill label only; knowledge item is '-'.",
+        "verification_status": "verified-within-stated-scope",
+        "adaptation_status": "adapt",
+        "support_role": "related_concept_only",
+        "adaptation_note": "Requires Harvard/NZ or separately verified detailed source before a card can use a behavioral claim.; No ICD proficiency level inference."
+      },
+      {
+        "schema_version": "1.0.0",
+        "candidate_id": "NZ-13",
+        "source_id": "NZ-LSP-2016",
+        "version": "July 2016",
+        "locator": {
+          "kind": "web_pdf",
+          "reference": "{\"pdf_page\": 13, \"section\": \"Curious\", \"type\": \"web_pdf\", \"url\": \"https://www.publicservice.govt.nz/assets/DirectoryFile/LSP_Expanded_guide_July_2016.pdf\"}",
+          "section": "Curious"
+        },
+        "supported_claim": "Examines information and perspectives.",
+        "verification_status": "verified-within-stated-scope",
+        "adaptation_status": "adapt",
+        "support_role": "contextual_behavior_lens",
+        "adaptation_note": "Lumei synthesis; not an official adapted LSP assessment.; No readiness/potential labels or role-level scoring."
+      }
+    ]
+  },
+  {
+    "schema_version": "1.0.0",
+    "skill_id": "GWS-clarify-work",
+    "editorial_version": "0.2.0",
+    "status": "release-candidate-contract-projection",
+    "runtime_authority": false,
+    "display_name": "ทำความเข้าใจงานและความคาดหวัง",
+    "family_id": "understand-and-decide",
+    "situation": "ได้รับคำขอที่เป้าหมาย ผลส่งมอบ หรือข้อจำกัดยังไม่ชัด",
+    "observable_actions": [
+      {
+        "action_id": "A1",
+        "text": "ระบุส่วนที่เข้าใจและส่วนที่ยังต้องยืนยัน แยกคำขอออกจากข้อสันนิษฐานของตน",
+        "knowledge_refs": [
+          {
+            "schema_version": "1.0.0",
+            "candidate_id": "H-14",
+            "source_id": "HARVARD-FY14",
+            "version": "FY14",
+            "locator": {
+              "kind": "pdf",
+              "reference": "{\"local_path\": \"Harvard University Competency Dictionary FY14 - final.pdf\", \"pdf_page\": 14, \"section\": \"Competency definition and Key Actions\", \"type\": \"pdf\"}",
+              "section": "Competency definition and Key Actions"
+            },
+            "supported_claim": "Identifies issues, gathers information and evaluates alternatives.",
+            "verification_status": "verified-within-stated-scope",
+            "adaptation_status": "include",
+            "support_role": "behavior_support",
+            "adaptation_note": "Candidate only; observable episode evidence required.; No scoring, levels or unsupported trait inference."
+          }
+        ]
+      },
+      {
+        "action_id": "A2",
+        "text": "ถามผู้เกี่ยวข้องเรื่องผลที่ต้องการ ผู้ใช้ผลงาน และข้อจำกัดที่มีผลต่อการทำงาน",
+        "knowledge_refs": [
+          {
+            "schema_version": "1.0.0",
+            "candidate_id": "H-11",
+            "source_id": "HARVARD-FY14",
+            "version": "FY14",
+            "locator": {
+              "kind": "pdf",
+              "reference": "{\"local_path\": \"Harvard University Competency Dictionary FY14 - final.pdf\", \"pdf_page\": 11, \"section\": \"Competency definition and Key Actions\", \"type\": \"pdf\"}",
+              "section": "Competency definition and Key Actions"
+            },
+            "supported_claim": "Communicates clearly and listens to others.",
+            "verification_status": "verified-within-stated-scope",
+            "adaptation_status": "include",
+            "support_role": "behavior_support",
+            "adaptation_note": "Candidate only; observable episode evidence required.; No scoring, levels or unsupported trait inference."
+          },
+          {
+            "schema_version": "1.0.0",
+            "candidate_id": "H-26",
+            "source_id": "HARVARD-FY14",
+            "version": "FY14",
+            "locator": {
+              "kind": "pdf",
+              "reference": "{\"local_path\": \"Harvard University Competency Dictionary FY14 - final.pdf\", \"pdf_page\": 26, \"section\": \"Competency definition and Key Actions\", \"type\": \"pdf\"}",
+              "section": "Competency definition and Key Actions"
+            },
+            "supported_claim": "Sets priorities, plans activities and resources.",
+            "verification_status": "verified-within-stated-scope",
+            "adaptation_status": "include",
+            "support_role": "behavior_support",
+            "adaptation_note": "Candidate only; observable episode evidence required.; No scoring, levels or unsupported trait inference."
+          }
+        ]
+      },
+      {
+        "action_id": "A3",
+        "text": "สรุปความเข้าใจกลับ พร้อมจุดที่ยังเปิดอยู่ และขอการยืนยันก่อนยึดเป็นข้อตกลง",
+        "knowledge_refs": [
+          {
+            "schema_version": "1.0.0",
+            "candidate_id": "H-11",
+            "source_id": "HARVARD-FY14",
+            "version": "FY14",
+            "locator": {
+              "kind": "pdf",
+              "reference": "{\"local_path\": \"Harvard University Competency Dictionary FY14 - final.pdf\", \"pdf_page\": 11, \"section\": \"Competency definition and Key Actions\", \"type\": \"pdf\"}",
+              "section": "Competency definition and Key Actions"
+            },
+            "supported_claim": "Communicates clearly and listens to others.",
+            "verification_status": "verified-within-stated-scope",
+            "adaptation_status": "include",
+            "support_role": "behavior_support",
+            "adaptation_note": "Candidate only; observable episode evidence required.; No scoring, levels or unsupported trait inference."
+          }
+        ]
+      }
+    ],
+    "evidence_to_look_for": [
+      "คำถามที่ผู้ใช้ถามจริง",
+      "คำตอบหรือข้อกำหนดที่ได้รับ",
+      "ข้อความสรุปและสถานะการยืนยัน"
+    ],
+    "interpretation_limits": [
+      "การถามหนึ่งครั้งไม่พิสูจน์ว่าทั้งทีมเข้าใจตรงกัน",
+      "ยังไม่ได้รับคำตอบต้องคงสถานะความคาดหวังที่ยังไม่ยืนยัน",
+      "ข้อเสนอการฝึกไม่ใช่หลักฐานว่าผู้ใช้เคยทำหรือทำได้แล้ว",
+      "ไม่ให้คะแนน ระดับ proficiency หรือคำตัดสินตัวตนจากเหตุการณ์"
+    ],
+    "boundary_conditions": [
+      "ใช้เฉพาะงานและข้อมูลที่ผู้ใช้มีสิทธิ",
+      "ไม่แทนขั้นตอนองค์กรหรือความรู้เฉพาะวิชาชีพ",
+      "เหตุการณ์คุกคาม ความปลอดภัยหรือความเสี่ยงสูงต้องใช้ช่องทางที่เหมาะสมก่อนกิจกรรมฝึก"
+    ],
+    "required_managerial_authority": false,
+    "practice": {
+      "schema_version": "1.0.0",
+      "skill_id": "GWS-clarify-work",
+      "target": "ระบุส่วนที่เข้าใจและส่วนที่ยังต้องยืนยัน แยกคำขอออกจากข้อสันนิษฐานของตน",
+      "learner_attempt": "เขียนสรุปคำขอหนึ่งประโยค แล้วเลือกหนึ่งช่องว่างที่มีผลต่อการเริ่มงานและร่างคำถามเพื่อยืนยัน",
+      "feedback_basis": "คำถามทำให้ได้ข้อมูลที่เปลี่ยนการทำงานหรือไม่; สรุปตรงกับคำตอบที่ได้รับเพียงใด",
+      "assistance_boundary": "AI ช่วยจัดโครงหรือชี้ข้อมูลที่ยังขาดได้ ผู้ใช้เป็นเจ้าของเหตุผลและปฏิเสธกิจกรรมได้; ไม่ grading",
+      "transfer_context": "เปลี่ยนจากงานเอกสารเป็นคำขอบริการ ระบุว่าข้อจำกัดใดต่างและต้องถามอะไรใหม่",
+      "next_evidence": [
+        "คำถามที่ผู้ใช้ถามจริง",
+        "ข้อความสรุปและสถานะการยืนยัน"
+      ],
+      "boundary_conditions": [
+        "ใช้เฉพาะงานและข้อมูลที่ผู้ใช้มีสิทธิ",
+        "ไม่แทนขั้นตอนองค์กรหรือความรู้เฉพาะวิชาชีพ",
+        "เหตุการณ์คุกคาม ความปลอดภัยหรือความเสี่ยงสูงต้องใช้ช่องทางที่เหมาะสมก่อนกิจกรรมฝึก"
+      ],
+      "stop_conditions": [
+        "ผู้ใช้ไม่ต้องการฝึก",
+        "งานเกินสิทธิหรือเสี่ยงกระทบคน/ระบบจริง",
+        "ต้องมีผู้รับผิดชอบเฉพาะทางแต่ยังไม่พร้อม"
+      ],
+      "user_opt_in": false
+    },
+    "knowledge_refs": [
+      {
+        "schema_version": "1.0.0",
+        "candidate_id": "H-14",
+        "source_id": "HARVARD-FY14",
+        "version": "FY14",
+        "locator": {
+          "kind": "pdf",
+          "reference": "{\"local_path\": \"Harvard University Competency Dictionary FY14 - final.pdf\", \"pdf_page\": 14, \"section\": \"Competency definition and Key Actions\", \"type\": \"pdf\"}",
+          "section": "Competency definition and Key Actions"
+        },
+        "supported_claim": "Identifies issues, gathers information and evaluates alternatives.",
+        "verification_status": "verified-within-stated-scope",
+        "adaptation_status": "include",
+        "support_role": "behavior_support",
+        "adaptation_note": "Candidate only; observable episode evidence required.; No scoring, levels or unsupported trait inference."
+      },
+      {
+        "schema_version": "1.0.0",
+        "candidate_id": "H-11",
+        "source_id": "HARVARD-FY14",
+        "version": "FY14",
+        "locator": {
+          "kind": "pdf",
+          "reference": "{\"local_path\": \"Harvard University Competency Dictionary FY14 - final.pdf\", \"pdf_page\": 11, \"section\": \"Competency definition and Key Actions\", \"type\": \"pdf\"}",
+          "section": "Competency definition and Key Actions"
+        },
+        "supported_claim": "Communicates clearly and listens to others.",
+        "verification_status": "verified-within-stated-scope",
+        "adaptation_status": "include",
+        "support_role": "behavior_support",
+        "adaptation_note": "Candidate only; observable episode evidence required.; No scoring, levels or unsupported trait inference."
+      },
+      {
+        "schema_version": "1.0.0",
+        "candidate_id": "H-26",
+        "source_id": "HARVARD-FY14",
+        "version": "FY14",
+        "locator": {
+          "kind": "pdf",
+          "reference": "{\"local_path\": \"Harvard University Competency Dictionary FY14 - final.pdf\", \"pdf_page\": 26, \"section\": \"Competency definition and Key Actions\", \"type\": \"pdf\"}",
+          "section": "Competency definition and Key Actions"
+        },
+        "supported_claim": "Sets priorities, plans activities and resources.",
+        "verification_status": "verified-within-stated-scope",
+        "adaptation_status": "include",
+        "support_role": "behavior_support",
+        "adaptation_note": "Candidate only; observable episode evidence required.; No scoring, levels or unsupported trait inference."
+      },
+      {
+        "schema_version": "1.0.0",
+        "candidate_id": "ICD-S410030010",
+        "source_id": "ICD-V4-SKILL",
+        "version": "V4 announced 2019-01-21",
+        "locator": {
+          "kind": "xlsx",
+          "reference": "{\"expected_knowledge_code\": \"K001\", \"expected_knowledge_name\": \"-\", \"expected_skill_name\": \"Ability to understand someone else's ideas\", \"local_path\": \"iCDEnglishV4-4layer/Skill Dictionary V4.xlsx\", \"range\": \"A10168:H10168\", \"row\": 10168, \"sheet\": \"Skill List V4\", \"skill_code\": \"S410030010\", \"type\": \"xlsx\"}",
+          "section": "A10168:H10168"
+        },
+        "supported_claim": "Skill label only; knowledge item is '-'.",
+        "verification_status": "verified-within-stated-scope",
+        "adaptation_status": "adapt",
+        "support_role": "related_concept_only",
+        "adaptation_note": "Requires Harvard/NZ or separately verified detailed source before a card can use a behavioral claim.; No ICD proficiency level inference."
+      },
+      {
+        "schema_version": "1.0.0",
+        "candidate_id": "NZ-01",
+        "source_id": "NZ-LSP-2016",
+        "version": "July 2016",
+        "locator": {
+          "kind": "web_pdf",
+          "reference": "{\"pdf_page\": 9, \"section\": \"Leading strategically\", \"type\": \"web_pdf\", \"url\": \"https://www.publicservice.govt.nz/assets/DirectoryFile/LSP_Expanded_guide_July_2016.pdf\"}",
+          "section": "Leading strategically"
+        },
+        "supported_claim": "Links individual work to wider aims.",
+        "verification_status": "verified-within-stated-scope",
+        "adaptation_status": "adapt",
+        "support_role": "contextual_behavior_lens",
+        "adaptation_note": "Lumei synthesis; not an official adapted LSP assessment.; No readiness/potential labels or role-level scoring."
+      }
+    ]
+  },
+  {
+    "schema_version": "1.0.0",
+    "skill_id": "GWS-communicate-across-backgrounds",
+    "editorial_version": "0.2.0",
+    "status": "release-candidate-contract-projection",
+    "runtime_authority": false,
+    "display_name": "สื่อสารให้คนต่างพื้นหลังมีส่วนร่วม",
+    "family_id": "relate-and-coordinate",
+    "situation": "คนเกี่ยวข้องมีภาษา ประสบการณ์ ช่องทางหรือข้อจำกัดการเข้าถึงต่างกันและต้องเข้าใจเรื่องเดียวกัน",
+    "observable_actions": [
+      {
+        "action_id": "A1",
+        "text": "ถามความต้องการด้านภาษา ช่องทางและข้อมูลจากผู้เกี่ยวข้องโดยไม่เดาจากกลุ่มหรือตำแหน่ง",
+        "knowledge_refs": [
+          {
+            "schema_version": "1.0.0",
+            "candidate_id": "H-34",
+            "source_id": "HARVARD-FY14",
+            "version": "FY14",
+            "locator": {
+              "kind": "pdf",
+              "reference": "{\"local_path\": \"Harvard University Competency Dictionary FY14 - final.pdf\", \"pdf_page\": 34, \"section\": \"Competency definition and Key Actions\", \"type\": \"pdf\"}",
+              "section": "Competency definition and Key Actions"
+            },
+            "supported_claim": "Uses varied perspectives and learns across backgrounds.",
+            "verification_status": "verified-within-stated-scope",
+            "adaptation_status": "adapt",
+            "support_role": "behavior_support",
+            "adaptation_note": "Candidate only; observable episode evidence required.; No scoring, levels or unsupported trait inference.; Phase 5: original bounded adaptation from local Key Actions; not a universal standard or legal instruction."
+          },
+          {
+            "schema_version": "1.0.0",
+            "candidate_id": "H-11",
+            "source_id": "HARVARD-FY14",
+            "version": "FY14",
+            "locator": {
+              "kind": "pdf",
+              "reference": "{\"local_path\": \"Harvard University Competency Dictionary FY14 - final.pdf\", \"pdf_page\": 11, \"section\": \"Competency definition and Key Actions\", \"type\": \"pdf\"}",
+              "section": "Competency definition and Key Actions"
+            },
+            "supported_claim": "Communicates clearly and listens to others.",
+            "verification_status": "verified-within-stated-scope",
+            "adaptation_status": "include",
+            "support_role": "behavior_support",
+            "adaptation_note": "Candidate only; observable episode evidence required.; No scoring, levels or unsupported trait inference.; Phase 5: original bounded adaptation from local Key Actions; not a universal standard or legal instruction."
+          }
+        ]
+      },
+      {
+        "action_id": "A2",
+        "text": "ปรับถ้อยคำ รูปแบบหรือช่องทางให้เหมาะกับความต้องการที่ได้รับ และเปิดให้ผู้เกี่ยวข้องเสนอความเห็น",
+        "knowledge_refs": [
+          {
+            "schema_version": "1.0.0",
+            "candidate_id": "H-11",
+            "source_id": "HARVARD-FY14",
+            "version": "FY14",
+            "locator": {
+              "kind": "pdf",
+              "reference": "{\"local_path\": \"Harvard University Competency Dictionary FY14 - final.pdf\", \"pdf_page\": 11, \"section\": \"Competency definition and Key Actions\", \"type\": \"pdf\"}",
+              "section": "Competency definition and Key Actions"
+            },
+            "supported_claim": "Communicates clearly and listens to others.",
+            "verification_status": "verified-within-stated-scope",
+            "adaptation_status": "include",
+            "support_role": "behavior_support",
+            "adaptation_note": "Candidate only; observable episode evidence required.; No scoring, levels or unsupported trait inference.; Phase 5: original bounded adaptation from local Key Actions; not a universal standard or legal instruction."
+          },
+          {
+            "schema_version": "1.0.0",
+            "candidate_id": "H-34",
+            "source_id": "HARVARD-FY14",
+            "version": "FY14",
+            "locator": {
+              "kind": "pdf",
+              "reference": "{\"local_path\": \"Harvard University Competency Dictionary FY14 - final.pdf\", \"pdf_page\": 34, \"section\": \"Competency definition and Key Actions\", \"type\": \"pdf\"}",
+              "section": "Competency definition and Key Actions"
+            },
+            "supported_claim": "Uses varied perspectives and learns across backgrounds.",
+            "verification_status": "verified-within-stated-scope",
+            "adaptation_status": "adapt",
+            "support_role": "behavior_support",
+            "adaptation_note": "Candidate only; observable episode evidence required.; No scoring, levels or unsupported trait inference.; Phase 5: original bounded adaptation from local Key Actions; not a universal standard or legal instruction."
+          }
+        ]
+      },
+      {
+        "action_id": "A3",
+        "text": "ตรวจความเข้าใจด้วยการสรุปสิ่งที่ตกลงและปรับเมื่อพบว่าข้อความยังไม่ชัด",
+        "knowledge_refs": [
+          {
+            "schema_version": "1.0.0",
+            "candidate_id": "H-11",
+            "source_id": "HARVARD-FY14",
+            "version": "FY14",
+            "locator": {
+              "kind": "pdf",
+              "reference": "{\"local_path\": \"Harvard University Competency Dictionary FY14 - final.pdf\", \"pdf_page\": 11, \"section\": \"Competency definition and Key Actions\", \"type\": \"pdf\"}",
+              "section": "Competency definition and Key Actions"
+            },
+            "supported_claim": "Communicates clearly and listens to others.",
+            "verification_status": "verified-within-stated-scope",
+            "adaptation_status": "include",
+            "support_role": "behavior_support",
+            "adaptation_note": "Candidate only; observable episode evidence required.; No scoring, levels or unsupported trait inference.; Phase 5: original bounded adaptation from local Key Actions; not a universal standard or legal instruction."
+          }
+        ]
+      }
+    ],
+    "evidence_to_look_for": [
+      "ความต้องการที่ผู้รับบอก",
+      "ข้อความหรือรูปแบบก่อนและหลังปรับ",
+      "คำยืนยันหรือความเข้าใจที่ยังไม่ตรงกัน"
+    ],
+    "interpretation_limits": [
+      "ไม่อนุมานวัฒนธรรม ความสามารถหรือความต้องการจากสัญชาติ/อายุ",
+      "ไม่รับรอง accessibility compliance จากข้อความเดียว",
+      "ข้อเสนอฝึกไม่ใช่การกระทำที่เกิดแล้ว; ไม่ให้คะแนนหรือระดับบุคคล"
+    ],
+    "boundary_conditions": [
+      "ใช้เฉพาะงานและข้อมูลที่ผู้ใช้มีสิทธิ",
+      "ไม่แทนขั้นตอนองค์กรหรือความรู้เฉพาะวิชาชีพ",
+      "เหตุการณ์คุกคาม ความปลอดภัยหรือความเสี่ยงสูงต้องใช้ช่องทางที่เหมาะสมก่อนกิจกรรมฝึก"
+    ],
+    "required_managerial_authority": false,
+    "practice": {
+      "schema_version": "1.0.0",
+      "skill_id": "GWS-communicate-across-backgrounds",
+      "target": "ถามความต้องการด้านภาษา ช่องทางและข้อมูลจากผู้เกี่ยวข้องโดยไม่เดาจากกลุ่มหรือตำแหน่ง",
+      "learner_attempt": "ลองอธิบายงานเดียวกันแก่ผู้รับสมมติสองคนที่ระบุช่องทางและประสบการณ์ต่างกัน โดยให้ข้อมูลหลักครบเท่ากัน",
+      "feedback_basis": "เปลี่ยนวิธีอธิบายตามความต้องการที่ระบุโดยไม่ลดข้อมูลสำคัญหรือใช้ stereotype หรือไม่",
+      "assistance_boundary": "AI ช่วยจัดโครงหรือชี้ข้อมูลที่ยังขาดได้ ผู้ใช้เป็นเจ้าของเหตุผลและปฏิเสธกิจกรรมได้; ไม่ grading",
+      "transfer_context": "เปลี่ยนจากอีเมลฝ่ายสำนักงานเป็นข้อความส่งกะ ระบุช่องทางและข้อจำกัดที่ต้องถามใหม่",
+      "next_evidence": [
+        "ความต้องการที่ผู้รับบอก",
+        "คำยืนยันหรือความเข้าใจที่ยังไม่ตรงกัน"
+      ],
+      "boundary_conditions": [
+        "ใช้เฉพาะงานและข้อมูลที่ผู้ใช้มีสิทธิ",
+        "ไม่แทนขั้นตอนองค์กรหรือความรู้เฉพาะวิชาชีพ",
+        "เหตุการณ์คุกคาม ความปลอดภัยหรือความเสี่ยงสูงต้องใช้ช่องทางที่เหมาะสมก่อนกิจกรรมฝึก"
+      ],
+      "stop_conditions": [
+        "ผู้ใช้ไม่ต้องการฝึก",
+        "งานเกินสิทธิหรือเสี่ยงกระทบคน/ระบบจริง",
+        "ต้องมีผู้รับผิดชอบเฉพาะทางแต่ยังไม่พร้อม"
+      ],
+      "user_opt_in": false
+    },
+    "knowledge_refs": [
+      {
+        "schema_version": "1.0.0",
+        "candidate_id": "H-34",
+        "source_id": "HARVARD-FY14",
+        "version": "FY14",
+        "locator": {
+          "kind": "pdf",
+          "reference": "{\"local_path\": \"Harvard University Competency Dictionary FY14 - final.pdf\", \"pdf_page\": 34, \"section\": \"Competency definition and Key Actions\", \"type\": \"pdf\"}",
+          "section": "Competency definition and Key Actions"
+        },
+        "supported_claim": "Uses varied perspectives and learns across backgrounds.",
+        "verification_status": "verified-within-stated-scope",
+        "adaptation_status": "adapt",
+        "support_role": "behavior_support",
+        "adaptation_note": "Candidate only; observable episode evidence required.; No scoring, levels or unsupported trait inference.; Phase 5: original bounded adaptation from local Key Actions; not a universal standard or legal instruction."
+      },
+      {
+        "schema_version": "1.0.0",
+        "candidate_id": "H-11",
+        "source_id": "HARVARD-FY14",
+        "version": "FY14",
+        "locator": {
+          "kind": "pdf",
+          "reference": "{\"local_path\": \"Harvard University Competency Dictionary FY14 - final.pdf\", \"pdf_page\": 11, \"section\": \"Competency definition and Key Actions\", \"type\": \"pdf\"}",
+          "section": "Competency definition and Key Actions"
+        },
+        "supported_claim": "Communicates clearly and listens to others.",
+        "verification_status": "verified-within-stated-scope",
+        "adaptation_status": "include",
+        "support_role": "behavior_support",
+        "adaptation_note": "Candidate only; observable episode evidence required.; No scoring, levels or unsupported trait inference.; Phase 5: original bounded adaptation from local Key Actions; not a universal standard or legal instruction."
+      }
+    ]
+  },
+  {
+    "schema_version": "1.0.0",
+    "skill_id": "GWS-coordinate-across-boundaries",
+    "editorial_version": "0.2.0",
+    "status": "release-candidate-contract-projection",
+    "runtime_authority": false,
+    "display_name": "ประสานงานและสร้างความร่วมมือข้ามขอบเขต",
+    "family_id": "relate-and-coordinate",
+    "situation": "งานต้องอาศัยคนต่างทีมที่ผู้ใช้ไม่มีอำนาจสั่งการ",
+    "observable_actions": [
+      {
+        "action_id": "A1",
+        "text": "ระบุผลร่วมและการพึ่งพากัน รวมทั้งข้อจำกัดของฝ่ายที่เกี่ยวข้อง",
+        "knowledge_refs": [
+          {
+            "schema_version": "1.0.0",
+            "candidate_id": "H-09",
+            "source_id": "HARVARD-FY14",
+            "version": "FY14",
+            "locator": {
+              "kind": "pdf",
+              "reference": "{\"local_path\": \"Harvard University Competency Dictionary FY14 - final.pdf\", \"pdf_page\": 9, \"section\": \"Competency definition and Key Actions\", \"type\": \"pdf\"}",
+              "section": "Competency definition and Key Actions"
+            },
+            "supported_claim": "Builds cooperative relationships to achieve goals.",
+            "verification_status": "verified-within-stated-scope",
+            "adaptation_status": "include",
+            "support_role": "behavior_support",
+            "adaptation_note": "Candidate only; observable episode evidence required.; No scoring, levels or unsupported trait inference."
+          },
+          {
+            "schema_version": "1.0.0",
+            "candidate_id": "H-32",
+            "source_id": "HARVARD-FY14",
+            "version": "FY14",
+            "locator": {
+              "kind": "pdf",
+              "reference": "{\"local_path\": \"Harvard University Competency Dictionary FY14 - final.pdf\", \"pdf_page\": 32, \"section\": \"Competency definition and Key Actions\", \"type\": \"pdf\"}",
+              "section": "Competency definition and Key Actions"
+            },
+            "supported_claim": "Works cooperatively and contributes to shared goals.",
+            "verification_status": "verified-within-stated-scope",
+            "adaptation_status": "include",
+            "support_role": "behavior_support",
+            "adaptation_note": "Candidate only; observable episode evidence required.; No scoring, levels or unsupported trait inference."
+          }
+        ]
+      },
+      {
+        "action_id": "A2",
+        "text": "อธิบายข้อเสนอด้วยเหตุผลที่เกี่ยวกับความต้องการของอีกฝ่าย และเชิญให้เสนอทางเลือก",
+        "knowledge_refs": [
+          {
+            "schema_version": "1.0.0",
+            "candidate_id": "H-04",
+            "source_id": "HARVARD-FY14",
+            "version": "FY14",
+            "locator": {
+              "kind": "pdf",
+              "reference": "{\"local_path\": \"Harvard University Competency Dictionary FY14 - final.pdf\", \"pdf_page\": 4, \"section\": \"Competency definition and Key Actions\", \"type\": \"pdf\"}",
+              "section": "Competency definition and Key Actions"
+            },
+            "supported_claim": "Explores alternatives, develops ideas and builds agreement.",
+            "verification_status": "verified-within-stated-scope",
+            "adaptation_status": "adapt",
+            "support_role": "behavior_support",
+            "adaptation_note": "Candidate only; observable episode evidence required.; No scoring, levels or unsupported trait inference."
+          }
+        ]
+      },
+      {
+        "action_id": "A3",
+        "text": "ขอข้อตกลงที่ทำได้จริง ระบุจุดส่งต่อและติดตามโดยไม่ถือว่าคำขอคือคำสั่ง",
+        "knowledge_refs": [
+          {
+            "schema_version": "1.0.0",
+            "candidate_id": "H-32",
+            "source_id": "HARVARD-FY14",
+            "version": "FY14",
+            "locator": {
+              "kind": "pdf",
+              "reference": "{\"local_path\": \"Harvard University Competency Dictionary FY14 - final.pdf\", \"pdf_page\": 32, \"section\": \"Competency definition and Key Actions\", \"type\": \"pdf\"}",
+              "section": "Competency definition and Key Actions"
+            },
+            "supported_claim": "Works cooperatively and contributes to shared goals.",
+            "verification_status": "verified-within-stated-scope",
+            "adaptation_status": "include",
+            "support_role": "behavior_support",
+            "adaptation_note": "Candidate only; observable episode evidence required.; No scoring, levels or unsupported trait inference."
+          },
+          {
+            "schema_version": "1.0.0",
+            "candidate_id": "H-11",
+            "source_id": "HARVARD-FY14",
+            "version": "FY14",
+            "locator": {
+              "kind": "pdf",
+              "reference": "{\"local_path\": \"Harvard University Competency Dictionary FY14 - final.pdf\", \"pdf_page\": 11, \"section\": \"Competency definition and Key Actions\", \"type\": \"pdf\"}",
+              "section": "Competency definition and Key Actions"
+            },
+            "supported_claim": "Communicates clearly and listens to others.",
+            "verification_status": "verified-within-stated-scope",
+            "adaptation_status": "include",
+            "support_role": "behavior_support",
+            "adaptation_note": "Candidate only; observable episode evidence required.; No scoring, levels or unsupported trait inference."
+          }
+        ]
+      }
+    ],
+    "evidence_to_look_for": [
+      "ผู้เกี่ยวข้องและ dependency ที่พบจริง",
+      "ข้อเสนอ/ทางเลือกที่แลกเปลี่ยน",
+      "คำยืนยันของแต่ละฝ่ายและจุดติดตาม"
+    ],
+    "interpretation_limits": [
+      "ไม่มีคำตอบยังไม่ถือว่าได้รับความร่วมมือ",
+      "ความร่วมมือไม่อนุญาตให้ใช้ข้อมูลหรือทรัพยากรที่ยังไม่ได้รับสิทธิ",
+      "ข้อเสนอการฝึกไม่ใช่หลักฐานว่าผู้ใช้เคยทำหรือทำได้แล้ว",
+      "ไม่ให้คะแนน ระดับ proficiency หรือคำตัดสินตัวตนจากเหตุการณ์"
+    ],
+    "boundary_conditions": [
+      "ใช้เฉพาะงานและข้อมูลที่ผู้ใช้มีสิทธิ",
+      "ไม่แทนขั้นตอนองค์กรหรือความรู้เฉพาะวิชาชีพ",
+      "เหตุการณ์คุกคาม ความปลอดภัยหรือความเสี่ยงสูงต้องใช้ช่องทางที่เหมาะสมก่อนกิจกรรมฝึก"
+    ],
+    "required_managerial_authority": false,
+    "practice": {
+      "schema_version": "1.0.0",
+      "skill_id": "GWS-coordinate-across-boundaries",
+      "target": "ระบุผลร่วมและการพึ่งพากัน รวมทั้งข้อจำกัดของฝ่ายที่เกี่ยวข้อง",
+      "learner_attempt": "เขียนคำขอความร่วมมือที่ระบุผลร่วม สิ่งที่ต้องการ และทางเลือกให้คู่ร่วมงานต่อรองได้",
+      "feedback_basis": "ผู้รับรู้ว่าคำขอช่วยงานของเขาอย่างไรหรือไม่; เขามีสิทธิตอบรับ ต่อรอง หรือปฏิเสธหรือไม่",
+      "assistance_boundary": "AI ช่วยจัดโครงหรือชี้ข้อมูลที่ยังขาดได้ ผู้ใช้เป็นเจ้าของเหตุผลและปฏิเสธกิจกรรมได้; ไม่ grading",
+      "transfer_context": "เปลี่ยนจากประสานทีมข้อมูลเป็นประสานคนต่างกะ ระบุ dependency และช่องทางที่ต่าง",
+      "next_evidence": [
+        "ผู้เกี่ยวข้องและ dependency ที่พบจริง",
+        "คำยืนยันของแต่ละฝ่ายและจุดติดตาม"
+      ],
+      "boundary_conditions": [
+        "ใช้เฉพาะงานและข้อมูลที่ผู้ใช้มีสิทธิ",
+        "ไม่แทนขั้นตอนองค์กรหรือความรู้เฉพาะวิชาชีพ",
+        "เหตุการณ์คุกคาม ความปลอดภัยหรือความเสี่ยงสูงต้องใช้ช่องทางที่เหมาะสมก่อนกิจกรรมฝึก"
+      ],
+      "stop_conditions": [
+        "ผู้ใช้ไม่ต้องการฝึก",
+        "งานเกินสิทธิหรือเสี่ยงกระทบคน/ระบบจริง",
+        "ต้องมีผู้รับผิดชอบเฉพาะทางแต่ยังไม่พร้อม"
+      ],
+      "user_opt_in": false
+    },
+    "knowledge_refs": [
+      {
+        "schema_version": "1.0.0",
+        "candidate_id": "H-09",
+        "source_id": "HARVARD-FY14",
+        "version": "FY14",
+        "locator": {
+          "kind": "pdf",
+          "reference": "{\"local_path\": \"Harvard University Competency Dictionary FY14 - final.pdf\", \"pdf_page\": 9, \"section\": \"Competency definition and Key Actions\", \"type\": \"pdf\"}",
+          "section": "Competency definition and Key Actions"
+        },
+        "supported_claim": "Builds cooperative relationships to achieve goals.",
+        "verification_status": "verified-within-stated-scope",
+        "adaptation_status": "include",
+        "support_role": "behavior_support",
+        "adaptation_note": "Candidate only; observable episode evidence required.; No scoring, levels or unsupported trait inference."
+      },
+      {
+        "schema_version": "1.0.0",
+        "candidate_id": "H-32",
+        "source_id": "HARVARD-FY14",
+        "version": "FY14",
+        "locator": {
+          "kind": "pdf",
+          "reference": "{\"local_path\": \"Harvard University Competency Dictionary FY14 - final.pdf\", \"pdf_page\": 32, \"section\": \"Competency definition and Key Actions\", \"type\": \"pdf\"}",
+          "section": "Competency definition and Key Actions"
+        },
+        "supported_claim": "Works cooperatively and contributes to shared goals.",
+        "verification_status": "verified-within-stated-scope",
+        "adaptation_status": "include",
+        "support_role": "behavior_support",
+        "adaptation_note": "Candidate only; observable episode evidence required.; No scoring, levels or unsupported trait inference."
+      },
+      {
+        "schema_version": "1.0.0",
+        "candidate_id": "H-04",
+        "source_id": "HARVARD-FY14",
+        "version": "FY14",
+        "locator": {
+          "kind": "pdf",
+          "reference": "{\"local_path\": \"Harvard University Competency Dictionary FY14 - final.pdf\", \"pdf_page\": 4, \"section\": \"Competency definition and Key Actions\", \"type\": \"pdf\"}",
+          "section": "Competency definition and Key Actions"
+        },
+        "supported_claim": "Explores alternatives, develops ideas and builds agreement.",
+        "verification_status": "verified-within-stated-scope",
+        "adaptation_status": "adapt",
+        "support_role": "behavior_support",
+        "adaptation_note": "Candidate only; observable episode evidence required.; No scoring, levels or unsupported trait inference."
+      },
+      {
+        "schema_version": "1.0.0",
+        "candidate_id": "H-11",
+        "source_id": "HARVARD-FY14",
+        "version": "FY14",
+        "locator": {
+          "kind": "pdf",
+          "reference": "{\"local_path\": \"Harvard University Competency Dictionary FY14 - final.pdf\", \"pdf_page\": 11, \"section\": \"Competency definition and Key Actions\", \"type\": \"pdf\"}",
+          "section": "Competency definition and Key Actions"
+        },
+        "supported_claim": "Communicates clearly and listens to others.",
+        "verification_status": "verified-within-stated-scope",
+        "adaptation_status": "include",
+        "support_role": "behavior_support",
+        "adaptation_note": "Candidate only; observable episode evidence required.; No scoring, levels or unsupported trait inference."
+      },
+      {
+        "schema_version": "1.0.0",
+        "candidate_id": "ICD-M-2055",
+        "source_id": "ICD-V4-SKILL",
+        "version": "V4 announced 2019-01-21",
+        "locator": {
+          "kind": "xlsx",
+          "reference": "{\"expected_knowledge_code\": \"K023\", \"expected_knowledge_name\": \"Stakeholder management\", \"expected_skill_name\": \"Project communication management\", \"local_path\": \"iCDEnglishV4-4layer/Skill Dictionary V4.xlsx\", \"range\": \"A2055:H2055\", \"row\": 2055, \"sheet\": \"Skill List V4\", \"skill_code\": \"S130100040\", \"type\": \"xlsx\"}",
+          "section": "A2055:H2055"
+        },
+        "supported_claim": "Named knowledge item in an IT-oriented method family.",
+        "verification_status": "verified-within-stated-scope",
+        "adaptation_status": "adapt",
+        "support_role": "related_concept_only",
+        "adaptation_note": "Selected pointer, not full method description.; Specialty methods/standards are not compulsory for all workers."
+      },
+      {
+        "schema_version": "1.0.0",
+        "candidate_id": "NZ-02",
+        "source_id": "NZ-LSP-2016",
+        "version": "July 2016",
+        "locator": {
+          "kind": "web_pdf",
+          "reference": "{\"pdf_page\": 12, \"section\": \"Leading with influence\", \"type\": \"web_pdf\", \"url\": \"https://www.publicservice.govt.nz/assets/DirectoryFile/LSP_Expanded_guide_July_2016.pdf\"}",
+          "section": "Leading with influence"
+        },
+        "supported_claim": "Communicates purpose clearly.",
+        "verification_status": "verified-within-stated-scope",
+        "adaptation_status": "adapt",
+        "support_role": "contextual_behavior_lens",
+        "adaptation_note": "Lumei synthesis; not an official adapted LSP assessment.; No readiness/potential labels or role-level scoring."
+      },
+      {
+        "schema_version": "1.0.0",
+        "candidate_id": "NZ-05",
+        "source_id": "NZ-LSP-2016",
+        "version": "July 2016",
+        "locator": {
+          "kind": "web_pdf",
+          "reference": "{\"pdf_page\": 17, \"section\": \"Enhancing system performance\", \"type\": \"web_pdf\", \"url\": \"https://www.publicservice.govt.nz/assets/DirectoryFile/LSP_Expanded_guide_July_2016.pdf\"}",
+          "section": "Enhancing system performance"
+        },
+        "supported_claim": "Works across boundaries.",
+        "verification_status": "verified-within-stated-scope",
+        "adaptation_status": "adapt",
+        "support_role": "contextual_behavior_lens",
+        "adaptation_note": "Lumei synthesis; not an official adapted LSP assessment.; No readiness/potential labels or role-level scoring."
+      }
+    ]
+  },
+  {
+    "schema_version": "1.0.0",
+    "skill_id": "GWS-handoff-and-follow-through",
+    "editorial_version": "0.2.0",
+    "status": "release-candidate-contract-projection",
+    "runtime_authority": false,
+    "display_name": "ส่งต่องานและติดตามความรับผิดชอบ",
+    "family_id": "deliver-and-improve",
+    "situation": "งานเปลี่ยนผู้ทำ/กะ/ทีม หรือมีข้อตกลงที่ต้องตามต่อ",
+    "observable_actions": [
+      {
+        "action_id": "A1",
+        "text": "ระบุสถานะงาน สิ่งที่ทำแล้ว สิ่งที่ยังค้างและข้อมูลที่ผู้รับต้องรู้",
+        "knowledge_refs": [
+          {
+            "schema_version": "1.0.0",
+            "candidate_id": "H-11",
+            "source_id": "HARVARD-FY14",
+            "version": "FY14",
+            "locator": {
+              "kind": "pdf",
+              "reference": "{\"local_path\": \"Harvard University Competency Dictionary FY14 - final.pdf\", \"pdf_page\": 11, \"section\": \"Competency definition and Key Actions\", \"type\": \"pdf\"}",
+              "section": "Competency definition and Key Actions"
+            },
+            "supported_claim": "Communicates clearly and listens to others.",
+            "verification_status": "verified-within-stated-scope",
+            "adaptation_status": "include",
+            "support_role": "behavior_support",
+            "adaptation_note": "Candidate only; observable episode evidence required.; No scoring, levels or unsupported trait inference."
+          },
+          {
+            "schema_version": "1.0.0",
+            "candidate_id": "H-32",
+            "source_id": "HARVARD-FY14",
+            "version": "FY14",
+            "locator": {
+              "kind": "pdf",
+              "reference": "{\"local_path\": \"Harvard University Competency Dictionary FY14 - final.pdf\", \"pdf_page\": 32, \"section\": \"Competency definition and Key Actions\", \"type\": \"pdf\"}",
+              "section": "Competency definition and Key Actions"
+            },
+            "supported_claim": "Works cooperatively and contributes to shared goals.",
+            "verification_status": "verified-within-stated-scope",
+            "adaptation_status": "include",
+            "support_role": "behavior_support",
+            "adaptation_note": "Candidate only; observable episode evidence required.; No scoring, levels or unsupported trait inference."
+          }
+        ]
+      },
+      {
+        "action_id": "A2",
+        "text": "ตรวจว่ามีผู้รับงานที่ยืนยันและเข้าใจสิ่งที่ต้องทำต่อ พร้อมขอบเขตความรับผิดชอบ",
+        "knowledge_refs": [
+          {
+            "schema_version": "1.0.0",
+            "candidate_id": "H-11",
+            "source_id": "HARVARD-FY14",
+            "version": "FY14",
+            "locator": {
+              "kind": "pdf",
+              "reference": "{\"local_path\": \"Harvard University Competency Dictionary FY14 - final.pdf\", \"pdf_page\": 11, \"section\": \"Competency definition and Key Actions\", \"type\": \"pdf\"}",
+              "section": "Competency definition and Key Actions"
+            },
+            "supported_claim": "Communicates clearly and listens to others.",
+            "verification_status": "verified-within-stated-scope",
+            "adaptation_status": "include",
+            "support_role": "behavior_support",
+            "adaptation_note": "Candidate only; observable episode evidence required.; No scoring, levels or unsupported trait inference."
+          },
+          {
+            "schema_version": "1.0.0",
+            "candidate_id": "H-32",
+            "source_id": "HARVARD-FY14",
+            "version": "FY14",
+            "locator": {
+              "kind": "pdf",
+              "reference": "{\"local_path\": \"Harvard University Competency Dictionary FY14 - final.pdf\", \"pdf_page\": 32, \"section\": \"Competency definition and Key Actions\", \"type\": \"pdf\"}",
+              "section": "Competency definition and Key Actions"
+            },
+            "supported_claim": "Works cooperatively and contributes to shared goals.",
+            "verification_status": "verified-within-stated-scope",
+            "adaptation_status": "include",
+            "support_role": "behavior_support",
+            "adaptation_note": "Candidate only; observable episode evidence required.; No scoring, levels or unsupported trait inference."
+          }
+        ]
+      },
+      {
+        "action_id": "A3",
+        "text": "ติดตามข้อตกลงตามจุดที่เหมาะสมและแจ้งอุปสรรคเมื่อพบ แทนถือว่าส่งข้อความแล้วจบ",
+        "knowledge_refs": [
+          {
+            "schema_version": "1.0.0",
+            "candidate_id": "H-05",
+            "source_id": "HARVARD-FY14",
+            "version": "FY14",
+            "locator": {
+              "kind": "pdf",
+              "reference": "{\"local_path\": \"Harvard University Competency Dictionary FY14 - final.pdf\", \"pdf_page\": 5, \"section\": \"Competency definition and Key Actions\", \"type\": \"pdf\"}",
+              "section": "Competency definition and Key Actions"
+            },
+            "supported_claim": "Accepts responsibility and follows through on commitments.",
+            "verification_status": "verified-within-stated-scope",
+            "adaptation_status": "include",
+            "support_role": "behavior_support",
+            "adaptation_note": "Candidate only; observable episode evidence required.; No scoring, levels or unsupported trait inference."
+          }
+        ]
+      }
+    ],
+    "evidence_to_look_for": [
+      "บันทึกสถานะและงานค้าง",
+      "คำตอบของผู้รับและขอบเขตที่ยืนยัน",
+      "หลักฐานติดตาม/แจ้งอุปสรรค"
+    ],
+    "interpretation_limits": [
+      "ส่งแล้วไม่เท่ากับรับหรือทำเสร็จ",
+      "ไม่สามารถรับรองคุณภาพงานของผู้รับโดยไม่มีข้อมูล",
+      "ข้อเสนอการฝึกไม่ใช่หลักฐานว่าผู้ใช้เคยทำหรือทำได้แล้ว",
+      "ไม่ให้คะแนน ระดับ proficiency หรือคำตัดสินตัวตนจากเหตุการณ์"
+    ],
+    "boundary_conditions": [
+      "ใช้เฉพาะงานและข้อมูลที่ผู้ใช้มีสิทธิ",
+      "ไม่แทนขั้นตอนองค์กรหรือความรู้เฉพาะวิชาชีพ",
+      "เหตุการณ์คุกคาม ความปลอดภัยหรือความเสี่ยงสูงต้องใช้ช่องทางที่เหมาะสมก่อนกิจกรรมฝึก"
+    ],
+    "required_managerial_authority": false,
+    "practice": {
+      "schema_version": "1.0.0",
+      "skill_id": "GWS-handoff-and-follow-through",
+      "target": "ระบุสถานะงาน สิ่งที่ทำแล้ว สิ่งที่ยังค้างและข้อมูลที่ผู้รับต้องรู้",
+      "learner_attempt": "เขียน handoff หนึ่งงาน ระบุสถานะ งานค้างและสิ่งที่ผู้รับต้องยืนยัน โดยไม่ใส่ข้อมูลเกินสิทธิ",
+      "feedback_basis": "ผู้รับทำต่อได้จากข้อมูลที่ได้รับหรือไม่; มีผู้รับที่ยืนยันจริงหรือเพียงสมมติชื่อไว้",
+      "assistance_boundary": "AI ช่วยจัดโครงหรือชี้ข้อมูลที่ยังขาดได้ ผู้ใช้เป็นเจ้าของเหตุผลและปฏิเสธกิจกรรมได้; ไม่ grading",
+      "transfer_context": "เปลี่ยนจากส่งงานระหว่างทีมเป็นส่งงานระหว่างกะ ระบุข้อมูลสำคัญและวิธีตรวจรับที่ต่าง",
+      "next_evidence": [
+        "บันทึกสถานะและงานค้าง",
+        "หลักฐานติดตาม/แจ้งอุปสรรค"
+      ],
+      "boundary_conditions": [
+        "ใช้เฉพาะงานและข้อมูลที่ผู้ใช้มีสิทธิ",
+        "ไม่แทนขั้นตอนองค์กรหรือความรู้เฉพาะวิชาชีพ",
+        "เหตุการณ์คุกคาม ความปลอดภัยหรือความเสี่ยงสูงต้องใช้ช่องทางที่เหมาะสมก่อนกิจกรรมฝึก"
+      ],
+      "stop_conditions": [
+        "ผู้ใช้ไม่ต้องการฝึก",
+        "งานเกินสิทธิหรือเสี่ยงกระทบคน/ระบบจริง",
+        "ต้องมีผู้รับผิดชอบเฉพาะทางแต่ยังไม่พร้อม"
+      ],
+      "user_opt_in": false
+    },
+    "knowledge_refs": [
+      {
+        "schema_version": "1.0.0",
+        "candidate_id": "H-11",
+        "source_id": "HARVARD-FY14",
+        "version": "FY14",
+        "locator": {
+          "kind": "pdf",
+          "reference": "{\"local_path\": \"Harvard University Competency Dictionary FY14 - final.pdf\", \"pdf_page\": 11, \"section\": \"Competency definition and Key Actions\", \"type\": \"pdf\"}",
+          "section": "Competency definition and Key Actions"
+        },
+        "supported_claim": "Communicates clearly and listens to others.",
+        "verification_status": "verified-within-stated-scope",
+        "adaptation_status": "include",
+        "support_role": "behavior_support",
+        "adaptation_note": "Candidate only; observable episode evidence required.; No scoring, levels or unsupported trait inference."
+      },
+      {
+        "schema_version": "1.0.0",
+        "candidate_id": "H-32",
+        "source_id": "HARVARD-FY14",
+        "version": "FY14",
+        "locator": {
+          "kind": "pdf",
+          "reference": "{\"local_path\": \"Harvard University Competency Dictionary FY14 - final.pdf\", \"pdf_page\": 32, \"section\": \"Competency definition and Key Actions\", \"type\": \"pdf\"}",
+          "section": "Competency definition and Key Actions"
+        },
+        "supported_claim": "Works cooperatively and contributes to shared goals.",
+        "verification_status": "verified-within-stated-scope",
+        "adaptation_status": "include",
+        "support_role": "behavior_support",
+        "adaptation_note": "Candidate only; observable episode evidence required.; No scoring, levels or unsupported trait inference."
+      },
+      {
+        "schema_version": "1.0.0",
+        "candidate_id": "H-05",
+        "source_id": "HARVARD-FY14",
+        "version": "FY14",
+        "locator": {
+          "kind": "pdf",
+          "reference": "{\"local_path\": \"Harvard University Competency Dictionary FY14 - final.pdf\", \"pdf_page\": 5, \"section\": \"Competency definition and Key Actions\", \"type\": \"pdf\"}",
+          "section": "Competency definition and Key Actions"
+        },
+        "supported_claim": "Accepts responsibility and follows through on commitments.",
+        "verification_status": "verified-within-stated-scope",
+        "adaptation_status": "include",
+        "support_role": "behavior_support",
+        "adaptation_note": "Candidate only; observable episode evidence required.; No scoring, levels or unsupported trait inference."
+      },
+      {
+        "schema_version": "1.0.0",
+        "candidate_id": "ICD-M-2962",
+        "source_id": "ICD-V4-SKILL",
+        "version": "V4 announced 2019-01-21",
+        "locator": {
+          "kind": "xlsx",
+          "reference": "{\"expected_knowledge_code\": \"K001\", \"expected_knowledge_name\": \"Content management (Web publishing tools, Web conferences, Wiki, blogs etc., document preparation, data and financial analysis, presentation tools, flow chart preparation, content management system (systematization, organization, version control, document architecture), publication and distribution)\", \"expected_skill_name\": \"Knowledge management methods\", \"local_path\": \"iCDEnglishV4-4layer/Skill Dictionary V4.xlsx\", \"range\": \"A2962:H2962\", \"row\": 2962, \"sheet\": \"Skill List V4\", \"skill_code\": \"S140040030\", \"type\": \"xlsx\"}",
+          "section": "A2962:H2962"
+        },
+        "supported_claim": "Named knowledge item in an IT-oriented method family.",
+        "verification_status": "verified-within-stated-scope",
+        "adaptation_status": "adapt",
+        "support_role": "related_concept_only",
+        "adaptation_note": "Selected pointer, not full method description.; Specialty methods/standards are not compulsory for all workers."
+      }
+    ]
+  },
+  {
+    "schema_version": "1.0.0",
+    "skill_id": "GWS-improve-with-small-experiments",
+    "editorial_version": "0.2.0",
+    "status": "release-candidate-contract-projection",
+    "runtime_authority": false,
+    "display_name": "ปรับปรุงงานด้วยการทดลองขนาดเล็ก",
+    "family_id": "deliver-and-improve",
+    "situation": "พบปัญหาคุณภาพหรือขั้นตอนซ้ำ และมีพื้นที่ทดลองที่ปลอดภัยในขอบเขตอำนาจ",
+    "observable_actions": [
+      {
+        "action_id": "A1",
+        "text": "ระบุปัญหาจากเหตุการณ์และสภาพตั้งต้น รวมทั้งข้อจำกัดที่ต้องรักษา",
+        "knowledge_refs": [
+          {
+            "schema_version": "1.0.0",
+            "candidate_id": "H-27",
+            "source_id": "HARVARD-FY14",
+            "version": "FY14",
+            "locator": {
+              "kind": "pdf",
+              "reference": "{\"local_path\": \"Harvard University Competency Dictionary FY14 - final.pdf\", \"pdf_page\": 27, \"section\": \"Competency definition and Key Actions\", \"type\": \"pdf\"}",
+              "section": "Competency definition and Key Actions"
+            },
+            "supported_claim": "Analyzes information and develops solutions.",
+            "verification_status": "verified-within-stated-scope",
+            "adaptation_status": "include",
+            "support_role": "behavior_support",
+            "adaptation_note": "Candidate only; observable episode evidence required.; No scoring, levels or unsupported trait inference."
+          },
+          {
+            "schema_version": "1.0.0",
+            "candidate_id": "H-07",
+            "source_id": "HARVARD-FY14",
+            "version": "FY14",
+            "locator": {
+              "kind": "pdf",
+              "reference": "{\"local_path\": \"Harvard University Competency Dictionary FY14 - final.pdf\", \"pdf_page\": 7, \"section\": \"Competency definition and Key Actions\", \"type\": \"pdf\"}",
+              "section": "Competency definition and Key Actions"
+            },
+            "supported_claim": "Checks work accuracy and completeness.",
+            "verification_status": "verified-within-stated-scope",
+            "adaptation_status": "include",
+            "support_role": "behavior_support",
+            "adaptation_note": "Candidate only; observable episode evidence required.; No scoring, levels or unsupported trait inference."
+          }
+        ]
+      },
+      {
+        "action_id": "A2",
+        "text": "เสนอการเปลี่ยนหนึ่งอย่างที่ตรวจได้ และกำหนดว่าจะสังเกตอะไรพร้อมเงื่อนไขหยุด",
+        "knowledge_refs": [
+          {
+            "schema_version": "1.0.0",
+            "candidate_id": "H-18",
+            "source_id": "HARVARD-FY14",
+            "version": "FY14",
+            "locator": {
+              "kind": "pdf",
+              "reference": "{\"local_path\": \"Harvard University Competency Dictionary FY14 - final.pdf\", \"pdf_page\": 18, \"section\": \"Competency definition and Key Actions\", \"type\": \"pdf\"}",
+              "section": "Competency definition and Key Actions"
+            },
+            "supported_claim": "Generates and develops new approaches.",
+            "verification_status": "verified-within-stated-scope",
+            "adaptation_status": "adapt",
+            "support_role": "behavior_support",
+            "adaptation_note": "Candidate only; observable episode evidence required.; No scoring, levels or unsupported trait inference."
+          },
+          {
+            "schema_version": "1.0.0",
+            "candidate_id": "H-30",
+            "source_id": "HARVARD-FY14",
+            "version": "FY14",
+            "locator": {
+              "kind": "pdf",
+              "reference": "{\"local_path\": \"Harvard University Competency Dictionary FY14 - final.pdf\", \"pdf_page\": 30, \"section\": \"Competency definition and Key Actions\", \"type\": \"pdf\"}",
+              "section": "Competency definition and Key Actions"
+            },
+            "supported_claim": "Initiates beneficial action with understood potential consequences.",
+            "verification_status": "verified-within-stated-scope",
+            "adaptation_status": "adapt",
+            "support_role": "behavior_support",
+            "adaptation_note": "Candidate only; observable episode evidence required.; No scoring, levels or unsupported trait inference."
+          }
+        ]
+      },
+      {
+        "action_id": "A3",
+        "text": "ลองเมื่อได้รับสิทธิและทบทวนผลที่สังเกต โดยไม่สรุปว่าการเปลี่ยนเป็นสาเหตุเดียว",
+        "knowledge_refs": [
+          {
+            "schema_version": "1.0.0",
+            "candidate_id": "H-28",
+            "source_id": "HARVARD-FY14",
+            "version": "FY14",
+            "locator": {
+              "kind": "pdf",
+              "reference": "{\"local_path\": \"Harvard University Competency Dictionary FY14 - final.pdf\", \"pdf_page\": 28, \"section\": \"Competency definition and Key Actions\", \"type\": \"pdf\"}",
+              "section": "Competency definition and Key Actions"
+            },
+            "supported_claim": "Improves standards and work quality.",
+            "verification_status": "verified-within-stated-scope",
+            "adaptation_status": "adapt",
+            "support_role": "behavior_support",
+            "adaptation_note": "Candidate only; observable episode evidence required.; No scoring, levels or unsupported trait inference."
+          },
+          {
+            "schema_version": "1.0.0",
+            "candidate_id": "H-30",
+            "source_id": "HARVARD-FY14",
+            "version": "FY14",
+            "locator": {
+              "kind": "pdf",
+              "reference": "{\"local_path\": \"Harvard University Competency Dictionary FY14 - final.pdf\", \"pdf_page\": 30, \"section\": \"Competency definition and Key Actions\", \"type\": \"pdf\"}",
+              "section": "Competency definition and Key Actions"
+            },
+            "supported_claim": "Initiates beneficial action with understood potential consequences.",
+            "verification_status": "verified-within-stated-scope",
+            "adaptation_status": "adapt",
+            "support_role": "behavior_support",
+            "adaptation_note": "Candidate only; observable episode evidence required.; No scoring, levels or unsupported trait inference."
+          }
+        ]
+      }
+    ],
+    "evidence_to_look_for": [
+      "สภาพตั้งต้นและปัญหาที่ระบุได้",
+      "การเปลี่ยนที่ได้รับสิทธิและเงื่อนไขทดลอง",
+      "ผลที่สังเกตและปัจจัยอื่นที่อาจเกี่ยวข้อง"
+    ],
+    "interpretation_limits": [
+      "ผลดีหลังทดลองไม่พิสูจน์สาเหตุโดยตัวมันเอง",
+      "การปรับปรุงไม่อนุญาตให้ข้าม SOP safety หรือ change approval",
+      "ข้อเสนอการฝึกไม่ใช่หลักฐานว่าผู้ใช้เคยทำหรือทำได้แล้ว",
+      "ไม่ให้คะแนน ระดับ proficiency หรือคำตัดสินตัวตนจากเหตุการณ์"
+    ],
+    "boundary_conditions": [
+      "ใช้เฉพาะงานและข้อมูลที่ผู้ใช้มีสิทธิ",
+      "ไม่แทนขั้นตอนองค์กรหรือความรู้เฉพาะวิชาชีพ",
+      "เหตุการณ์คุกคาม ความปลอดภัยหรือความเสี่ยงสูงต้องใช้ช่องทางที่เหมาะสมก่อนกิจกรรมฝึก"
+    ],
+    "required_managerial_authority": false,
+    "practice": {
+      "schema_version": "1.0.0",
+      "skill_id": "GWS-improve-with-small-experiments",
+      "target": "ระบุปัญหาจากเหตุการณ์และสภาพตั้งต้น รวมทั้งข้อจำกัดที่ต้องรักษา",
+      "learner_attempt": "ร่างต้นแบบหรือการเปลี่ยนขั้นตอนหนึ่งจุดในสถานการณ์สมมติ ระบุผลที่คาด สิ่งที่จะดูและเงื่อนไขหยุด",
+      "feedback_basis": "การเปลี่ยนเล็กพอจะตรวจและย้อนกลับได้หรือไม่; มีข้อมูลตั้งต้นและอธิบายปัจจัยอื่นหรือไม่",
+      "assistance_boundary": "AI ช่วยจัดโครงหรือชี้ข้อมูลที่ยังขาดได้ ผู้ใช้เป็นเจ้าของเหตุผลและปฏิเสธกิจกรรมได้; ไม่ grading",
+      "transfer_context": "เปลี่ยนจากตรวจแบบฟอร์มเป็นติดตามข้อผิดพลาดใน handoff ระบุว่าต้องเปลี่ยนวิธีสังเกตอะไร",
+      "next_evidence": [
+        "สภาพตั้งต้นและปัญหาที่ระบุได้",
+        "ผลที่สังเกตและปัจจัยอื่นที่อาจเกี่ยวข้อง"
+      ],
+      "boundary_conditions": [
+        "ใช้เฉพาะงานและข้อมูลที่ผู้ใช้มีสิทธิ",
+        "ไม่แทนขั้นตอนองค์กรหรือความรู้เฉพาะวิชาชีพ",
+        "เหตุการณ์คุกคาม ความปลอดภัยหรือความเสี่ยงสูงต้องใช้ช่องทางที่เหมาะสมก่อนกิจกรรมฝึก"
+      ],
+      "stop_conditions": [
+        "ผู้ใช้ไม่ต้องการฝึก",
+        "งานเกินสิทธิหรือเสี่ยงกระทบคน/ระบบจริง",
+        "ต้องมีผู้รับผิดชอบเฉพาะทางแต่ยังไม่พร้อม"
+      ],
+      "user_opt_in": false
+    },
+    "knowledge_refs": [
+      {
+        "schema_version": "1.0.0",
+        "candidate_id": "H-27",
+        "source_id": "HARVARD-FY14",
+        "version": "FY14",
+        "locator": {
+          "kind": "pdf",
+          "reference": "{\"local_path\": \"Harvard University Competency Dictionary FY14 - final.pdf\", \"pdf_page\": 27, \"section\": \"Competency definition and Key Actions\", \"type\": \"pdf\"}",
+          "section": "Competency definition and Key Actions"
+        },
+        "supported_claim": "Analyzes information and develops solutions.",
+        "verification_status": "verified-within-stated-scope",
+        "adaptation_status": "include",
+        "support_role": "behavior_support",
+        "adaptation_note": "Candidate only; observable episode evidence required.; No scoring, levels or unsupported trait inference."
+      },
+      {
+        "schema_version": "1.0.0",
+        "candidate_id": "H-07",
+        "source_id": "HARVARD-FY14",
+        "version": "FY14",
+        "locator": {
+          "kind": "pdf",
+          "reference": "{\"local_path\": \"Harvard University Competency Dictionary FY14 - final.pdf\", \"pdf_page\": 7, \"section\": \"Competency definition and Key Actions\", \"type\": \"pdf\"}",
+          "section": "Competency definition and Key Actions"
+        },
+        "supported_claim": "Checks work accuracy and completeness.",
+        "verification_status": "verified-within-stated-scope",
+        "adaptation_status": "include",
+        "support_role": "behavior_support",
+        "adaptation_note": "Candidate only; observable episode evidence required.; No scoring, levels or unsupported trait inference."
+      },
+      {
+        "schema_version": "1.0.0",
+        "candidate_id": "H-18",
+        "source_id": "HARVARD-FY14",
+        "version": "FY14",
+        "locator": {
+          "kind": "pdf",
+          "reference": "{\"local_path\": \"Harvard University Competency Dictionary FY14 - final.pdf\", \"pdf_page\": 18, \"section\": \"Competency definition and Key Actions\", \"type\": \"pdf\"}",
+          "section": "Competency definition and Key Actions"
+        },
+        "supported_claim": "Generates and develops new approaches.",
+        "verification_status": "verified-within-stated-scope",
+        "adaptation_status": "adapt",
+        "support_role": "behavior_support",
+        "adaptation_note": "Candidate only; observable episode evidence required.; No scoring, levels or unsupported trait inference."
+      },
+      {
+        "schema_version": "1.0.0",
+        "candidate_id": "H-30",
+        "source_id": "HARVARD-FY14",
+        "version": "FY14",
+        "locator": {
+          "kind": "pdf",
+          "reference": "{\"local_path\": \"Harvard University Competency Dictionary FY14 - final.pdf\", \"pdf_page\": 30, \"section\": \"Competency definition and Key Actions\", \"type\": \"pdf\"}",
+          "section": "Competency definition and Key Actions"
+        },
+        "supported_claim": "Initiates beneficial action with understood potential consequences.",
+        "verification_status": "verified-within-stated-scope",
+        "adaptation_status": "adapt",
+        "support_role": "behavior_support",
+        "adaptation_note": "Candidate only; observable episode evidence required.; No scoring, levels or unsupported trait inference."
+      },
+      {
+        "schema_version": "1.0.0",
+        "candidate_id": "H-28",
+        "source_id": "HARVARD-FY14",
+        "version": "FY14",
+        "locator": {
+          "kind": "pdf",
+          "reference": "{\"local_path\": \"Harvard University Competency Dictionary FY14 - final.pdf\", \"pdf_page\": 28, \"section\": \"Competency definition and Key Actions\", \"type\": \"pdf\"}",
+          "section": "Competency definition and Key Actions"
+        },
+        "supported_claim": "Improves standards and work quality.",
+        "verification_status": "verified-within-stated-scope",
+        "adaptation_status": "adapt",
+        "support_role": "behavior_support",
+        "adaptation_note": "Candidate only; observable episode evidence required.; No scoring, levels or unsupported trait inference."
+      },
+      {
+        "schema_version": "1.0.0",
+        "candidate_id": "ICD-M-3586",
+        "source_id": "ICD-V4-SKILL",
+        "version": "V4 announced 2019-01-21",
+        "locator": {
+          "kind": "xlsx",
+          "reference": "{\"expected_knowledge_code\": \"K001\", \"expected_knowledge_name\": \"PDCA\", \"expected_skill_name\": \"Quality improvement-related methods\", \"local_path\": \"iCDEnglishV4-4layer/Skill Dictionary V4.xlsx\", \"range\": \"A3586:H3586\", \"row\": 3586, \"sheet\": \"Skill List V4\", \"skill_code\": \"S150010130\", \"type\": \"xlsx\"}",
+          "section": "A3586:H3586"
+        },
+        "supported_claim": "Named knowledge item in an IT-oriented method family.",
+        "verification_status": "verified-within-stated-scope",
+        "adaptation_status": "adapt",
+        "support_role": "related_concept_only",
+        "adaptation_note": "Selected pointer, not full method description.; Specialty methods/standards are not compulsory for all workers."
+      }
+    ]
+  },
+  {
+    "schema_version": "1.0.0",
+    "skill_id": "GWS-learn-and-transfer",
+    "editorial_version": "0.2.0",
+    "status": "release-candidate-contract-projection",
+    "runtime_authority": false,
+    "display_name": "เรียนรู้จาก feedback และนำบทเรียนไปใช้",
+    "family_id": "learn-and-use-ai",
+    "situation": "มี feedback ความผิดพลาด หรือการลองครั้งหนึ่งที่อยากนำไปปรับครั้งถัดไป",
+    "observable_actions": [
+      {
+        "action_id": "A1",
+        "text": "ระบุสิ่งที่ทำ ผลที่รายงานและ feedback ที่มี โดยไม่สรุปตัวตนจากความผิดพลาด",
+        "knowledge_refs": [
+          {
+            "schema_version": "1.0.0",
+            "candidate_id": "H-12",
+            "source_id": "HARVARD-FY14",
+            "version": "FY14",
+            "locator": {
+              "kind": "pdf",
+              "reference": "{\"local_path\": \"Harvard University Competency Dictionary FY14 - final.pdf\", \"pdf_page\": 12, \"section\": \"Competency definition and Key Actions\", \"type\": \"pdf\"}",
+              "section": "Competency definition and Key Actions"
+            },
+            "supported_claim": "Seeks learning opportunities and uses feedback.",
+            "verification_status": "verified-within-stated-scope",
+            "adaptation_status": "include",
+            "support_role": "behavior_support",
+            "adaptation_note": "Candidate only; observable episode evidence required.; No scoring, levels or unsupported trait inference."
+          }
+        ]
+      },
+      {
+        "action_id": "A2",
+        "text": "เลือกสิ่งที่จะปรับหนึ่งอย่างและลองการกระทำนั้นด้วยตนเองเมื่อเหมาะสม",
+        "knowledge_refs": [
+          {
+            "schema_version": "1.0.0",
+            "candidate_id": "H-06",
+            "source_id": "HARVARD-FY14",
+            "version": "FY14",
+            "locator": {
+              "kind": "pdf",
+              "reference": "{\"local_path\": \"Harvard University Competency Dictionary FY14 - final.pdf\", \"pdf_page\": 6, \"section\": \"Competency definition and Key Actions\", \"type\": \"pdf\"}",
+              "section": "Competency definition and Key Actions"
+            },
+            "supported_claim": "Applies newly acquired knowledge in work.",
+            "verification_status": "verified-within-stated-scope",
+            "adaptation_status": "adapt",
+            "support_role": "behavior_support",
+            "adaptation_note": "Candidate only; observable episode evidence required.; No scoring, levels or unsupported trait inference."
+          },
+          {
+            "schema_version": "1.0.0",
+            "candidate_id": "H-12",
+            "source_id": "HARVARD-FY14",
+            "version": "FY14",
+            "locator": {
+              "kind": "pdf",
+              "reference": "{\"local_path\": \"Harvard University Competency Dictionary FY14 - final.pdf\", \"pdf_page\": 12, \"section\": \"Competency definition and Key Actions\", \"type\": \"pdf\"}",
+              "section": "Competency definition and Key Actions"
+            },
+            "supported_claim": "Seeks learning opportunities and uses feedback.",
+            "verification_status": "verified-within-stated-scope",
+            "adaptation_status": "include",
+            "support_role": "behavior_support",
+            "adaptation_note": "Candidate only; observable episode evidence required.; No scoring, levels or unsupported trait inference."
+          }
+        ]
+      },
+      {
+        "action_id": "A3",
+        "text": "เปรียบเทียบสิ่งที่เกิดกับความตั้งใจ แล้วระบุว่าจะปรับบทเรียนอย่างไรในบริบทอื่น",
+        "knowledge_refs": [
+          {
+            "schema_version": "1.0.0",
+            "candidate_id": "H-06",
+            "source_id": "HARVARD-FY14",
+            "version": "FY14",
+            "locator": {
+              "kind": "pdf",
+              "reference": "{\"local_path\": \"Harvard University Competency Dictionary FY14 - final.pdf\", \"pdf_page\": 6, \"section\": \"Competency definition and Key Actions\", \"type\": \"pdf\"}",
+              "section": "Competency definition and Key Actions"
+            },
+            "supported_claim": "Applies newly acquired knowledge in work.",
+            "verification_status": "verified-within-stated-scope",
+            "adaptation_status": "adapt",
+            "support_role": "behavior_support",
+            "adaptation_note": "Candidate only; observable episode evidence required.; No scoring, levels or unsupported trait inference."
+          },
+          {
+            "schema_version": "1.0.0",
+            "candidate_id": "H-12",
+            "source_id": "HARVARD-FY14",
+            "version": "FY14",
+            "locator": {
+              "kind": "pdf",
+              "reference": "{\"local_path\": \"Harvard University Competency Dictionary FY14 - final.pdf\", \"pdf_page\": 12, \"section\": \"Competency definition and Key Actions\", \"type\": \"pdf\"}",
+              "section": "Competency definition and Key Actions"
+            },
+            "supported_claim": "Seeks learning opportunities and uses feedback.",
+            "verification_status": "verified-within-stated-scope",
+            "adaptation_status": "include",
+            "support_role": "behavior_support",
+            "adaptation_note": "Candidate only; observable episode evidence required.; No scoring, levels or unsupported trait inference."
+          }
+        ]
+      }
+    ],
+    "evidence_to_look_for": [
+      "เหตุการณ์/feedback ที่ระบุแหล่งได้",
+      "การลองครั้งถัดไปที่ผู้ใช้ลงมือ",
+      "ความเหมือน/ต่างของบริบทและผลที่สังเกตได้"
+    ],
+    "interpretation_limits": [
+      "สะท้อนคิดได้ไม่เท่ากับใช้ทักษะได้แล้ว",
+      "การลองหนึ่งครั้งไม่พิสูจน์ transfer หรือประสิทธิผลถาวร",
+      "ข้อเสนอการฝึกไม่ใช่หลักฐานว่าผู้ใช้เคยทำหรือทำได้แล้ว",
+      "ไม่ให้คะแนน ระดับ proficiency หรือคำตัดสินตัวตนจากเหตุการณ์"
+    ],
+    "boundary_conditions": [
+      "ใช้เฉพาะงานและข้อมูลที่ผู้ใช้มีสิทธิ",
+      "ไม่แทนขั้นตอนองค์กรหรือความรู้เฉพาะวิชาชีพ",
+      "เหตุการณ์คุกคาม ความปลอดภัยหรือความเสี่ยงสูงต้องใช้ช่องทางที่เหมาะสมก่อนกิจกรรมฝึก"
+    ],
+    "required_managerial_authority": false,
+    "practice": {
+      "schema_version": "1.0.0",
+      "skill_id": "GWS-learn-and-transfer",
+      "target": "ระบุสิ่งที่ทำ ผลที่รายงานและ feedback ที่มี โดยไม่สรุปตัวตนจากความผิดพลาด",
+      "learner_attempt": "เลือก feedback หนึ่งข้อ ร่างและลองการปรับหนึ่งอย่าง แล้วจดสิ่งที่เห็นโดยไม่ให้คะแนนตนเอง",
+      "feedback_basis": "มีการเปลี่ยนการกระทำจริงหรือไม่; แยก feedback ที่ได้รับจากคำอธิบายที่สร้างภายหลังหรือไม่",
+      "assistance_boundary": "AI ช่วยจัดโครงหรือชี้ข้อมูลที่ยังขาดได้ ผู้ใช้เป็นเจ้าของเหตุผลและปฏิเสธกิจกรรมได้; ไม่ grading",
+      "transfer_context": "เลือกสถานการณ์ใหม่ที่ผู้รับงานหรือข้อจำกัดต่าง แล้วระบุว่าใช้ส่วนใดของบทเรียนและต้องปรับส่วนใด",
+      "next_evidence": [
+        "เหตุการณ์/feedback ที่ระบุแหล่งได้",
+        "ความเหมือน/ต่างของบริบทและผลที่สังเกตได้"
+      ],
+      "boundary_conditions": [
+        "ใช้เฉพาะงานและข้อมูลที่ผู้ใช้มีสิทธิ",
+        "ไม่แทนขั้นตอนองค์กรหรือความรู้เฉพาะวิชาชีพ",
+        "เหตุการณ์คุกคาม ความปลอดภัยหรือความเสี่ยงสูงต้องใช้ช่องทางที่เหมาะสมก่อนกิจกรรมฝึก"
+      ],
+      "stop_conditions": [
+        "ผู้ใช้ไม่ต้องการฝึก",
+        "งานเกินสิทธิหรือเสี่ยงกระทบคน/ระบบจริง",
+        "ต้องมีผู้รับผิดชอบเฉพาะทางแต่ยังไม่พร้อม"
+      ],
+      "user_opt_in": false
+    },
+    "knowledge_refs": [
+      {
+        "schema_version": "1.0.0",
+        "candidate_id": "H-12",
+        "source_id": "HARVARD-FY14",
+        "version": "FY14",
+        "locator": {
+          "kind": "pdf",
+          "reference": "{\"local_path\": \"Harvard University Competency Dictionary FY14 - final.pdf\", \"pdf_page\": 12, \"section\": \"Competency definition and Key Actions\", \"type\": \"pdf\"}",
+          "section": "Competency definition and Key Actions"
+        },
+        "supported_claim": "Seeks learning opportunities and uses feedback.",
+        "verification_status": "verified-within-stated-scope",
+        "adaptation_status": "include",
+        "support_role": "behavior_support",
+        "adaptation_note": "Candidate only; observable episode evidence required.; No scoring, levels or unsupported trait inference."
+      },
+      {
+        "schema_version": "1.0.0",
+        "candidate_id": "H-06",
+        "source_id": "HARVARD-FY14",
+        "version": "FY14",
+        "locator": {
+          "kind": "pdf",
+          "reference": "{\"local_path\": \"Harvard University Competency Dictionary FY14 - final.pdf\", \"pdf_page\": 6, \"section\": \"Competency definition and Key Actions\", \"type\": \"pdf\"}",
+          "section": "Competency definition and Key Actions"
+        },
+        "supported_claim": "Applies newly acquired knowledge in work.",
+        "verification_status": "verified-within-stated-scope",
+        "adaptation_status": "adapt",
+        "support_role": "behavior_support",
+        "adaptation_note": "Candidate only; observable episode evidence required.; No scoring, levels or unsupported trait inference."
+      },
+      {
+        "schema_version": "1.0.0",
+        "candidate_id": "NZ-16",
+        "source_id": "NZ-LSP-2016",
+        "version": "July 2016",
+        "locator": {
+          "kind": "web_pdf",
+          "reference": "{\"pdf_page\": 13, \"section\": \"Self-aware and agile\", \"type\": \"web_pdf\", \"url\": \"https://www.publicservice.govt.nz/assets/DirectoryFile/LSP_Expanded_guide_July_2016.pdf\"}",
+          "section": "Self-aware and agile"
+        },
+        "supported_claim": "Reflects and adapts.",
+        "verification_status": "verified-within-stated-scope",
+        "adaptation_status": "adapt",
+        "support_role": "contextual_behavior_lens",
+        "adaptation_note": "Lumei synthesis; not an official adapted LSP assessment.; No readiness/potential labels or role-level scoring."
+      }
+    ]
+  },
+  {
+    "schema_version": "1.0.0",
+    "skill_id": "GWS-maintain-trust-and-information-boundaries",
+    "editorial_version": "0.2.0",
+    "status": "release-candidate-contract-projection",
+    "runtime_authority": false,
+    "display_name": "รักษาคำมั่นและขอบเขตข้อมูล",
+    "family_id": "relate-and-coordinate",
+    "situation": "ต้องรักษาความไว้วางใจเมื่อมีคำมั่น ข้อมูลที่แบ่งปันไม่ได้ หรือคำขอที่เกินขอบเขต",
+    "observable_actions": [
+      {
+        "action_id": "A1",
+        "text": "แยกสิ่งที่รับปากหรือยืนยันได้จากสิ่งที่ยังไม่ทราบ พร้อมแจ้งข้อจำกัดตรงไปตรงมา",
+        "knowledge_refs": [
+          {
+            "schema_version": "1.0.0",
+            "candidate_id": "H-10",
+            "source_id": "HARVARD-FY14",
+            "version": "FY14",
+            "locator": {
+              "kind": "pdf",
+              "reference": "{\"local_path\": \"Harvard University Competency Dictionary FY14 - final.pdf\", \"pdf_page\": 10, \"section\": \"Competency definition and Key Actions\", \"type\": \"pdf\"}",
+              "section": "Competency definition and Key Actions"
+            },
+            "supported_claim": "Integrity and interpersonal conduct foster trust.",
+            "verification_status": "verified-within-stated-scope",
+            "adaptation_status": "include",
+            "support_role": "behavior_support",
+            "adaptation_note": "Candidate only; observable episode evidence required.; No scoring, levels or unsupported trait inference.; Phase 5: original bounded adaptation from local Key Actions; not a universal standard or legal instruction."
+          }
+        ]
+      },
+      {
+        "action_id": "A2",
+        "text": "จัดการข้อมูลที่เป็นความลับตามสิทธิและช่องทางที่อนุญาต โดยไม่แบ่งปันเพื่อเอาใจผู้ขอ",
+        "knowledge_refs": [
+          {
+            "schema_version": "1.0.0",
+            "candidate_id": "H-19",
+            "source_id": "HARVARD-FY14",
+            "version": "FY14",
+            "locator": {
+              "kind": "pdf",
+              "reference": "{\"local_path\": \"Harvard University Competency Dictionary FY14 - final.pdf\", \"pdf_page\": 19, \"section\": \"Competency definition and Key Actions\", \"type\": \"pdf\"}",
+              "section": "Competency definition and Key Actions"
+            },
+            "supported_claim": "Builds constructive relationships with varied people.",
+            "verification_status": "verified-within-stated-scope",
+            "adaptation_status": "adapt",
+            "support_role": "behavior_support",
+            "adaptation_note": "Candidate only; observable episode evidence required.; No scoring, levels or unsupported trait inference.; Phase 5: original bounded adaptation from local Key Actions; not a universal standard or legal instruction."
+          }
+        ]
+      },
+      {
+        "action_id": "A3",
+        "text": "ติดตามคำมั่นหรือแจ้งอุปสรรคอย่างชัดเจน พร้อมให้เครดิตผู้มีส่วนร่วมตามสิ่งที่เกิดขึ้น",
+        "knowledge_refs": [
+          {
+            "schema_version": "1.0.0",
+            "candidate_id": "H-10",
+            "source_id": "HARVARD-FY14",
+            "version": "FY14",
+            "locator": {
+              "kind": "pdf",
+              "reference": "{\"local_path\": \"Harvard University Competency Dictionary FY14 - final.pdf\", \"pdf_page\": 10, \"section\": \"Competency definition and Key Actions\", \"type\": \"pdf\"}",
+              "section": "Competency definition and Key Actions"
+            },
+            "supported_claim": "Integrity and interpersonal conduct foster trust.",
+            "verification_status": "verified-within-stated-scope",
+            "adaptation_status": "include",
+            "support_role": "behavior_support",
+            "adaptation_note": "Candidate only; observable episode evidence required.; No scoring, levels or unsupported trait inference.; Phase 5: original bounded adaptation from local Key Actions; not a universal standard or legal instruction."
+          },
+          {
+            "schema_version": "1.0.0",
+            "candidate_id": "H-05",
+            "source_id": "HARVARD-FY14",
+            "version": "FY14",
+            "locator": {
+              "kind": "pdf",
+              "reference": "{\"local_path\": \"Harvard University Competency Dictionary FY14 - final.pdf\", \"pdf_page\": 5, \"section\": \"Competency definition and Key Actions\", \"type\": \"pdf\"}",
+              "section": "Competency definition and Key Actions"
+            },
+            "supported_claim": "Accepts responsibility and follows through on commitments.",
+            "verification_status": "verified-within-stated-scope",
+            "adaptation_status": "include",
+            "support_role": "behavior_support",
+            "adaptation_note": "Candidate only; observable episode evidence required.; No scoring, levels or unsupported trait inference.; Phase 5: original bounded adaptation from local Key Actions; not a universal standard or legal instruction."
+          }
+        ]
+      }
+    ],
+    "evidence_to_look_for": [
+      "คำมั่นและข้อจำกัดที่แจ้ง",
+      "การกระทำเกี่ยวกับข้อมูลและสิทธิที่มีจริง",
+      "ข้อความติดตามหรือให้เครดิต"
+    ],
+    "interpretation_limits": [
+      "ไม่ใช้ card ตัดสินว่าใครซื่อสัตย์หรือไว้ใจได้เป็นตัวตน",
+      "ไม่แทนกฎหมาย นโยบายข้อมูลหรือการตรวจสอบความปลอดภัย",
+      "เมื่อมีเหตุละเมิดให้ใช้ช่องทางที่รับผิดชอบก่อนโค้ช",
+      "ข้อเสนอฝึกไม่ใช่การกระทำที่เกิดแล้ว; ไม่ให้คะแนนหรือระดับบุคคล"
+    ],
+    "boundary_conditions": [
+      "ใช้เฉพาะงานและข้อมูลที่ผู้ใช้มีสิทธิ",
+      "ไม่แทนขั้นตอนองค์กรหรือความรู้เฉพาะวิชาชีพ",
+      "เหตุการณ์คุกคาม ความปลอดภัยหรือความเสี่ยงสูงต้องใช้ช่องทางที่เหมาะสมก่อนกิจกรรมฝึก"
+    ],
+    "required_managerial_authority": false,
+    "practice": {
+      "schema_version": "1.0.0",
+      "skill_id": "GWS-maintain-trust-and-information-boundaries",
+      "target": "แยกสิ่งที่รับปากหรือยืนยันได้จากสิ่งที่ยังไม่ทราบ พร้อมแจ้งข้อจำกัดตรงไปตรงมา",
+      "learner_attempt": "ร่างคำตอบต่อคำขอข้อมูลสมมติที่แบ่งปันไม่ได้ โดยอธิบายขอบเขตและทางเลือกที่ได้รับอนุญาต",
+      "feedback_basis": "มีการเปิดเผยข้อมูลเกินสิทธิหรือรับปากแทนคนอื่นหรือไม่ และผู้รับเห็นขอบเขตที่ชัดหรือไม่",
+      "assistance_boundary": "AI ช่วยจัดโครงหรือชี้ข้อมูลที่ยังขาดได้ ผู้ใช้เป็นเจ้าของเหตุผลและปฏิเสธกิจกรรมได้; ไม่ grading",
+      "transfer_context": "เปลี่ยนจากข้อมูลลูกค้าเป็นข้อมูลเพื่อนร่วมงาน ระบุสิทธิและผู้รับผิดชอบที่ต้องตรวจใหม่",
+      "next_evidence": [
+        "คำมั่นและข้อจำกัดที่แจ้ง",
+        "ข้อความติดตามหรือให้เครดิต"
+      ],
+      "boundary_conditions": [
+        "ใช้เฉพาะงานและข้อมูลที่ผู้ใช้มีสิทธิ",
+        "ไม่แทนขั้นตอนองค์กรหรือความรู้เฉพาะวิชาชีพ",
+        "เหตุการณ์คุกคาม ความปลอดภัยหรือความเสี่ยงสูงต้องใช้ช่องทางที่เหมาะสมก่อนกิจกรรมฝึก"
+      ],
+      "stop_conditions": [
+        "ผู้ใช้ไม่ต้องการฝึก",
+        "งานเกินสิทธิหรือเสี่ยงกระทบคน/ระบบจริง",
+        "ต้องมีผู้รับผิดชอบเฉพาะทางแต่ยังไม่พร้อม"
+      ],
+      "user_opt_in": false
+    },
+    "knowledge_refs": [
+      {
+        "schema_version": "1.0.0",
+        "candidate_id": "H-10",
+        "source_id": "HARVARD-FY14",
+        "version": "FY14",
+        "locator": {
+          "kind": "pdf",
+          "reference": "{\"local_path\": \"Harvard University Competency Dictionary FY14 - final.pdf\", \"pdf_page\": 10, \"section\": \"Competency definition and Key Actions\", \"type\": \"pdf\"}",
+          "section": "Competency definition and Key Actions"
+        },
+        "supported_claim": "Integrity and interpersonal conduct foster trust.",
+        "verification_status": "verified-within-stated-scope",
+        "adaptation_status": "include",
+        "support_role": "behavior_support",
+        "adaptation_note": "Candidate only; observable episode evidence required.; No scoring, levels or unsupported trait inference.; Phase 5: original bounded adaptation from local Key Actions; not a universal standard or legal instruction."
+      },
+      {
+        "schema_version": "1.0.0",
+        "candidate_id": "H-19",
+        "source_id": "HARVARD-FY14",
+        "version": "FY14",
+        "locator": {
+          "kind": "pdf",
+          "reference": "{\"local_path\": \"Harvard University Competency Dictionary FY14 - final.pdf\", \"pdf_page\": 19, \"section\": \"Competency definition and Key Actions\", \"type\": \"pdf\"}",
+          "section": "Competency definition and Key Actions"
+        },
+        "supported_claim": "Builds constructive relationships with varied people.",
+        "verification_status": "verified-within-stated-scope",
+        "adaptation_status": "adapt",
+        "support_role": "behavior_support",
+        "adaptation_note": "Candidate only; observable episode evidence required.; No scoring, levels or unsupported trait inference.; Phase 5: original bounded adaptation from local Key Actions; not a universal standard or legal instruction."
+      },
+      {
+        "schema_version": "1.0.0",
+        "candidate_id": "H-05",
+        "source_id": "HARVARD-FY14",
+        "version": "FY14",
+        "locator": {
+          "kind": "pdf",
+          "reference": "{\"local_path\": \"Harvard University Competency Dictionary FY14 - final.pdf\", \"pdf_page\": 5, \"section\": \"Competency definition and Key Actions\", \"type\": \"pdf\"}",
+          "section": "Competency definition and Key Actions"
+        },
+        "supported_claim": "Accepts responsibility and follows through on commitments.",
+        "verification_status": "verified-within-stated-scope",
+        "adaptation_status": "include",
+        "support_role": "behavior_support",
+        "adaptation_note": "Candidate only; observable episode evidence required.; No scoring, levels or unsupported trait inference.; Phase 5: original bounded adaptation from local Key Actions; not a universal standard or legal instruction."
+      }
+    ]
+  },
+  {
+    "schema_version": "1.0.0",
+    "skill_id": "GWS-manage-priorities",
+    "editorial_version": "0.2.0",
+    "status": "release-candidate-contract-projection",
+    "runtime_authority": false,
+    "display_name": "จัดลำดับงานและปรับข้อตกลง",
+    "family_id": "deliver-and-improve",
+    "situation": "งานหลายชิ้นแย่งเวลา หรือภาระงานเกินทรัพยากรที่มี",
+    "observable_actions": [
+      {
+        "action_id": "A1",
+        "text": "ทำให้งาน กำหนดส่ง dependency และทรัพยากรที่มีเห็นได้ชัด",
+        "knowledge_refs": [
+          {
+            "schema_version": "1.0.0",
+            "candidate_id": "H-26",
+            "source_id": "HARVARD-FY14",
+            "version": "FY14",
+            "locator": {
+              "kind": "pdf",
+              "reference": "{\"local_path\": \"Harvard University Competency Dictionary FY14 - final.pdf\", \"pdf_page\": 26, \"section\": \"Competency definition and Key Actions\", \"type\": \"pdf\"}",
+              "section": "Competency definition and Key Actions"
+            },
+            "supported_claim": "Sets priorities, plans activities and resources.",
+            "verification_status": "verified-within-stated-scope",
+            "adaptation_status": "include",
+            "support_role": "behavior_support",
+            "adaptation_note": "Candidate only; observable episode evidence required.; No scoring, levels or unsupported trait inference."
+          }
+        ]
+      },
+      {
+        "action_id": "A2",
+        "text": "เลือกสิ่งที่ทำก่อนตามความสำคัญ ผลกระทบและข้อจำกัด พร้อมบอกสิ่งที่จะเลื่อน",
+        "knowledge_refs": [
+          {
+            "schema_version": "1.0.0",
+            "candidate_id": "H-26",
+            "source_id": "HARVARD-FY14",
+            "version": "FY14",
+            "locator": {
+              "kind": "pdf",
+              "reference": "{\"local_path\": \"Harvard University Competency Dictionary FY14 - final.pdf\", \"pdf_page\": 26, \"section\": \"Competency definition and Key Actions\", \"type\": \"pdf\"}",
+              "section": "Competency definition and Key Actions"
+            },
+            "supported_claim": "Sets priorities, plans activities and resources.",
+            "verification_status": "verified-within-stated-scope",
+            "adaptation_status": "include",
+            "support_role": "behavior_support",
+            "adaptation_note": "Candidate only; observable episode evidence required.; No scoring, levels or unsupported trait inference."
+          },
+          {
+            "schema_version": "1.0.0",
+            "candidate_id": "H-33",
+            "source_id": "HARVARD-FY14",
+            "version": "FY14",
+            "locator": {
+              "kind": "pdf",
+              "reference": "{\"local_path\": \"Harvard University Competency Dictionary FY14 - final.pdf\", \"pdf_page\": 33, \"section\": \"Competency definition and Key Actions\", \"type\": \"pdf\"}",
+              "section": "Competency definition and Key Actions"
+            },
+            "supported_claim": "Prioritizes time to meet commitments.",
+            "verification_status": "verified-within-stated-scope",
+            "adaptation_status": "adapt",
+            "support_role": "behavior_support",
+            "adaptation_note": "Candidate only; observable episode evidence required.; No scoring, levels or unsupported trait inference."
+          }
+        ]
+      },
+      {
+        "action_id": "A3",
+        "text": "แจ้ง tradeoff และขอปรับข้อตกลงกับผู้เกี่ยวข้องเมื่อแผนเดิมทำไม่ได้",
+        "knowledge_refs": [
+          {
+            "schema_version": "1.0.0",
+            "candidate_id": "H-11",
+            "source_id": "HARVARD-FY14",
+            "version": "FY14",
+            "locator": {
+              "kind": "pdf",
+              "reference": "{\"local_path\": \"Harvard University Competency Dictionary FY14 - final.pdf\", \"pdf_page\": 11, \"section\": \"Competency definition and Key Actions\", \"type\": \"pdf\"}",
+              "section": "Competency definition and Key Actions"
+            },
+            "supported_claim": "Communicates clearly and listens to others.",
+            "verification_status": "verified-within-stated-scope",
+            "adaptation_status": "include",
+            "support_role": "behavior_support",
+            "adaptation_note": "Candidate only; observable episode evidence required.; No scoring, levels or unsupported trait inference."
+          },
+          {
+            "schema_version": "1.0.0",
+            "candidate_id": "H-26",
+            "source_id": "HARVARD-FY14",
+            "version": "FY14",
+            "locator": {
+              "kind": "pdf",
+              "reference": "{\"local_path\": \"Harvard University Competency Dictionary FY14 - final.pdf\", \"pdf_page\": 26, \"section\": \"Competency definition and Key Actions\", \"type\": \"pdf\"}",
+              "section": "Competency definition and Key Actions"
+            },
+            "supported_claim": "Sets priorities, plans activities and resources.",
+            "verification_status": "verified-within-stated-scope",
+            "adaptation_status": "include",
+            "support_role": "behavior_support",
+            "adaptation_note": "Candidate only; observable episode evidence required.; No scoring, levels or unsupported trait inference."
+          }
+        ]
+      }
+    ],
+    "evidence_to_look_for": [
+      "รายการงานและกำหนดส่งที่ใช้วางแผน",
+      "เหตุผลการจัดลำดับและสิ่งที่เลื่อน",
+      "การสื่อสาร/คำตอบเรื่องข้อตกลงใหม่"
+    ],
+    "interpretation_limits": [
+      "งานเสร็จน้อยไม่พิสูจน์ว่าจัดเวลาไม่ดี",
+      "คำขอเลื่อนยังไม่ใช่กำหนดส่งใหม่ที่ตกลงแล้ว",
+      "ข้อเสนอการฝึกไม่ใช่หลักฐานว่าผู้ใช้เคยทำหรือทำได้แล้ว",
+      "ไม่ให้คะแนน ระดับ proficiency หรือคำตัดสินตัวตนจากเหตุการณ์"
+    ],
+    "boundary_conditions": [
+      "ใช้เฉพาะงานและข้อมูลที่ผู้ใช้มีสิทธิ",
+      "ไม่แทนขั้นตอนองค์กรหรือความรู้เฉพาะวิชาชีพ",
+      "เหตุการณ์คุกคาม ความปลอดภัยหรือความเสี่ยงสูงต้องใช้ช่องทางที่เหมาะสมก่อนกิจกรรมฝึก"
+    ],
+    "required_managerial_authority": false,
+    "practice": {
+      "schema_version": "1.0.0",
+      "skill_id": "GWS-manage-priorities",
+      "target": "ทำให้งาน กำหนดส่ง dependency และทรัพยากรที่มีเห็นได้ชัด",
+      "learner_attempt": "เลือกงานสามชิ้นจากเหตุการณ์จริง ระบุสิ่งที่จะทำก่อนหนึ่งชิ้นและร่างคำขอปรับข้อตกลงหนึ่งเรื่อง",
+      "feedback_basis": "ลำดับสัมพันธ์กับผลกระทบและทรัพยากรจริงหรือไม่; ระบุสิ่งที่หยุด/เลื่อนอย่างโปร่งใสหรือไม่",
+      "assistance_boundary": "AI ช่วยจัดโครงหรือชี้ข้อมูลที่ยังขาดได้ ผู้ใช้เป็นเจ้าของเหตุผลและปฏิเสธกิจกรรมได้; ไม่ grading",
+      "transfer_context": "เปลี่ยนจากแผนรายสัปดาห์เป็นงานเร่งช่วงเปลี่ยนกะ ระบุข้อมูลและอำนาจที่ต้องยืนยันใหม่",
+      "next_evidence": [
+        "รายการงานและกำหนดส่งที่ใช้วางแผน",
+        "การสื่อสาร/คำตอบเรื่องข้อตกลงใหม่"
+      ],
+      "boundary_conditions": [
+        "ใช้เฉพาะงานและข้อมูลที่ผู้ใช้มีสิทธิ",
+        "ไม่แทนขั้นตอนองค์กรหรือความรู้เฉพาะวิชาชีพ",
+        "เหตุการณ์คุกคาม ความปลอดภัยหรือความเสี่ยงสูงต้องใช้ช่องทางที่เหมาะสมก่อนกิจกรรมฝึก"
+      ],
+      "stop_conditions": [
+        "ผู้ใช้ไม่ต้องการฝึก",
+        "งานเกินสิทธิหรือเสี่ยงกระทบคน/ระบบจริง",
+        "ต้องมีผู้รับผิดชอบเฉพาะทางแต่ยังไม่พร้อม"
+      ],
+      "user_opt_in": false
+    },
+    "knowledge_refs": [
+      {
+        "schema_version": "1.0.0",
+        "candidate_id": "H-26",
+        "source_id": "HARVARD-FY14",
+        "version": "FY14",
+        "locator": {
+          "kind": "pdf",
+          "reference": "{\"local_path\": \"Harvard University Competency Dictionary FY14 - final.pdf\", \"pdf_page\": 26, \"section\": \"Competency definition and Key Actions\", \"type\": \"pdf\"}",
+          "section": "Competency definition and Key Actions"
+        },
+        "supported_claim": "Sets priorities, plans activities and resources.",
+        "verification_status": "verified-within-stated-scope",
+        "adaptation_status": "include",
+        "support_role": "behavior_support",
+        "adaptation_note": "Candidate only; observable episode evidence required.; No scoring, levels or unsupported trait inference."
+      },
+      {
+        "schema_version": "1.0.0",
+        "candidate_id": "H-33",
+        "source_id": "HARVARD-FY14",
+        "version": "FY14",
+        "locator": {
+          "kind": "pdf",
+          "reference": "{\"local_path\": \"Harvard University Competency Dictionary FY14 - final.pdf\", \"pdf_page\": 33, \"section\": \"Competency definition and Key Actions\", \"type\": \"pdf\"}",
+          "section": "Competency definition and Key Actions"
+        },
+        "supported_claim": "Prioritizes time to meet commitments.",
+        "verification_status": "verified-within-stated-scope",
+        "adaptation_status": "adapt",
+        "support_role": "behavior_support",
+        "adaptation_note": "Candidate only; observable episode evidence required.; No scoring, levels or unsupported trait inference."
+      },
+      {
+        "schema_version": "1.0.0",
+        "candidate_id": "H-11",
+        "source_id": "HARVARD-FY14",
+        "version": "FY14",
+        "locator": {
+          "kind": "pdf",
+          "reference": "{\"local_path\": \"Harvard University Competency Dictionary FY14 - final.pdf\", \"pdf_page\": 11, \"section\": \"Competency definition and Key Actions\", \"type\": \"pdf\"}",
+          "section": "Competency definition and Key Actions"
+        },
+        "supported_claim": "Communicates clearly and listens to others.",
+        "verification_status": "verified-within-stated-scope",
+        "adaptation_status": "include",
+        "support_role": "behavior_support",
+        "adaptation_note": "Candidate only; observable episode evidence required.; No scoring, levels or unsupported trait inference."
+      },
+      {
+        "schema_version": "1.0.0",
+        "candidate_id": "NZ-11",
+        "source_id": "NZ-LSP-2016",
+        "version": "July 2016",
+        "locator": {
+          "kind": "web_pdf",
+          "reference": "{\"pdf_page\": 22, \"section\": \"Managing work priorities\", \"type\": \"web_pdf\", \"url\": \"https://www.publicservice.govt.nz/assets/DirectoryFile/LSP_Expanded_guide_July_2016.pdf\"}",
+          "section": "Managing work priorities"
+        },
+        "supported_claim": "Organises commitments.",
+        "verification_status": "verified-within-stated-scope",
+        "adaptation_status": "adapt",
+        "support_role": "contextual_behavior_lens",
+        "adaptation_note": "Lumei synthesis; not an official adapted LSP assessment.; No readiness/potential labels or role-level scoring."
+      }
+    ]
+  },
+  {
+    "schema_version": "1.0.0",
+    "skill_id": "GWS-understand-recipient-needs",
+    "editorial_version": "0.2.0",
+    "status": "release-candidate-contract-projection",
+    "runtime_authority": false,
+    "display_name": "เข้าใจผู้รับบริการและตอบในขอบเขตที่ทำได้",
+    "family_id": "relate-and-coordinate",
+    "situation": "ผู้รับบริการภายในหรือภายนอกแจ้งปัญหาและต้องตกลงการช่วยเหลือที่ทำได้จริง",
+    "observable_actions": [
+      {
+        "action_id": "A1",
+        "text": "ถามและบันทึกปัญหา ความต้องการ และข้อจำกัดตามที่ผู้รับระบุ แยกจากสิ่งที่ตนเดา",
+        "knowledge_refs": [
+          {
+            "schema_version": "1.0.0",
+            "candidate_id": "H-13",
+            "source_id": "HARVARD-FY14",
+            "version": "FY14",
+            "locator": {
+              "kind": "pdf",
+              "reference": "{\"local_path\": \"Harvard University Competency Dictionary FY14 - final.pdf\", \"pdf_page\": 13, \"section\": \"Competency definition and Key Actions\", \"type\": \"pdf\"}",
+              "section": "Competency definition and Key Actions"
+            },
+            "supported_claim": "Responds to customer needs and improves service.",
+            "verification_status": "verified-within-stated-scope",
+            "adaptation_status": "adapt",
+            "support_role": "behavior_support",
+            "adaptation_note": "Candidate only; observable episode evidence required.; No scoring, levels or unsupported trait inference.; Phase 5: original bounded adaptation from local Key Actions; not a universal standard or legal instruction."
+          },
+          {
+            "schema_version": "1.0.0",
+            "candidate_id": "H-11",
+            "source_id": "HARVARD-FY14",
+            "version": "FY14",
+            "locator": {
+              "kind": "pdf",
+              "reference": "{\"local_path\": \"Harvard University Competency Dictionary FY14 - final.pdf\", \"pdf_page\": 11, \"section\": \"Competency definition and Key Actions\", \"type\": \"pdf\"}",
+              "section": "Competency definition and Key Actions"
+            },
+            "supported_claim": "Communicates clearly and listens to others.",
+            "verification_status": "verified-within-stated-scope",
+            "adaptation_status": "include",
+            "support_role": "behavior_support",
+            "adaptation_note": "Candidate only; observable episode evidence required.; No scoring, levels or unsupported trait inference.; Phase 5: original bounded adaptation from local Key Actions; not a universal standard or legal instruction."
+          }
+        ]
+      },
+      {
+        "action_id": "A2",
+        "text": "อธิบายสิ่งที่ช่วยได้ สิ่งที่ยังทำไม่ได้ และทางเลือกในขอบเขตสิทธิ โดยไม่รับปากเกินจริง",
+        "knowledge_refs": [
+          {
+            "schema_version": "1.0.0",
+            "candidate_id": "H-13",
+            "source_id": "HARVARD-FY14",
+            "version": "FY14",
+            "locator": {
+              "kind": "pdf",
+              "reference": "{\"local_path\": \"Harvard University Competency Dictionary FY14 - final.pdf\", \"pdf_page\": 13, \"section\": \"Competency definition and Key Actions\", \"type\": \"pdf\"}",
+              "section": "Competency definition and Key Actions"
+            },
+            "supported_claim": "Responds to customer needs and improves service.",
+            "verification_status": "verified-within-stated-scope",
+            "adaptation_status": "adapt",
+            "support_role": "behavior_support",
+            "adaptation_note": "Candidate only; observable episode evidence required.; No scoring, levels or unsupported trait inference.; Phase 5: original bounded adaptation from local Key Actions; not a universal standard or legal instruction."
+          }
+        ]
+      },
+      {
+        "action_id": "A3",
+        "text": "ตรวจกลับว่าการตอบสนองตรงความต้องการที่ตกลงหรือไม่ และบันทึกสิ่งที่ยังต้องตามต่อ",
+        "knowledge_refs": [
+          {
+            "schema_version": "1.0.0",
+            "candidate_id": "H-13",
+            "source_id": "HARVARD-FY14",
+            "version": "FY14",
+            "locator": {
+              "kind": "pdf",
+              "reference": "{\"local_path\": \"Harvard University Competency Dictionary FY14 - final.pdf\", \"pdf_page\": 13, \"section\": \"Competency definition and Key Actions\", \"type\": \"pdf\"}",
+              "section": "Competency definition and Key Actions"
+            },
+            "supported_claim": "Responds to customer needs and improves service.",
+            "verification_status": "verified-within-stated-scope",
+            "adaptation_status": "adapt",
+            "support_role": "behavior_support",
+            "adaptation_note": "Candidate only; observable episode evidence required.; No scoring, levels or unsupported trait inference.; Phase 5: original bounded adaptation from local Key Actions; not a universal standard or legal instruction."
+          }
+        ]
+      }
+    ],
+    "evidence_to_look_for": [
+      "ข้อความถามและคำตอบผู้รับ",
+      "ขอบเขตหรือทางเลือกที่แจ้งจริง",
+      "feedback และสิ่งที่ยังไม่ยืนยัน"
+    ],
+    "interpretation_limits": [
+      "ผู้รับไม่ได้ตอบไม่เท่ากับพึงพอใจ",
+      "ไม่ให้คำมั่นแทนผู้มีอำนาจหรือทดแทนมาตรฐานบริการ",
+      "ข้อเสนอฝึกไม่ใช่การกระทำที่เกิดแล้ว; ไม่ให้คะแนนหรือระดับบุคคล"
+    ],
+    "boundary_conditions": [
+      "ใช้เฉพาะงานและข้อมูลที่ผู้ใช้มีสิทธิ",
+      "ไม่แทนขั้นตอนองค์กรหรือความรู้เฉพาะวิชาชีพ",
+      "เหตุการณ์คุกคาม ความปลอดภัยหรือความเสี่ยงสูงต้องใช้ช่องทางที่เหมาะสมก่อนกิจกรรมฝึก"
+    ],
+    "required_managerial_authority": false,
+    "practice": {
+      "schema_version": "1.0.0",
+      "skill_id": "GWS-understand-recipient-needs",
+      "target": "ถามและบันทึกปัญหา ความต้องการ และข้อจำกัดตามที่ผู้รับระบุ แยกจากสิ่งที่ตนเดา",
+      "learner_attempt": "ร่างคำตอบต่อข้อร้องเรียนสมมติหนึ่งเรื่อง ระบุสิ่งที่ช่วยได้และข้อจำกัดโดยไม่รับปากแทนทีม",
+      "feedback_basis": "คำตอบอ้างความต้องการที่ผู้รับระบุจริงหรือไม่ และมีการรับปากเกินสิทธิหรือไม่",
+      "assistance_boundary": "AI ช่วยจัดโครงหรือชี้ข้อมูลที่ยังขาดได้ ผู้ใช้เป็นเจ้าของเหตุผลและปฏิเสธกิจกรรมได้; ไม่ grading",
+      "transfer_context": "เปลี่ยนจากคำขอฝ่ายภายในเป็นผู้รับบริการหน้างาน ระบุสิทธิและช่องทางที่ต่างกัน",
+      "next_evidence": [
+        "ข้อความถามและคำตอบผู้รับ",
+        "feedback และสิ่งที่ยังไม่ยืนยัน"
+      ],
+      "boundary_conditions": [
+        "ใช้เฉพาะงานและข้อมูลที่ผู้ใช้มีสิทธิ",
+        "ไม่แทนขั้นตอนองค์กรหรือความรู้เฉพาะวิชาชีพ",
+        "เหตุการณ์คุกคาม ความปลอดภัยหรือความเสี่ยงสูงต้องใช้ช่องทางที่เหมาะสมก่อนกิจกรรมฝึก"
+      ],
+      "stop_conditions": [
+        "ผู้ใช้ไม่ต้องการฝึก",
+        "งานเกินสิทธิหรือเสี่ยงกระทบคน/ระบบจริง",
+        "ต้องมีผู้รับผิดชอบเฉพาะทางแต่ยังไม่พร้อม"
+      ],
+      "user_opt_in": false
+    },
+    "knowledge_refs": [
+      {
+        "schema_version": "1.0.0",
+        "candidate_id": "H-13",
+        "source_id": "HARVARD-FY14",
+        "version": "FY14",
+        "locator": {
+          "kind": "pdf",
+          "reference": "{\"local_path\": \"Harvard University Competency Dictionary FY14 - final.pdf\", \"pdf_page\": 13, \"section\": \"Competency definition and Key Actions\", \"type\": \"pdf\"}",
+          "section": "Competency definition and Key Actions"
+        },
+        "supported_claim": "Responds to customer needs and improves service.",
+        "verification_status": "verified-within-stated-scope",
+        "adaptation_status": "adapt",
+        "support_role": "behavior_support",
+        "adaptation_note": "Candidate only; observable episode evidence required.; No scoring, levels or unsupported trait inference.; Phase 5: original bounded adaptation from local Key Actions; not a universal standard or legal instruction."
+      },
+      {
+        "schema_version": "1.0.0",
+        "candidate_id": "H-11",
+        "source_id": "HARVARD-FY14",
+        "version": "FY14",
+        "locator": {
+          "kind": "pdf",
+          "reference": "{\"local_path\": \"Harvard University Competency Dictionary FY14 - final.pdf\", \"pdf_page\": 11, \"section\": \"Competency definition and Key Actions\", \"type\": \"pdf\"}",
+          "section": "Competency definition and Key Actions"
+        },
+        "supported_claim": "Communicates clearly and listens to others.",
+        "verification_status": "verified-within-stated-scope",
+        "adaptation_status": "include",
+        "support_role": "behavior_support",
+        "adaptation_note": "Candidate only; observable episode evidence required.; No scoring, levels or unsupported trait inference.; Phase 5: original bounded adaptation from local Key Actions; not a universal standard or legal instruction."
+      }
+    ]
+  },
+  {
+    "schema_version": "1.0.0",
+    "skill_id": "GWS-verify-ai-work",
+    "editorial_version": "0.2.0",
+    "status": "release-candidate-contract-projection",
+    "runtime_authority": false,
+    "display_name": "ตรวจงาน AI และคงการตัดสินใจของมนุษย์",
+    "family_id": "learn-and-use-ai",
+    "situation": "ใช้ AI ช่วยงานและต้องพิจารณาว่าอะไรเชื่อถือได้ อะไรต้องตรวจหรือให้ผู้รับผิดชอบตัดสินใจ",
+    "observable_actions": [
+      {
+        "action_id": "A1",
+        "text": "ระบุส่วนที่ AI ช่วย ข้ออ้างสำคัญและผลกระทบหากผิด ก่อนนำงานไปใช้",
+        "knowledge_refs": [
+          {
+            "schema_version": "1.0.0",
+            "candidate_id": "H-14",
+            "source_id": "HARVARD-FY14",
+            "version": "FY14",
+            "locator": {
+              "kind": "pdf",
+              "reference": "{\"local_path\": \"Harvard University Competency Dictionary FY14 - final.pdf\", \"pdf_page\": 14, \"section\": \"Competency definition and Key Actions\", \"type\": \"pdf\"}",
+              "section": "Competency definition and Key Actions"
+            },
+            "supported_claim": "Identifies issues, gathers information and evaluates alternatives.",
+            "verification_status": "verified-within-stated-scope",
+            "adaptation_status": "include",
+            "support_role": "behavior_support",
+            "adaptation_note": "Candidate only; observable episode evidence required.; No scoring, levels or unsupported trait inference."
+          }
+        ]
+      },
+      {
+        "action_id": "A2",
+        "text": "ตรวจข้ออ้างหรือผลลัพธ์กับหลักฐานที่เข้าถึงได้ และคงสิ่งที่ยังตรวจไม่ได้เป็นข้อจำกัด",
+        "knowledge_refs": [
+          {
+            "schema_version": "1.0.0",
+            "candidate_id": "H-14",
+            "source_id": "HARVARD-FY14",
+            "version": "FY14",
+            "locator": {
+              "kind": "pdf",
+              "reference": "{\"local_path\": \"Harvard University Competency Dictionary FY14 - final.pdf\", \"pdf_page\": 14, \"section\": \"Competency definition and Key Actions\", \"type\": \"pdf\"}",
+              "section": "Competency definition and Key Actions"
+            },
+            "supported_claim": "Identifies issues, gathers information and evaluates alternatives.",
+            "verification_status": "verified-within-stated-scope",
+            "adaptation_status": "include",
+            "support_role": "behavior_support",
+            "adaptation_note": "Candidate only; observable episode evidence required.; No scoring, levels or unsupported trait inference."
+          },
+          {
+            "schema_version": "1.0.0",
+            "candidate_id": "H-07",
+            "source_id": "HARVARD-FY14",
+            "version": "FY14",
+            "locator": {
+              "kind": "pdf",
+              "reference": "{\"local_path\": \"Harvard University Competency Dictionary FY14 - final.pdf\", \"pdf_page\": 7, \"section\": \"Competency definition and Key Actions\", \"type\": \"pdf\"}",
+              "section": "Competency definition and Key Actions"
+            },
+            "supported_claim": "Checks work accuracy and completeness.",
+            "verification_status": "verified-within-stated-scope",
+            "adaptation_status": "include",
+            "support_role": "behavior_support",
+            "adaptation_note": "Candidate only; observable episode evidence required.; No scoring, levels or unsupported trait inference."
+          }
+        ]
+      },
+      {
+        "action_id": "A3",
+        "text": "บันทึกสิ่งที่ยอมรับ แก้ไขหรือไม่ใช้ พร้อมผู้รับผิดชอบที่มีอำนาจตัดสินใจจริง",
+        "knowledge_refs": [
+          {
+            "schema_version": "1.0.0",
+            "candidate_id": "H-05",
+            "source_id": "HARVARD-FY14",
+            "version": "FY14",
+            "locator": {
+              "kind": "pdf",
+              "reference": "{\"local_path\": \"Harvard University Competency Dictionary FY14 - final.pdf\", \"pdf_page\": 5, \"section\": \"Competency definition and Key Actions\", \"type\": \"pdf\"}",
+              "section": "Competency definition and Key Actions"
+            },
+            "supported_claim": "Accepts responsibility and follows through on commitments.",
+            "verification_status": "verified-within-stated-scope",
+            "adaptation_status": "include",
+            "support_role": "behavior_support",
+            "adaptation_note": "Candidate only; observable episode evidence required.; No scoring, levels or unsupported trait inference."
+          },
+          {
+            "schema_version": "1.0.0",
+            "candidate_id": "H-14",
+            "source_id": "HARVARD-FY14",
+            "version": "FY14",
+            "locator": {
+              "kind": "pdf",
+              "reference": "{\"local_path\": \"Harvard University Competency Dictionary FY14 - final.pdf\", \"pdf_page\": 14, \"section\": \"Competency definition and Key Actions\", \"type\": \"pdf\"}",
+              "section": "Competency definition and Key Actions"
+            },
+            "supported_claim": "Identifies issues, gathers information and evaluates alternatives.",
+            "verification_status": "verified-within-stated-scope",
+            "adaptation_status": "include",
+            "support_role": "behavior_support",
+            "adaptation_note": "Candidate only; observable episode evidence required.; No scoring, levels or unsupported trait inference."
+          }
+        ]
+      }
+    ],
+    "evidence_to_look_for": [
+      "ผล AI และส่วนที่ใช้ในงาน",
+      "หลักฐาน/วิธีตรวจพร้อมสิ่งที่ยังไม่ทราบ",
+      "การแก้ไขหรือปฏิเสธและการตัดสินใจของมนุษย์"
+    ],
+    "interpretation_limits": [
+      "คำตอบที่ลื่นไหลหรือ AI อีกตัวเห็นด้วยไม่ใช่การยืนยัน",
+      "AI ไม่ใช่เฉลย ผู้ให้เกรด หรือผู้รับผิดชอบแทนคน",
+      "ข้อเสนอการฝึกไม่ใช่หลักฐานว่าผู้ใช้เคยทำหรือทำได้แล้ว",
+      "ไม่ให้คะแนน ระดับ proficiency หรือคำตัดสินตัวตนจากเหตุการณ์"
+    ],
+    "boundary_conditions": [
+      "ใช้เฉพาะงานและข้อมูลที่ผู้ใช้มีสิทธิ",
+      "ไม่แทนขั้นตอนองค์กรหรือความรู้เฉพาะวิชาชีพ",
+      "เหตุการณ์คุกคาม ความปลอดภัยหรือความเสี่ยงสูงต้องใช้ช่องทางที่เหมาะสมก่อนกิจกรรมฝึก"
+    ],
+    "required_managerial_authority": false,
+    "practice": {
+      "schema_version": "1.0.0",
+      "skill_id": "GWS-verify-ai-work",
+      "target": "ระบุส่วนที่ AI ช่วย ข้ออ้างสำคัญและผลกระทบหากผิด ก่อนนำงานไปใช้",
+      "learner_attempt": "ใช้ชิ้นงานสมมติหรือข้อมูลที่ได้รับสิทธิ เลือกข้ออ้าง AI หนึ่งข้อแล้วตรวจเอง พร้อมบันทึกเหตุผลว่าจะใช้หรือไม่",
+      "feedback_basis": "มีหลักฐานนอกคำตอบ AI หรือไม่; รู้ว่าส่วนใดยังไม่ตรวจและใครมีอำนาจอนุมัติหรือไม่",
+      "assistance_boundary": "AI ช่วยจัดโครงหรือชี้ข้อมูลที่ยังขาดได้ ผู้ใช้เป็นเจ้าของเหตุผลและปฏิเสธกิจกรรมได้; ไม่ grading",
+      "transfer_context": "เปลี่ยนจาก AI ร่างข้อความเป็น AI สรุปบันทึกงาน ระบุความเสี่ยง หลักฐานและผู้ตรวจที่ต่าง",
+      "next_evidence": [
+        "ผล AI และส่วนที่ใช้ในงาน",
+        "การแก้ไขหรือปฏิเสธและการตัดสินใจของมนุษย์"
+      ],
+      "boundary_conditions": [
+        "ใช้เฉพาะงานและข้อมูลที่ผู้ใช้มีสิทธิ",
+        "ไม่แทนขั้นตอนองค์กรหรือความรู้เฉพาะวิชาชีพ",
+        "เหตุการณ์คุกคาม ความปลอดภัยหรือความเสี่ยงสูงต้องใช้ช่องทางที่เหมาะสมก่อนกิจกรรมฝึก"
+      ],
+      "stop_conditions": [
+        "ผู้ใช้ไม่ต้องการฝึก",
+        "งานเกินสิทธิหรือเสี่ยงกระทบคน/ระบบจริง",
+        "ต้องมีผู้รับผิดชอบเฉพาะทางแต่ยังไม่พร้อม"
+      ],
+      "user_opt_in": false
+    },
+    "knowledge_refs": [
+      {
+        "schema_version": "1.0.0",
+        "candidate_id": "H-14",
+        "source_id": "HARVARD-FY14",
+        "version": "FY14",
+        "locator": {
+          "kind": "pdf",
+          "reference": "{\"local_path\": \"Harvard University Competency Dictionary FY14 - final.pdf\", \"pdf_page\": 14, \"section\": \"Competency definition and Key Actions\", \"type\": \"pdf\"}",
+          "section": "Competency definition and Key Actions"
+        },
+        "supported_claim": "Identifies issues, gathers information and evaluates alternatives.",
+        "verification_status": "verified-within-stated-scope",
+        "adaptation_status": "include",
+        "support_role": "behavior_support",
+        "adaptation_note": "Candidate only; observable episode evidence required.; No scoring, levels or unsupported trait inference."
+      },
+      {
+        "schema_version": "1.0.0",
+        "candidate_id": "H-07",
+        "source_id": "HARVARD-FY14",
+        "version": "FY14",
+        "locator": {
+          "kind": "pdf",
+          "reference": "{\"local_path\": \"Harvard University Competency Dictionary FY14 - final.pdf\", \"pdf_page\": 7, \"section\": \"Competency definition and Key Actions\", \"type\": \"pdf\"}",
+          "section": "Competency definition and Key Actions"
+        },
+        "supported_claim": "Checks work accuracy and completeness.",
+        "verification_status": "verified-within-stated-scope",
+        "adaptation_status": "include",
+        "support_role": "behavior_support",
+        "adaptation_note": "Candidate only; observable episode evidence required.; No scoring, levels or unsupported trait inference."
+      },
+      {
+        "schema_version": "1.0.0",
+        "candidate_id": "H-05",
+        "source_id": "HARVARD-FY14",
+        "version": "FY14",
+        "locator": {
+          "kind": "pdf",
+          "reference": "{\"local_path\": \"Harvard University Competency Dictionary FY14 - final.pdf\", \"pdf_page\": 5, \"section\": \"Competency definition and Key Actions\", \"type\": \"pdf\"}",
+          "section": "Competency definition and Key Actions"
+        },
+        "supported_claim": "Accepts responsibility and follows through on commitments.",
+        "verification_status": "verified-within-stated-scope",
+        "adaptation_status": "include",
+        "support_role": "behavior_support",
+        "adaptation_note": "Candidate only; observable episode evidence required.; No scoring, levels or unsupported trait inference."
+      }
+    ]
+  },
+  {
+    "schema_version": "1.0.0",
+    "skill_id": "GWS-work-through-disagreement",
+    "editorial_version": "0.2.0",
+    "status": "release-candidate-contract-projection",
+    "runtime_authority": false,
+    "display_name": "สื่อสารความเห็นต่างและหาข้อตกลง",
+    "family_id": "relate-and-coordinate",
+    "situation": "มีความเห็นต่างที่คุยได้อย่างปลอดภัยและต้องกำหนดสิ่งที่จะทำต่อร่วมกัน",
+    "observable_actions": [
+      {
+        "action_id": "A1",
+        "text": "อธิบายประเด็นและผลกระทบที่สังเกตได้ โดยไม่กล่าวหาบุคลิกหรือแรงจูงใจ",
+        "knowledge_refs": [
+          {
+            "schema_version": "1.0.0",
+            "candidate_id": "H-22",
+            "source_id": "HARVARD-FY14",
+            "version": "FY14",
+            "locator": {
+              "kind": "pdf",
+              "reference": "{\"local_path\": \"Harvard University Competency Dictionary FY14 - final.pdf\", \"pdf_page\": 22, \"section\": \"Competency definition and Key Actions\", \"type\": \"pdf\"}",
+              "section": "Competency definition and Key Actions"
+            },
+            "supported_claim": "Addresses conflict to reach constructive resolution.",
+            "verification_status": "verified-within-stated-scope",
+            "adaptation_status": "include",
+            "support_role": "behavior_support",
+            "adaptation_note": "Candidate only; observable episode evidence required.; No scoring, levels or unsupported trait inference."
+          }
+        ]
+      },
+      {
+        "action_id": "A2",
+        "text": "ฟังความต้องการและข้อจำกัดของอีกฝ่าย แล้วตรวจว่าตนเข้าใจตรงกับเขาหรือไม่",
+        "knowledge_refs": [
+          {
+            "schema_version": "1.0.0",
+            "candidate_id": "H-22",
+            "source_id": "HARVARD-FY14",
+            "version": "FY14",
+            "locator": {
+              "kind": "pdf",
+              "reference": "{\"local_path\": \"Harvard University Competency Dictionary FY14 - final.pdf\", \"pdf_page\": 22, \"section\": \"Competency definition and Key Actions\", \"type\": \"pdf\"}",
+              "section": "Competency definition and Key Actions"
+            },
+            "supported_claim": "Addresses conflict to reach constructive resolution.",
+            "verification_status": "verified-within-stated-scope",
+            "adaptation_status": "include",
+            "support_role": "behavior_support",
+            "adaptation_note": "Candidate only; observable episode evidence required.; No scoring, levels or unsupported trait inference."
+          },
+          {
+            "schema_version": "1.0.0",
+            "candidate_id": "H-11",
+            "source_id": "HARVARD-FY14",
+            "version": "FY14",
+            "locator": {
+              "kind": "pdf",
+              "reference": "{\"local_path\": \"Harvard University Competency Dictionary FY14 - final.pdf\", \"pdf_page\": 11, \"section\": \"Competency definition and Key Actions\", \"type\": \"pdf\"}",
+              "section": "Competency definition and Key Actions"
+            },
+            "supported_claim": "Communicates clearly and listens to others.",
+            "verification_status": "verified-within-stated-scope",
+            "adaptation_status": "include",
+            "support_role": "behavior_support",
+            "adaptation_note": "Candidate only; observable episode evidence required.; No scoring, levels or unsupported trait inference."
+          }
+        ]
+      },
+      {
+        "action_id": "A3",
+        "text": "เสนอทางเลือกที่ตอบประเด็น และสรุปสิ่งที่ตกลง/ยังไม่ตกลงพร้อมการกระทำถัดไป",
+        "knowledge_refs": [
+          {
+            "schema_version": "1.0.0",
+            "candidate_id": "H-22",
+            "source_id": "HARVARD-FY14",
+            "version": "FY14",
+            "locator": {
+              "kind": "pdf",
+              "reference": "{\"local_path\": \"Harvard University Competency Dictionary FY14 - final.pdf\", \"pdf_page\": 22, \"section\": \"Competency definition and Key Actions\", \"type\": \"pdf\"}",
+              "section": "Competency definition and Key Actions"
+            },
+            "supported_claim": "Addresses conflict to reach constructive resolution.",
+            "verification_status": "verified-within-stated-scope",
+            "adaptation_status": "include",
+            "support_role": "behavior_support",
+            "adaptation_note": "Candidate only; observable episode evidence required.; No scoring, levels or unsupported trait inference."
+          },
+          {
+            "schema_version": "1.0.0",
+            "candidate_id": "H-23",
+            "source_id": "HARVARD-FY14",
+            "version": "FY14",
+            "locator": {
+              "kind": "pdf",
+              "reference": "{\"local_path\": \"Harvard University Competency Dictionary FY14 - final.pdf\", \"pdf_page\": 23, \"section\": \"Competency definition and Key Actions\", \"type\": \"pdf\"}",
+              "section": "Competency definition and Key Actions"
+            },
+            "supported_claim": "Explores alternatives and reaches acceptable agreements.",
+            "verification_status": "verified-within-stated-scope",
+            "adaptation_status": "adapt",
+            "support_role": "behavior_support",
+            "adaptation_note": "Candidate only; observable episode evidence required.; No scoring, levels or unsupported trait inference."
+          }
+        ]
+      }
+    ],
+    "evidence_to_look_for": [
+      "คำพูดหรือประเด็นที่คุยจริง",
+      "ความต้องการที่อีกฝ่ายยืนยัน",
+      "ข้อตกลง/ข้อที่ยังค้างและผู้ทำต่อ"
+    ],
+    "interpretation_limits": [
+      "ฟังแล้วไม่เท่ากับเห็นด้วย",
+      "การสนทนาครั้งเดียวไม่พิสูจน์ว่าความขัดแย้งยุติหรืออีกฝ่ายเปลี่ยนใจ",
+      "ข้อเสนอการฝึกไม่ใช่หลักฐานว่าผู้ใช้เคยทำหรือทำได้แล้ว",
+      "ไม่ให้คะแนน ระดับ proficiency หรือคำตัดสินตัวตนจากเหตุการณ์"
+    ],
+    "boundary_conditions": [
+      "ใช้เฉพาะงานและข้อมูลที่ผู้ใช้มีสิทธิ",
+      "ไม่แทนขั้นตอนองค์กรหรือความรู้เฉพาะวิชาชีพ",
+      "เหตุการณ์คุกคาม ความปลอดภัยหรือความเสี่ยงสูงต้องใช้ช่องทางที่เหมาะสมก่อนกิจกรรมฝึก",
+      "ไม่ชวนเผชิญหน้าหรือไกล่เกลี่ยในเหตุการณ์คุกคาม ล่วงละเมิด หรืออำนาจไม่สมดุลจนไม่ปลอดภัย"
+    ],
+    "required_managerial_authority": false,
+    "practice": {
+      "schema_version": "1.0.0",
+      "skill_id": "GWS-work-through-disagreement",
+      "target": "อธิบายประเด็นและผลกระทบที่สังเกตได้ โดยไม่กล่าวหาบุคลิกหรือแรงจูงใจ",
+      "learner_attempt": "ร่างข้อความเปิดการคุยสั้น ๆ จากข้อเท็จจริงหนึ่งอย่าง ผลกระทบ และคำเชิญให้อีกฝ่ายอธิบาย",
+      "feedback_basis": "ข้อความระบุประเด็นโดยไม่โจมตีหรือไม่; เปิดพื้นที่ให้ตอบและปฏิเสธได้หรือไม่",
+      "assistance_boundary": "AI ช่วยจัดโครงหรือชี้ข้อมูลที่ยังขาดได้ ผู้ใช้เป็นเจ้าของเหตุผลและปฏิเสธกิจกรรมได้; ไม่ grading",
+      "transfer_context": "เปลี่ยนจากต่างกันเรื่องเวลาเป็นต่างกันเรื่องคุณภาพ ระบุว่าความต้องการและขอบเขตการคุยต่างอย่างไร",
+      "next_evidence": [
+        "คำพูดหรือประเด็นที่คุยจริง",
+        "ข้อตกลง/ข้อที่ยังค้างและผู้ทำต่อ"
+      ],
+      "boundary_conditions": [
+        "ใช้เฉพาะงานและข้อมูลที่ผู้ใช้มีสิทธิ",
+        "ไม่แทนขั้นตอนองค์กรหรือความรู้เฉพาะวิชาชีพ",
+        "เหตุการณ์คุกคาม ความปลอดภัยหรือความเสี่ยงสูงต้องใช้ช่องทางที่เหมาะสมก่อนกิจกรรมฝึก",
+        "ไม่ชวนเผชิญหน้าหรือไกล่เกลี่ยในเหตุการณ์คุกคาม ล่วงละเมิด หรืออำนาจไม่สมดุลจนไม่ปลอดภัย"
+      ],
+      "stop_conditions": [
+        "ผู้ใช้ไม่ต้องการฝึก",
+        "งานเกินสิทธิหรือเสี่ยงกระทบคน/ระบบจริง",
+        "ต้องมีผู้รับผิดชอบเฉพาะทางแต่ยังไม่พร้อม"
+      ],
+      "user_opt_in": false
+    },
+    "knowledge_refs": [
+      {
+        "schema_version": "1.0.0",
+        "candidate_id": "H-22",
+        "source_id": "HARVARD-FY14",
+        "version": "FY14",
+        "locator": {
+          "kind": "pdf",
+          "reference": "{\"local_path\": \"Harvard University Competency Dictionary FY14 - final.pdf\", \"pdf_page\": 22, \"section\": \"Competency definition and Key Actions\", \"type\": \"pdf\"}",
+          "section": "Competency definition and Key Actions"
+        },
+        "supported_claim": "Addresses conflict to reach constructive resolution.",
+        "verification_status": "verified-within-stated-scope",
+        "adaptation_status": "include",
+        "support_role": "behavior_support",
+        "adaptation_note": "Candidate only; observable episode evidence required.; No scoring, levels or unsupported trait inference."
+      },
+      {
+        "schema_version": "1.0.0",
+        "candidate_id": "H-11",
+        "source_id": "HARVARD-FY14",
+        "version": "FY14",
+        "locator": {
+          "kind": "pdf",
+          "reference": "{\"local_path\": \"Harvard University Competency Dictionary FY14 - final.pdf\", \"pdf_page\": 11, \"section\": \"Competency definition and Key Actions\", \"type\": \"pdf\"}",
+          "section": "Competency definition and Key Actions"
+        },
+        "supported_claim": "Communicates clearly and listens to others.",
+        "verification_status": "verified-within-stated-scope",
+        "adaptation_status": "include",
+        "support_role": "behavior_support",
+        "adaptation_note": "Candidate only; observable episode evidence required.; No scoring, levels or unsupported trait inference."
+      },
+      {
+        "schema_version": "1.0.0",
+        "candidate_id": "H-23",
+        "source_id": "HARVARD-FY14",
+        "version": "FY14",
+        "locator": {
+          "kind": "pdf",
+          "reference": "{\"local_path\": \"Harvard University Competency Dictionary FY14 - final.pdf\", \"pdf_page\": 23, \"section\": \"Competency definition and Key Actions\", \"type\": \"pdf\"}",
+          "section": "Competency definition and Key Actions"
+        },
+        "supported_claim": "Explores alternatives and reaches acceptable agreements.",
+        "verification_status": "verified-within-stated-scope",
+        "adaptation_status": "adapt",
+        "support_role": "behavior_support",
+        "adaptation_note": "Candidate only; observable episode evidence required.; No scoring, levels or unsupported trait inference."
+      },
+      {
+        "schema_version": "1.0.0",
+        "candidate_id": "ICD-S410030010",
+        "source_id": "ICD-V4-SKILL",
+        "version": "V4 announced 2019-01-21",
+        "locator": {
+          "kind": "xlsx",
+          "reference": "{\"expected_knowledge_code\": \"K001\", \"expected_knowledge_name\": \"-\", \"expected_skill_name\": \"Ability to understand someone else's ideas\", \"local_path\": \"iCDEnglishV4-4layer/Skill Dictionary V4.xlsx\", \"range\": \"A10168:H10168\", \"row\": 10168, \"sheet\": \"Skill List V4\", \"skill_code\": \"S410030010\", \"type\": \"xlsx\"}",
+          "section": "A10168:H10168"
+        },
+        "supported_claim": "Skill label only; knowledge item is '-'.",
+        "verification_status": "verified-within-stated-scope",
+        "adaptation_status": "adapt",
+        "support_role": "related_concept_only",
+        "adaptation_note": "Requires Harvard/NZ or separately verified detailed source before a card can use a behavioral claim.; No ICD proficiency level inference."
+      },
+      {
+        "schema_version": "1.0.0",
+        "candidate_id": "ICD-S410030020",
+        "source_id": "ICD-V4-SKILL",
+        "version": "V4 announced 2019-01-21",
+        "locator": {
+          "kind": "xlsx",
+          "reference": "{\"expected_knowledge_code\": \"K001\", \"expected_knowledge_name\": \"-\", \"expected_skill_name\": \"Ability to communicate one's idea to others\", \"local_path\": \"iCDEnglishV4-4layer/Skill Dictionary V4.xlsx\", \"range\": \"A10169:H10169\", \"row\": 10169, \"sheet\": \"Skill List V4\", \"skill_code\": \"S410030020\", \"type\": \"xlsx\"}",
+          "section": "A10169:H10169"
+        },
+        "supported_claim": "Skill label only; knowledge item is '-'.",
+        "verification_status": "verified-within-stated-scope",
+        "adaptation_status": "adapt",
+        "support_role": "related_concept_only",
+        "adaptation_note": "Requires Harvard/NZ or separately verified detailed source before a card can use a behavioral claim.; No ICD proficiency level inference."
+      }
+    ]
+  }
+]

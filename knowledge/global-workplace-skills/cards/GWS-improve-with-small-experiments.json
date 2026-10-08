@@ -1,0 +1,232 @@
+{
+  "skill_id": "GWS-improve-with-small-experiments",
+  "editorial_version": "0.2.0",
+  "status": "release-candidate",
+  "runtime_authority": false,
+  "contract_status": "editorial-schema-1.0.0-and-shared-contract-1.0.0-validated",
+  "title_th": "ปรับปรุงงานด้วยการทดลองขนาดเล็ก",
+  "title_en": "Improve through small experiments",
+  "family_id": "deliver-and-improve",
+  "workplace_situation": "พบปัญหาคุณภาพหรือขั้นตอนซ้ำ และมีพื้นที่ทดลองที่ปลอดภัยในขอบเขตอำนาจ",
+  "purpose": "ปรับปรุงงานด้วยการทดลองขนาดเล็กจากหลักฐานในเหตุการณ์ เพื่อเลือกการกระทำถัดไปที่เหมาะกับบริบท",
+  "scope": {
+    "applicable_roles": [
+      "contributor",
+      "manager"
+    ],
+    "required_managerial_authority": false,
+    "work_contexts": [
+      "desk",
+      "frontline"
+    ],
+    "boundary_conditions": [
+      "ใช้เฉพาะงานและข้อมูลที่ผู้ใช้มีสิทธิ",
+      "ไม่แทนขั้นตอนองค์กรหรือความรู้เฉพาะวิชาชีพ",
+      "เหตุการณ์คุกคาม ความปลอดภัยหรือความเสี่ยงสูงต้องใช้ช่องทางที่เหมาะสมก่อนกิจกรรมฝึก"
+    ]
+  },
+  "observable_actions": [
+    {
+      "action_id": "A1",
+      "action": "ระบุปัญหาจากเหตุการณ์และสภาพตั้งต้น รวมทั้งข้อจำกัดที่ต้องรักษา",
+      "authorship": "lumei-original-adaptation",
+      "supporting_candidate_ids": [
+        "H-27",
+        "H-07"
+      ]
+    },
+    {
+      "action_id": "A2",
+      "action": "เสนอการเปลี่ยนหนึ่งอย่างที่ตรวจได้ และกำหนดว่าจะสังเกตอะไรพร้อมเงื่อนไขหยุด",
+      "authorship": "lumei-original-adaptation",
+      "supporting_candidate_ids": [
+        "H-18",
+        "H-30"
+      ]
+    },
+    {
+      "action_id": "A3",
+      "action": "ลองเมื่อได้รับสิทธิและทบทวนผลที่สังเกต โดยไม่สรุปว่าการเปลี่ยนเป็นสาเหตุเดียว",
+      "authorship": "lumei-original-adaptation",
+      "supporting_candidate_ids": [
+        "H-28",
+        "H-30"
+      ]
+    }
+  ],
+  "evidence_to_look_for": [
+    "สภาพตั้งต้นและปัญหาที่ระบุได้",
+    "การเปลี่ยนที่ได้รับสิทธิและเงื่อนไขทดลอง",
+    "ผลที่สังเกตและปัจจัยอื่นที่อาจเกี่ยวข้อง"
+  ],
+  "interpretation_limits": [
+    "ผลดีหลังทดลองไม่พิสูจน์สาเหตุโดยตัวมันเอง",
+    "การปรับปรุงไม่อนุญาตให้ข้าม SOP safety หรือ change approval",
+    "ข้อเสนอการฝึกไม่ใช่หลักฐานว่าผู้ใช้เคยทำหรือทำได้แล้ว",
+    "ไม่ให้คะแนน ระดับ proficiency หรือคำตัดสินตัวตนจากเหตุการณ์"
+  ],
+  "practice": {
+    "authorship": "lumei-original-design",
+    "optional": true,
+    "target": "ระบุปัญหาจากเหตุการณ์และสภาพตั้งต้น รวมทั้งข้อจำกัดที่ต้องรักษา",
+    "user_attempt": "ร่างต้นแบบหรือการเปลี่ยนขั้นตอนหนึ่งจุดในสถานการณ์สมมติ ระบุผลที่คาด สิ่งที่จะดูและเงื่อนไขหยุด",
+    "feedback_basis": "การเปลี่ยนเล็กพอจะตรวจและย้อนกลับได้หรือไม่; มีข้อมูลตั้งต้นและอธิบายปัจจัยอื่นหรือไม่",
+    "assistance_boundary": "AI ช่วยจัดโครงหรือชี้ข้อมูลที่ยังขาดได้ ผู้ใช้เป็นเจ้าของเหตุผลและปฏิเสธกิจกรรมได้; ไม่ grading",
+    "transfer_to_another_context": "เปลี่ยนจากตรวจแบบฟอร์มเป็นติดตามข้อผิดพลาดใน handoff ระบุว่าต้องเปลี่ยนวิธีสังเกตอะไร",
+    "evidence_to_collect_next": [
+      "สภาพตั้งต้นและปัญหาที่ระบุได้",
+      "ผลที่สังเกตและปัจจัยอื่นที่อาจเกี่ยวข้อง"
+    ],
+    "stop_conditions": [
+      "ผู้ใช้ไม่ต้องการฝึก",
+      "งานเกินสิทธิหรือเสี่ยงกระทบคน/ระบบจริง",
+      "ต้องมีผู้รับผิดชอบเฉพาะทางแต่ยังไม่พร้อม"
+    ]
+  },
+  "human_ai_judgment": "ตรวจหลักฐานและสิทธิการใช้ก่อนลงมือ; คง uncertainty; คนที่มีอำนาจจริงรับผิดชอบการตัดสินใจ",
+  "coaching_overlay_ids": [
+    "transfer-and-next-evidence"
+  ],
+  "source_refs": [
+    {
+      "candidate_id": "H-27",
+      "source_id": "HARVARD-FY14",
+      "version": "FY14",
+      "locator": {
+        "type": "pdf",
+        "local_path": "Harvard University Competency Dictionary FY14 - final.pdf",
+        "pdf_page": 27,
+        "section": "Competency definition and Key Actions"
+      },
+      "review_decision": "include",
+      "support_role": "behavior_support",
+      "supported_fields": [
+        "observable_actions.A1"
+      ],
+      "supported_claim": "Analyzes information and develops solutions.",
+      "adaptation_limits": [
+        "Candidate only; observable episode evidence required.",
+        "No scoring, levels or unsupported trait inference."
+      ]
+    },
+    {
+      "candidate_id": "H-07",
+      "source_id": "HARVARD-FY14",
+      "version": "FY14",
+      "locator": {
+        "type": "pdf",
+        "local_path": "Harvard University Competency Dictionary FY14 - final.pdf",
+        "pdf_page": 7,
+        "section": "Competency definition and Key Actions"
+      },
+      "review_decision": "include",
+      "support_role": "behavior_support",
+      "supported_fields": [
+        "observable_actions.A1"
+      ],
+      "supported_claim": "Checks work accuracy and completeness.",
+      "adaptation_limits": [
+        "Candidate only; observable episode evidence required.",
+        "No scoring, levels or unsupported trait inference."
+      ]
+    },
+    {
+      "candidate_id": "H-18",
+      "source_id": "HARVARD-FY14",
+      "version": "FY14",
+      "locator": {
+        "type": "pdf",
+        "local_path": "Harvard University Competency Dictionary FY14 - final.pdf",
+        "pdf_page": 18,
+        "section": "Competency definition and Key Actions"
+      },
+      "review_decision": "adapt",
+      "support_role": "behavior_support",
+      "supported_fields": [
+        "observable_actions.A2"
+      ],
+      "supported_claim": "Generates and develops new approaches.",
+      "adaptation_limits": [
+        "Candidate only; observable episode evidence required.",
+        "No scoring, levels or unsupported trait inference."
+      ]
+    },
+    {
+      "candidate_id": "H-30",
+      "source_id": "HARVARD-FY14",
+      "version": "FY14",
+      "locator": {
+        "type": "pdf",
+        "local_path": "Harvard University Competency Dictionary FY14 - final.pdf",
+        "pdf_page": 30,
+        "section": "Competency definition and Key Actions"
+      },
+      "review_decision": "adapt",
+      "support_role": "behavior_support",
+      "supported_fields": [
+        "observable_actions.A2",
+        "observable_actions.A3"
+      ],
+      "supported_claim": "Initiates beneficial action with understood potential consequences.",
+      "adaptation_limits": [
+        "Candidate only; observable episode evidence required.",
+        "No scoring, levels or unsupported trait inference."
+      ]
+    },
+    {
+      "candidate_id": "H-28",
+      "source_id": "HARVARD-FY14",
+      "version": "FY14",
+      "locator": {
+        "type": "pdf",
+        "local_path": "Harvard University Competency Dictionary FY14 - final.pdf",
+        "pdf_page": 28,
+        "section": "Competency definition and Key Actions"
+      },
+      "review_decision": "adapt",
+      "support_role": "behavior_support",
+      "supported_fields": [
+        "observable_actions.A3"
+      ],
+      "supported_claim": "Improves standards and work quality.",
+      "adaptation_limits": [
+        "Candidate only; observable episode evidence required.",
+        "No scoring, levels or unsupported trait inference."
+      ]
+    },
+    {
+      "candidate_id": "ICD-M-3586",
+      "source_id": "ICD-V4-SKILL",
+      "version": "V4 announced 2019-01-21",
+      "locator": {
+        "type": "xlsx",
+        "local_path": "iCDEnglishV4-4layer/Skill Dictionary V4.xlsx",
+        "sheet": "Skill List V4",
+        "range": "A3586:H3586",
+        "row": 3586,
+        "skill_code": "S150010130",
+        "expected_skill_name": "Quality improvement-related methods",
+        "expected_knowledge_code": "K001",
+        "expected_knowledge_name": "PDCA"
+      },
+      "review_decision": "adapt",
+      "support_role": "related_concept_only",
+      "supported_fields": [
+        "design_notes"
+      ],
+      "supported_claim": "Named knowledge item in an IT-oriented method family.",
+      "adaptation_limits": [
+        "Selected pointer, not full method description.",
+        "Specialty methods/standards are not compulsory for all workers."
+      ]
+    }
+  ],
+  "adaptation_note": "เลือกส่วนที่ใช้ข้ามงานได้จาก candidate ที่ตรวจแล้ว; ข้อความไทย พฤติกรรมเชิงปฏิบัติและกิจกรรมเป็นการประยุกต์ของ Lumei ไม่ใช่คำแปลรับรองหรือมาตรฐานสากล",
+  "design_notes": "iCD ที่อ้างเป็นเพียง related concept; NZ เสริมขอบเขต; overlays และ foresight ไม่เป็น episode evidence",
+  "distinction": {
+    "compared_with": [
+      "GWS-learn-and-transfer"
+    ],
+    "separation": "learning เปลี่ยนการกระทำผู้เรียนจาก feedback; improvement ทดลองเปลี่ยนกระบวนการและคุณภาพงาน; "
+  }
+}

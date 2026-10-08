@@ -1,0 +1,443 @@
+{
+  "runtime_authority": false,
+  "overlays": [
+    {
+      "overlay_id": "agency-and-boundaries",
+      "title_th": "เป้าหมายร่วมและขอบเขตที่ผู้ใช้เลือก",
+      "procedure": [
+        "ตกลงเป้าหมายการสะท้อนกับผู้ใช้",
+        "เสนอหนึ่งจุดพัฒนาและกิจกรรมที่ปฏิเสธได้",
+        "อธิบายข้อจำกัดข้อมูลและเครื่องมือตาม host จริง"
+      ],
+      "limit": "Coaching design เท่านั้น; ไม่ประเมิน professionalism ของผู้ใช้หรือรับรองนโยบายเก็บข้อมูล",
+      "status": "pilot-editorial",
+      "runtime_authority": false,
+      "authorship": "lumei-original-design",
+      "optional": true,
+      "source_refs": [
+        {
+          "candidate_id": "FIN-B3-2",
+          "source_id": "FIN-CAREER-2024",
+          "version": "2024 proposal / online descriptors",
+          "locator": {
+            "type": "web_descriptor",
+            "url": "https://peda.net/careerprof/clickable-online-version/b-asiakastyoosaaminen/b3/b3.2",
+            "descriptor_code": "B3.2",
+            "section": "Competency description"
+          },
+          "review_decision": "adapt",
+          "support_role": "coaching_design_only",
+          "supported_fields": [
+            "procedure"
+          ],
+          "supported_claim": "Negotiates goals and suitable working methods jointly.",
+          "adaptation_limits": [
+            "Role is coaching-process design, not universal worker assessment.",
+            "Online descriptor verified; original PDF pagination not asserted."
+          ]
+        },
+        {
+          "candidate_id": "FIN-B3-3",
+          "source_id": "FIN-CAREER-2024",
+          "version": "2024 proposal / online descriptors",
+          "locator": {
+            "type": "web_descriptor",
+            "url": "https://peda.net/careerprof/clickable-online-version/b-asiakastyoosaaminen/b3/b3.3",
+            "descriptor_code": "B3.3",
+            "section": "Competency description"
+          },
+          "review_decision": "adapt",
+          "support_role": "coaching_design_only",
+          "supported_fields": [
+            "procedure"
+          ],
+          "supported_claim": "Keeps client active in planning and reviewing progress.",
+          "adaptation_limits": [
+            "Role is coaching-process design, not universal worker assessment.",
+            "Online descriptor verified; original PDF pagination not asserted."
+          ]
+        },
+        {
+          "candidate_id": "FIN-A1-4",
+          "source_id": "FIN-CAREER-2024",
+          "version": "2024 proposal / online descriptors",
+          "locator": {
+            "type": "web_descriptor",
+            "url": "https://peda.net/careerprof/clickable-online-version/a-professionalism/a1/a1.4",
+            "descriptor_code": "A1.4",
+            "section": "Competency description"
+          },
+          "review_decision": "adapt",
+          "support_role": "coaching_design_only",
+          "supported_fields": [
+            "procedure"
+          ],
+          "supported_claim": "Addresses conflicts, accessibility and informed data handling.",
+          "adaptation_limits": [
+            "Role is coaching-process design, not universal worker assessment.",
+            "Online descriptor verified; original PDF pagination not asserted."
+          ]
+        },
+        {
+          "candidate_id": "FIN-A5-2",
+          "source_id": "FIN-CAREER-2024",
+          "version": "2024 proposal / online descriptors",
+          "locator": {
+            "type": "web_descriptor",
+            "url": "https://peda.net/careerprof/clickable-online-version/a-professionalism/a5/a5.2",
+            "descriptor_code": "A5.2",
+            "section": "Competency description"
+          },
+          "review_decision": "adapt",
+          "support_role": "coaching_design_only",
+          "supported_fields": [
+            "procedure"
+          ],
+          "supported_claim": "Selects accessible tools and evaluates their usefulness.",
+          "adaptation_limits": [
+            "Role is coaching-process design, not universal worker assessment.",
+            "Online descriptor verified; original PDF pagination not asserted."
+          ]
+        }
+      ]
+    },
+    {
+      "overlay_id": "attempt-compare-without-grading",
+      "title_th": "ลองเองและเปรียบเทียบโดยไม่ให้เกรด",
+      "procedure": [
+        "ให้ผู้ใช้เลือกว่าจะลองเองก่อนหรือรับความช่วยเหลือ",
+        "เปรียบเทียบทางทำงานด้วยหลักฐาน",
+        "เก็บข้อที่ยังตรวจไม่ได้และเหตุผลการตัดสินใจของมนุษย์"
+      ],
+      "limit": "Lumei เลือกตัด AI grading จากต้นแบบบทความ; ไม่ถือ output ใดเป็น answer key",
+      "status": "pilot-editorial",
+      "runtime_authority": false,
+      "authorship": "lumei-original-design",
+      "optional": true,
+      "source_refs": [
+        {
+          "candidate_id": "MCK-ATTEMPT-COMPARE",
+          "source_id": "MCK-EXPERTISE-2026",
+          "version": "July 2026",
+          "locator": {
+            "type": "pdf",
+            "local_path": "building-expertise-in-the-age-of-ai-who-trains-the-next-generation (1).pdf",
+            "pdf_pages": [
+              5,
+              6
+            ],
+            "section": "Independent attempt and comparison"
+          },
+          "review_decision": "adapt",
+          "support_role": "coaching_design_only",
+          "supported_fields": [
+            "procedure"
+          ],
+          "supported_claim": "Proposes an answer-key workflow including AI grading and manager discussion.",
+          "adaptation_limits": [
+            "Design/curation lens only, never evidence about this user.",
+            "Context and publication vintage must remain visible."
+          ]
+        },
+        {
+          "candidate_id": "MCK-COACHING",
+          "source_id": "MCK-EXPERTISE-2026",
+          "version": "July 2026",
+          "locator": {
+            "type": "pdf",
+            "local_path": "building-expertise-in-the-age-of-ai-who-trains-the-next-generation (1).pdf",
+            "pdf_pages": [
+              7,
+              9,
+              10,
+              11
+            ],
+            "section": "Human coaching and judgment"
+          },
+          "review_decision": "adapt",
+          "support_role": "coaching_design_only",
+          "supported_fields": [
+            "procedure"
+          ],
+          "supported_claim": "Highlights human coaching, judgment, communication and influence.",
+          "adaptation_limits": [
+            "Design/curation lens only, never evidence about this user.",
+            "Context and publication vintage must remain visible."
+          ]
+        }
+      ]
+    },
+    {
+      "overlay_id": "reasoning-check",
+      "title_th": "ตรวจเหตุผลและคำอธิบายทางเลือก",
+      "procedure": [
+        "เลือกข้อสรุปหนึ่งข้อ",
+        "แยกข้ออ้าง เหตุผล ข้อมูลและสมมติฐาน",
+        "ชวนดูข้อคัดค้านหรือข้อมูลที่จะเปลี่ยนใจได้อย่างสมัครใจ"
+      ],
+      "limit": "วิธีของ Lumei เอง; van Gelder รองรับระดับแนวคิดใน abstract ไม่รับรอง template หรือขนาดผล",
+      "status": "pilot-editorial",
+      "runtime_authority": false,
+      "authorship": "lumei-original-design",
+      "optional": true,
+      "source_refs": [
+        {
+          "candidate_id": "H-14",
+          "source_id": "HARVARD-FY14",
+          "version": "FY14",
+          "locator": {
+            "type": "pdf",
+            "local_path": "Harvard University Competency Dictionary FY14 - final.pdf",
+            "pdf_page": 14,
+            "section": "Competency definition and Key Actions"
+          },
+          "review_decision": "include",
+          "support_role": "coaching_design_only",
+          "supported_fields": [
+            "procedure"
+          ],
+          "supported_claim": "Identifies issues, gathers information and evaluates alternatives.",
+          "adaptation_limits": [
+            "Candidate only; observable episode evidence required.",
+            "No scoring, levels or unsupported trait inference."
+          ]
+        },
+        {
+          "candidate_id": "VG-4",
+          "source_id": "VANG-PUBLISHED-2005",
+          "version": "2005; DOI 10.3200/CTCH.53.1.41-48",
+          "locator": {
+            "type": "web_pdf",
+            "url": "https://www.aku.edu/qtl/resources/Documents/Teaching%20Critical%20Thinking%20Some%20Lessons%20From%20Cognitive%20Science.pdf",
+            "pdf_page": 2,
+            "journal_page": 41,
+            "section": "Published abstract; six-lesson synopsis"
+          },
+          "review_decision": "adapt",
+          "support_role": "coaching_design_only",
+          "supported_fields": [
+            "procedure"
+          ],
+          "supported_claim": "Some theoretical knowledge supports thinking.",
+          "adaptation_limits": [
+            "Abstract-level conceptual candidate only; detailed method requires body verification.",
+            "No quantitative efficacy claim or Lumei learning guarantee."
+          ]
+        },
+        {
+          "candidate_id": "VG-5",
+          "source_id": "VANG-PUBLISHED-2005",
+          "version": "2005; DOI 10.3200/CTCH.53.1.41-48",
+          "locator": {
+            "type": "web_pdf",
+            "url": "https://www.aku.edu/qtl/resources/Documents/Teaching%20Critical%20Thinking%20Some%20Lessons%20From%20Cognitive%20Science.pdf",
+            "pdf_page": 2,
+            "journal_page": 41,
+            "section": "Published abstract; six-lesson synopsis"
+          },
+          "review_decision": "adapt",
+          "support_role": "coaching_design_only",
+          "supported_fields": [
+            "procedure"
+          ],
+          "supported_claim": "The article discusses diagramming arguments.",
+          "adaptation_limits": [
+            "Abstract-level conceptual candidate only; detailed method requires body verification.",
+            "No quantitative efficacy claim or Lumei learning guarantee."
+          ]
+        },
+        {
+          "candidate_id": "VG-6",
+          "source_id": "VANG-PUBLISHED-2005",
+          "version": "2005; DOI 10.3200/CTCH.53.1.41-48",
+          "locator": {
+            "type": "web_pdf",
+            "url": "https://www.aku.edu/qtl/resources/Documents/Teaching%20Critical%20Thinking%20Some%20Lessons%20From%20Cognitive%20Science.pdf",
+            "pdf_page": 2,
+            "journal_page": 41,
+            "section": "Published abstract; six-lesson synopsis"
+          },
+          "review_decision": "adapt",
+          "support_role": "coaching_design_only",
+          "supported_fields": [
+            "procedure"
+          ],
+          "supported_claim": "The article identifies belief preservation.",
+          "adaptation_limits": [
+            "Abstract-level conceptual candidate only; detailed method requires body verification.",
+            "No quantitative efficacy claim or Lumei learning guarantee."
+          ]
+        },
+        {
+          "candidate_id": "FIN-A3-1",
+          "source_id": "FIN-CAREER-2024",
+          "version": "2024 proposal / online descriptors",
+          "locator": {
+            "type": "web_descriptor",
+            "url": "https://peda.net/careerprof/clickable-online-version/a-professionalism/a3/a3.1",
+            "descriptor_code": "A3.1",
+            "section": "Competency description"
+          },
+          "review_decision": "adapt",
+          "support_role": "coaching_design_only",
+          "supported_fields": [
+            "procedure"
+          ],
+          "supported_claim": "Reflects on underlying assumptions, work boundaries and contextual outcomes.",
+          "adaptation_limits": [
+            "Role is coaching-process design, not universal worker assessment.",
+            "Online descriptor verified; original PDF pagination not asserted."
+          ]
+        }
+      ]
+    },
+    {
+      "overlay_id": "transfer-and-next-evidence",
+      "title_th": "ลองในบริบทใหม่และเก็บหลักฐานถัดไป",
+      "procedure": [
+        "เลือกการฝึกเล็กหนึ่งอย่าง",
+        "ให้ผู้ใช้ระบุสิ่งที่เหมือนและต่างในบริบทใหม่",
+        "ระบุหลักฐานที่จะเก็บจากการลองจริงและ feedback ที่เข้าถึงได้"
+      ],
+      "limit": "ไม่รับรองผลการเรียนรู้หรือ causal transfer จากการสนทนา/การผ่าน checker",
+      "status": "pilot-editorial",
+      "runtime_authority": false,
+      "authorship": "lumei-original-design",
+      "optional": true,
+      "source_refs": [
+        {
+          "candidate_id": "VG-1",
+          "source_id": "VANG-PUBLISHED-2005",
+          "version": "2005; DOI 10.3200/CTCH.53.1.41-48",
+          "locator": {
+            "type": "web_pdf",
+            "url": "https://www.aku.edu/qtl/resources/Documents/Teaching%20Critical%20Thinking%20Some%20Lessons%20From%20Cognitive%20Science.pdf",
+            "pdf_page": 2,
+            "journal_page": 41,
+            "section": "Published abstract; six-lesson synopsis"
+          },
+          "review_decision": "adapt",
+          "support_role": "coaching_design_only",
+          "supported_fields": [
+            "procedure"
+          ],
+          "supported_claim": "Critical thinking needs time and component skills.",
+          "adaptation_limits": [
+            "Abstract-level conceptual candidate only; detailed method requires body verification.",
+            "No quantitative efficacy claim or Lumei learning guarantee."
+          ]
+        },
+        {
+          "candidate_id": "VG-2",
+          "source_id": "VANG-PUBLISHED-2005",
+          "version": "2005; DOI 10.3200/CTCH.53.1.41-48",
+          "locator": {
+            "type": "web_pdf",
+            "url": "https://www.aku.edu/qtl/resources/Documents/Teaching%20Critical%20Thinking%20Some%20Lessons%20From%20Cognitive%20Science.pdf",
+            "pdf_page": 2,
+            "journal_page": 41,
+            "section": "Published abstract; six-lesson synopsis"
+          },
+          "review_decision": "adapt",
+          "support_role": "coaching_design_only",
+          "supported_fields": [
+            "procedure"
+          ],
+          "supported_claim": "Practice should target reasoning itself.",
+          "adaptation_limits": [
+            "Abstract-level conceptual candidate only; detailed method requires body verification.",
+            "No quantitative efficacy claim or Lumei learning guarantee."
+          ]
+        },
+        {
+          "candidate_id": "VG-3",
+          "source_id": "VANG-PUBLISHED-2005",
+          "version": "2005; DOI 10.3200/CTCH.53.1.41-48",
+          "locator": {
+            "type": "web_pdf",
+            "url": "https://www.aku.edu/qtl/resources/Documents/Teaching%20Critical%20Thinking%20Some%20Lessons%20From%20Cognitive%20Science.pdf",
+            "pdf_page": 2,
+            "journal_page": 41,
+            "section": "Published abstract; six-lesson synopsis"
+          },
+          "review_decision": "adapt",
+          "support_role": "coaching_design_only",
+          "supported_fields": [
+            "procedure"
+          ],
+          "supported_claim": "Transfer requires practice.",
+          "adaptation_limits": [
+            "Abstract-level conceptual candidate only; detailed method requires body verification.",
+            "No quantitative efficacy claim or Lumei learning guarantee."
+          ]
+        },
+        {
+          "candidate_id": "FIN-A3-2",
+          "source_id": "FIN-CAREER-2024",
+          "version": "2024 proposal / online descriptors",
+          "locator": {
+            "type": "web_descriptor",
+            "url": "https://peda.net/careerprof/clickable-online-version/a-professionalism/a3/a3.2",
+            "descriptor_code": "A3.2",
+            "section": "Competency description"
+          },
+          "review_decision": "adapt",
+          "support_role": "coaching_design_only",
+          "supported_fields": [
+            "procedure"
+          ],
+          "supported_claim": "Uses feedback, personal learning plans and networks.",
+          "adaptation_limits": [
+            "Role is coaching-process design, not universal worker assessment.",
+            "Online descriptor verified; original PDF pagination not asserted."
+          ]
+        },
+        {
+          "candidate_id": "FIN-B1-3",
+          "source_id": "FIN-CAREER-2024",
+          "version": "2024 proposal / online descriptors",
+          "locator": {
+            "type": "web_descriptor",
+            "url": "https://peda.net/careerprof/clickable-online-version/b-asiakastyoosaaminen/b1/b1.3",
+            "descriptor_code": "B1.3",
+            "section": "Competency description"
+          },
+          "review_decision": "adapt",
+          "support_role": "coaching_design_only",
+          "supported_fields": [
+            "procedure"
+          ],
+          "supported_claim": "Reviews process and outcomes jointly in context.",
+          "adaptation_limits": [
+            "Role is coaching-process design, not universal worker assessment.",
+            "Online descriptor verified; original PDF pagination not asserted."
+          ]
+        },
+        {
+          "candidate_id": "MCK-PRACTICE",
+          "source_id": "MCK-EXPERTISE-2026",
+          "version": "July 2026",
+          "locator": {
+            "type": "pdf",
+            "local_path": "building-expertise-in-the-age-of-ai-who-trains-the-next-generation (1).pdf",
+            "pdf_pages": [
+              6,
+              7
+            ],
+            "section": "Practice in the flow of work"
+          },
+          "review_decision": "adapt",
+          "support_role": "coaching_design_only",
+          "supported_fields": [
+            "procedure"
+          ],
+          "supported_claim": "Suggests practice integrated with work and simulations.",
+          "adaptation_limits": [
+            "Design/curation lens only, never evidence about this user.",
+            "Context and publication vintage must remain visible."
+          ]
+        }
+      ]
+    }
+  ]
+}

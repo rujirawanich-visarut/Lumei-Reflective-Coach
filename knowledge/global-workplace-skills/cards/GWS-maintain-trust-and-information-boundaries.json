@@ -1,0 +1,166 @@
+{
+  "skill_id": "GWS-maintain-trust-and-information-boundaries",
+  "editorial_version": "0.2.0",
+  "status": "release-candidate",
+  "runtime_authority": false,
+  "contract_status": "editorial-schema-1.0.0-and-shared-contract-1.0.0-validated",
+  "title_th": "รักษาคำมั่นและขอบเขตข้อมูล",
+  "title_en": "Maintain commitments and information boundaries",
+  "family_id": "relate-and-coordinate",
+  "workplace_situation": "ต้องรักษาความไว้วางใจเมื่อมีคำมั่น ข้อมูลที่แบ่งปันไม่ได้ หรือคำขอที่เกินขอบเขต",
+  "purpose": "รักษาคำมั่นและขอบเขตข้อมูลจากหลักฐานในเหตุการณ์ โดยคงสิทธิและขอบเขตของผู้ใช้",
+  "scope": {
+    "applicable_roles": [
+      "contributor",
+      "manager"
+    ],
+    "required_managerial_authority": false,
+    "work_contexts": [
+      "desk",
+      "frontline"
+    ],
+    "boundary_conditions": [
+      "ใช้เฉพาะงานและข้อมูลที่ผู้ใช้มีสิทธิ",
+      "ไม่แทนขั้นตอนองค์กรหรือความรู้เฉพาะวิชาชีพ",
+      "เหตุการณ์คุกคาม ความปลอดภัยหรือความเสี่ยงสูงต้องใช้ช่องทางที่เหมาะสมก่อนกิจกรรมฝึก"
+    ]
+  },
+  "observable_actions": [
+    {
+      "action_id": "A1",
+      "action": "แยกสิ่งที่รับปากหรือยืนยันได้จากสิ่งที่ยังไม่ทราบ พร้อมแจ้งข้อจำกัดตรงไปตรงมา",
+      "authorship": "lumei-original-adaptation",
+      "supporting_candidate_ids": [
+        "H-10"
+      ]
+    },
+    {
+      "action_id": "A2",
+      "action": "จัดการข้อมูลที่เป็นความลับตามสิทธิและช่องทางที่อนุญาต โดยไม่แบ่งปันเพื่อเอาใจผู้ขอ",
+      "authorship": "lumei-original-adaptation",
+      "supporting_candidate_ids": [
+        "H-19"
+      ]
+    },
+    {
+      "action_id": "A3",
+      "action": "ติดตามคำมั่นหรือแจ้งอุปสรรคอย่างชัดเจน พร้อมให้เครดิตผู้มีส่วนร่วมตามสิ่งที่เกิดขึ้น",
+      "authorship": "lumei-original-adaptation",
+      "supporting_candidate_ids": [
+        "H-10",
+        "H-05"
+      ]
+    }
+  ],
+  "evidence_to_look_for": [
+    "คำมั่นและข้อจำกัดที่แจ้ง",
+    "การกระทำเกี่ยวกับข้อมูลและสิทธิที่มีจริง",
+    "ข้อความติดตามหรือให้เครดิต"
+  ],
+  "interpretation_limits": [
+    "ไม่ใช้ card ตัดสินว่าใครซื่อสัตย์หรือไว้ใจได้เป็นตัวตน",
+    "ไม่แทนกฎหมาย นโยบายข้อมูลหรือการตรวจสอบความปลอดภัย",
+    "เมื่อมีเหตุละเมิดให้ใช้ช่องทางที่รับผิดชอบก่อนโค้ช",
+    "ข้อเสนอฝึกไม่ใช่การกระทำที่เกิดแล้ว; ไม่ให้คะแนนหรือระดับบุคคล"
+  ],
+  "practice": {
+    "authorship": "lumei-original-design",
+    "optional": true,
+    "target": "แยกสิ่งที่รับปากหรือยืนยันได้จากสิ่งที่ยังไม่ทราบ พร้อมแจ้งข้อจำกัดตรงไปตรงมา",
+    "user_attempt": "ร่างคำตอบต่อคำขอข้อมูลสมมติที่แบ่งปันไม่ได้ โดยอธิบายขอบเขตและทางเลือกที่ได้รับอนุญาต",
+    "feedback_basis": "มีการเปิดเผยข้อมูลเกินสิทธิหรือรับปากแทนคนอื่นหรือไม่ และผู้รับเห็นขอบเขตที่ชัดหรือไม่",
+    "assistance_boundary": "AI ช่วยจัดโครงหรือชี้ข้อมูลที่ยังขาดได้ ผู้ใช้เป็นเจ้าของเหตุผลและปฏิเสธกิจกรรมได้; ไม่ grading",
+    "transfer_to_another_context": "เปลี่ยนจากข้อมูลลูกค้าเป็นข้อมูลเพื่อนร่วมงาน ระบุสิทธิและผู้รับผิดชอบที่ต้องตรวจใหม่",
+    "evidence_to_collect_next": [
+      "คำมั่นและข้อจำกัดที่แจ้ง",
+      "ข้อความติดตามหรือให้เครดิต"
+    ],
+    "stop_conditions": [
+      "ผู้ใช้ไม่ต้องการฝึก",
+      "งานเกินสิทธิหรือเสี่ยงกระทบคน/ระบบจริง",
+      "ต้องมีผู้รับผิดชอบเฉพาะทางแต่ยังไม่พร้อม"
+    ]
+  },
+  "human_ai_judgment": "ตรวจหลักฐานและสิทธิการใช้ก่อนลงมือ; คง uncertainty; คนที่มีอำนาจจริงรับผิดชอบการตัดสินใจ",
+  "coaching_overlay_ids": [
+    "agency-and-boundaries"
+  ],
+  "source_refs": [
+    {
+      "candidate_id": "H-10",
+      "source_id": "HARVARD-FY14",
+      "version": "FY14",
+      "locator": {
+        "type": "pdf",
+        "local_path": "Harvard University Competency Dictionary FY14 - final.pdf",
+        "pdf_page": 10,
+        "section": "Competency definition and Key Actions"
+      },
+      "review_decision": "include",
+      "support_role": "behavior_support",
+      "supported_fields": [
+        "observable_actions.A1",
+        "observable_actions.A3"
+      ],
+      "supported_claim": "Integrity and interpersonal conduct foster trust.",
+      "adaptation_limits": [
+        "Candidate only; observable episode evidence required.",
+        "No scoring, levels or unsupported trait inference.",
+        "Phase 5: original bounded adaptation from local Key Actions; not a universal standard or legal instruction."
+      ]
+    },
+    {
+      "candidate_id": "H-19",
+      "source_id": "HARVARD-FY14",
+      "version": "FY14",
+      "locator": {
+        "type": "pdf",
+        "local_path": "Harvard University Competency Dictionary FY14 - final.pdf",
+        "pdf_page": 19,
+        "section": "Competency definition and Key Actions"
+      },
+      "review_decision": "adapt",
+      "support_role": "behavior_support",
+      "supported_fields": [
+        "observable_actions.A2"
+      ],
+      "supported_claim": "Builds constructive relationships with varied people.",
+      "adaptation_limits": [
+        "Candidate only; observable episode evidence required.",
+        "No scoring, levels or unsupported trait inference.",
+        "Phase 5: original bounded adaptation from local Key Actions; not a universal standard or legal instruction."
+      ]
+    },
+    {
+      "candidate_id": "H-05",
+      "source_id": "HARVARD-FY14",
+      "version": "FY14",
+      "locator": {
+        "type": "pdf",
+        "local_path": "Harvard University Competency Dictionary FY14 - final.pdf",
+        "pdf_page": 5,
+        "section": "Competency definition and Key Actions"
+      },
+      "review_decision": "include",
+      "support_role": "behavior_support",
+      "supported_fields": [
+        "observable_actions.A3"
+      ],
+      "supported_claim": "Accepts responsibility and follows through on commitments.",
+      "adaptation_limits": [
+        "Candidate only; observable episode evidence required.",
+        "No scoring, levels or unsupported trait inference.",
+        "Phase 5: original bounded adaptation from local Key Actions; not a universal standard or legal instruction."
+      ]
+    }
+  ],
+  "adaptation_note": "Lumei original adaptation; แยก situational actions ออกจาก trait/rating และหน้าที่ที่ต้องมีอำนาจ; ไม่แปลหรือคัดลอก dictionary ทั้งชุด",
+  "design_notes": "Phase 5: คัด Key Actions เฉพาะหน้าที่ระบุใน Harvard FY14; activities/transfer เป็น Lumei original design; overlays ไม่เป็น episode evidence",
+  "distinction": {
+    "compared_with": [
+      "GWS-handoff-and-follow-through",
+      "GWS-verify-ai-work"
+    ],
+    "separation": "trust boundary เน้นความตรงไปตรงมา สิทธิข้อมูลและการให้เครดิต; handoff เน้นสถานะ/เจ้าของงาน; AI verification เน้นข้ออ้างในชิ้นงาน AI"
+  }
+}

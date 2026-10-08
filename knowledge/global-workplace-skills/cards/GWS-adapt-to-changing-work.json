@@ -1,0 +1,146 @@
+{
+  "skill_id": "GWS-adapt-to-changing-work",
+  "editorial_version": "0.2.0",
+  "status": "release-candidate",
+  "runtime_authority": false,
+  "contract_status": "editorial-schema-1.0.0-and-shared-contract-1.0.0-validated",
+  "title_th": "ปรับวิธีทำงานเมื่อเงื่อนไขเปลี่ยน",
+  "title_en": "Adapt to changing work",
+  "family_id": "deliver-and-improve",
+  "workplace_situation": "ข้อกำหนด เครื่องมือหรือวิธีทำงานเปลี่ยนและแผนเดิมอาจใช้ต่อไม่ได้",
+  "purpose": "ปรับวิธีทำงานเมื่อเงื่อนไขเปลี่ยนจากหลักฐานในเหตุการณ์ โดยคงสิทธิและขอบเขตของผู้ใช้",
+  "scope": {
+    "applicable_roles": [
+      "contributor",
+      "manager"
+    ],
+    "required_managerial_authority": false,
+    "work_contexts": [
+      "desk",
+      "frontline"
+    ],
+    "boundary_conditions": [
+      "ใช้เฉพาะงานและข้อมูลที่ผู้ใช้มีสิทธิ",
+      "ไม่แทนขั้นตอนองค์กรหรือความรู้เฉพาะวิชาชีพ",
+      "เหตุการณ์คุกคาม ความปลอดภัยหรือความเสี่ยงสูงต้องใช้ช่องทางที่เหมาะสมก่อนกิจกรรมฝึก"
+    ]
+  },
+  "observable_actions": [
+    {
+      "action_id": "A1",
+      "action": "ตรวจว่าข้อกำหนดหรือบริบทใดเปลี่ยนและข้อมูลใดยังต้องยืนยันก่อนปรับงาน",
+      "authorship": "lumei-original-adaptation",
+      "supporting_candidate_ids": [
+        "H-17"
+      ]
+    },
+    {
+      "action_id": "A2",
+      "action": "ปรับการกระทำหนึ่งอย่างให้สอดคล้องกับเงื่อนไขใหม่ภายในสิทธิ และแจ้งผลต่อข้อตกลงเดิม",
+      "authorship": "lumei-original-adaptation",
+      "supporting_candidate_ids": [
+        "H-17",
+        "H-11"
+      ]
+    },
+    {
+      "action_id": "A3",
+      "action": "ทบทวนข้อมูลจากการลองและเปลี่ยนวิธีอีกเมื่อพบว่าวิธีเดิมไม่ตอบเงื่อนไขใหม่",
+      "authorship": "lumei-original-adaptation",
+      "supporting_candidate_ids": [
+        "H-17"
+      ]
+    }
+  ],
+  "evidence_to_look_for": [
+    "ข้อกำหนดก่อนและหลังเปลี่ยน",
+    "การปรับที่ผู้ใช้ทำจริงและขอบเขตสิทธิ",
+    "ข้อมูลตรวจหลังปรับหรือเหตุผลที่ยังรอ"
+  ],
+  "interpretation_limits": [
+    "ไม่บังคับให้มองทุกการเปลี่ยนในแง่ดี",
+    "การลองหนึ่งครั้งไม่พิสูจน์ adaptability เป็นคุณลักษณะถาวร",
+    "การเปลี่ยนขั้นตอนสำคัญต้องผ่านผู้มีอำนาจก่อน",
+    "ข้อเสนอฝึกไม่ใช่การกระทำที่เกิดแล้ว; ไม่ให้คะแนนหรือระดับบุคคล"
+  ],
+  "practice": {
+    "authorship": "lumei-original-design",
+    "optional": true,
+    "target": "ตรวจว่าข้อกำหนดหรือบริบทใดเปลี่ยนและข้อมูลใดยังต้องยืนยันก่อนปรับงาน",
+    "user_attempt": "เลือกงานสมมติหนึ่งชิ้นที่ข้อกำหนดเปลี่ยน ระบุสิ่งที่ต้องคงไว้และลองแก้วิธีหนึ่งอย่างในขอบเขตที่อนุญาต",
+    "feedback_basis": "วิธีใหม่ตอบเงื่อนไขที่เปลี่ยนหรือไม่ และยังรักษาข้อจำกัดที่จำเป็นหรือไม่",
+    "assistance_boundary": "AI ช่วยจัดโครงหรือชี้ข้อมูลที่ยังขาดได้ ผู้ใช้เป็นเจ้าของเหตุผลและปฏิเสธกิจกรรมได้; ไม่ grading",
+    "transfer_to_another_context": "เปลี่ยนจากแบบฟอร์มใหม่เป็นเวลาส่งมอบใหม่ อธิบายว่าอะไรปรับเองได้และอะไรต้องขออนุมัติ",
+    "evidence_to_collect_next": [
+      "ข้อกำหนดก่อนและหลังเปลี่ยน",
+      "ข้อมูลตรวจหลังปรับหรือเหตุผลที่ยังรอ"
+    ],
+    "stop_conditions": [
+      "ผู้ใช้ไม่ต้องการฝึก",
+      "งานเกินสิทธิหรือเสี่ยงกระทบคน/ระบบจริง",
+      "ต้องมีผู้รับผิดชอบเฉพาะทางแต่ยังไม่พร้อม"
+    ]
+  },
+  "human_ai_judgment": "ตรวจหลักฐานและสิทธิการใช้ก่อนลงมือ; คง uncertainty; คนที่มีอำนาจจริงรับผิดชอบการตัดสินใจ",
+  "coaching_overlay_ids": [
+    "agency-and-boundaries"
+  ],
+  "source_refs": [
+    {
+      "candidate_id": "H-17",
+      "source_id": "HARVARD-FY14",
+      "version": "FY14",
+      "locator": {
+        "type": "pdf",
+        "local_path": "Harvard University Competency Dictionary FY14 - final.pdf",
+        "pdf_page": 17,
+        "section": "Competency definition and Key Actions"
+      },
+      "review_decision": "adapt",
+      "support_role": "behavior_support",
+      "supported_fields": [
+        "observable_actions.A1",
+        "observable_actions.A2",
+        "observable_actions.A3"
+      ],
+      "supported_claim": "Responds constructively to changing work requirements.",
+      "adaptation_limits": [
+        "Candidate only; observable episode evidence required.",
+        "No scoring, levels or unsupported trait inference.",
+        "Phase 5: original bounded adaptation from local Key Actions; not a universal standard or legal instruction."
+      ]
+    },
+    {
+      "candidate_id": "H-11",
+      "source_id": "HARVARD-FY14",
+      "version": "FY14",
+      "locator": {
+        "type": "pdf",
+        "local_path": "Harvard University Competency Dictionary FY14 - final.pdf",
+        "pdf_page": 11,
+        "section": "Competency definition and Key Actions"
+      },
+      "review_decision": "include",
+      "support_role": "behavior_support",
+      "supported_fields": [
+        "observable_actions.A2"
+      ],
+      "supported_claim": "Communicates clearly and listens to others.",
+      "adaptation_limits": [
+        "Candidate only; observable episode evidence required.",
+        "No scoring, levels or unsupported trait inference.",
+        "Phase 5: original bounded adaptation from local Key Actions; not a universal standard or legal instruction."
+      ]
+    }
+  ],
+  "adaptation_note": "Lumei original adaptation; แยก situational actions ออกจาก trait/rating และหน้าที่ที่ต้องมีอำนาจ; ไม่แปลหรือคัดลอก dictionary ทั้งชุด",
+  "design_notes": "Phase 5: คัด Key Actions เฉพาะหน้าที่ระบุใน Harvard FY14; activities/transfer เป็น Lumei original design; overlays ไม่เป็น episode evidence",
+  "distinction": {
+    "compared_with": [
+      "GWS-manage-priorities",
+      "GWS-learn-and-transfer",
+      "GWS-improve-with-small-experiments"
+    ],
+    "separation": "adaptation ตอบการเปลี่ยนจากภายนอก; priorities เลือกงานแย่งทรัพยากร; learning ถ่ายทอดบทเรียน; improvement ทดลองปรับกระบวนการที่เลือกเอง"
+  }
+}

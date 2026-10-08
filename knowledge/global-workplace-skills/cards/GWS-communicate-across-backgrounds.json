@@ -1,0 +1,146 @@
+{
+  "skill_id": "GWS-communicate-across-backgrounds",
+  "editorial_version": "0.2.0",
+  "status": "release-candidate",
+  "runtime_authority": false,
+  "contract_status": "editorial-schema-1.0.0-and-shared-contract-1.0.0-validated",
+  "title_th": "สื่อสารให้คนต่างพื้นหลังมีส่วนร่วม",
+  "title_en": "Communicate across backgrounds",
+  "family_id": "relate-and-coordinate",
+  "workplace_situation": "คนเกี่ยวข้องมีภาษา ประสบการณ์ ช่องทางหรือข้อจำกัดการเข้าถึงต่างกันและต้องเข้าใจเรื่องเดียวกัน",
+  "purpose": "สื่อสารให้คนต่างพื้นหลังมีส่วนร่วมจากหลักฐานในเหตุการณ์ โดยคงสิทธิและขอบเขตของผู้ใช้",
+  "scope": {
+    "applicable_roles": [
+      "contributor",
+      "manager"
+    ],
+    "required_managerial_authority": false,
+    "work_contexts": [
+      "desk",
+      "frontline"
+    ],
+    "boundary_conditions": [
+      "ใช้เฉพาะงานและข้อมูลที่ผู้ใช้มีสิทธิ",
+      "ไม่แทนขั้นตอนองค์กรหรือความรู้เฉพาะวิชาชีพ",
+      "เหตุการณ์คุกคาม ความปลอดภัยหรือความเสี่ยงสูงต้องใช้ช่องทางที่เหมาะสมก่อนกิจกรรมฝึก"
+    ]
+  },
+  "observable_actions": [
+    {
+      "action_id": "A1",
+      "action": "ถามความต้องการด้านภาษา ช่องทางและข้อมูลจากผู้เกี่ยวข้องโดยไม่เดาจากกลุ่มหรือตำแหน่ง",
+      "authorship": "lumei-original-adaptation",
+      "supporting_candidate_ids": [
+        "H-34",
+        "H-11"
+      ]
+    },
+    {
+      "action_id": "A2",
+      "action": "ปรับถ้อยคำ รูปแบบหรือช่องทางให้เหมาะกับความต้องการที่ได้รับ และเปิดให้ผู้เกี่ยวข้องเสนอความเห็น",
+      "authorship": "lumei-original-adaptation",
+      "supporting_candidate_ids": [
+        "H-11",
+        "H-34"
+      ]
+    },
+    {
+      "action_id": "A3",
+      "action": "ตรวจความเข้าใจด้วยการสรุปสิ่งที่ตกลงและปรับเมื่อพบว่าข้อความยังไม่ชัด",
+      "authorship": "lumei-original-adaptation",
+      "supporting_candidate_ids": [
+        "H-11"
+      ]
+    }
+  ],
+  "evidence_to_look_for": [
+    "ความต้องการที่ผู้รับบอก",
+    "ข้อความหรือรูปแบบก่อนและหลังปรับ",
+    "คำยืนยันหรือความเข้าใจที่ยังไม่ตรงกัน"
+  ],
+  "interpretation_limits": [
+    "ไม่อนุมานวัฒนธรรม ความสามารถหรือความต้องการจากสัญชาติ/อายุ",
+    "ไม่รับรอง accessibility compliance จากข้อความเดียว",
+    "ข้อเสนอฝึกไม่ใช่การกระทำที่เกิดแล้ว; ไม่ให้คะแนนหรือระดับบุคคล"
+  ],
+  "practice": {
+    "authorship": "lumei-original-design",
+    "optional": true,
+    "target": "ถามความต้องการด้านภาษา ช่องทางและข้อมูลจากผู้เกี่ยวข้องโดยไม่เดาจากกลุ่มหรือตำแหน่ง",
+    "user_attempt": "ลองอธิบายงานเดียวกันแก่ผู้รับสมมติสองคนที่ระบุช่องทางและประสบการณ์ต่างกัน โดยให้ข้อมูลหลักครบเท่ากัน",
+    "feedback_basis": "เปลี่ยนวิธีอธิบายตามความต้องการที่ระบุโดยไม่ลดข้อมูลสำคัญหรือใช้ stereotype หรือไม่",
+    "assistance_boundary": "AI ช่วยจัดโครงหรือชี้ข้อมูลที่ยังขาดได้ ผู้ใช้เป็นเจ้าของเหตุผลและปฏิเสธกิจกรรมได้; ไม่ grading",
+    "transfer_to_another_context": "เปลี่ยนจากอีเมลฝ่ายสำนักงานเป็นข้อความส่งกะ ระบุช่องทางและข้อจำกัดที่ต้องถามใหม่",
+    "evidence_to_collect_next": [
+      "ความต้องการที่ผู้รับบอก",
+      "คำยืนยันหรือความเข้าใจที่ยังไม่ตรงกัน"
+    ],
+    "stop_conditions": [
+      "ผู้ใช้ไม่ต้องการฝึก",
+      "งานเกินสิทธิหรือเสี่ยงกระทบคน/ระบบจริง",
+      "ต้องมีผู้รับผิดชอบเฉพาะทางแต่ยังไม่พร้อม"
+    ]
+  },
+  "human_ai_judgment": "ตรวจหลักฐานและสิทธิการใช้ก่อนลงมือ; คง uncertainty; คนที่มีอำนาจจริงรับผิดชอบการตัดสินใจ",
+  "coaching_overlay_ids": [
+    "agency-and-boundaries"
+  ],
+  "source_refs": [
+    {
+      "candidate_id": "H-34",
+      "source_id": "HARVARD-FY14",
+      "version": "FY14",
+      "locator": {
+        "type": "pdf",
+        "local_path": "Harvard University Competency Dictionary FY14 - final.pdf",
+        "pdf_page": 34,
+        "section": "Competency definition and Key Actions"
+      },
+      "review_decision": "adapt",
+      "support_role": "behavior_support",
+      "supported_fields": [
+        "observable_actions.A1",
+        "observable_actions.A2"
+      ],
+      "supported_claim": "Uses varied perspectives and learns across backgrounds.",
+      "adaptation_limits": [
+        "Candidate only; observable episode evidence required.",
+        "No scoring, levels or unsupported trait inference.",
+        "Phase 5: original bounded adaptation from local Key Actions; not a universal standard or legal instruction."
+      ]
+    },
+    {
+      "candidate_id": "H-11",
+      "source_id": "HARVARD-FY14",
+      "version": "FY14",
+      "locator": {
+        "type": "pdf",
+        "local_path": "Harvard University Competency Dictionary FY14 - final.pdf",
+        "pdf_page": 11,
+        "section": "Competency definition and Key Actions"
+      },
+      "review_decision": "include",
+      "support_role": "behavior_support",
+      "supported_fields": [
+        "observable_actions.A1",
+        "observable_actions.A2",
+        "observable_actions.A3"
+      ],
+      "supported_claim": "Communicates clearly and listens to others.",
+      "adaptation_limits": [
+        "Candidate only; observable episode evidence required.",
+        "No scoring, levels or unsupported trait inference.",
+        "Phase 5: original bounded adaptation from local Key Actions; not a universal standard or legal instruction."
+      ]
+    }
+  ],
+  "adaptation_note": "Lumei original adaptation; แยก situational actions ออกจาก trait/rating และหน้าที่ที่ต้องมีอำนาจ; ไม่แปลหรือคัดลอก dictionary ทั้งชุด",
+  "design_notes": "Phase 5: คัด Key Actions เฉพาะหน้าที่ระบุใน Harvard FY14; activities/transfer เป็น Lumei original design; overlays ไม่เป็น episode evidence",
+  "distinction": {
+    "compared_with": [
+      "GWS-clarify-work",
+      "GWS-work-through-disagreement"
+    ],
+    "separation": "communication across backgrounds เน้นวิธีและโอกาสมีส่วนร่วม; clarify เน้นสิ่งที่งานต้องการ; disagreement ต้องมีประเด็นเห็นต่าง"
+  }
+}

@@ -1,0 +1,995 @@
+{
+  "runtime_authority": false,
+  "candidates": [
+    {
+      "candidate_id": "H-04",
+      "phase1_decision": "adapt",
+      "pilot_disposition": "used_in_pilot",
+      "uses": [
+        {
+          "artifact": "GWS-coordinate-across-boundaries",
+          "role": "behavior_support"
+        }
+      ],
+      "reason": "เฉพาะบทบาทที่ระบุ; ไม่ import runtime"
+    },
+    {
+      "candidate_id": "H-05",
+      "phase1_decision": "include",
+      "pilot_disposition": "used_in_pilot",
+      "uses": [
+        {
+          "artifact": "GWS-handoff-and-follow-through",
+          "role": "behavior_support"
+        },
+        {
+          "artifact": "GWS-verify-ai-work",
+          "role": "behavior_support"
+        }
+      ],
+      "reason": "เฉพาะบทบาทที่ระบุ; ไม่ import runtime"
+    },
+    {
+      "candidate_id": "H-06",
+      "phase1_decision": "adapt",
+      "pilot_disposition": "used_in_pilot",
+      "uses": [
+        {
+          "artifact": "GWS-learn-and-transfer",
+          "role": "behavior_support"
+        }
+      ],
+      "reason": "เฉพาะบทบาทที่ระบุ; ไม่ import runtime"
+    },
+    {
+      "candidate_id": "H-07",
+      "phase1_decision": "include",
+      "pilot_disposition": "used_in_pilot",
+      "uses": [
+        {
+          "artifact": "GWS-verify-ai-work",
+          "role": "behavior_support"
+        },
+        {
+          "artifact": "GWS-improve-with-small-experiments",
+          "role": "behavior_support"
+        }
+      ],
+      "reason": "เฉพาะบทบาทที่ระบุ; ไม่ import runtime"
+    },
+    {
+      "candidate_id": "H-08",
+      "phase1_decision": "adapt",
+      "pilot_disposition": "deferred_after_pilot",
+      "uses": [],
+      "reason": "ยังไม่จำเป็นต่อสิบสถานการณ์นำร่อง; ไม่ใช่การตัดออกจากคลังถาวร"
+    },
+    {
+      "candidate_id": "H-09",
+      "phase1_decision": "include",
+      "pilot_disposition": "used_in_pilot",
+      "uses": [
+        {
+          "artifact": "GWS-coordinate-across-boundaries",
+          "role": "behavior_support"
+        }
+      ],
+      "reason": "เฉพาะบทบาทที่ระบุ; ไม่ import runtime"
+    },
+    {
+      "candidate_id": "H-10",
+      "phase1_decision": "include",
+      "pilot_disposition": "deferred_after_pilot",
+      "uses": [],
+      "reason": "ยังไม่จำเป็นต่อสิบสถานการณ์นำร่อง; ไม่ใช่การตัดออกจากคลังถาวร"
+    },
+    {
+      "candidate_id": "H-11",
+      "phase1_decision": "include",
+      "pilot_disposition": "used_in_pilot",
+      "uses": [
+        {
+          "artifact": "GWS-clarify-work",
+          "role": "behavior_support"
+        },
+        {
+          "artifact": "GWS-work-through-disagreement",
+          "role": "behavior_support"
+        },
+        {
+          "artifact": "GWS-coordinate-across-boundaries",
+          "role": "behavior_support"
+        },
+        {
+          "artifact": "GWS-manage-priorities",
+          "role": "behavior_support"
+        },
+        {
+          "artifact": "GWS-handoff-and-follow-through",
+          "role": "behavior_support"
+        }
+      ],
+      "reason": "เฉพาะบทบาทที่ระบุ; ไม่ import runtime"
+    },
+    {
+      "candidate_id": "H-12",
+      "phase1_decision": "include",
+      "pilot_disposition": "used_in_pilot",
+      "uses": [
+        {
+          "artifact": "GWS-learn-and-transfer",
+          "role": "behavior_support"
+        }
+      ],
+      "reason": "เฉพาะบทบาทที่ระบุ; ไม่ import runtime"
+    },
+    {
+      "candidate_id": "H-13",
+      "phase1_decision": "adapt",
+      "pilot_disposition": "deferred_after_pilot",
+      "uses": [],
+      "reason": "ยังไม่จำเป็นต่อสิบสถานการณ์นำร่อง; ไม่ใช่การตัดออกจากคลังถาวร"
+    },
+    {
+      "candidate_id": "H-14",
+      "phase1_decision": "include",
+      "pilot_disposition": "used_in_pilot",
+      "uses": [
+        {
+          "artifact": "GWS-clarify-work",
+          "role": "behavior_support"
+        },
+        {
+          "artifact": "GWS-check-evidence",
+          "role": "behavior_support"
+        },
+        {
+          "artifact": "GWS-choose-action",
+          "role": "behavior_support"
+        },
+        {
+          "artifact": "GWS-verify-ai-work",
+          "role": "behavior_support"
+        },
+        {
+          "artifact": "reasoning-check",
+          "role": "coaching_design_only"
+        }
+      ],
+      "reason": "เฉพาะบทบาทที่ระบุ; ไม่ import runtime"
+    },
+    {
+      "candidate_id": "H-15",
+      "phase1_decision": "adapt",
+      "pilot_disposition": "used_in_pilot",
+      "uses": [
+        {
+          "artifact": "GWS-handoff-and-follow-through",
+          "role": "role_conditional_only"
+        }
+      ],
+      "reason": "เฉพาะบทบาทที่ระบุ; ไม่ import runtime"
+    },
+    {
+      "candidate_id": "H-16",
+      "phase1_decision": "adapt",
+      "pilot_disposition": "deferred_after_pilot",
+      "uses": [],
+      "reason": "ยังไม่จำเป็นต่อสิบสถานการณ์นำร่อง; ไม่ใช่การตัดออกจากคลังถาวร"
+    },
+    {
+      "candidate_id": "H-17",
+      "phase1_decision": "adapt",
+      "pilot_disposition": "deferred_after_pilot",
+      "uses": [],
+      "reason": "ยังไม่จำเป็นต่อสิบสถานการณ์นำร่อง; ไม่ใช่การตัดออกจากคลังถาวร"
+    },
+    {
+      "candidate_id": "H-18",
+      "phase1_decision": "adapt",
+      "pilot_disposition": "used_in_pilot",
+      "uses": [
+        {
+          "artifact": "GWS-improve-with-small-experiments",
+          "role": "behavior_support"
+        }
+      ],
+      "reason": "เฉพาะบทบาทที่ระบุ; ไม่ import runtime"
+    },
+    {
+      "candidate_id": "H-19",
+      "phase1_decision": "adapt",
+      "pilot_disposition": "deferred_after_pilot",
+      "uses": [],
+      "reason": "ยังไม่จำเป็นต่อสิบสถานการณ์นำร่อง; ไม่ใช่การตัดออกจากคลังถาวร"
+    },
+    {
+      "candidate_id": "H-20",
+      "phase1_decision": "exclude",
+      "pilot_disposition": "not_used_exclude",
+      "uses": [],
+      "reason": "คง hold/exclude ตาม Phase 1"
+    },
+    {
+      "candidate_id": "H-21",
+      "phase1_decision": "adapt",
+      "pilot_disposition": "deferred_after_pilot",
+      "uses": [],
+      "reason": "ยังไม่จำเป็นต่อสิบสถานการณ์นำร่อง; ไม่ใช่การตัดออกจากคลังถาวร"
+    },
+    {
+      "candidate_id": "H-22",
+      "phase1_decision": "include",
+      "pilot_disposition": "used_in_pilot",
+      "uses": [
+        {
+          "artifact": "GWS-work-through-disagreement",
+          "role": "behavior_support"
+        }
+      ],
+      "reason": "เฉพาะบทบาทที่ระบุ; ไม่ import runtime"
+    },
+    {
+      "candidate_id": "H-23",
+      "phase1_decision": "adapt",
+      "pilot_disposition": "used_in_pilot",
+      "uses": [
+        {
+          "artifact": "GWS-work-through-disagreement",
+          "role": "behavior_support"
+        }
+      ],
+      "reason": "เฉพาะบทบาทที่ระบุ; ไม่ import runtime"
+    },
+    {
+      "candidate_id": "H-24",
+      "phase1_decision": "adapt",
+      "pilot_disposition": "deferred_after_pilot",
+      "uses": [],
+      "reason": "ยังไม่จำเป็นต่อสิบสถานการณ์นำร่อง; ไม่ใช่การตัดออกจากคลังถาวร"
+    },
+    {
+      "candidate_id": "H-25",
+      "phase1_decision": "adapt",
+      "pilot_disposition": "deferred_after_pilot",
+      "uses": [],
+      "reason": "ยังไม่จำเป็นต่อสิบสถานการณ์นำร่อง; ไม่ใช่การตัดออกจากคลังถาวร"
+    },
+    {
+      "candidate_id": "H-26",
+      "phase1_decision": "include",
+      "pilot_disposition": "used_in_pilot",
+      "uses": [
+        {
+          "artifact": "GWS-clarify-work",
+          "role": "behavior_support"
+        },
+        {
+          "artifact": "GWS-manage-priorities",
+          "role": "behavior_support"
+        }
+      ],
+      "reason": "เฉพาะบทบาทที่ระบุ; ไม่ import runtime"
+    },
+    {
+      "candidate_id": "H-27",
+      "phase1_decision": "include",
+      "pilot_disposition": "used_in_pilot",
+      "uses": [
+        {
+          "artifact": "GWS-check-evidence",
+          "role": "behavior_support"
+        },
+        {
+          "artifact": "GWS-choose-action",
+          "role": "behavior_support"
+        },
+        {
+          "artifact": "GWS-improve-with-small-experiments",
+          "role": "behavior_support"
+        }
+      ],
+      "reason": "เฉพาะบทบาทที่ระบุ; ไม่ import runtime"
+    },
+    {
+      "candidate_id": "H-28",
+      "phase1_decision": "adapt",
+      "pilot_disposition": "used_in_pilot",
+      "uses": [
+        {
+          "artifact": "GWS-improve-with-small-experiments",
+          "role": "behavior_support"
+        }
+      ],
+      "reason": "เฉพาะบทบาทที่ระบุ; ไม่ import runtime"
+    },
+    {
+      "candidate_id": "H-29",
+      "phase1_decision": "adapt",
+      "pilot_disposition": "deferred_after_pilot",
+      "uses": [],
+      "reason": "ยังไม่จำเป็นต่อสิบสถานการณ์นำร่อง; ไม่ใช่การตัดออกจากคลังถาวร"
+    },
+    {
+      "candidate_id": "H-30",
+      "phase1_decision": "adapt",
+      "pilot_disposition": "used_in_pilot",
+      "uses": [
+        {
+          "artifact": "GWS-improve-with-small-experiments",
+          "role": "behavior_support"
+        }
+      ],
+      "reason": "เฉพาะบทบาทที่ระบุ; ไม่ import runtime"
+    },
+    {
+      "candidate_id": "H-31",
+      "phase1_decision": "adapt",
+      "pilot_disposition": "deferred_after_pilot",
+      "uses": [],
+      "reason": "ยังไม่จำเป็นต่อสิบสถานการณ์นำร่อง; ไม่ใช่การตัดออกจากคลังถาวร"
+    },
+    {
+      "candidate_id": "H-32",
+      "phase1_decision": "include",
+      "pilot_disposition": "used_in_pilot",
+      "uses": [
+        {
+          "artifact": "GWS-coordinate-across-boundaries",
+          "role": "behavior_support"
+        },
+        {
+          "artifact": "GWS-handoff-and-follow-through",
+          "role": "behavior_support"
+        }
+      ],
+      "reason": "เฉพาะบทบาทที่ระบุ; ไม่ import runtime"
+    },
+    {
+      "candidate_id": "H-33",
+      "phase1_decision": "adapt",
+      "pilot_disposition": "used_in_pilot",
+      "uses": [
+        {
+          "artifact": "GWS-manage-priorities",
+          "role": "behavior_support"
+        }
+      ],
+      "reason": "เฉพาะบทบาทที่ระบุ; ไม่ import runtime"
+    },
+    {
+      "candidate_id": "H-34",
+      "phase1_decision": "adapt",
+      "pilot_disposition": "deferred_after_pilot",
+      "uses": [],
+      "reason": "ยังไม่จำเป็นต่อสิบสถานการณ์นำร่อง; ไม่ใช่การตัดออกจากคลังถาวร"
+    },
+    {
+      "candidate_id": "NZ-01",
+      "phase1_decision": "adapt",
+      "pilot_disposition": "used_in_pilot",
+      "uses": [
+        {
+          "artifact": "GWS-clarify-work",
+          "role": "contextual_behavior_lens"
+        }
+      ],
+      "reason": "เฉพาะบทบาทที่ระบุ; ไม่ import runtime"
+    },
+    {
+      "candidate_id": "NZ-02",
+      "phase1_decision": "adapt",
+      "pilot_disposition": "used_in_pilot",
+      "uses": [
+        {
+          "artifact": "GWS-coordinate-across-boundaries",
+          "role": "contextual_behavior_lens"
+        }
+      ],
+      "reason": "เฉพาะบทบาทที่ระบุ; ไม่ import runtime"
+    },
+    {
+      "candidate_id": "NZ-03",
+      "phase1_decision": "adapt",
+      "pilot_disposition": "deferred_after_pilot",
+      "uses": [],
+      "reason": "ยังไม่จำเป็นต่อสิบสถานการณ์นำร่อง; ไม่ใช่การตัดออกจากคลังถาวร"
+    },
+    {
+      "candidate_id": "NZ-04",
+      "phase1_decision": "adapt",
+      "pilot_disposition": "deferred_after_pilot",
+      "uses": [],
+      "reason": "ยังไม่จำเป็นต่อสิบสถานการณ์นำร่อง; ไม่ใช่การตัดออกจากคลังถาวร"
+    },
+    {
+      "candidate_id": "NZ-05",
+      "phase1_decision": "adapt",
+      "pilot_disposition": "used_in_pilot",
+      "uses": [
+        {
+          "artifact": "GWS-coordinate-across-boundaries",
+          "role": "contextual_behavior_lens"
+        }
+      ],
+      "reason": "เฉพาะบทบาทที่ระบุ; ไม่ import runtime"
+    },
+    {
+      "candidate_id": "NZ-06",
+      "phase1_decision": "exclude",
+      "pilot_disposition": "not_used_exclude",
+      "uses": [],
+      "reason": "คง hold/exclude ตาม Phase 1"
+    },
+    {
+      "candidate_id": "NZ-07",
+      "phase1_decision": "adapt",
+      "pilot_disposition": "deferred_after_pilot",
+      "uses": [],
+      "reason": "ยังไม่จำเป็นต่อสิบสถานการณ์นำร่อง; ไม่ใช่การตัดออกจากคลังถาวร"
+    },
+    {
+      "candidate_id": "NZ-08",
+      "phase1_decision": "adapt",
+      "pilot_disposition": "deferred_after_pilot",
+      "uses": [],
+      "reason": "ยังไม่จำเป็นต่อสิบสถานการณ์นำร่อง; ไม่ใช่การตัดออกจากคลังถาวร"
+    },
+    {
+      "candidate_id": "NZ-09",
+      "phase1_decision": "adapt",
+      "pilot_disposition": "deferred_after_pilot",
+      "uses": [],
+      "reason": "ยังไม่จำเป็นต่อสิบสถานการณ์นำร่อง; ไม่ใช่การตัดออกจากคลังถาวร"
+    },
+    {
+      "candidate_id": "NZ-10",
+      "phase1_decision": "adapt",
+      "pilot_disposition": "deferred_after_pilot",
+      "uses": [],
+      "reason": "ยังไม่จำเป็นต่อสิบสถานการณ์นำร่อง; ไม่ใช่การตัดออกจากคลังถาวร"
+    },
+    {
+      "candidate_id": "NZ-11",
+      "phase1_decision": "adapt",
+      "pilot_disposition": "used_in_pilot",
+      "uses": [
+        {
+          "artifact": "GWS-manage-priorities",
+          "role": "contextual_behavior_lens"
+        }
+      ],
+      "reason": "เฉพาะบทบาทที่ระบุ; ไม่ import runtime"
+    },
+    {
+      "candidate_id": "NZ-12",
+      "phase1_decision": "adapt",
+      "pilot_disposition": "deferred_after_pilot",
+      "uses": [],
+      "reason": "ยังไม่จำเป็นต่อสิบสถานการณ์นำร่อง; ไม่ใช่การตัดออกจากคลังถาวร"
+    },
+    {
+      "candidate_id": "NZ-13",
+      "phase1_decision": "adapt",
+      "pilot_disposition": "used_in_pilot",
+      "uses": [
+        {
+          "artifact": "GWS-check-evidence",
+          "role": "contextual_behavior_lens"
+        },
+        {
+          "artifact": "GWS-choose-action",
+          "role": "contextual_behavior_lens"
+        }
+      ],
+      "reason": "เฉพาะบทบาทที่ระบุ; ไม่ import runtime"
+    },
+    {
+      "candidate_id": "NZ-14",
+      "phase1_decision": "adapt",
+      "pilot_disposition": "deferred_after_pilot",
+      "uses": [],
+      "reason": "ยังไม่จำเป็นต่อสิบสถานการณ์นำร่อง; ไม่ใช่การตัดออกจากคลังถาวร"
+    },
+    {
+      "candidate_id": "NZ-15",
+      "phase1_decision": "adapt",
+      "pilot_disposition": "deferred_after_pilot",
+      "uses": [],
+      "reason": "ยังไม่จำเป็นต่อสิบสถานการณ์นำร่อง; ไม่ใช่การตัดออกจากคลังถาวร"
+    },
+    {
+      "candidate_id": "NZ-16",
+      "phase1_decision": "adapt",
+      "pilot_disposition": "used_in_pilot",
+      "uses": [
+        {
+          "artifact": "GWS-learn-and-transfer",
+          "role": "contextual_behavior_lens"
+        }
+      ],
+      "reason": "เฉพาะบทบาทที่ระบุ; ไม่ import runtime"
+    },
+    {
+      "candidate_id": "FIN-A3-1",
+      "phase1_decision": "adapt",
+      "pilot_disposition": "used_in_pilot",
+      "uses": [
+        {
+          "artifact": "reasoning-check",
+          "role": "coaching_design_only"
+        }
+      ],
+      "reason": "เฉพาะบทบาทที่ระบุ; ไม่ import runtime"
+    },
+    {
+      "candidate_id": "FIN-A3-2",
+      "phase1_decision": "adapt",
+      "pilot_disposition": "used_in_pilot",
+      "uses": [
+        {
+          "artifact": "transfer-and-next-evidence",
+          "role": "coaching_design_only"
+        }
+      ],
+      "reason": "เฉพาะบทบาทที่ระบุ; ไม่ import runtime"
+    },
+    {
+      "candidate_id": "FIN-A1-4",
+      "phase1_decision": "adapt",
+      "pilot_disposition": "used_in_pilot",
+      "uses": [
+        {
+          "artifact": "agency-and-boundaries",
+          "role": "coaching_design_only"
+        }
+      ],
+      "reason": "เฉพาะบทบาทที่ระบุ; ไม่ import runtime"
+    },
+    {
+      "candidate_id": "FIN-B3-2",
+      "phase1_decision": "adapt",
+      "pilot_disposition": "used_in_pilot",
+      "uses": [
+        {
+          "artifact": "agency-and-boundaries",
+          "role": "coaching_design_only"
+        }
+      ],
+      "reason": "เฉพาะบทบาทที่ระบุ; ไม่ import runtime"
+    },
+    {
+      "candidate_id": "FIN-B3-3",
+      "phase1_decision": "adapt",
+      "pilot_disposition": "used_in_pilot",
+      "uses": [
+        {
+          "artifact": "agency-and-boundaries",
+          "role": "coaching_design_only"
+        }
+      ],
+      "reason": "เฉพาะบทบาทที่ระบุ; ไม่ import runtime"
+    },
+    {
+      "candidate_id": "FIN-A5-2",
+      "phase1_decision": "adapt",
+      "pilot_disposition": "used_in_pilot",
+      "uses": [
+        {
+          "artifact": "agency-and-boundaries",
+          "role": "coaching_design_only"
+        }
+      ],
+      "reason": "เฉพาะบทบาทที่ระบุ; ไม่ import runtime"
+    },
+    {
+      "candidate_id": "FIN-B1-3",
+      "phase1_decision": "adapt",
+      "pilot_disposition": "used_in_pilot",
+      "uses": [
+        {
+          "artifact": "transfer-and-next-evidence",
+          "role": "coaching_design_only"
+        }
+      ],
+      "reason": "เฉพาะบทบาทที่ระบุ; ไม่ import runtime"
+    },
+    {
+      "candidate_id": "FINQF-LEVELS",
+      "phase1_decision": "exclude",
+      "pilot_disposition": "not_used_exclude",
+      "uses": [],
+      "reason": "คง hold/exclude ตาม Phase 1"
+    },
+    {
+      "candidate_id": "ICD-S410010010",
+      "phase1_decision": "adapt",
+      "pilot_disposition": "used_in_pilot",
+      "uses": [
+        {
+          "artifact": "GWS-choose-action",
+          "role": "related_concept_only"
+        }
+      ],
+      "reason": "เฉพาะบทบาทที่ระบุ; ไม่ import runtime"
+    },
+    {
+      "candidate_id": "ICD-S410010020",
+      "phase1_decision": "adapt",
+      "pilot_disposition": "used_in_pilot",
+      "uses": [
+        {
+          "artifact": "GWS-check-evidence",
+          "role": "related_concept_only"
+        }
+      ],
+      "reason": "เฉพาะบทบาทที่ระบุ; ไม่ import runtime"
+    },
+    {
+      "candidate_id": "ICD-S410010030",
+      "phase1_decision": "adapt",
+      "pilot_disposition": "used_in_pilot",
+      "uses": [
+        {
+          "artifact": "GWS-check-evidence",
+          "role": "related_concept_only"
+        }
+      ],
+      "reason": "เฉพาะบทบาทที่ระบุ; ไม่ import runtime"
+    },
+    {
+      "candidate_id": "ICD-S410010040",
+      "phase1_decision": "adapt",
+      "pilot_disposition": "used_in_pilot",
+      "uses": [
+        {
+          "artifact": "GWS-check-evidence",
+          "role": "related_concept_only"
+        }
+      ],
+      "reason": "เฉพาะบทบาทที่ระบุ; ไม่ import runtime"
+    },
+    {
+      "candidate_id": "ICD-S410010050",
+      "phase1_decision": "adapt",
+      "pilot_disposition": "deferred_after_pilot",
+      "uses": [],
+      "reason": "ยังไม่จำเป็นต่อสิบสถานการณ์นำร่อง; ไม่ใช่การตัดออกจากคลังถาวร"
+    },
+    {
+      "candidate_id": "ICD-S410020010",
+      "phase1_decision": "adapt",
+      "pilot_disposition": "deferred_after_pilot",
+      "uses": [],
+      "reason": "ยังไม่จำเป็นต่อสิบสถานการณ์นำร่อง; ไม่ใช่การตัดออกจากคลังถาวร"
+    },
+    {
+      "candidate_id": "ICD-S410020020",
+      "phase1_decision": "hold",
+      "pilot_disposition": "not_used_hold",
+      "uses": [],
+      "reason": "คง hold/exclude ตาม Phase 1"
+    },
+    {
+      "candidate_id": "ICD-S410020030",
+      "phase1_decision": "hold",
+      "pilot_disposition": "not_used_hold",
+      "uses": [],
+      "reason": "คง hold/exclude ตาม Phase 1"
+    },
+    {
+      "candidate_id": "ICD-S410020040",
+      "phase1_decision": "adapt",
+      "pilot_disposition": "deferred_after_pilot",
+      "uses": [],
+      "reason": "ยังไม่จำเป็นต่อสิบสถานการณ์นำร่อง; ไม่ใช่การตัดออกจากคลังถาวร"
+    },
+    {
+      "candidate_id": "ICD-S410030010",
+      "phase1_decision": "adapt",
+      "pilot_disposition": "used_in_pilot",
+      "uses": [
+        {
+          "artifact": "GWS-clarify-work",
+          "role": "related_concept_only"
+        },
+        {
+          "artifact": "GWS-work-through-disagreement",
+          "role": "related_concept_only"
+        }
+      ],
+      "reason": "เฉพาะบทบาทที่ระบุ; ไม่ import runtime"
+    },
+    {
+      "candidate_id": "ICD-S410030020",
+      "phase1_decision": "adapt",
+      "pilot_disposition": "used_in_pilot",
+      "uses": [
+        {
+          "artifact": "GWS-work-through-disagreement",
+          "role": "related_concept_only"
+        }
+      ],
+      "reason": "เฉพาะบทบาทที่ระบุ; ไม่ import runtime"
+    },
+    {
+      "candidate_id": "ICD-S410030030",
+      "phase1_decision": "hold",
+      "pilot_disposition": "not_used_hold",
+      "uses": [],
+      "reason": "คง hold/exclude ตาม Phase 1"
+    },
+    {
+      "candidate_id": "ICD-M-2055",
+      "phase1_decision": "adapt",
+      "pilot_disposition": "used_in_pilot",
+      "uses": [
+        {
+          "artifact": "GWS-coordinate-across-boundaries",
+          "role": "related_concept_only"
+        }
+      ],
+      "reason": "เฉพาะบทบาทที่ระบุ; ไม่ import runtime"
+    },
+    {
+      "candidate_id": "ICD-M-2246",
+      "phase1_decision": "hold",
+      "pilot_disposition": "not_used_hold",
+      "uses": [],
+      "reason": "คง hold/exclude ตาม Phase 1"
+    },
+    {
+      "candidate_id": "ICD-M-2962",
+      "phase1_decision": "adapt",
+      "pilot_disposition": "used_in_pilot",
+      "uses": [
+        {
+          "artifact": "GWS-handoff-and-follow-through",
+          "role": "related_concept_only"
+        }
+      ],
+      "reason": "เฉพาะบทบาทที่ระบุ; ไม่ import runtime"
+    },
+    {
+      "candidate_id": "ICD-M-3586",
+      "phase1_decision": "adapt",
+      "pilot_disposition": "used_in_pilot",
+      "uses": [
+        {
+          "artifact": "GWS-improve-with-small-experiments",
+          "role": "related_concept_only"
+        }
+      ],
+      "reason": "เฉพาะบทบาทที่ระบุ; ไม่ import runtime"
+    },
+    {
+      "candidate_id": "ICD-M-9888",
+      "phase1_decision": "adapt",
+      "pilot_disposition": "deferred_after_pilot",
+      "uses": [],
+      "reason": "ยังไม่จำเป็นต่อสิบสถานการณ์นำร่อง; ไม่ใช่การตัดออกจากคลังถาวร"
+    },
+    {
+      "candidate_id": "ICD-PROFICIENCY",
+      "phase1_decision": "exclude",
+      "pilot_disposition": "not_used_exclude",
+      "uses": [],
+      "reason": "คง hold/exclude ตาม Phase 1"
+    },
+    {
+      "candidate_id": "ICD-S2-TECHNOLOGY",
+      "phase1_decision": "exclude",
+      "pilot_disposition": "not_used_exclude",
+      "uses": [],
+      "reason": "คง hold/exclude ตาม Phase 1"
+    },
+    {
+      "candidate_id": "ICD-TASK-EVALUATION",
+      "phase1_decision": "exclude",
+      "pilot_disposition": "not_used_exclude",
+      "uses": [],
+      "reason": "คง hold/exclude ตาม Phase 1"
+    },
+    {
+      "candidate_id": "WEF25-SKILL-RELEVANCE",
+      "phase1_decision": "adapt",
+      "pilot_disposition": "used_in_pilot",
+      "uses": [
+        {
+          "artifact": "pilot-design-lenses",
+          "role": "foresight_only"
+        }
+      ],
+      "reason": "เฉพาะบทบาทที่ระบุ; ไม่ import runtime"
+    },
+    {
+      "candidate_id": "WEF25-CONTEXT",
+      "phase1_decision": "adapt",
+      "pilot_disposition": "used_in_pilot",
+      "uses": [
+        {
+          "artifact": "pilot-design-lenses",
+          "role": "foresight_only"
+        }
+      ],
+      "reason": "เฉพาะบทบาทที่ระบุ; ไม่ import runtime"
+    },
+    {
+      "candidate_id": "WEF25-HUMAN-AI",
+      "phase1_decision": "adapt",
+      "pilot_disposition": "used_in_pilot",
+      "uses": [
+        {
+          "artifact": "pilot-design-lenses",
+          "role": "foresight_only"
+        }
+      ],
+      "reason": "เฉพาะบทบาทที่ระบุ; ไม่ import runtime"
+    },
+    {
+      "candidate_id": "WEF26-PHYSICAL-WORK",
+      "phase1_decision": "adapt",
+      "pilot_disposition": "used_in_pilot",
+      "uses": [
+        {
+          "artifact": "pilot-design-lenses",
+          "role": "foresight_only"
+        }
+      ],
+      "reason": "เฉพาะบทบาทที่ระบุ; ไม่ import runtime"
+    },
+    {
+      "candidate_id": "WEF26-AUGMENTATION",
+      "phase1_decision": "adapt",
+      "pilot_disposition": "used_in_pilot",
+      "uses": [
+        {
+          "artifact": "pilot-design-lenses",
+          "role": "foresight_only"
+        }
+      ],
+      "reason": "เฉพาะบทบาทที่ระบุ; ไม่ import runtime"
+    },
+    {
+      "candidate_id": "WEF26-PRACTICE",
+      "phase1_decision": "adapt",
+      "pilot_disposition": "used_in_pilot",
+      "uses": [
+        {
+          "artifact": "pilot-design-lenses",
+          "role": "foresight_only"
+        }
+      ],
+      "reason": "เฉพาะบทบาทที่ระบุ; ไม่ import runtime"
+    },
+    {
+      "candidate_id": "MCK-KNOWLEDGE",
+      "phase1_decision": "adapt",
+      "pilot_disposition": "deferred_after_pilot",
+      "uses": [],
+      "reason": "ยังไม่จำเป็นต่อสิบสถานการณ์นำร่อง; ไม่ใช่การตัดออกจากคลังถาวร"
+    },
+    {
+      "candidate_id": "MCK-ATTEMPT-COMPARE",
+      "phase1_decision": "adapt",
+      "pilot_disposition": "used_in_pilot",
+      "uses": [
+        {
+          "artifact": "attempt-compare-without-grading",
+          "role": "coaching_design_only"
+        }
+      ],
+      "reason": "เฉพาะบทบาทที่ระบุ; ไม่ import runtime"
+    },
+    {
+      "candidate_id": "MCK-PRACTICE",
+      "phase1_decision": "adapt",
+      "pilot_disposition": "used_in_pilot",
+      "uses": [
+        {
+          "artifact": "transfer-and-next-evidence",
+          "role": "coaching_design_only"
+        }
+      ],
+      "reason": "เฉพาะบทบาทที่ระบุ; ไม่ import runtime"
+    },
+    {
+      "candidate_id": "MCK-COACHING",
+      "phase1_decision": "adapt",
+      "pilot_disposition": "used_in_pilot",
+      "uses": [
+        {
+          "artifact": "attempt-compare-without-grading",
+          "role": "coaching_design_only"
+        }
+      ],
+      "reason": "เฉพาะบทบาทที่ระบุ; ไม่ import runtime"
+    },
+    {
+      "candidate_id": "VG-1",
+      "phase1_decision": "adapt",
+      "pilot_disposition": "used_in_pilot",
+      "uses": [
+        {
+          "artifact": "transfer-and-next-evidence",
+          "role": "coaching_design_only"
+        }
+      ],
+      "reason": "เฉพาะบทบาทที่ระบุ; ไม่ import runtime"
+    },
+    {
+      "candidate_id": "VG-2",
+      "phase1_decision": "adapt",
+      "pilot_disposition": "used_in_pilot",
+      "uses": [
+        {
+          "artifact": "transfer-and-next-evidence",
+          "role": "coaching_design_only"
+        }
+      ],
+      "reason": "เฉพาะบทบาทที่ระบุ; ไม่ import runtime"
+    },
+    {
+      "candidate_id": "VG-3",
+      "phase1_decision": "adapt",
+      "pilot_disposition": "used_in_pilot",
+      "uses": [
+        {
+          "artifact": "transfer-and-next-evidence",
+          "role": "coaching_design_only"
+        }
+      ],
+      "reason": "เฉพาะบทบาทที่ระบุ; ไม่ import runtime"
+    },
+    {
+      "candidate_id": "VG-4",
+      "phase1_decision": "adapt",
+      "pilot_disposition": "used_in_pilot",
+      "uses": [
+        {
+          "artifact": "reasoning-check",
+          "role": "coaching_design_only"
+        }
+      ],
+      "reason": "เฉพาะบทบาทที่ระบุ; ไม่ import runtime"
+    },
+    {
+      "candidate_id": "VG-5",
+      "phase1_decision": "adapt",
+      "pilot_disposition": "used_in_pilot",
+      "uses": [
+        {
+          "artifact": "reasoning-check",
+          "role": "coaching_design_only"
+        }
+      ],
+      "reason": "เฉพาะบทบาทที่ระบุ; ไม่ import runtime"
+    },
+    {
+      "candidate_id": "VG-6",
+      "phase1_decision": "adapt",
+      "pilot_disposition": "used_in_pilot",
+      "uses": [
+        {
+          "artifact": "reasoning-check",
+          "role": "coaching_design_only"
+        }
+      ],
+      "reason": "เฉพาะบทบาทที่ระบุ; ไม่ import runtime"
+    },
+    {
+      "candidate_id": "VG-DRAFT-REWARDS",
+      "phase1_decision": "hold",
+      "pilot_disposition": "not_used_hold",
+      "uses": [],
+      "reason": "คง hold/exclude ตาม Phase 1"
+    },
+    {
+      "candidate_id": "VG-EFFICACY",
+      "phase1_decision": "hold",
+      "pilot_disposition": "not_used_hold",
+      "uses": [],
+      "reason": "คง hold/exclude ตาม Phase 1"
+    }
+  ]
+}

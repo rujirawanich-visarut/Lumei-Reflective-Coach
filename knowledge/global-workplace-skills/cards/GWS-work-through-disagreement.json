@@ -1,0 +1,217 @@
+{
+  "skill_id": "GWS-work-through-disagreement",
+  "editorial_version": "0.2.0",
+  "status": "release-candidate",
+  "runtime_authority": false,
+  "contract_status": "editorial-schema-1.0.0-and-shared-contract-1.0.0-validated",
+  "title_th": "สื่อสารความเห็นต่างและหาข้อตกลง",
+  "title_en": "Work through disagreement",
+  "family_id": "relate-and-coordinate",
+  "workplace_situation": "มีความเห็นต่างที่คุยได้อย่างปลอดภัยและต้องกำหนดสิ่งที่จะทำต่อร่วมกัน",
+  "purpose": "สื่อสารความเห็นต่างและหาข้อตกลงจากหลักฐานในเหตุการณ์ เพื่อเลือกการกระทำถัดไปที่เหมาะกับบริบท",
+  "scope": {
+    "applicable_roles": [
+      "contributor",
+      "manager"
+    ],
+    "required_managerial_authority": false,
+    "work_contexts": [
+      "desk",
+      "frontline"
+    ],
+    "boundary_conditions": [
+      "ใช้เฉพาะงานและข้อมูลที่ผู้ใช้มีสิทธิ",
+      "ไม่แทนขั้นตอนองค์กรหรือความรู้เฉพาะวิชาชีพ",
+      "เหตุการณ์คุกคาม ความปลอดภัยหรือความเสี่ยงสูงต้องใช้ช่องทางที่เหมาะสมก่อนกิจกรรมฝึก",
+      "ไม่ชวนเผชิญหน้าหรือไกล่เกลี่ยในเหตุการณ์คุกคาม ล่วงละเมิด หรืออำนาจไม่สมดุลจนไม่ปลอดภัย"
+    ]
+  },
+  "observable_actions": [
+    {
+      "action_id": "A1",
+      "action": "อธิบายประเด็นและผลกระทบที่สังเกตได้ โดยไม่กล่าวหาบุคลิกหรือแรงจูงใจ",
+      "authorship": "lumei-original-adaptation",
+      "supporting_candidate_ids": [
+        "H-22"
+      ]
+    },
+    {
+      "action_id": "A2",
+      "action": "ฟังความต้องการและข้อจำกัดของอีกฝ่าย แล้วตรวจว่าตนเข้าใจตรงกับเขาหรือไม่",
+      "authorship": "lumei-original-adaptation",
+      "supporting_candidate_ids": [
+        "H-22",
+        "H-11"
+      ]
+    },
+    {
+      "action_id": "A3",
+      "action": "เสนอทางเลือกที่ตอบประเด็น และสรุปสิ่งที่ตกลง/ยังไม่ตกลงพร้อมการกระทำถัดไป",
+      "authorship": "lumei-original-adaptation",
+      "supporting_candidate_ids": [
+        "H-22",
+        "H-23"
+      ]
+    }
+  ],
+  "evidence_to_look_for": [
+    "คำพูดหรือประเด็นที่คุยจริง",
+    "ความต้องการที่อีกฝ่ายยืนยัน",
+    "ข้อตกลง/ข้อที่ยังค้างและผู้ทำต่อ"
+  ],
+  "interpretation_limits": [
+    "ฟังแล้วไม่เท่ากับเห็นด้วย",
+    "การสนทนาครั้งเดียวไม่พิสูจน์ว่าความขัดแย้งยุติหรืออีกฝ่ายเปลี่ยนใจ",
+    "ข้อเสนอการฝึกไม่ใช่หลักฐานว่าผู้ใช้เคยทำหรือทำได้แล้ว",
+    "ไม่ให้คะแนน ระดับ proficiency หรือคำตัดสินตัวตนจากเหตุการณ์"
+  ],
+  "practice": {
+    "authorship": "lumei-original-design",
+    "optional": true,
+    "target": "อธิบายประเด็นและผลกระทบที่สังเกตได้ โดยไม่กล่าวหาบุคลิกหรือแรงจูงใจ",
+    "user_attempt": "ร่างข้อความเปิดการคุยสั้น ๆ จากข้อเท็จจริงหนึ่งอย่าง ผลกระทบ และคำเชิญให้อีกฝ่ายอธิบาย",
+    "feedback_basis": "ข้อความระบุประเด็นโดยไม่โจมตีหรือไม่; เปิดพื้นที่ให้ตอบและปฏิเสธได้หรือไม่",
+    "assistance_boundary": "AI ช่วยจัดโครงหรือชี้ข้อมูลที่ยังขาดได้ ผู้ใช้เป็นเจ้าของเหตุผลและปฏิเสธกิจกรรมได้; ไม่ grading",
+    "transfer_to_another_context": "เปลี่ยนจากต่างกันเรื่องเวลาเป็นต่างกันเรื่องคุณภาพ ระบุว่าความต้องการและขอบเขตการคุยต่างอย่างไร",
+    "evidence_to_collect_next": [
+      "คำพูดหรือประเด็นที่คุยจริง",
+      "ข้อตกลง/ข้อที่ยังค้างและผู้ทำต่อ"
+    ],
+    "stop_conditions": [
+      "ผู้ใช้ไม่ต้องการฝึก",
+      "งานเกินสิทธิหรือเสี่ยงกระทบคน/ระบบจริง",
+      "ต้องมีผู้รับผิดชอบเฉพาะทางแต่ยังไม่พร้อม"
+    ]
+  },
+  "human_ai_judgment": "ตรวจหลักฐานและสิทธิการใช้ก่อนลงมือ; คง uncertainty; คนที่มีอำนาจจริงรับผิดชอบการตัดสินใจ",
+  "coaching_overlay_ids": [
+    "agency-and-boundaries"
+  ],
+  "source_refs": [
+    {
+      "candidate_id": "H-22",
+      "source_id": "HARVARD-FY14",
+      "version": "FY14",
+      "locator": {
+        "type": "pdf",
+        "local_path": "Harvard University Competency Dictionary FY14 - final.pdf",
+        "pdf_page": 22,
+        "section": "Competency definition and Key Actions"
+      },
+      "review_decision": "include",
+      "support_role": "behavior_support",
+      "supported_fields": [
+        "observable_actions.A1",
+        "observable_actions.A2",
+        "observable_actions.A3"
+      ],
+      "supported_claim": "Addresses conflict to reach constructive resolution.",
+      "adaptation_limits": [
+        "Candidate only; observable episode evidence required.",
+        "No scoring, levels or unsupported trait inference."
+      ]
+    },
+    {
+      "candidate_id": "H-11",
+      "source_id": "HARVARD-FY14",
+      "version": "FY14",
+      "locator": {
+        "type": "pdf",
+        "local_path": "Harvard University Competency Dictionary FY14 - final.pdf",
+        "pdf_page": 11,
+        "section": "Competency definition and Key Actions"
+      },
+      "review_decision": "include",
+      "support_role": "behavior_support",
+      "supported_fields": [
+        "observable_actions.A2"
+      ],
+      "supported_claim": "Communicates clearly and listens to others.",
+      "adaptation_limits": [
+        "Candidate only; observable episode evidence required.",
+        "No scoring, levels or unsupported trait inference."
+      ]
+    },
+    {
+      "candidate_id": "H-23",
+      "source_id": "HARVARD-FY14",
+      "version": "FY14",
+      "locator": {
+        "type": "pdf",
+        "local_path": "Harvard University Competency Dictionary FY14 - final.pdf",
+        "pdf_page": 23,
+        "section": "Competency definition and Key Actions"
+      },
+      "review_decision": "adapt",
+      "support_role": "behavior_support",
+      "supported_fields": [
+        "observable_actions.A3"
+      ],
+      "supported_claim": "Explores alternatives and reaches acceptable agreements.",
+      "adaptation_limits": [
+        "Candidate only; observable episode evidence required.",
+        "No scoring, levels or unsupported trait inference."
+      ]
+    },
+    {
+      "candidate_id": "ICD-S410030010",
+      "source_id": "ICD-V4-SKILL",
+      "version": "V4 announced 2019-01-21",
+      "locator": {
+        "type": "xlsx",
+        "local_path": "iCDEnglishV4-4layer/Skill Dictionary V4.xlsx",
+        "sheet": "Skill List V4",
+        "range": "A10168:H10168",
+        "row": 10168,
+        "skill_code": "S410030010",
+        "expected_skill_name": "Ability to understand someone else's ideas",
+        "expected_knowledge_code": "K001",
+        "expected_knowledge_name": "-"
+      },
+      "review_decision": "adapt",
+      "support_role": "related_concept_only",
+      "supported_fields": [
+        "design_notes"
+      ],
+      "supported_claim": "Skill label only; knowledge item is '-'.",
+      "adaptation_limits": [
+        "Requires Harvard/NZ or separately verified detailed source before a card can use a behavioral claim.",
+        "No ICD proficiency level inference."
+      ]
+    },
+    {
+      "candidate_id": "ICD-S410030020",
+      "source_id": "ICD-V4-SKILL",
+      "version": "V4 announced 2019-01-21",
+      "locator": {
+        "type": "xlsx",
+        "local_path": "iCDEnglishV4-4layer/Skill Dictionary V4.xlsx",
+        "sheet": "Skill List V4",
+        "range": "A10169:H10169",
+        "row": 10169,
+        "skill_code": "S410030020",
+        "expected_skill_name": "Ability to communicate one's idea to others",
+        "expected_knowledge_code": "K001",
+        "expected_knowledge_name": "-"
+      },
+      "review_decision": "adapt",
+      "support_role": "related_concept_only",
+      "supported_fields": [
+        "design_notes"
+      ],
+      "supported_claim": "Skill label only; knowledge item is '-'.",
+      "adaptation_limits": [
+        "Requires Harvard/NZ or separately verified detailed source before a card can use a behavioral claim.",
+        "No ICD proficiency level inference."
+      ]
+    }
+  ],
+  "adaptation_note": "เลือกส่วนที่ใช้ข้ามงานได้จาก candidate ที่ตรวจแล้ว; ข้อความไทย พฤติกรรมเชิงปฏิบัติและกิจกรรมเป็นการประยุกต์ของ Lumei ไม่ใช่คำแปลรับรองหรือมาตรฐานสากล",
+  "design_notes": "iCD ที่อ้างเป็นเพียง related concept; NZ เสริมขอบเขต; overlays และ foresight ไม่เป็น episode evidence",
+  "distinction": {
+    "compared_with": [
+      "GWS-coordinate-across-boundaries"
+    ],
+    "separation": "disagreement จัดการประเด็นที่เห็นต่าง; coordination จัด dependency แม้ไม่ขัดแย้ง; "
+  }
+}

@@ -1,0 +1,97 @@
+{
+  "checked_on": "2026-10-07",
+  "runtime_authority": false,
+  "policy": "Preserve exact reviewed locators. Alternative discovery does not upgrade verification or licence permissions.",
+  "resolutions": [
+    {
+      "candidate_id": "VG-1",
+      "original_locator": {
+        "type": "web_pdf",
+        "url": "https://www.aku.edu/qtl/resources/Documents/Teaching%20Critical%20Thinking%20Some%20Lessons%20From%20Cognitive%20Science.pdf",
+        "pdf_page": 2,
+        "journal_page": 41,
+        "section": "Published abstract; six-lesson synopsis"
+      },
+      "alternate_url": "https://www.tandfonline.com/doi/abs/10.3200/CTCH.53.1.41-48",
+      "scope": "Published abstract six-lesson synopsis only; supports original reviewed claim, not efficacy.",
+      "check_status": "publisher-abstract-corroborated-in-search-index; direct publisher fetch 403; original mirror timeout",
+      "full_text_currently_revalidated": false,
+      "supported_claim": "Critical thinking needs time and component skills."
+    },
+    {
+      "candidate_id": "VG-2",
+      "original_locator": {
+        "type": "web_pdf",
+        "url": "https://www.aku.edu/qtl/resources/Documents/Teaching%20Critical%20Thinking%20Some%20Lessons%20From%20Cognitive%20Science.pdf",
+        "pdf_page": 2,
+        "journal_page": 41,
+        "section": "Published abstract; six-lesson synopsis"
+      },
+      "alternate_url": "https://www.tandfonline.com/doi/abs/10.3200/CTCH.53.1.41-48",
+      "scope": "Published abstract six-lesson synopsis only; supports original reviewed claim, not efficacy.",
+      "check_status": "publisher-abstract-corroborated-in-search-index; direct publisher fetch 403; original mirror timeout",
+      "full_text_currently_revalidated": false,
+      "supported_claim": "Practice should target reasoning itself."
+    },
+    {
+      "candidate_id": "VG-3",
+      "original_locator": {
+        "type": "web_pdf",
+        "url": "https://www.aku.edu/qtl/resources/Documents/Teaching%20Critical%20Thinking%20Some%20Lessons%20From%20Cognitive%20Science.pdf",
+        "pdf_page": 2,
+        "journal_page": 41,
+        "section": "Published abstract; six-lesson synopsis"
+      },
+      "alternate_url": "https://www.tandfonline.com/doi/abs/10.3200/CTCH.53.1.41-48",
+      "scope": "Published abstract six-lesson synopsis only; supports original reviewed claim, not efficacy.",
+      "check_status": "publisher-abstract-corroborated-in-search-index; direct publisher fetch 403; original mirror timeout",
+      "full_text_currently_revalidated": false,
+      "supported_claim": "Transfer requires practice."
+    },
+    {
+      "candidate_id": "VG-4",
+      "original_locator": {
+        "type": "web_pdf",
+        "url": "https://www.aku.edu/qtl/resources/Documents/Teaching%20Critical%20Thinking%20Some%20Lessons%20From%20Cognitive%20Science.pdf",
+        "pdf_page": 2,
+        "journal_page": 41,
+        "section": "Published abstract; six-lesson synopsis"
+      },
+      "alternate_url": "https://www.tandfonline.com/doi/abs/10.3200/CTCH.53.1.41-48",
+      "scope": "Published abstract six-lesson synopsis only; supports original reviewed claim, not efficacy.",
+      "check_status": "publisher-abstract-corroborated-in-search-index; direct publisher fetch 403; original mirror timeout",
+      "full_text_currently_revalidated": false,
+      "supported_claim": "Some theoretical knowledge supports thinking."
+    },
+    {
+      "candidate_id": "VG-5",
+      "original_locator": {
+        "type": "web_pdf",
+        "url": "https://www.aku.edu/qtl/resources/Documents/Teaching%20Critical%20Thinking%20Some%20Lessons%20From%20Cognitive%20Science.pdf",
+        "pdf_page": 2,
+        "journal_page": 41,
+        "section": "Published abstract; six-lesson synopsis"
+      },
+      "alternate_url": "https://www.tandfonline.com/doi/abs/10.3200/CTCH.53.1.41-48",
+      "scope": "Published abstract six-lesson synopsis only; supports original reviewed claim, not efficacy.",
+      "check_status": "publisher-abstract-corroborated-in-search-index; direct publisher fetch 403; original mirror timeout",
+      "full_text_currently_revalidated": false,
+      "supported_claim": "The article discusses diagramming arguments."
+    },
+    {
+      "candidate_id": "VG-6",
+      "original_locator": {
+        "type": "web_pdf",
+        "url": "https://www.aku.edu/qtl/resources/Documents/Teaching%20Critical%20Thinking%20Some%20Lessons%20From%20Cognitive%20Science.pdf",
+        "pdf_page": 2,
+        "journal_page": 41,
+        "section": "Published abstract; six-lesson synopsis"
+      },
+      "alternate_url": "https://www.tandfonline.com/doi/abs/10.3200/CTCH.53.1.41-48",
+      "scope": "Published abstract six-lesson synopsis only; supports original reviewed claim, not efficacy.",
+      "check_status": "publisher-abstract-corroborated-in-search-index; direct publisher fetch 403; original mirror timeout",
+      "full_text_currently_revalidated": false,
+      "supported_claim": "The article identifies belief preservation."
+    }
+  ]
+}
