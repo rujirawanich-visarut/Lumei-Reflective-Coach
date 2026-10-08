@@ -1,0 +1,25 @@
+{
+  "schema_version": "1.0.0",
+  "status": "locally-integrated-library-release-candidate-not-deployment",
+  "runtime_authority": false,
+  "definitions": [
+    "Locator",
+    "KnowledgeSourceRef",
+    "EvidenceItem",
+    "EpisodeEvidenceStore",
+    "ObservableAction",
+    "PracticePlan",
+    "WorkplaceSkillCard",
+    "CapabilityAnchor",
+    "ReasoningMap",
+    "DevelopmentSession",
+    "Consent",
+    "RehearsalInput",
+    "MakerInput",
+    "RetrievalRequest",
+    "RetrievalResult"
+  ],
+  "schema_file": "contracts.schema.json",
+  "schema_revision": "phase5-backward-compatible-status-expansion",
+  "active_projection": "knowledge/global-workplace-skills/contract-cards.json"
+}

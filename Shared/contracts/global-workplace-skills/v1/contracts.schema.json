@@ -1,0 +1,1073 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "urn:lumei:gws:contracts:1.0.0",
+  "title": "GWS shared contracts 1.0.0",
+  "$comment": "Phase 5 backward-compatible schema revision: WorkplaceSkillCard status accepts pilot and release-candidate projections. Wire fields/schema_version remain 1.0.0.",
+  "$defs": {
+    "Locator": {
+      "type": "object",
+      "properties": {
+        "kind": {
+          "enum": [
+            "pdf",
+            "web_pdf",
+            "web_descriptor",
+            "xlsx"
+          ]
+        },
+        "reference": {
+          "type": "string",
+          "minLength": 1
+        },
+        "section": {
+          "type": "string",
+          "minLength": 1
+        }
+      },
+      "required": [
+        "kind",
+        "reference",
+        "section"
+      ],
+      "additionalProperties": false
+    },
+    "KnowledgeSourceRef": {
+      "type": "object",
+      "properties": {
+        "schema_version": {
+          "const": "1.0.0"
+        },
+        "candidate_id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "source_id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "version": {
+          "type": "string",
+          "minLength": 1
+        },
+        "locator": {
+          "$ref": "#/$defs/Locator"
+        },
+        "supported_claim": {
+          "type": "string",
+          "minLength": 1
+        },
+        "verification_status": {
+          "const": "verified-within-stated-scope"
+        },
+        "adaptation_status": {
+          "enum": [
+            "include",
+            "adapt"
+          ]
+        },
+        "support_role": {
+          "enum": [
+            "behavior_support",
+            "contextual_behavior_lens",
+            "related_concept_only",
+            "coaching_design_only",
+            "foresight_only",
+            "role_conditional_only"
+          ]
+        },
+        "adaptation_note": {
+          "type": "string",
+          "minLength": 1
+        }
+      },
+      "required": [
+        "schema_version",
+        "candidate_id",
+        "source_id",
+        "version",
+        "locator",
+        "supported_claim",
+        "verification_status",
+        "adaptation_status",
+        "support_role",
+        "adaptation_note"
+      ],
+      "additionalProperties": false
+    },
+    "EvidenceItem": {
+      "type": "object",
+      "properties": {
+        "evidence_id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "kind": {
+          "enum": [
+            "action",
+            "quote",
+            "artifact",
+            "outcome",
+            "reported_claim",
+            "interpretation",
+            "aspiration"
+          ]
+        },
+        "statement": {
+          "type": "string",
+          "minLength": 1
+        },
+        "verification": {
+          "enum": [
+            "user_reported",
+            "directly_observed",
+            "unverified"
+          ]
+        },
+        "source_ref": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "origin_paths": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          },
+          "minItems": 1,
+          "uniqueItems": true
+        }
+      },
+      "required": [
+        "evidence_id",
+        "kind",
+        "statement",
+        "verification",
+        "source_ref",
+        "origin_paths"
+      ],
+      "additionalProperties": false
+    },
+    "EpisodeEvidenceStore": {
+      "type": "object",
+      "properties": {
+        "schema_version": {
+          "const": "1.0.0"
+        },
+        "session_id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "episode_id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "episode_scope": {
+          "type": "string",
+          "minLength": 1
+        },
+        "items": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/EvidenceItem"
+          },
+          "minItems": 0,
+          "uniqueItems": true
+        },
+        "unknowns": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          },
+          "minItems": 0,
+          "uniqueItems": true
+        },
+        "contradictions": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          },
+          "minItems": 0,
+          "uniqueItems": true
+        },
+        "alternative_explanations": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          },
+          "minItems": 0,
+          "uniqueItems": true
+        }
+      },
+      "required": [
+        "schema_version",
+        "session_id",
+        "episode_id",
+        "episode_scope",
+        "items",
+        "unknowns",
+        "contradictions",
+        "alternative_explanations"
+      ],
+      "additionalProperties": false
+    },
+    "ObservableAction": {
+      "type": "object",
+      "properties": {
+        "action_id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "text": {
+          "type": "string",
+          "minLength": 1
+        },
+        "knowledge_refs": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/KnowledgeSourceRef"
+          },
+          "minItems": 1,
+          "uniqueItems": true
+        }
+      },
+      "required": [
+        "action_id",
+        "text",
+        "knowledge_refs"
+      ],
+      "additionalProperties": false
+    },
+    "PracticePlan": {
+      "type": "object",
+      "properties": {
+        "schema_version": {
+          "const": "1.0.0"
+        },
+        "skill_id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "target": {
+          "type": "string",
+          "minLength": 1
+        },
+        "learner_attempt": {
+          "type": "string",
+          "minLength": 1
+        },
+        "feedback_basis": {
+          "type": "string",
+          "minLength": 1
+        },
+        "assistance_boundary": {
+          "type": "string",
+          "minLength": 1
+        },
+        "transfer_context": {
+          "type": "string",
+          "minLength": 1
+        },
+        "next_evidence": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          },
+          "minItems": 1,
+          "uniqueItems": true
+        },
+        "boundary_conditions": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          },
+          "minItems": 1,
+          "uniqueItems": true
+        },
+        "stop_conditions": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          },
+          "minItems": 1,
+          "uniqueItems": true
+        },
+        "user_opt_in": {
+          "type": "boolean"
+        }
+      },
+      "required": [
+        "schema_version",
+        "skill_id",
+        "target",
+        "learner_attempt",
+        "feedback_basis",
+        "assistance_boundary",
+        "transfer_context",
+        "next_evidence",
+        "boundary_conditions",
+        "stop_conditions",
+        "user_opt_in"
+      ],
+      "additionalProperties": false
+    },
+    "WorkplaceSkillCard": {
+      "type": "object",
+      "properties": {
+        "schema_version": {
+          "const": "1.0.0"
+        },
+        "skill_id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "editorial_version": {
+          "type": "string",
+          "minLength": 1
+        },
+        "status": {
+            "enum": ["pilot-contract-projection", "release-candidate-contract-projection"]
+        },
+        "runtime_authority": {
+          "const": false
+        },
+        "display_name": {
+          "type": "string",
+          "minLength": 1
+        },
+        "family_id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "situation": {
+          "type": "string",
+          "minLength": 1
+        },
+        "observable_actions": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/ObservableAction"
+          },
+          "minItems": 1,
+          "uniqueItems": true
+        },
+        "evidence_to_look_for": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          },
+          "minItems": 1,
+          "uniqueItems": true
+        },
+        "interpretation_limits": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          },
+          "minItems": 1,
+          "uniqueItems": true
+        },
+        "boundary_conditions": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          },
+          "minItems": 1,
+          "uniqueItems": true
+        },
+        "required_managerial_authority": {
+          "const": false
+        },
+        "practice": {
+          "$ref": "#/$defs/PracticePlan"
+        },
+        "knowledge_refs": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/KnowledgeSourceRef"
+          },
+          "minItems": 1,
+          "uniqueItems": true
+        }
+      },
+      "required": [
+        "schema_version",
+        "skill_id",
+        "editorial_version",
+        "status",
+        "runtime_authority",
+        "display_name",
+        "family_id",
+        "situation",
+        "observable_actions",
+        "evidence_to_look_for",
+        "interpretation_limits",
+        "boundary_conditions",
+        "required_managerial_authority",
+        "practice",
+        "knowledge_refs"
+      ],
+      "additionalProperties": false
+    },
+    "CapabilityAnchor": {
+      "type": "object",
+      "properties": {
+        "schema_version": {
+          "const": "1.0.0"
+        },
+        "skill_id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "display_name": {
+          "type": "string",
+          "minLength": 1
+        },
+        "action_id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "episode_evidence_ids": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          },
+          "minItems": 1,
+          "uniqueItems": true
+        },
+        "knowledge_refs": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/KnowledgeSourceRef"
+          },
+          "minItems": 1,
+          "uniqueItems": true
+        },
+        "bounded_rationale": {
+          "type": "string",
+          "minLength": 1
+        },
+        "missing_evidence": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          },
+          "minItems": 0,
+          "uniqueItems": true
+        },
+        "overclaim_risk": {
+          "type": "string",
+          "minLength": 1
+        }
+      },
+      "required": [
+        "schema_version",
+        "skill_id",
+        "display_name",
+        "action_id",
+        "episode_evidence_ids",
+        "knowledge_refs",
+        "bounded_rationale",
+        "missing_evidence",
+        "overclaim_risk"
+      ],
+      "additionalProperties": false
+    },
+    "ReasoningMap": {
+      "type": "object",
+      "properties": {
+        "schema_version": {
+          "const": "1.0.0"
+        },
+        "claim": {
+          "type": "string",
+          "minLength": 1
+        },
+        "supporting_evidence_ids": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          },
+          "minItems": 0,
+          "uniqueItems": true
+        },
+        "reasons": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          },
+          "minItems": 0,
+          "uniqueItems": true
+        },
+        "objections": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          },
+          "minItems": 0,
+          "uniqueItems": true
+        },
+        "assumptions": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          },
+          "minItems": 0,
+          "uniqueItems": true
+        },
+        "limits": {
+          "type": "string",
+          "minLength": 1
+        },
+        "is_causal_proof": {
+          "const": false
+        }
+      },
+      "required": [
+        "schema_version",
+        "claim",
+        "supporting_evidence_ids",
+        "reasons",
+        "objections",
+        "assumptions",
+        "limits",
+        "is_causal_proof"
+      ],
+      "additionalProperties": false
+    },
+    "DevelopmentSession": {
+      "type": "object",
+      "properties": {
+        "schema_version": {
+          "const": "1.0.0"
+        },
+        "session_id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "state": {
+          "enum": [
+            "QUICK_REFLECT",
+            "TARGETED_QUESTION",
+            "DECODE_P_STAR_L",
+            "INTERPRET",
+            "MAP_WORKPLACE_SKILLS",
+            "SELECT_ONE_DEVELOPMENT_EDGE",
+            "REHEARSE",
+            "DEBRIEF",
+            "EXPERIMENT",
+            "MAKER_CO_CREATE",
+            "ARTIFACT",
+            "NEW_EVIDENCE_LOOP",
+            "ESCALATE_TO_AUTHORIZED_PROCESS"
+          ]
+        },
+        "episode_evidence": {
+          "$ref": "#/$defs/EpisodeEvidenceStore"
+        },
+        "anchors": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/CapabilityAnchor"
+          },
+          "minItems": 0,
+          "uniqueItems": true,
+          "maxItems": 3
+        },
+        "selected_development_edge": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "practice_plan": {
+          "anyOf": [
+            {
+              "$ref": "#/$defs/PracticePlan"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "reasoning_map": {
+          "anyOf": [
+            {
+              "$ref": "#/$defs/ReasoningMap"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        }
+      },
+      "required": [
+        "schema_version",
+        "session_id",
+        "state",
+        "episode_evidence",
+        "anchors",
+        "selected_development_edge",
+        "practice_plan",
+        "reasoning_map"
+      ],
+      "additionalProperties": false
+    },
+    "Consent": {
+      "type": "object",
+      "properties": {
+        "user_opt_in": {
+          "type": "boolean"
+        },
+        "activity": {
+          "enum": [
+            "rehearsal",
+            "maker"
+          ]
+        },
+        "request_id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "user_statement_ref": {
+          "type": "string",
+          "minLength": 1
+        }
+      },
+      "required": [
+        "user_opt_in",
+        "activity",
+        "request_id",
+        "user_statement_ref"
+      ],
+      "additionalProperties": false
+    },
+    "RehearsalInput": {
+      "type": "object",
+      "properties": {
+        "schema_version": {
+          "const": "1.0.0"
+        },
+        "session_id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "skill_id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "development_edge": {
+          "type": "string",
+          "minLength": 1
+        },
+        "consent": {
+          "$ref": "#/$defs/Consent"
+        },
+        "command": {
+          "enum": [
+            "offer",
+            "execute"
+          ]
+        },
+        "known_constraints": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          },
+          "minItems": 0,
+          "uniqueItems": true
+        },
+        "explicit_unknowns": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          },
+          "minItems": 0,
+          "uniqueItems": true
+        },
+        "episode_evidence_ids": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          },
+          "minItems": 0,
+          "uniqueItems": true
+        },
+        "fictional_counterpart_role": {
+          "type": "string",
+          "minLength": 1
+        },
+        "conversation_goal": {
+          "type": "string",
+          "minLength": 1
+        }
+      },
+      "required": [
+        "schema_version",
+        "session_id",
+        "skill_id",
+        "development_edge",
+        "consent",
+        "command",
+        "known_constraints",
+        "explicit_unknowns",
+        "episode_evidence_ids",
+        "fictional_counterpart_role",
+        "conversation_goal"
+      ],
+      "additionalProperties": false,
+      "allOf": [
+        {
+          "properties": {
+            "consent": {
+              "properties": {
+                "activity": {
+                  "const": "rehearsal"
+                }
+              }
+            }
+          }
+        },
+        {
+          "if": {
+            "properties": {
+              "command": {
+                "const": "execute"
+              }
+            },
+            "required": [
+              "command"
+            ]
+          },
+          "then": {
+            "properties": {
+              "consent": {
+                "properties": {
+                  "user_opt_in": {
+                    "const": true
+                  }
+                }
+              }
+            }
+          }
+        }
+      ]
+    },
+    "MakerInput": {
+      "type": "object",
+      "properties": {
+        "schema_version": {
+          "const": "1.0.0"
+        },
+        "session_id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "skill_id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "development_edge": {
+          "type": "string",
+          "minLength": 1
+        },
+        "consent": {
+          "$ref": "#/$defs/Consent"
+        },
+        "command": {
+          "enum": [
+            "offer",
+            "execute"
+          ]
+        },
+        "known_constraints": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          },
+          "minItems": 0,
+          "uniqueItems": true
+        },
+        "explicit_unknowns": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          },
+          "minItems": 0,
+          "uniqueItems": true
+        },
+        "episode_evidence_ids": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          },
+          "minItems": 0,
+          "uniqueItems": true
+        },
+        "work_problem": {
+          "type": "string",
+          "minLength": 1
+        },
+        "intended_value": {
+          "type": "string",
+          "minLength": 1
+        },
+        "users_or_stakeholders": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          },
+          "minItems": 1,
+          "uniqueItems": true
+        },
+        "decision_rights": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          },
+          "minItems": 1,
+          "uniqueItems": true
+        },
+        "prohibited_actions": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          },
+          "minItems": 0,
+          "uniqueItems": true
+        },
+        "consequence_level": {
+          "enum": [
+            "normal",
+            "elevated",
+            "high"
+          ]
+        }
+      },
+      "required": [
+        "schema_version",
+        "session_id",
+        "skill_id",
+        "development_edge",
+        "consent",
+        "command",
+        "known_constraints",
+        "explicit_unknowns",
+        "episode_evidence_ids",
+        "work_problem",
+        "intended_value",
+        "users_or_stakeholders",
+        "decision_rights",
+        "prohibited_actions",
+        "consequence_level"
+      ],
+      "additionalProperties": false,
+      "allOf": [
+        {
+          "properties": {
+            "consent": {
+              "properties": {
+                "activity": {
+                  "const": "maker"
+                }
+              }
+            }
+          }
+        },
+        {
+          "if": {
+            "properties": {
+              "command": {
+                "const": "execute"
+              }
+            },
+            "required": [
+              "command"
+            ]
+          },
+          "then": {
+            "properties": {
+              "consent": {
+                "properties": {
+                  "user_opt_in": {
+                    "const": true
+                  }
+                }
+              }
+            }
+          }
+        },
+        {
+          "if": {
+            "properties": {
+              "consequence_level": {
+                "const": "high"
+              }
+            }
+          },
+          "then": {
+            "properties": {
+              "command": {
+                "const": "offer"
+              }
+            }
+          }
+        }
+      ]
+    },
+    "RetrievalRequest": {
+      "type": "object",
+      "properties": {
+        "schema_version": {
+          "const": "1.0.0"
+        },
+        "episode_id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "situation_ids": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          },
+          "minItems": 1,
+          "uniqueItems": true
+        },
+        "role": {
+          "enum": [
+            "contributor",
+            "manager"
+          ]
+        },
+        "work_context": {
+          "enum": [
+            "desk",
+            "frontline"
+          ]
+        },
+        "managerial_authority_confirmed": {
+          "type": "boolean"
+        },
+        "eligible_action_evidence_ids": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          },
+          "minItems": 0,
+          "uniqueItems": true
+        },
+        "max_anchors": {
+          "type": "integer",
+          "minimum": 0,
+          "maximum": 3
+        }
+      },
+      "required": [
+        "schema_version",
+        "episode_id",
+        "situation_ids",
+        "role",
+        "work_context",
+        "managerial_authority_confirmed",
+        "eligible_action_evidence_ids",
+        "max_anchors"
+      ],
+      "additionalProperties": false
+    },
+    "RetrievalResult": {
+      "type": "object",
+      "properties": {
+        "schema_version": {
+          "const": "1.0.0"
+        },
+        "episode_id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "status": {
+          "enum": [
+            "candidates",
+            "needs_evidence",
+            "no_match",
+            "boundary_stop"
+          ]
+        },
+        "card_ids": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          },
+          "minItems": 0,
+          "uniqueItems": true,
+          "maxItems": 3
+        },
+        "anchor_limit": {
+          "type": "integer",
+          "minimum": 0,
+          "maximum": 3
+        },
+        "missing_evidence": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          },
+          "minItems": 0,
+          "uniqueItems": true
+        },
+        "fallback_state": {
+          "enum": [
+            "MAP_WORKPLACE_SKILLS",
+            "TARGETED_QUESTION",
+            "QUICK_REFLECT",
+            "ESCALATE_TO_AUTHORIZED_PROCESS"
+          ]
+        },
+        "selection_rationale": {
+          "type": "string",
+          "minLength": 1
+        }
+      },
+      "required": [
+        "schema_version",
+        "episode_id",
+        "status",
+        "card_ids",
+        "anchor_limit",
+        "missing_evidence",
+        "fallback_state",
+        "selection_rationale"
+      ],
+      "additionalProperties": false
+    }
+  },
+  "description": "Phase 3 proposed contracts. URN is an offline identifier; no network retrieval."
+}

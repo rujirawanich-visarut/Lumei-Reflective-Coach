@@ -1,0 +1,489 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "urn:lumei:gws:runtime:1.0.0",
+  "title": "Runtime consumer results 1.0.0",
+  "$defs": {
+    "RuntimeContext": {
+      "type": "object",
+      "properties": {
+        "schema_version": {
+          "const": "1.0.0"
+        },
+        "session": {
+          "$ref": "urn:lumei:gws:contracts:1.0.0#/$defs/DevelopmentSession"
+        },
+        "evidence_context": {
+          "enum": [
+            "workplace",
+            "rehearsal",
+            "prototype"
+          ]
+        },
+        "language": {
+          "enum": [
+            "th",
+            "en",
+            "mixed"
+          ]
+        },
+        "personnel_use_plausible": {
+          "type": "boolean"
+        },
+        "consequence_level": {
+          "enum": [
+            "normal",
+            "elevated",
+            "high"
+          ]
+        },
+        "current_request_id": {
+          "anyOf": [
+            {
+              "type": "string",
+              "minLength": 1
+            },
+            {
+              "type": "null"
+            }
+          ]
+        }
+      },
+      "required": [
+        "schema_version",
+        "session",
+        "evidence_context",
+        "language",
+        "personnel_use_plausible",
+        "consequence_level",
+        "current_request_id"
+      ],
+      "additionalProperties": false
+    },
+    "NarrativeFrame": {
+      "type": "object",
+      "properties": {
+        "perspective": {
+          "anyOf": [
+            {
+              "type": "string",
+              "minLength": 1
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "situation": {
+          "anyOf": [
+            {
+              "type": "string",
+              "minLength": 1
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "task": {
+          "anyOf": [
+            {
+              "type": "string",
+              "minLength": 1
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "action_evidence_ids": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          },
+          "minItems": 0,
+          "uniqueItems": true
+        },
+        "result_evidence_ids": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          },
+          "minItems": 0,
+          "uniqueItems": true
+        },
+        "learning_stated": {
+          "anyOf": [
+            {
+              "type": "string",
+              "minLength": 1
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "learning_interpretation": {
+          "anyOf": [
+            {
+              "type": "string",
+              "minLength": 1
+            },
+            {
+              "type": "null"
+            }
+          ]
+        }
+      },
+      "required": [
+        "perspective",
+        "situation",
+        "task",
+        "action_evidence_ids",
+        "result_evidence_ids",
+        "learning_stated",
+        "learning_interpretation"
+      ],
+      "additionalProperties": false
+    },
+    "NarrativeDecodeResult": {
+      "type": "object",
+      "properties": {
+        "schema_version": {
+          "const": "1.0.0"
+        },
+        "episode_evidence": {
+          "$ref": "urn:lumei:gws:contracts:1.0.0#/$defs/EpisodeEvidenceStore"
+        },
+        "evidence_context": {
+          "enum": [
+            "workplace",
+            "rehearsal",
+            "prototype"
+          ]
+        },
+        "p_star_l": {
+          "$ref": "#/$defs/NarrativeFrame"
+        },
+        "friction_signal": {
+          "enum": [
+            "sufficient",
+            "low",
+            "unknown"
+          ]
+        },
+        "calming_anchor_observations": {
+          "type": "object",
+          "properties": {
+            "clarity_evidence_ids": {
+              "type": "array",
+              "items": {
+                "type": "string",
+                "minLength": 1
+              },
+              "minItems": 0,
+              "uniqueItems": true
+            },
+            "dissent_evidence_ids": {
+              "type": "array",
+              "items": {
+                "type": "string",
+                "minLength": 1
+              },
+              "minItems": 0,
+              "uniqueItems": true
+            },
+            "pressure_evidence_ids": {
+              "type": "array",
+              "items": {
+                "type": "string",
+                "minLength": 1
+              },
+              "minItems": 0,
+              "uniqueItems": true
+            }
+          },
+          "required": [
+            "clarity_evidence_ids",
+            "dissent_evidence_ids",
+            "pressure_evidence_ids"
+          ],
+          "additionalProperties": false
+        }
+      },
+      "required": [
+        "schema_version",
+        "episode_evidence",
+        "evidence_context",
+        "p_star_l",
+        "friction_signal",
+        "calming_anchor_observations"
+      ],
+      "additionalProperties": false
+    },
+    "LearningLoopResult": {
+      "type": "object",
+      "properties": {
+        "schema_version": {
+          "const": "1.0.0"
+        },
+        "context": {
+          "$ref": "#/$defs/RuntimeContext"
+        },
+        "supported_summary": {
+          "type": "string",
+          "minLength": 1
+        },
+        "alternative_learning": {
+          "anyOf": [
+            {
+              "type": "string",
+              "minLength": 1
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "causal_hypothesis": {
+          "anyOf": [
+            {
+              "type": "string",
+              "minLength": 1
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "working_approach": {
+          "anyOf": [
+            {
+              "type": "string",
+              "minLength": 1
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "rehearsal_offered": {
+          "type": "boolean"
+        },
+        "maker_offered": {
+          "type": "boolean"
+        },
+        "artifact_candidates": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          },
+          "minItems": 0,
+          "uniqueItems": true
+        },
+        "socratic_question": {
+          "type": "string",
+          "minLength": 1
+        }
+      },
+      "required": [
+        "schema_version",
+        "context",
+        "supported_summary",
+        "alternative_learning",
+        "causal_hypothesis",
+        "working_approach",
+        "rehearsal_offered",
+        "maker_offered",
+        "artifact_candidates",
+        "socratic_question"
+      ],
+      "additionalProperties": false
+    },
+    "WorkplaceSkillsResult": {
+      "type": "object",
+      "properties": {
+        "schema_version": {
+          "const": "1.0.0"
+        },
+        "context": {
+          "$ref": "#/$defs/RuntimeContext"
+        },
+        "candidate_anchors": {
+          "type": "array",
+          "items": {
+            "$ref": "urn:lumei:gws:contracts:1.0.0#/$defs/CapabilityAnchor"
+          },
+          "minItems": 0,
+          "uniqueItems": true,
+          "maxItems": 3
+        },
+        "missing_evidence": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          },
+          "minItems": 0,
+          "uniqueItems": true
+        },
+        "retrieval_result": {
+          "$ref": "urn:lumei:gws:contracts:1.0.0#/$defs/RetrievalResult"
+        }
+      },
+      "required": [
+        "schema_version",
+        "context",
+        "candidate_anchors",
+        "missing_evidence",
+        "retrieval_result"
+      ],
+      "additionalProperties": false
+    },
+    "RehearsalDebrief": {
+      "type": "object",
+      "properties": {
+        "schema_version": {
+          "const": "1.0.0"
+        },
+        "context": {
+          "$ref": "#/$defs/RuntimeContext"
+        },
+        "skill_id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "traceable_moment_evidence_ids": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          },
+          "minItems": 1,
+          "uniqueItems": true
+        },
+        "dialogue_openers": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          },
+          "minItems": 0,
+          "uniqueItems": true
+        },
+        "dialogue_closers": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          },
+          "minItems": 0,
+          "uniqueItems": true
+        },
+        "alternative_response": {
+          "type": "string",
+          "minLength": 1
+        },
+        "next_practice_plan": {
+          "anyOf": [
+            {
+              "$ref": "urn:lumei:gws:contracts:1.0.0#/$defs/PracticePlan"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "socratic_question": {
+          "type": "string",
+          "minLength": 1
+        }
+      },
+      "required": [
+        "schema_version",
+        "context",
+        "skill_id",
+        "traceable_moment_evidence_ids",
+        "dialogue_openers",
+        "dialogue_closers",
+        "alternative_response",
+        "next_practice_plan",
+        "socratic_question"
+      ],
+      "additionalProperties": false
+    },
+    "MakerCoachResult": {
+      "type": "object",
+      "properties": {
+        "schema_version": {
+          "const": "1.0.0"
+        },
+        "context": {
+          "$ref": "#/$defs/RuntimeContext"
+        },
+        "skill_id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "artifact_status": {
+          "const": "PROVISIONAL DRAFT"
+        },
+        "draft_artifact": {
+          "type": "string",
+          "minLength": 1
+        },
+        "human_review_points": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          },
+          "minItems": 1,
+          "uniqueItems": true
+        },
+        "verification_evidence_ids": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          },
+          "minItems": 0,
+          "uniqueItems": true
+        },
+        "learning_evidence_ids": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          },
+          "minItems": 0,
+          "uniqueItems": true
+        },
+        "next_practice_plan": {
+          "anyOf": [
+            {
+              "$ref": "urn:lumei:gws:contracts:1.0.0#/$defs/PracticePlan"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        }
+      },
+      "required": [
+        "schema_version",
+        "context",
+        "skill_id",
+        "artifact_status",
+        "draft_artifact",
+        "human_review_points",
+        "verification_evidence_ids",
+        "learning_evidence_ids",
+        "next_practice_plan"
+      ],
+      "additionalProperties": false
+    }
+  }
+}
