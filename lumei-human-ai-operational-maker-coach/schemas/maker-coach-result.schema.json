@@ -1,0 +1,66 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "urn:lumei:legacy-schema:lumei-human-ai-operational-maker-coach/maker-coach-result.schema.json",
+  "title": "MakerCoachResult",
+  "description": "Final co-creation output contract emitted by lumei-human-ai-operational-maker-coach, feeding back into the STAR learning loop.",
+  "type": "object",
+  "required": [
+    "artifact_type",
+    "draft_artifact",
+    "evidence_used",
+    "assumptions_remaining",
+    "verification_status",
+    "risks_and_boundary_conditions",
+    "next_safe_action",
+    "evidence_to_collect",
+    "learning_note"
+  ],
+  "properties": {
+    "artifact_type": {
+      "type": "string",
+      "description": "Category of artifact produced (e.g. prompt_workflow, operational_checklist, triage_template, decision_rubric)."
+    },
+    "draft_artifact": {
+      "type": "string",
+      "description": "The draft prototype content produced. Marked explicitly as DRAFT / PROVISIONAL."
+    },
+    "evidence_used": {
+      "type": "array",
+      "items": { "type": "string" },
+      "description": "Authorized data sources or facts used in creating the artifact."
+    },
+    "assumptions_remaining": {
+      "type": "array",
+      "items": { "type": "string" },
+      "description": "Assumptions that still require frontline validation."
+    },
+    "verification_status": {
+      "type": "string",
+      "enum": [
+        "unverified",
+        "partially_verified",
+        "verified_by_authorised_human"
+      ],
+      "description": "Provenance state tracking human validation. Never self-certified by the model."
+    },
+    "risks_and_boundary_conditions": {
+      "type": "array",
+      "items": { "type": "string" },
+      "description": "Known risks, operational edge cases, and non-applicable contexts."
+    },
+    "next_safe_action": {
+      "type": "string",
+      "description": "Smallest observable, reversible real-world test of the draft artifact."
+    },
+    "evidence_to_collect": {
+      "type": "array",
+      "items": { "type": "string" },
+      "description": "Signals to capture during testing (e.g. error rate, user clarity, edge case discovery, time saved)."
+    },
+    "learning_note": {
+      "type": "string",
+      "description": "Concise After-Action reflection note connecting the prototype experience back to the employee's IDP or STAR episode."
+    }
+  },
+  "additionalProperties": false
+}

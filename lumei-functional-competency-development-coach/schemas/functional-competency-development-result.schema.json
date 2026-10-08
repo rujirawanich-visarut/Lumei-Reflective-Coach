@@ -1,0 +1,96 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "urn:lumei:legacy-schema:lumei-functional-competency-development-coach/functional-competency-development-result.schema.json",
+  "title": "FunctionalCompetencyDevelopmentResult",
+  "description": "Functional competency development output contract emitted by lumei-functional-competency-development-coach.",
+  "type": "object",
+  "required": [
+    "evidence_reference",
+    "observed_behaviour",
+    "candidate_anchors",
+    "selected_development_edge",
+    "experiment",
+    "evidence_to_collect",
+    "aspiration_language",
+    "official_deep_check_required"
+  ],
+  "properties": {
+    "evidence_reference": {
+      "type": "array",
+      "items": { "type": "string" },
+      "description": "Traceable pointers to verbatim quotes or documented work outputs."
+    },
+    "observed_behaviour": {
+      "type": "array",
+      "items": { "type": "string" },
+      "description": "Specific technical actions, methods applied, or standards observed."
+    },
+    "candidate_anchors": {
+      "type": "array",
+      "maxItems": 3,
+      "items": {
+        "type": "object",
+        "required": [
+          "code",
+          "competency_name",
+          "official_source_reference",
+          "rationale",
+          "missing_evidence",
+          "overclaim_risk"
+        ],
+        "properties": {
+          "code": {
+            "type": "string",
+            "description": "Standard Lumei functional code (e.g. ENG-01, PSM-02, DDA-03)"
+          },
+          "competency_name": {
+            "type": "string",
+            "description": "Exact competency title from Lumei Functional Competency Dictionary v4.0"
+          },
+          "official_source_reference": {
+            "type": "string",
+            "description": "Page or section reference in [EN] Lumei Functional Competency Dictionary_v4.0 Final.pdf"
+          },
+          "rationale": {
+            "type": "string",
+            "description": "How the observed action links to the competency definition without scoring"
+          },
+          "missing_evidence": {
+            "type": "array",
+            "items": { "type": "string" },
+            "description": "Evidence gaps that prevent stronger alignment"
+          },
+          "overclaim_risk": {
+            "type": "string",
+            "description": "Risk of confusing job title/attendance with actual demonstrated proficiency"
+          }
+        },
+        "additionalProperties": false
+      },
+      "description": "At most 3 candidate competency anchors."
+    },
+    "selected_development_edge": {
+      "type": "string",
+      "description": "One bounded technical/functional edge to develop."
+    },
+    "experiment": {
+      "type": "string",
+      "description": "Safe, reversible workplace learning experiment."
+    },
+    "evidence_to_collect": {
+      "type": "array",
+      "items": { "type": "string" },
+      "description": "Concrete outputs, peer reviews, or technical verifications to gather next."
+    },
+    "aspiration_language": {
+      "type": "string",
+      "description": "Clearly separated aspirational development statement suitable for IDP."
+    },
+    "official_deep_check_required": {
+      "type": "boolean",
+      "default": false,
+      "description": "True if Shadow Index was ambiguous or high-consequence context requires mandatory manual PDF verification."
+    }
+  },
+  "additionalProperties": false
+}

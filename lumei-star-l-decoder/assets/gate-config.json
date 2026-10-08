@@ -1,0 +1,24 @@
+{
+  "prohibited_scoring_words": [
+    "score",
+    "points",
+    "grade",
+    "rating",
+    "marks",
+    "percentile",
+    "maturity_level",
+    "araya_level",
+    "potential_level",
+    "performance_rating",
+    "คะแนน",
+    "เกรด",
+    "การตัดเกรด",
+    "จัดอันดับ",
+    "ระดับวุฒิภาวะ"
+  ],
+  "max_socratic_questions": 1,
+  "hard_trigger_codes": [
+    "ZERO_SCORING_VIOLATION",
+    "MULTIPLE_QUESTIONS_DETECTED"
+  ]
+}

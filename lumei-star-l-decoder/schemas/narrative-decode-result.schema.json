@@ -1,0 +1,142 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "urn:lumei:legacy-schema:lumei-star-l-decoder/narrative-decode-result.schema.json",
+  "title": "NarrativeDecodeResult",
+  "description": "Deterministic, non-evaluative output contract emitted by lumei-star-l-decoder.",
+  "type": "object",
+  "required": [
+    "episode_scope",
+    "evidence",
+    "p_star_l",
+    "unknowns",
+    "contradictions",
+    "friction_signal",
+    "calming_anchor_observations",
+    "prohibited"
+  ],
+  "properties": {
+    "episode_scope": {
+      "type": "string",
+      "description": "Bounded title or description of the specific work episode examined."
+    },
+    "evidence": {
+      "type": "object",
+      "required": ["verbatim", "observable_actions", "documented_outputs", "reported_claims", "source_refs"],
+      "properties": {
+        "verbatim": {
+          "type": "array",
+          "items": { "type": "string" },
+          "description": "Direct quotes from the narrator or documented dialogues."
+        },
+        "observable_actions": {
+          "type": "array",
+          "items": { "type": "string" },
+          "description": "Explicit actions, choices, coordinations, or boundaries set."
+        },
+        "documented_outputs": {
+          "type": "array",
+          "items": { "type": "string" },
+          "description": "Tangible artifacts, emails, memos, slides, or tickets produced."
+        },
+        "reported_claims": {
+          "type": "array",
+          "items": { "type": "string" },
+          "description": "Subjective claims or unverified outcome assertions made by narrator."
+        },
+        "source_refs": {
+          "type": "array",
+          "items": { "type": "string" },
+          "description": "Source pointers or identifiers."
+        }
+      },
+      "additionalProperties": false
+    },
+    "p_star_l": {
+      "type": "object",
+      "required": ["perspective", "situation", "task", "actions", "results", "learning_stated", "learning_interpretation"],
+      "properties": {
+        "perspective": {
+          "type": ["string", "null"],
+          "description": "Stated decision frame, problem, or perspective. Null if unsupported."
+        },
+        "situation": {
+          "type": ["string", "null"],
+          "description": "Context, constraints, actors, timing, stakes. Null if unsupported."
+        },
+        "task": {
+          "type": ["string", "null"],
+          "description": "Explicit mandate, responsibility, or intended outcome. Null if unsupported."
+        },
+        "actions": {
+          "type": "array",
+          "items": { "type": "string" },
+          "description": "Observable actions taken (primary weight)."
+        },
+        "results": {
+          "type": "array",
+          "items": { "type": "string" },
+          "description": "Reported or verified consequences, feedback, and side-effects."
+        },
+        "learning_stated": {
+          "type": ["string", "null"],
+          "description": "Learning explicitly articulated by narrator. Null if absent."
+        },
+        "learning_interpretation": {
+          "type": ["string", "null"],
+          "description": "Alternative or systemic learning interpretation grounded in evidence. Null if unwarranted."
+        }
+      },
+      "additionalProperties": false
+    },
+    "unknowns": {
+      "type": "array",
+      "items": { "type": "string" },
+      "description": "Material variables or context absent from the narrative."
+    },
+    "contradictions": {
+      "type": "array",
+      "items": { "type": "string" },
+      "description": "Tensions or contradictions preserved between actions, results, and stated learning."
+    },
+    "alternative_explanation": {
+      "type": ["string", "null"],
+      "description": "At least one plausible alternative mechanism explaining the result without assuming user causality."
+    },
+    "friction_signal": {
+      "type": "string",
+      "enum": ["sufficient", "low", "unknown"],
+      "description": "Assessment of authentic cognitive scar tissue / skin-in-the-game tension."
+    },
+    "calming_anchor_observations": {
+      "type": "object",
+      "required": ["clarity_created", "dissent_enabled", "pressure_amplified"],
+      "properties": {
+        "clarity_created": {
+          "type": ["string", "null"],
+          "description": "Observable evidence of clarifying boundaries or priorities."
+        },
+        "dissent_enabled": {
+          "type": ["string", "null"],
+          "description": "Observable evidence of inviting missing information or counter-perspectives."
+        },
+        "pressure_amplified": {
+          "type": ["string", "null"],
+          "description": "Observable evidence of rushing commitments or narrowing participation."
+        }
+      },
+      "additionalProperties": false
+    },
+    "prohibited": {
+      "type": "array",
+      "items": { "type": "string" },
+      "default": [
+        "scores",
+        "stable_traits",
+        "inferred_motives",
+        "personnel_recommendations"
+      ],
+      "description": "Explicit manifest of prohibited analytical entities."
+    }
+  },
+  "additionalProperties": false
+}

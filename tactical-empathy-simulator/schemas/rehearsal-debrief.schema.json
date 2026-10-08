@@ -1,0 +1,66 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "urn:lumei:legacy-schema:tactical-empathy-simulator/rehearsal-debrief.schema.json",
+  "title": "RehearsalDebrief",
+  "description": "After-Action Reflection output contract emitted by tactical-empathy-simulator.",
+  "type": "object",
+  "required": [
+    "traceable_moments",
+    "dialogue_openers",
+    "dialogue_closers",
+    "alternative_response",
+    "real_world_experiment",
+    "evidence_to_collect",
+    "socratic_question"
+  ],
+  "properties": {
+    "traceable_moments": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["turn_index", "verbatim_user_utterance", "observed_counterpart_reaction", "behavioral_tag"],
+        "properties": {
+          "turn_index": { "type": "integer" },
+          "verbatim_user_utterance": { "type": "string" },
+          "observed_counterpart_reaction": { "type": "string" },
+          "behavioral_tag": { "type": "string" }
+        },
+        "additionalProperties": false
+      },
+      "description": "Transcript-grounded moments without mind-reading."
+    },
+    "dialogue_openers": {
+      "type": "array",
+      "items": { "type": "string" },
+      "description": "Observable verbal choices that widened information sharing or lowered conversational friction."
+    },
+    "dialogue_closers": {
+      "type": "array",
+      "items": { "type": "string" },
+      "description": "Observable verbal choices (e.g. premature policy defense, interruption) that narrowed dialogue."
+    },
+    "alternative_response": {
+      "type": "string",
+      "description": "One concrete alternative phrasing or tactical question the user could test."
+    },
+    "real_world_experiment": {
+      "type": "string",
+      "description": "One small, safe, observable action to take in the upcoming real conversation."
+    },
+    "evidence_to_collect": {
+      "type": "array",
+      "items": { "type": "string" },
+      "description": "Observable real-world signals (e.g. counterpart response time, clarification requests, follow-through)."
+    },
+    "optional_leadership_development_links": {
+      "type": "array",
+      "items": { "type": "string" },
+      "description": "Relevant Lumei Leadership Competency areas suggested for ongoing development."
+    },
+    "socratic_question": {
+      "type": "string",
+      "description": "EXACTLY ONE Socratic reflection question concluding the debrief."
+    }
+  },
+  "additionalProperties": false
+}

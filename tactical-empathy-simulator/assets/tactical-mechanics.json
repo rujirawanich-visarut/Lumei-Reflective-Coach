@@ -1,0 +1,36 @@
+{
+  "version": "1.0.0",
+  "tactics": [
+    {
+      "name": "Late-Night FM DJ Voice",
+      "execution": "Deep, slow pace, downward inflection",
+      "signal": "สัญญาณความปลอดภัยต่อระบบประสาท (Calming Anchor)"
+    },
+    {
+      "name": "Mirroring",
+      "execution": "Repeat last 1-3 critical words as a gentle question",
+      "signal": "กระตุ้นให้อีกฝ่ายอธิบายขยายความโดยไม่รู้สึกว่าถูกซักไซ้"
+    },
+    {
+      "name": "Emotional Labeling",
+      "execution": "Prefix with 'It seems like...', 'It sounds like...', 'It feels like...'",
+      "forbidden": ["I hear that you feel...", "I understand..."],
+      "signal": "ปลดชนวนสมองส่วนอะมิกดาลา (Amygdala) ของอีกฝ่าย"
+    },
+    {
+      "name": "Dynamic Silence",
+      "execution": "Pause for 3-5 seconds after a label or mirror",
+      "signal": "เปิดพื้นที่ให้อีกฝ่ายได้คิด ตกผลึก และระบายข้อมูลจริง"
+    },
+    {
+      "name": "Accusation Audit",
+      "execution": "Proactively voice all negative thoughts the counterpart has against you",
+      "signal": "ทำลายอาวุธทางอารมณ์ของอีกฝ่ายก่อนที่เขาจะหยิบขึ้นมาใช้"
+    },
+    {
+      "name": "Calibrated Questions",
+      "execution": "Start with 'What' or 'How'. Strictly avoid 'Why'",
+      "signal": "เปลี่ยนคู่กรณีจากการโจมตี มาร่วมกันแก้ปัญหาของคุณ"
+    }
+  ]
+}

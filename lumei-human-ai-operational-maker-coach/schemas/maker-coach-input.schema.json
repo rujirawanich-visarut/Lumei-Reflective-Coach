@@ -1,0 +1,59 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "urn:lumei:legacy-schema:lumei-human-ai-operational-maker-coach/maker-coach-input.schema.json",
+  "title": "MakerCoachInput",
+  "description": "Input contract for lumei-human-ai-operational-maker-coach capturing a bounded operational friction or decision bottleneck.",
+  "type": "object",
+  "required": [
+    "work_problem",
+    "intended_value",
+    "users_or_stakeholders",
+    "authorised_evidence",
+    "known_constraints",
+    "decision_rights",
+    "prohibited_actions",
+    "consequence_level"
+  ],
+  "properties": {
+    "work_problem": {
+      "type": "string",
+      "description": "Concrete operational friction, handover delay, knowledge bottleneck, or decision difficulty."
+    },
+    "intended_value": {
+      "type": "string",
+      "description": "Targeted improvement (e.g. reduced rework, clearer handoff, faster retrieval) without unverified claims."
+    },
+    "users_or_stakeholders": {
+      "type": "array",
+      "items": { "type": "string" },
+      "description": "Specific frontline roles, engineers, or teammates involved in this workflow."
+    },
+    "authorised_evidence": {
+      "type": "array",
+      "items": { "type": "string" },
+      "description": "Authorized data sources, operational documents, or observable records available."
+    },
+    "known_constraints": {
+      "type": "array",
+      "items": { "type": "string" },
+      "description": "Safety boundaries, shift limits, system constraints, or regulatory limits."
+    },
+    "decision_rights": {
+      "type": "array",
+      "items": { "type": "string" },
+      "description": "What the user is legitimately authorized to modify or test, and what requires external sign-off."
+    },
+    "prohibited_actions": {
+      "type": "array",
+      "items": { "type": "string" },
+      "description": "Actions strictly forbidden during this experiment (e.g. no DCS setpoint change, no bypass of MOC)."
+    },
+    "consequence_level": {
+      "type": "string",
+      "enum": ["normal", "elevated", "high"],
+      "default": "normal",
+      "description": "High consequence halts maker coaching and routes to formal MOC/PSSR/PSM channels."
+    }
+  },
+  "additionalProperties": false
+}

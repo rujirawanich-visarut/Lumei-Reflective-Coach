@@ -1,0 +1,75 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "urn:lumei:legacy-schema:lumei-human-ai-operational-maker-coach/maker-coach-plan.schema.json",
+  "title": "MakerCoachPlan",
+  "description": "Co-creation plan for a safe, reversible Human-AI operational prototype in lumei-human-ai-operational-maker-coach.",
+  "type": "object",
+  "required": [
+    "problem_frame",
+    "current_workflow",
+    "evidence",
+    "assumptions",
+    "unknowns",
+    "prototype_hypothesis",
+    "smallest_reversible_prototype",
+    "human_review_points",
+    "verification_checks",
+    "stop_conditions",
+    "authorised_process_handoffs"
+  ],
+  "properties": {
+    "problem_frame": {
+      "type": "string",
+      "description": "Diagnosed operational problem separated from premature technology solutions."
+    },
+    "current_workflow": {
+      "type": "array",
+      "items": { "type": "string" },
+      "description": "Current sequence of steps, decision points, and handoffs."
+    },
+    "evidence": {
+      "type": "array",
+      "items": { "type": "string" },
+      "description": "Verified facts, data points, or documents grounding this problem."
+    },
+    "assumptions": {
+      "type": "array",
+      "items": { "type": "string" },
+      "description": "Unverified assumptions made explicit via Assumption Receipt discipline."
+    },
+    "unknowns": {
+      "type": "array",
+      "items": { "type": "string" },
+      "description": "Critical unknown parameters or variables that need testing."
+    },
+    "prototype_hypothesis": {
+      "type": "string",
+      "description": "Hypothesis: If we introduce X (draft template/prompt/checklist), then Y will improve without compromising Z."
+    },
+    "smallest_reversible_prototype": {
+      "type": "string",
+      "description": "Description of the smallest draft artifact (e.g. 1-page checklist, prompt template, comparison matrix)."
+    },
+    "human_review_points": {
+      "type": "array",
+      "items": { "type": "string" },
+      "description": "Mandatory gates where a qualified human specialist must inspect and approve before proceeding."
+    },
+    "verification_checks": {
+      "type": "array",
+      "items": { "type": "string" },
+      "description": "Specific criteria to verify accuracy, safety, and compliance of the prototype output."
+    },
+    "stop_conditions": {
+      "type": "array",
+      "items": { "type": "string" },
+      "description": "Clear triggers that mandate immediately stopping the test and reverting to baseline."
+    },
+    "authorised_process_handoffs": {
+      "type": "array",
+      "items": { "type": "string" },
+      "description": "Required enterprise processes if prototype scales (e.g. MOC, PSSR, Cybersecurity Review, PSM)."
+    }
+  },
+  "additionalProperties": false
+}

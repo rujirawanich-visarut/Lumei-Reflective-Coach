@@ -1,0 +1,101 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "urn:lumei:legacy-schema:lumei-star-learning-loop-coach/learning-loop-result.schema.json",
+  "title": "LearningLoopResult",
+  "description": "Interactive coaching output contract emitted by lumei-star-learning-loop-coach.",
+  "type": "object",
+  "required": [
+    "supported_summary",
+    "capability_anchors",
+    "development_edge",
+    "experiment",
+    "rehearsal_offered",
+    "artifact_candidates",
+    "socratic_question"
+  ],
+  "properties": {
+    "supported_summary": {
+      "type": "string",
+      "description": "Evidence-grounded reflection summary without evaluative ratings."
+    },
+    "capability_anchors": {
+      "type": "array",
+      "maxItems": 3,
+      "items": {
+        "type": "object",
+        "required": ["competency_name", "pillar", "observable_signal"],
+        "properties": {
+          "competency_name": { "type": "string" },
+          "pillar": {
+            "type": "string",
+            "enum": ["People Excellence", "Performance Excellence", "Future Excellence"]
+          },
+          "observable_signal": { "type": "string" },
+          "overclaim_risk": { "type": "string" }
+        },
+        "additionalProperties": false
+      },
+      "description": "Up to 3 Lumei Leadership Competency anchors mapped from observable actions."
+    },
+    "development_edge": {
+      "type": "string",
+      "description": "Exactly ONE specific, actionable behavioral boundary identified for growth."
+    },
+    "experiment": {
+      "type": "object",
+      "required": [
+        "smallest_action",
+        "work_context",
+        "boundary_conditions",
+        "stop_conditions",
+        "reversibility",
+        "evidence_to_collect"
+      ],
+      "properties": {
+        "smallest_action": {
+          "type": "string",
+          "description": "Smallest observable behavioral test"
+        },
+        "work_context": {
+          "type": "string",
+          "description": "Specific upcoming meeting, task, or interaction"
+        },
+        "boundary_conditions": {
+          "type": "array",
+          "items": { "type": "string" },
+          "description": "Preconditions under which the test is safe to conduct"
+        },
+        "stop_conditions": {
+          "type": "array",
+          "items": { "type": "string" },
+          "description": "Observable signals that prompt immediate termination of the test"
+        },
+        "reversibility": {
+          "type": "string",
+          "description": "How the action can be undone or adjusted if unintended side-effects emerge"
+        },
+        "evidence_to_collect": {
+          "type": "array",
+          "items": { "type": "string" },
+          "description": "Signals to observe (stakeholder reaction, agreement clarity, dissent signal, follow-through)"
+        }
+      },
+      "additionalProperties": false
+    },
+    "rehearsal_offered": {
+      "type": "boolean",
+      "default": false,
+      "description": "True if development edge involves conversation and user is offered voluntary practice."
+    },
+    "artifact_candidates": {
+      "type": "array",
+      "items": { "type": "string" },
+      "description": "Recommended artifact types (e.g. IDP Development Note, Manager Discussion Note, Experiment Card)"
+    },
+    "socratic_question": {
+      "type": "string",
+      "description": "EXACTLY ONE Laser Socratic question targeting the coachee's deepest blind spot."
+    }
+  },
+  "additionalProperties": false
+}

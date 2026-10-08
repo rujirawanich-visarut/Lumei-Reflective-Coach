@@ -1,0 +1,57 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "urn:lumei:legacy-schema:tactical-empathy-simulator/rehearsal-handoff.schema.json",
+  "title": "RehearsalHandoff",
+  "description": "Clean, privacy-preserving input contract for voluntary conversation rehearsal in tactical-empathy-simulator.",
+  "type": "object",
+  "required": [
+    "fictional_counterpart_role",
+    "observable_communication_challenge",
+    "intended_conversation_outcome",
+    "selected_development_edge",
+    "known_constraints",
+    "explicit_unknowns",
+    "prohibited_transfers"
+  ],
+  "properties": {
+    "fictional_counterpart_role": {
+      "type": "string",
+      "description": "Neutral role title (e.g. Cross-functional Plant Lead, Project Sponsor) without personal names."
+    },
+    "observable_communication_challenge": {
+      "type": "string",
+      "description": "Observable conflict condition (e.g. resource reallocation refusal, schedule constraint collision)."
+    },
+    "intended_conversation_outcome": {
+      "type": "string",
+      "description": "Goal sought by the user (e.g. agreement on phased delivery, mutual safety alignment)."
+    },
+    "selected_development_edge": {
+      "type": "string",
+      "description": "Specific behavioral technique to practice (e.g. dynamic silence, calibrated open questions, mirroring)."
+    },
+    "known_constraints": {
+      "type": "array",
+      "items": { "type": "string" },
+      "description": "Facts, deadlines, safety limits, or non-negotiable boundaries."
+    },
+    "explicit_unknowns": {
+      "type": "array",
+      "items": { "type": "string" },
+      "description": "Context or stakeholder parameters not yet known."
+    },
+    "prohibited_transfers": {
+      "type": "array",
+      "items": { "type": "string" },
+      "default": [
+        "scores",
+        "labels",
+        "inferred_motives",
+        "unsupported_emotions",
+        "unnecessary_personal_data"
+      ],
+      "description": "Privacy and governance lock preventing toxic or biased context transfer."
+    }
+  },
+  "additionalProperties": false
+}
